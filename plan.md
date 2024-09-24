@@ -1,15 +1,15 @@
 # Plan
 
-* PROJECT TITLE
-* YOUR NAME
-* STUDENT ID
-* SUPERVISOR NAME
+* Investigating student affective states in CS labs using (an existing) affective survey software 
+* Teng Hui Yi Sarry
+* 2721338T
+* Mireilla Bikanga Ada
 
 Week-by-week plan for the whole project. Update this as you go along.
 
 ## Winter semester
 
-* **Week 1**
+* **Week 1** set up VCS, review existing literature
 * **Week 2**
 * **Week 3**
 * **Week 4**
