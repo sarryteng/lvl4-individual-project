@@ -1,1 +1,14 @@
-/.DS_Store
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Other system files
+.DS_Store
