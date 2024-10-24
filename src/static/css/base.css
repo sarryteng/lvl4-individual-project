@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 15px;
+}
+
+/* Flexbox container for the icons */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.home-icon img,
+.language-switcher img,
+.menu-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Customize icon spacing */
+.home-icon {
+    margin-right: auto;
+}
+
+.language-switcher {
+    margin-right: 10px;
+}
+
+.menu-icon {
+    margin-left: 10px;
+}
+
+/* Ensure content has some padding */
+.content {
+    padding: 20px;
+}
+
+/* Make sure icons are aligned nicely on smaller screens */
+@media (max-width: 768px) {
+    .top-bar {
+        padding: 8px 10px;
+    }
+
+    .home-icon img,
+    .language-switcher img,
+    .menu-icon img {
+        width: 20px;
+        height: 20px;
+    }
+}

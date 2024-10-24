@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Mobile Site{% endblock %}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <div class="icon-container">
+                <a href="/" class="home-icon">
+                    <img src="{{ url_for('static', filename='images/home.png') }}" alt="Home">
+                </a>
+                <a href="#" class="language-switcher">
+                    <img src="{{ url_for('static', filename='images/language.png') }}" alt="Switch Language">
+                </a>
+                <a href="javascript:void(0)" class="menu-icon">
+                    <img src="{{ url_for('static', filename='images/menu.png') }}" alt="Menu">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
