@@ -5,7 +5,7 @@ def register_routes(app):
     app.add_url_rule('/learn', 'learn', learn)
     app.add_url_rule('/learn/mobile_security', 'mobile_security', mobile_security)
     app.add_url_rule('/learn/encryption', 'encryption', encryption)
-    app.add_url_rule('/learn/strong_passwords', 'strong_passwords', strong_passwords)
+    app.add_url_rule('/learn/password_security', 'password_security', password_security)
     app.add_url_rule('/learn/two_factor_authentication', 'two_factor_authentication', two_factor_authentication)
     app.add_url_rule('/learn/phishing', 'phishing', phishing)
     app.add_url_rule('/learn/software_updates', 'software_updates', software_updates)

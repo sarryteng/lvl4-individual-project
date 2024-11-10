@@ -13,8 +13,8 @@ def mobile_security():
 def encryption():
     return render_template('learn/encryption.html')
 
-def strong_passwords():
-    return render_template('learn/strong_passwords.html')
+def password_security():
+    return render_template('learn/password_security.html')
 
 def two_factor_authentication():
     return render_template('learn/two_factor_authentication.html')
