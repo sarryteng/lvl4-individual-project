@@ -8,25 +8,25 @@ def learn():
     return render_template('learn.html')
 
 def mobile_security():
-    return render_template('learn/mobile_security.html')
+    return render_template('learn/mobile-security.html')
 
 def encryption():
     return render_template('learn/encryption.html')
 
 def password_security():
-    return render_template('learn/password_security.html')
+    return render_template('learn/password-security.html')
 
 def two_factor_authentication():
-    return render_template('learn/two_factor_authentication.html')
+    return render_template('learn/two-factor-authentication.html')
 
 def phishing():
     return render_template('learn/phishing.html')
 
 def software_updates():
-    return render_template('learn/software_updates.html')
+    return render_template('learn/software-updates.html')
 
 def identity_theft():
-    return render_template('learn/identity_theft.html')
+    return render_template('learn/identity-theft.html')
 
 def malware():
     return render_template('learn/malware.html')
@@ -38,6 +38,9 @@ def vpn():
 # ------------------- GUIDES SECTION: ------------------- 
 def guides():
     return render_template('guides.html')
+
+def secure_mobile():
+    return render_template('guides/secure-mobile.html')
 
 
 # ------------------- TOOLS SECTION: ------------------- 
