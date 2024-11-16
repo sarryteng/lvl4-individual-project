@@ -25,6 +25,14 @@ header {
     width: 100%;
 }
 
+/* Responsive Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Specific Icon Styles */
 .home-icon img,
 .language-switcher img,
 .menu-icon img {
@@ -32,7 +40,6 @@ header {
     height: 24px;
 }
 
-/* Customize icon spacing */
 .home-icon {
     margin-right: auto;
 }
@@ -49,21 +56,6 @@ header {
 .content {
     padding: 20px;
 }
-
-/* Make sure icons are aligned nicely on smaller screens */
-@media (max-width: 768px) {
-    .top-bar {
-        padding: 8px 10px;
-    }
-
-    .home-icon img,
-    .language-switcher img,
-    .menu-icon img {
-        width: 20px;
-        height: 20px;
-    }
-}
-
 
 /* Overlay Styles */
 .overlay {
@@ -100,4 +92,40 @@ header {
     position: absolute;
     top: 20px;
     right: 30px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .top-bar {
+        padding: 8px 10px;
+    }
+
+    .home-icon img,
+    .language-switcher img,
+    .menu-icon img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
+
+/* Extra Responsive Design for Images */
+@media (max-width: 480px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .overlay-content a {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .close-btn {
+        font-size: 30px;
+        right: 20px;
+    }
 }
