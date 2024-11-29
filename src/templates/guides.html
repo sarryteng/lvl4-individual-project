@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}
+    guides 
+{% endblock %}
+
+{% block content %}
+    <main>
+        <h1> here are the guides </h1>        
+        <!-- Add more content here -->
+
+        <ul>
+            <li><a href="{{ url_for('secure_mobile') }}">How to Secure Mobile Device</a></li>
+            <li><a href="{{ url_for('use_encryption') }}">How to Use Encryption</a></li>
+            <li><a href="{{ url_for('secure_passwords') }}">How to Have Secure Passwords</a></li>
+            <li><a href="{{ url_for('use_two_factor') }}">How to Use 2FA Authentication</a></li>
+            <li><a href="{{ url_for('spot_phishing') }}">Recognizing and Preventing Phishing Attacks</a></li>
+            <li><a href="{{ url_for('how_to_update_software') }}">How to Update Softwares</a></li>
+            <li><a href="{{ url_for('prevent_theft') }}">Prevent Identity Theft</a></li>
+            <li><a href="{{ url_for('malware_protection') }}">How to Protect Against Malware</a></li>
+            <li><a href="{{ url_for('use_vpn') }}">How to Use VPN</a></li>
+        
+    </main>
+{% endblock %}

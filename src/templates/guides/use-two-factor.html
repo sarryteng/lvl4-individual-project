@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}
+    GUIDE on How to Setup Two Factor Authentication 
+{% endblock %}
+
+{% block content %}
+    <main>
+        <h1>Two Factor Authentication (2FA)</h1>  
+        </br>      
+        <!-- Add more content here -->
+
+        <h2>2FA Approaches</h2>
+        <p>There are a few simple, widely supported approaches for adding 2FA to your accounts. There’s not one “right” way to use it, and each has distinct considerations for security and convenience.</p>
+
+        <h3>A pretty good option: SMS text messages</h3>
+        <p>Most services allow you to use regular old text messages as your 2FA. When logging in to a site you need a password for, you’ll receive a short confirmation code on your mobile device. Enter the code when prompted during login.</p>
+        <!-- insert image of sms authentication -->
+        <img src="/static/images/content/guides/sms-authentication.png" alt="SMS Authentication">
+
+        <p>Text messages are a painless way to access 2FA codes, but are only as reliable as the phone network. For example, if you lose network access or travel outside the country, you might not be able to receive the messages.Text messages are a painless way to access 2FA codes, but are only as reliable as the phone network. For example, if you lose network access or travel outside the country, you might not be able to receive the messages.</p>
+        <p>For most people, SMS-based 2FA is much better than using a password alone. But because telephone infrastructure itself comes with a great deal of baggage, SMS isn’t the most secure method available.</p>
+        <p>For example, Associated Press writer Fatima Hussein told the story of how someone stole her phone number so they could take over her bank account for financial fraud. The attacker convinced her phone provider, Cricket Wireless, to transfer her number to a new SIM card on a remote device, allowing the attacker to intercept her 2FA messages.</p>
+        <p>That sounds scary, but remember the real story here: The attacker was forced to work much harder than if they could simply have entered a password.</p>
+
+        <h3>Better option: Authentication apps</h3>
+        <p>Compared to SMS messages, authenticator apps are a little more convenient and a lot more secure. Some services allow you to receive your temporary login code from a mobile app. There are many options to choose from, such as Google Authenticator or Authy.</p>
+        <!-- insert image of authentication apps -->
+        <img src="/static/images/content/guides/authentication-app.png" alt="Authentication Apps">
+
+        <p>Some web services let you attach multiple authentication apps to the same account, which can be incredibly helpful for getting login codes when multiple people need access. Authenticator apps are also great because they work when you don’t have access to your phone network.</p>
+        <p>Unlike SMS messages, authenticator apps can’t be intercepted on the phone network, making apps a hardened option.</p>
+        <p>But, just as you can be phished into entering passwords into a fraudulent website to steal your login information, the same is true of authenticator codes. So we can do even better.</p>
+
+        <h3>Best option: Security keys</h3>
+        <p>Right now, security keys are one of the most secure and efficient ways to use 2FA. A security key is a physical USB device you can use to authenticate into your account.</p>
+        <p>Instead of typing in a code when prompted to provide your 2FA credentials, you insert your security key into your device and physically tap it when prompted during login. That’s all. Security keys are fairly resistant to phishing attacks, making them one of the best options available. Unlike code-based 2FA, phishing sites don’t have a great way to intercept information from security keys.</p>
+        <p>The main problem with security keys is that as soon as you try one, you’ll want to use them everywhere. And they can’t be used everywhere yet.</p>
+        <p>Security keys are not yet as well supported as authenticator apps, but the standard is getting traction on large websites. It can be used to log into Google, Facebook, Dropbox, and other services. Security keys are supported by most major browsers.</p>
+
+        <h2>FAQs about 2FA</h2>
+        <p>Check out some frequently asked questions concerning the 2FA login process.</p>
+
+        <h3>Is 2FA safe?</h3>
+        <p>For the most part, 2FA is safe. Still, like most online activities, there are ways that criminals can bypass 2FA security and access your account. For example, lost password recovery usually resets your password via email, and it can bypass 2FA.</p>
+        <p>Even though it's not 100% secure, 2FA can bolster your online security and is recommended.</p>
+
+        <h3>Can two-step verification be hacked?</h3>
+        <p>Yes, hackers can use certain phishing</a> messages to work around 2FA login processes. That being said, having a second authentication factor makes it more difficult for hackers because more information is required to gain access.</p>
+
+        <h3>What is the strongest 2FA method?</h3>
+        <p>Hardware-based 2FA is the strongest form of 2FA verification. Because a physical item is needed, whether it’s a phone, a thumb drive, an ID card, or another object, it’s much more difficult for a hacker or criminal to access all parts of 2FA logins.</p>
+
+        <h3>Is MFA better than 2FA?</h3>
+        <p>Multi-factor authentication that uses three or more authentication factors is more secure than 2FA. For most sites, apps, and platforms, 2FA should be secure enough. Groups that have higher security needs (governments, healthcare providers, and financial institutions, for example) may require additional verification factors.</p>
+
+
+    </main>
+{% endblock %}

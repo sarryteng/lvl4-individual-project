@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Learn 
+{% endblock %}
+
+{% block content %}
+    <main>
+        <h1>Learn about Cybersecurity Concepts</h1>
+        <br>
+        <!-- Add more content here -->
+
+        <ul>
+            <li><a href="{{ url_for('mobile_security') }}">Mobile Security</a></li>
+            <li><a href="{{ url_for('encryption') }}">Encryption</a></li>
+            <li><a href="{{ url_for('password_security') }}">Password Security</a></li>
+            <li><a href="{{ url_for('two_factor_authentication') }}">2FA Authentication</a></li>
+            <li><a href="{{ url_for('phishing') }}">Phishing Attacks</a></li>
+            <li><a href="{{ url_for('software_updates') }}">Software Updates</a></li>
+            <li><a href="{{ url_for('identity_theft') }}">Identity Theft</a></li>
+            <li><a href="{{ url_for('malware') }}">Malware</a></li>
+            <li><a href="{{ url_for('vpn') }}">VPN</a></li>
+        </ul>
+    </main>
+{% endblock %}

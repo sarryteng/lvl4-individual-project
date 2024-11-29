@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Mobile Site{% endblock %}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <div class="icon-container">
+                <a href="/" class="home-icon">
+                    <img src="{{ url_for('static', filename='images/nav-bar/home.png') }}" alt="Home">
+                </a>
+                <a href="#" class="language-switcher">
+                    <img src="{{ url_for('static', filename='images/nav-bar/language.png') }}" alt="Switch Language">
+                </a>
+                <a href="javascript:void(0)" class="menu-icon" id="menuToggle">
+                    <img src="{{ url_for('static', filename='images/nav-bar/menu.png') }}" alt="Menu">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Overlay Menu -->
+    <nav class="overlay" id="overlayMenu">
+        <div class="overlay-content">
+            <span class="close-btn" id="closeBtn">&times;</span>     <!-- &times displays as an "×" symbol -->
+            <a href="{{ url_for('home') }}">Home</a> <!-- Link to Home page -->
+            <a href="{{ url_for('learn') }}">Learn</a> <!-- Link to Learn page -->
+            <a href="{{ url_for('guides') }}">Guides</a> <!-- Link to Guides page -->
+            <a href="{{ url_for('tools') }}">Tools</a> <!-- Link to Tools page -->
+        </div>
+    </nav>
+    
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
