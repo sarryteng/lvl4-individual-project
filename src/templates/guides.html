@@ -1,24 +1,69 @@
 {% extends "base.html" %}
 
 {% block title %}
-    guides 
+    Guides
 {% endblock %}
 
 {% block content %}
-    <main>
-        <h1> here are the guides </h1>        
-        <!-- Add more content here -->
+    <main class="content">
+        <h1>Here Are the Guides</h1>
+        <br>
 
-        <ul>
-            <li><a href="{{ url_for('secure_mobile') }}">How to Secure Mobile Device</a></li>
-            <li><a href="{{ url_for('use_encryption') }}">How to Use Encryption</a></li>
-            <li><a href="{{ url_for('secure_passwords') }}">How to Have Secure Passwords</a></li>
-            <li><a href="{{ url_for('use_two_factor') }}">How to Use 2FA Authentication</a></li>
-            <li><a href="{{ url_for('spot_phishing') }}">Recognizing and Preventing Phishing Attacks</a></li>
-            <li><a href="{{ url_for('how_to_update_software') }}">How to Update Softwares</a></li>
-            <li><a href="{{ url_for('prevent_theft') }}">Prevent Identity Theft</a></li>
-            <li><a href="{{ url_for('malware_protection') }}">How to Protect Against Malware</a></li>
-            <li><a href="{{ url_for('use_vpn') }}">How to Use VPN</a></li>
-        
+        <div class="card-container">
+            <a href="{{ url_for('secure_mobile') }}" class="card">
+                <div class="card-content">
+                    <h2>Secure Mobile Devices</h2>
+                    <p>Learn how to protect your mobile devices from threats.</p>
+                </div>
+            </a>
+            <a href="{{ url_for('use_encryption') }}" class="card">
+                <div class="card-content">
+                    <h2>Encryption</h2>
+                    <p>Understand how encryption safeguards sensitive information.</p>
+                </div>
+            </a>
+            <a href="{{ url_for('secure_passwords') }}" class="card">
+                <div class="card-content">
+                    <h2>Secure Passwords</h2>
+                    <p>Discover techniques for creating strong, secure passwords.</p>
+                </div>
+            </a>
+            <a href="{{ url_for('use_two_factor') }}" class="card">
+                <div class="card-content">
+                    <h2>2FA Authentication</h2>
+                    <p>Learn about two-factor authentication and its benefits.</p>
+                </div>
+            </a>
+            <a href="{{ url_for('spot_phishing') }}" class="card">
+                <div class="card-content">
+                    <h2>Phishing Attacks</h2>
+                    <p>Identify and avoid common phishing attacks.</p>
+                </div>
+            </a>
+            <a href="{{ url_for('how_to_update_software') }}" class="card">
+                <div class="card-content">
+                    <h2>Software Updates</h2>
+                    <p>Why keeping your software updated is critical.</p>
+                </div>
+            </a>
+            <a href="{{ url_for('prevent_theft') }}" class="card">
+                <div class="card-content">
+                    <h2>Identity Theft</h2>
+                    <p>Understand how to protect yourself from identity theft.</p>
+                </div>
+            </a>
+            <a href="{{ url_for('malware_protection') }}" class="card">
+                <div class="card-content">
+                    <h2>Malware Protection</h2>
+                    <p>Learn about malware and how to prevent infections.</p>
+                </div>
+            </a>
+            <a href="{{ url_for('use_vpn') }}" class="card">
+                <div class="card-content">
+                    <h2>VPN</h2>
+                    <p>Discover the benefits of using a virtual private network.</p>
+                </div>
+            </a>
+        </div>
     </main>
 {% endblock %}

@@ -1,13 +1,12 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #FAFAFA;
 }
 
 header {
-    background-color: #ffffff;
     border-bottom: 1px solid #ddd;
     padding: 10px 15px;
 }
@@ -17,31 +16,32 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 15px;
+    box-sizing: border-box; /* Consistent spacing */
 }
 
 .icon-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
 }
 
-/* Responsive Image Styles */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* Specific Icon Styles */
+/* Unified Icon Styles */
 .home-icon img,
 .language-switcher img,
-.menu-icon img {
+.menu-icon img,
+.close-icon img {
     width: 24px;
     height: 24px;
+    cursor: pointer;
+    display: block; /* Prevents unwanted whitespace around icons */
+    margin: 0; /* Removes potential margin inconsistencies */
+    padding: 0; /* Ensures no internal padding */
 }
 
 .home-icon {
-    margin-right: auto;
+    margin-right: auto; /* Push to the left */
 }
 
 .language-switcher {
@@ -52,80 +52,204 @@ img {
     margin-left: 10px;
 }
 
+.close-icon {
+    margin-left: auto;
+}
+
 /* Ensure content has some padding */
 .content {
     padding: 20px;
 }
 
-/* Overlay Styles */
-.overlay {
+/* Full-Screen Overlay Menu Styles */
+.menu-page {
     display: none; /* Hidden by default */
     position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Black background with transparency */
+    background-color: #FAFAFA;
     z-index: 1000; /* On top of other content */
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding doesn't affect layout */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.overlay-content {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.menu-page.show {
+    display: flex; /* Show the menu when this class is added */
 }
 
-.overlay-content a {
-    display: block;
-    color: white;
-    padding: 15px 0;
-    text-decoration: none;
+/* Menu Header (close icon and home link) */
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px; /* Match .top-bar padding */
+    box-sizing: border-box; /* Ensure consistent width */
+}
+
+.menu-header .home-icon,
+.menu-header .close-icon {
     font-size: 24px;
+    cursor: pointer;
 }
 
-.close-btn {
-    font-size: 40px;
+/* Remove unnecessary spacing */
+.menu-header .home-icon img,
+.menu-header .close-icon img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu List */
+.menu-page ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menu-page ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.menu-page ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    display: block;
+}
+
+.menu-page ul li a:hover {
+    color: #008080;
+}
+
+/* Card Container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Flexible columns */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px;
+}
+
+/* Individual Card */
+.card {
+    text-decoration: none; /* Remove underline */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+    background-color: #FFF; /* Card background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+.card:hover .card-content h2 {
+    color: #008080; 
+}
+
+.card-content {
+    text-align: left; 
+}
+
+.card-content h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #2d2d2d;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.pagination a.active {
+    background-color: #FF6F61;
     color: white;
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 30px;
+    border-color: #FF6F61;
+}
+
+.pagination a:hover {
+    background-color: #ff887d;
+    color: white;
 }
 
 /* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
-    .top-bar {
-        padding: 8px 10px;
+    .top-bar,
+    .menu-header {
+        padding: 8px 10px; /* Match paddings */
     }
 
     .home-icon img,
     .language-switcher img,
-    .menu-icon img {
-        width: 20px;
-        height: 20px;
+    .menu-icon img,
+    .close-icon img {
+        width: 24px;
+        height: 24px;
     }
 
     .content {
         padding: 15px;
     }
+
+    .menu-page ul li a {
+        font-size: 16px;
+    }
+
+    .card-container {
+        gap: 15px; /* Slightly tighter spacing on smaller screens */
+    }
+
+    .card-content h2 {
+        font-size: 18px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
 }
 
-/* Extra Responsive Design for Images */
+/* Extra Responsive Design for Mobile Devices */
 @media (max-width: 480px) {
     img {
         max-width: 100%;
         height: auto;
     }
 
-    .overlay-content a {
-        font-size: 20px;
-        padding: 10px 0;
+    .menu-page ul li a {
+        font-size: 16px;
     }
 
-    .close-btn {
-        font-size: 30px;
-        right: 20px;
+    .menu-page .close-btn img {
+        width: 24px;
+        height: 24px;
     }
 }
