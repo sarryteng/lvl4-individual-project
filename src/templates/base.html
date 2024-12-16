@@ -1,58 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ g.get('lang', 'en') }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}My Mobile Site{% endblock %}</title>
+    <title>{% block title %}Cybersecurity Resource Hub{% endblock %}</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> <!-- Lato Font -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 </head>
 <body>
 
-    <header>
-        <div class="top-bar">
-            <div class="icon-container">
-                <a href="/" class="home-icon">
-                    <img src="{{ url_for('static', filename='images/nav-bar/home.png') }}" alt="Home">
-                </a>
-                <a href="#" class="language-switcher">
-                    <img src="{{ url_for('static', filename='images/nav-bar/language.png') }}" alt="Switch Language">
-                </a>
-                <a href="javascript:void(0)" class="menu-icon" id="menuToggle">
-                    <img src="{{ url_for('static', filename='images/nav-bar/menu.png') }}" alt="Menu">
-                </a>
-            </div>
-        </div>
-    </header>
-    
-    <div class="content">
-        {% block content %}{% endblock %}
-    </div>
-
-    <!-- Full-Screen Menu Section -->
-    <div id="overlayMenu" class="menu-page">
+<header>
+    <div class="top-bar">
         <div class="icon-container">
-            <!-- Home Icon (Left, inside the menu) -->
             <a href="/" class="home-icon">
                 <img src="{{ url_for('static', filename='images/nav-bar/home.png') }}" alt="Home">
             </a>
-            
-            <!-- Close Icon (Right, when the menu is open) -->
-            <a href="javascript:void(0)" id="closeBtn" class="close-icon">
-                <img src="{{ url_for('static', filename='images/nav-bar/close.png') }}" alt="Close">
+            <a href="javascript:void(0)" class="language-switcher">
+                <div class="language-icon-container">
+                    <img src="{{ url_for('static', filename='images/nav-bar/language.png') }}" alt="Switch Language">
+                    <!-- Dynamically display the current language beside the language icon -->
+                    <span id="currentLanguage">
+                        {% if g.get('lang') == 'fr' %}
+                            FR
+                        {% elif g.get('lang') == 'es' %}
+                            ES
+                        {% else %}
+                            ENG
+                        {% endif %}
+                    </span>
+                </div>
+            </a>
+            <div id="languageDropdown" class="language-dropdown">
+                <!-- Dynamically exclude the current language from the options -->
+                {% if g.get('lang') != 'en' %}
+                    <a href="?lang=en" data-lang="en">ENG</a>
+                {% endif %}
+                {% if g.get('lang') != 'fr' %}
+                    <a href="?lang=fr" data-lang="fr">FR</a>
+                {% endif %}
+                {% if g.get('lang') != 'es' %}
+                    <a href="?lang=es" data-lang="es">ES</a>
+                {% endif %}
+            </div>
+            </a>
+            <a href="javascript:void(0)" class="menu-icon" id="menuToggle">
+                <img src="{{ url_for('static', filename='images/nav-bar/menu.png') }}" alt="Menu">
             </a>
         </div>
-        
-        <!-- Menu Links -->
-        <ul>
-            <li><a href="{{ url_for('learn') }}">Learn Concepts</a></li>
-            <li><a href="{{ url_for('guides') }}">Guides</a></li>
-            <li><a href="{{ url_for('tools') }}">Tools</a></li>
-        </ul>
-    </div>    
+    </div>
+</header>    
     
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+<div class="content">
+    {% block content %}{% endblock %}
+</div>
+
+<!-- Full-Screen Menu Section -->
+<div id="overlayMenu" class="menu-page">
+    <div class="icon-container">
+        <!-- Home Icon (Left, inside the menu) -->
+        <a href="/" class="home-icon">
+            <img src="{{ url_for('static', filename='images/nav-bar/home.png') }}" alt="Home">
+        </a>
+        
+        <!-- Close Icon (Right, when the menu is open) -->
+        <a href="javascript:void(0)" id="closeBtn" class="close-icon">
+            <img src="{{ url_for('static', filename='images/nav-bar/close.png') }}" alt="Close">
+        </a>
+    </div>
+    
+    <!-- Menu Links -->
+    <ul>
+        <li><a href="{{ url_for('learn') }}">Learn Concepts</a></li>
+        <li><a href="{{ url_for('guides') }}">Guides</a></li>
+        <li><a href="{{ url_for('tools') }}">Tools</a></li>
+    </ul>
+</div>    
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>

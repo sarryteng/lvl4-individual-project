@@ -96,7 +96,6 @@ header {
     cursor: pointer;
 }
 
-/* Remove unnecessary spacing */
 .menu-header .home-icon img,
 .menu-header .close-icon img {
     margin: 0;
@@ -124,6 +123,63 @@ header {
 
 .menu-page ul li a:hover {
     color: #008080;
+}
+
+/* Icon Container for Language */
+.language-icon-container {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+.language-switcher img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;  /* Space between icon and language abbreviation */
+}
+
+/* Current Language Display */
+.language-switcher span {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Add some space between language switcher and menu icon */
+.icon-container > .language-switcher {
+    margin-right: 20px; /* Adjust spacing here */
+}
+
+.language-dropdown {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 50px;  /* Adjust the distance below the language icon */
+    right: 45px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 80px;  
+}
+
+.language-dropdown.show {
+    display: block; /* Show dropdown when class added */
+}
+
+/* Dropdown Item Styles */
+.language-dropdown a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Hover effect for language options */
+.language-dropdown a:hover {
+    background-color: #f0f0f0;
+    color: #008080; 
 }
 
 /* Card Container */
