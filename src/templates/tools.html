@@ -1,47 +1,47 @@
 {% extends "base.html" %}
 
 {% block title %}
-    Tools
+    {{ _("Tools") }}
 {% endblock %}
 
 {% block content %}
 <main class="tools-container">
     <header class="tools-header">
-        <h1>Free Antivirus Software</h1>
+        <h1>{{ _("Free Antivirus Software") }}</h1>
     </header>
 
     <!-- Card Container -->
     <div class="card-container">
         <!-- Best Antivirus Software for iPhones -->
         <div class="card">
-            <h3>Best Antivirus Software for iPhones</h3>
+            <h3>{{ _("Best Antivirus Software for iPhones") }}</h3>
             <ol>
-                <li>TotalAV Mobile Security – Best antivirus app for iPhone</li>
-                <li>Norton Mobile Security for iOS – User-friendly iPhone antivirus</li>
-                <li>Avira – Lightweight antivirus for iPhone with a free plan</li>
-                <li>Bitdefender – All-around antivirus for iOS</li>
-                <li>AVG – Antivirus for iPhone with exceptional malware detection power</li>
+                <li>{{ _("TotalAV Mobile Security – Best antivirus app for iPhone") }}</li>
+                <li>{{ _("Norton Mobile Security for iOS – User-friendly iPhone antivirus") }}</li>
+                <li>{{ _("Avira – Lightweight antivirus for iPhone with a free plan") }}</li>
+                <li>{{ _("Bitdefender – All-around antivirus for iOS") }}</li>
+                <li>{{ _("AVG – Antivirus for iPhone with exceptional malware detection power") }}</li>
             </ol>
             <p>
-                <i>For more details, visit 
-                    <a href="https://cybernews.com/best-antivirus-software/antivirus-for-iphone/" target="_blank">Best Antivirus for iPhones</a>
+                <i>{{ _("For more details, visit") }}
+                    <a href="https://cybernews.com/best-antivirus-software/antivirus-for-iphone/" target="_blank">{{ _("Best Antivirus for iPhones") }}</a>
                 </i>
             </p>
         </div>
 
         <!-- Best Antivirus Software for Android -->
         <div class="card">
-            <h3>Best Antivirus Software for Android</h3>
+            <h3>{{ _("Best Antivirus Software for Android") }}</h3>
             <ol>
-                <li>Bitdefender Mobile Security – Best antivirus app for Android</li>
-                <li>Avast Mobile Security – Great free Android antivirus app with low system overhead</li>
-                <li>Norton 360 for Mobile – Comprehensive protection</li>
-                <li>McAfee Mobile Security – Mini security suite with a clean interface</li>
-                <li>ESET Mobile Security – Quick and easy scans with slight performance hit</li>
+                <li>{{ _("Bitdefender Mobile Security – Best antivirus app for Android") }}</li>
+                <li>{{ _("Avast Mobile Security – Great free Android antivirus app with low system overhead") }}</li>
+                <li>{{ _("Norton 360 for Mobile – Comprehensive protection") }}</li>
+                <li>{{ _("McAfee Mobile Security – Mini security suite with a clean interface") }}</li>
+                <li>{{ _("ESET Mobile Security – Quick and easy scans with slight performance hit") }}</li>
             </ol>
             <p>
-                <i>For more details, visit 
-                    <a href="https://www.tomsguide.com/best-picks/best-android-antivirus" target="_blank">Best Antivirus for Android</a>
+                <i>{{ _("For more details, visit") }}
+                    <a href="https://www.tomsguide.com/best-picks/best-android-antivirus" target="_blank">{{ _("Best Antivirus for Android") }}</a>
                 </i>
             </p>
         </div>

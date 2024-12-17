@@ -1,0 +1,275 @@
+# French translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-12-17 19:46+0000\n"
+"PO-Revision-Date: 2024-12-17 21:16+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: templates/guides.html:4 templates/home.html:18
+msgid "Guides"
+msgstr "Guides"
+
+#: templates/guides.html:9
+msgid "Here are the Guides"
+msgstr "Voici les guides"
+
+#: templates/guides.html:15
+msgid "Secure Mobile Devices"
+msgstr "Sécuriser les appareils mobiles"
+
+#: templates/guides.html:16 templates/learn.html:16
+msgid "Learn how to protect your mobile devices from threats."
+msgstr "Apprenez à protéger vos appareils mobiles contre les menaces."
+
+#: templates/guides.html:21 templates/learn.html:21
+msgid "Encryption"
+msgstr "Cryptage"
+
+#: templates/guides.html:22 templates/learn.html:22
+msgid "Understand how encryption safeguards sensitive information."
+msgstr "Comprendre comment le cryptage protège les informations sensibles."
+
+#: templates/guides.html:27
+msgid "Secure Passwords"
+msgstr "Mots de passe sécurisés"
+
+#: templates/guides.html:28 templates/learn.html:28
+msgid "Discover techniques for creating strong, secure passwords."
+msgstr ""
+"Découvrez des techniques pour créer des mots de passe forts et sécurisés."
+
+#: templates/guides.html:33 templates/learn.html:33
+msgid "2FA Authentication"
+msgstr "Authentification 2FA"
+
+#: templates/guides.html:34 templates/learn.html:34
+msgid "Learn about two-factor authentication and its benefits."
+msgstr "Découvrez l’authentification à deux facteurs et ses avantages."
+
+#: templates/guides.html:39 templates/learn.html:39
+msgid "Phishing Attacks"
+msgstr "Attaques de phishing"
+
+#: templates/guides.html:40 templates/learn.html:40
+msgid "Identify and avoid common phishing attacks."
+msgstr "Identifiez et évitez les attaques de phishing courantes."
+
+#: templates/guides.html:45 templates/learn.html:45
+msgid "Software Updates"
+msgstr "Mises à jour logicielles"
+
+#: templates/guides.html:46 templates/learn.html:46
+msgid "Why keeping your software updated is critical."
+msgstr "Pourquoi il est essentiel de maintenir votre logiciel à jour."
+
+#: templates/guides.html:51 templates/learn.html:51
+msgid "Identity Theft"
+msgstr "Vol d'identité"
+
+#: templates/guides.html:52 templates/learn.html:52
+msgid "Understand how to protect yourself from identity theft."
+msgstr "Comprendre comment vous protéger contre le vol d’identité."
+
+#: templates/guides.html:57
+msgid "Malware Protection"
+msgstr "Protection contre les logiciels malveillants"
+
+#: templates/guides.html:58 templates/learn.html:58
+msgid "Learn about malware and how to prevent infections."
+msgstr ""
+"Apprenez-en plus sur les logiciels malveillants et comment prévenir les "
+"infections."
+
+#: templates/guides.html:63 templates/learn.html:63
+msgid "VPN"
+msgstr "VPN"
+
+#: templates/guides.html:64 templates/learn.html:64
+msgid "Discover the benefits of using a virtual private network."
+msgstr "Découvrez les avantages de l'utilisation d'un réseau privé virtuel."
+
+#: templates/home.html:4
+msgid "Home - Cybersecurity Resource Hub"
+msgstr "Accueil - Centre de ressources sur la cybersécurité"
+
+#: templates/home.html:9
+msgid "Welcome to the Cybersecurity Resource Hub"
+msgstr "Bienvenue au centre de ressources sur la cybersécurité"
+
+#: templates/home.html:10
+msgid ""
+"Your go-to source for online safety and cybersecurity information with a "
+"primary focus on mobile phones."
+msgstr ""
+"Votre source de référence en matière de sécurité en ligne et de "
+"cybersécurité, avec un accent particulier sur les téléphones mobiles."
+
+#: templates/home.html:11
+msgid ""
+"In today’s connected world, staying safe online is more important than "
+"ever—especially for mobile users. This platform is designed to help users in"
+" developing countries navigate the digital landscape securely. Whether "
+"you’re new to cybersecurity or want to deepen your knowledge, our resources "
+"make it easy to understand and apply essential safety practices."
+msgstr ""
+"Dans le monde connecté d’aujourd’hui, il est plus important que jamais de "
+"rester en sécurité en ligne, en particulier pour les utilisateurs mobiles. "
+"Cette plateforme est conçue pour aider les utilisateurs des pays en "
+"développement à naviguer en toute sécurité dans le paysage numérique. Que "
+"vous soyez novice en cybersécurité ou que vous souhaitiez approfondir vos "
+"connaissances, nos ressources facilitent la compréhension et l’application "
+"des pratiques de sécurité essentielles."
+
+#: templates/home.html:12
+msgid "What You'll Find Here:"
+msgstr "Ce que vous trouverez ici :"
+
+#: templates/home.html:15 templates/learn.html:4
+msgid "Learn"
+msgstr "Apprendre"
+
+#: templates/home.html:15
+msgid ""
+"Explore basic concepts of online safety and cybersecurity. Understand why "
+"securing your online activities is crucial."
+msgstr ""
+"Découvrez les concepts de base de la sécurité en ligne et de la "
+"cybersécurité. Découvrez pourquoi il est essentiel de sécuriser vos "
+"activités en ligne."
+
+#: templates/home.html:18
+msgid ""
+"Step-by-step instructions on how to protect yourself, from safe browsing "
+"habits to mobile security best practices."
+msgstr ""
+"Instructions étape par étape sur la façon de vous protéger, des habitudes de"
+" navigation sécurisées aux meilleures pratiques de sécurité mobile."
+
+#: templates/home.html:21 templates/tools.html:4
+msgid "Tools"
+msgstr "Outils"
+
+#: templates/home.html:21
+msgid ""
+"A curated list of free, reliable antivirus and security tools for mobile "
+"devices."
+msgstr ""
+"Une liste organisée d'outils antivirus et de sécurité gratuits et fiables "
+"pour les appareils mobiles."
+
+#: templates/home.html:25
+msgid "What is Cyber Security?"
+msgstr "Qu'est-ce que la cybersécurité ?"
+
+#: templates/home.html:26
+msgid ""
+"Cyber security is the state or process of protecting and recovering "
+"networks, devices and programs from any type of cyberattack."
+msgstr ""
+"La cybersécurité est l’état ou le processus de protection et de récupération"
+" des réseaux, des appareils et des programmes contre tout type de "
+"cyberattaque."
+
+#: templates/learn.html:9
+msgid "Learn about Cybersecurity Concepts"
+msgstr "En savoir plus sur les concepts de cybersécurité"
+
+#: templates/learn.html:15
+msgid "Mobile Security"
+msgstr "Sécurité mobile"
+
+#: templates/learn.html:27
+msgid "Password Security"
+msgstr "Sécurité des mots de passe"
+
+#: templates/learn.html:57
+msgid "Malware"
+msgstr "Logiciels malveillants"
+
+#: templates/tools.html:10
+msgid "Free Antivirus Software"
+msgstr "Logiciel antivirus gratuit"
+
+#: templates/tools.html:17
+msgid "Best Antivirus Software for iPhones"
+msgstr "Meilleur logiciel antivirus pour iPhone"
+
+#: templates/tools.html:19
+msgid "TotalAV Mobile Security – Best antivirus app for iPhone"
+msgstr "TotalAV Mobile Security – Meilleure application antivirus pour iPhone"
+
+#: templates/tools.html:20
+msgid "Norton Mobile Security for iOS – User-friendly iPhone antivirus"
+msgstr "Norton Mobile Security pour iOS – Antivirus convivial pour iPhone"
+
+#: templates/tools.html:21
+msgid "Avira – Lightweight antivirus for iPhone with a free plan"
+msgstr "Avira – Antivirus léger pour iPhone avec un forfait gratuit"
+
+#: templates/tools.html:22
+msgid "Bitdefender – All-around antivirus for iOS"
+msgstr "Bitdefender – Antivirus complet pour iOS"
+
+#: templates/tools.html:23
+msgid "AVG – Antivirus for iPhone with exceptional malware detection power"
+msgstr ""
+"AVG – Antivirus pour iPhone avec une puissance de détection de malware "
+"exceptionnelle"
+
+#: templates/tools.html:26 templates/tools.html:43
+msgid "For more details, visit"
+msgstr "Pour plus de détails, visitez"
+
+#: templates/tools.html:27
+msgid "Best Antivirus for iPhones"
+msgstr "Meilleur antivirus pour iPhone"
+
+#: templates/tools.html:34
+msgid "Best Antivirus Software for Android"
+msgstr "Meilleur logiciel antivirus pour Android"
+
+#: templates/tools.html:36
+msgid "Bitdefender Mobile Security – Best antivirus app for Android"
+msgstr ""
+"Bitdefender Mobile Security – Meilleure application antivirus pour Android"
+
+#: templates/tools.html:37
+msgid ""
+"Avast Mobile Security – Great free Android antivirus app with low system "
+"overhead"
+msgstr ""
+"Avast Mobile Security – Excellente application antivirus Android gratuite "
+"avec une faible charge système"
+
+#: templates/tools.html:38
+msgid "Norton 360 for Mobile – Comprehensive protection"
+msgstr "Norton 360 pour mobile – Protection complète"
+
+#: templates/tools.html:39
+msgid "McAfee Mobile Security – Mini security suite with a clean interface"
+msgstr ""
+"McAfee Mobile Security – Mini suite de sécurité avec une interface épurée"
+
+#: templates/tools.html:40
+msgid ""
+"ESET Mobile Security – Quick and easy scans with slight performance hit"
+msgstr ""
+"ESET Mobile Security – Des analyses rapides et faciles avec une légère "
+"baisse des performances"
+
+#: templates/tools.html:44
+msgid "Best Antivirus for Android"
+msgstr "Meilleur antivirus pour Android"

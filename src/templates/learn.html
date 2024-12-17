@@ -1,67 +1,67 @@
 {% extends "base.html" %}
 
 {% block title %}
-    Learn
+    {{ _("Learn") }}
 {% endblock %}
 
 {% block content %}
     <main class="content">
-        <h1>Learn about Cybersecurity Concepts</h1>
+        <h1>{{ _("Learn about Cybersecurity Concepts") }}</h1>
         <br>
 
         <div class="card-container">
             <a href="{{ url_for('mobile_security') }}" class="card">
                 <div class="card-content">
-                    <h2>Mobile Security</h2>
-                    <p>Learn how to protect your mobile devices from threats.</p>
+                    <h2>{{ _("Mobile Security") }}</h2>
+                    <p>{{ _("Learn how to protect your mobile devices from threats.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('encryption') }}" class="card">
                 <div class="card-content">
-                    <h2>Encryption</h2>
-                    <p>Understand how encryption safeguards sensitive information.</p>
+                    <h2>{{ _("Encryption") }}</h2>
+                    <p>{{ _("Understand how encryption safeguards sensitive information.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('password_security') }}" class="card">
                 <div class="card-content">
-                    <h2>Password Security</h2>
-                    <p>Discover techniques for creating strong, secure passwords.</p>
+                    <h2>{{ _("Password Security") }}</h2>
+                    <p>{{ _("Discover techniques for creating strong, secure passwords.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('two_factor_authentication') }}" class="card">
                 <div class="card-content">
-                    <h2>2FA Authentication</h2>
-                    <p>Learn about two-factor authentication and its benefits.</p>
+                    <h2>{{ _("2FA Authentication") }}</h2>
+                    <p>{{ _("Learn about two-factor authentication and its benefits.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('phishing') }}" class="card">
                 <div class="card-content">
-                    <h2>Phishing Attacks</h2>
-                    <p>Identify and avoid common phishing attacks.</p>
+                    <h2>{{ _("Phishing Attacks") }}</h2>
+                    <p>{{ _("Identify and avoid common phishing attacks.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('software_updates') }}" class="card">
                 <div class="card-content">
-                    <h2>Software Updates</h2>
-                    <p>Why keeping your software updated is critical.</p>
+                    <h2>{{ _("Software Updates") }}</h2>
+                    <p>{{ _("Why keeping your software updated is critical.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('identity_theft') }}" class="card">
                 <div class="card-content">
-                    <h2>Identity Theft</h2>
-                    <p>Understand how to protect yourself from identity theft.</p>
+                    <h2>{{ _("Identity Theft") }}</h2>
+                    <p>{{ _("Understand how to protect yourself from identity theft.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('malware') }}" class="card">
                 <div class="card-content">
-                    <h2>Malware</h2>
-                    <p>Learn about malware and how to prevent infections.</p>
+                    <h2>{{ _("Malware") }}</h2>
+                    <p>{{ _("Learn about malware and how to prevent infections.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('vpn') }}" class="card">
                 <div class="card-content">
-                    <h2>VPN</h2>
-                    <p>Discover the benefits of using a virtual private network.</p>
+                    <h2>{{ _("VPN") }}</h2>
+                    <p>{{ _("Discover the benefits of using a virtual private network.") }}</p>
                 </div>
             </a>
         </div>
@@ -69,9 +69,6 @@
             <a href="#">&laquo;</a>
             <a href="#" class="active">1</a>
             <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
             <a href="#">&raquo;</a>
         </div>
     </main>
