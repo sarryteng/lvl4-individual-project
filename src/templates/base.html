@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ g.get('lang', 'en') }}">
+<html lang="{{ g.lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Cybersecurity Resource Hub{% endblock %}</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> <!-- Lato Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 </head>
 <body>
@@ -13,17 +13,19 @@
 <header>
     <div class="top-bar">
         <div class="icon-container">
-            <a href="/" class="home-icon">
+            <!-- Home Icon (Left) -->
+            <a href="{{ url_for('home', lang=g.lang) }}" class="home-icon">
                 <img src="{{ url_for('static', filename='images/nav-bar/home.png') }}" alt="Home">
             </a>
+
+            <!-- Language Switcher -->
             <a href="javascript:void(0)" class="language-switcher">
                 <div class="language-icon-container">
                     <img src="{{ url_for('static', filename='images/nav-bar/language.png') }}" alt="Switch Language">
-                    <!-- Dynamically display the current language beside the language icon -->
                     <span id="currentLanguage">
-                        {% if g.get('lang') == 'fr' %}
+                        {% if g.lang == 'fr' %}
                             FR
-                        {% elif g.get('lang') == 'es' %}
+                        {% elif g.lang == 'es' %}
                             ES
                         {% else %}
                             ENG
@@ -31,26 +33,29 @@
                     </span>
                 </div>
             </a>
+
+            <!-- Language Dropdown Menu -->
             <div id="languageDropdown" class="language-dropdown">
-                <!-- Dynamically exclude the current language from the options -->
-                {% if g.get('lang') != 'en' %}
-                    <a href="?lang=en" data-lang="en">ENG</a>
+                {% if g.lang != 'en' %}
+                    <a href="/en{{ request.path[3:] }}" data-lang="en">ENG</a>
                 {% endif %}
-                {% if g.get('lang') != 'fr' %}
-                    <a href="?lang=fr" data-lang="fr">FR</a>
+                {% if g.lang != 'fr' %}
+                    <a href="/fr{{ request.path[3:] }}" data-lang="fr">FR</a>
                 {% endif %}
-                {% if g.get('lang') != 'es' %}
-                    <a href="?lang=es" data-lang="es">ES</a>
+                {% if g.lang != 'es' %}
+                    <a href="/es{{ request.path[3:] }}" data-lang="es">ES</a>
                 {% endif %}
             </div>
-            </a>
+
+            <!-- Menu Toggle Icon -->
             <a href="javascript:void(0)" class="menu-icon" id="menuToggle">
                 <img src="{{ url_for('static', filename='images/nav-bar/menu.png') }}" alt="Menu">
             </a>
         </div>
     </div>
 </header>    
-    
+
+<!-- Main Content Area -->
 <div class="content">
     {% block content %}{% endblock %}
 </div>
@@ -59,10 +64,10 @@
 <div id="overlayMenu" class="menu-page">
     <div class="icon-container">
         <!-- Home Icon (Left, inside the menu) -->
-        <a href="/" class="home-icon">
+        <a href="/{{ g.lang }}/" class="home-icon">
             <img src="{{ url_for('static', filename='images/nav-bar/home.png') }}" alt="Home">
         </a>
-        
+
         <!-- Close Icon (Right, when the menu is open) -->
         <a href="javascript:void(0)" id="closeBtn" class="close-icon">
             <img src="{{ url_for('static', filename='images/nav-bar/close.png') }}" alt="Close">
@@ -71,9 +76,9 @@
     
     <!-- Menu Links -->
     <ul>
-        <li><a href="{{ url_for('learn') }}">Learn Concepts</a></li>
-        <li><a href="{{ url_for('guides') }}">Guides</a></li>
-        <li><a href="{{ url_for('tools') }}">Tools</a></li>
+        <li><a href="{{ url_for('learn', lang=g.lang) }}">Learn Concepts</a></li>
+        <li><a href="{{ url_for('guides', lang=g.lang) }}">Guides</a></li>
+        <li><a href="{{ url_for('tools', lang=g.lang) }}">Tools</a></li>
     </ul>
 </div>    
 

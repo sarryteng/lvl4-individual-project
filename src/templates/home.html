@@ -12,15 +12,15 @@
         <p>{{ _("What You'll Find Here:") }}</p>
         <ul>
             <li>
-                <a href="/learn">{{ _("Learn") }}</a>: {{ _("Explore basic concepts of online safety and cybersecurity. Understand why securing your online activities is crucial.") }}
+                <a href="{{ url_for('learn', lang=g.lang) }}">{{ _("Learn") }}</a>: {{ _("Explore basic concepts of online safety and cybersecurity. Understand why securing your online activities is crucial.") }}
             </li>
             <li>
-                <a href="/guides">{{ _("Guides") }}</a>: {{ _("Step-by-step instructions on how to protect yourself, from safe browsing habits to mobile security best practices.") }}
+                <a href="{{ url_for('guides', lang=g.lang) }}">{{ _("Guides") }}</a>: {{ _("Step-by-step instructions on how to protect yourself, from safe browsing habits to mobile security best practices.") }}
             </li>
             <li>
-                <a href="/tools">{{ _("Tools") }}</a>: {{ _("A curated list of free, reliable antivirus and security tools for mobile devices.") }}
+                <a href="{{ url_for('tools', lang=g.lang) }}">{{ _("Tools") }}</a>: {{ _("A curated list of free, reliable antivirus and security tools for mobile devices.") }}
             </li>
-        </ul>
+        </ul>             
         
         <h2>{{ _("What is Cyber Security?") }}</h2>
         <p>{{ _("Cyber security is the state or process of protecting and recovering networks, devices and programs from any type of cyberattack.") }}</p>

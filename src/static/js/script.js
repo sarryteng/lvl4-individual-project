@@ -12,6 +12,7 @@ closeBtn.addEventListener('click', () => {
 
 const languageSwitcher = document.querySelector('.language-switcher');
 const languageDropdown = document.getElementById('languageDropdown');
+const currentLanguage = document.getElementById('currentLanguage');
 
 // Toggle the visibility of the dropdown menu on click
 languageSwitcher.addEventListener('click', () => {
@@ -26,13 +27,14 @@ document.addEventListener('click', (event) => {
     }
 });
 
-// Change the current language abbreviation dynamically
+// Change the current language abbreviation dynamically and redirect
 const languageLinks = languageDropdown.querySelectorAll('a');
 languageLinks.forEach(link => {
     link.addEventListener('click', (event) => {
-        const lang = event.target.getAttribute('data-lang').toUpperCase(); // Get language abbreviation
-        currentLanguage.textContent = lang; // Update the displayed language
-        updateDropdown(); // Update the dropdown list to exclude the current language
+        event.preventDefault(); // Prevent default link behavior
+        const lang = event.target.getAttribute('data-lang'); // Get the selected language code
+        const newPath = `/${lang}${window.location.pathname.substring(3)}`; // Update the URL
+        window.location.href = newPath; // Redirect to the new language-specific path
     });
 });
 
