@@ -1,116 +1,51 @@
 {% extends "base.html" %}
 
 {% block title %}
-    LEARN about Identity Theft 
+    {{ _('LEARN about identity theft') }}
 {% endblock %}
 
 {% block content %}
     <main>
-        <h1>Identity Theft</h1>  
-        </br>      
-        <!-- Add more content here -->
+        <h1>{{ _('Identity Theft') }}</h1>  
+        </br>        
+        <h3>{{ _('What is identity theft?') }}</h3>
+        <p>{{ _('Identity theft is a crime where someone illegally obtains and uses another person’s personal information, usually for financial gain.') }}</p>
+        <p>{{ _('It’s a serious crime that can have devastating effects on victims, including ruined credit, financial loss, and personal distress.') }}</p>
 
-        <h2>What is identity theft?<br /></h2>
-        <p>Identity thefat is when someone steals your personally identifiable information and uses it without your permission to commit fraud. Criminals do this for a variety of reasons but it’s usually for economic gain, like opening a bank account or applying for credit.</p>
-
-        <p>Personally identifiable information includes your:<br />
-        </p>
+        <h3>{{ _('How does identity theft happen?') }}</h3>
+        <p>{{ _('Identity thieves use various methods to steal your information, including:') }}</p>
         <ul>
-        <li>Full name</li>
-        <li>Home address</li>
-        <li>Email address</li>
-        <li>Online login and passwords</li>
-        <li>Driver’s license number</li>
-        <li>Passport number</li>
-        <li>Social Security number</li>
-        <li>Bank account details</li>
+            <li>{{ _('Phishing: A scam where fraudsters impersonate a legitimate entity to trick you into revealing your personal information.') }}</li>
+            <li>{{ _('Mail theft: Thieves may steal personal mail to get sensitive information, like credit card statements or tax returns.') }}</li>
+            <li>{{ _('Data breaches: Hackers may gain access to online databases that contain personal information.') }}</li>
+            <li>{{ _('Skimming: Fraudsters may use card readers to steal information from your credit or debit cards.') }}</li>
         </ul>
 
-        <p>Once thieves have enough of this information, they may impersonate you to open accounts in your name, steal from your existing bank accounts, or purchase goods or services using your details.</p>
+        <h3>{{ _('Signs of identity theft') }}</h3>
+        <p>{{ _('If you notice any of the following, it could be a sign that your identity has been stolen:') }}</p>
+        <ul>
+            <li>{{ _('Unexplained charges on your bank or credit card statements.') }}</li>
+            <li>{{ _('Receiving bills or collection notices for items you didn’t purchase.') }}</li>
+            <li>{{ _('Missing mail or notices that your financial or credit account information has been changed without your consent.') }}</li>
+        </ul>
 
-        <h2>How identity theft works</h2>
-        <p>Identity theft starts when an identity thief chooses their target. They then go about stealing their target’s personal information. When they steal enough, they can use it to open accounts, commit fraud, or impersonate their victim in other ways for financial gain.</p>
-        <p>ID theft can take place in any number of ways, but here’s a <b>sample journey</b>:</p>
-        <!-- insert image -->
-        <img src="/static/images/content/learn/what-is-identity-theft-01.jpg" alt="6 Steps of Identity Theft">
+        <h3>{{ _('How to protect yourself from identity theft') }}</h3>
+        <p>{{ _('To protect yourself from identity theft, you can:') }}</p>
+        <ul>
+            <li>{{ _('Use strong, unique passwords for your online accounts.') }}</li>
+            <li>{{ _('Enable two-factor authentication wherever possible.') }}</li>
+            <li>{{ _('Be cautious of unsolicited requests for personal information via phone, email, or text message.') }}</li>
+            <li>{{ _('Monitor your bank accounts and credit reports regularly for any unusual activity.') }}</li>
+            <li>{{ _('Avoid sharing sensitive information on public Wi-Fi networks.') }}</li>
+        </ul>
 
-        <p>These steps can happen in a different order and some might vary. For example, you don’t have to click a link to have your identity stolen—perhaps you’re targeted with a vishing phone call or your social media account is hacked first.</p>
-        <p>There are many ways criminals can steal your information. Someone could physically steal something from you, like your bag with important documents and your wallet inside. But using our example above, here’s one way it could look, including some common practices used by ID thieves.</p>
-
-        <h3>1. Scammers target an individual or group of people</h3>
-        <p>An identity thief might gather a pool of potential victims. They could cast a wide net through large-scale data breaches or phishing emails.</p>
-        <p>Scammers can also take a more targeted approach. They might use information from social media profiles or public records to tailor their attacks to a specific individual. The process could even begin by chance if a thief steals or finds a wallet full of personal information and bank cards.</p>
-
-        <h3>2. Cybercriminals create and share malicious content</h3>
-        <p>Once they have a target set, cybercriminals could create and share malicious content to steal more personal information. This could involve creating fake websites that look like real login pages for banks or social media platforms. They could then send phishing emails linking to these malicious websites.</p>
-
-        <h3>3. Victims unknowingly click malicious links</h3>
-        <p>If victims click malicious links and enter their personal details, the identity thief can now impersonate them. Clicking these links could also download malware onto victims’ devices. Cybercriminals can design malware to steal passwords, browsing history, or personal information stored on a device.</p>
-
-        <h3>4. Your money or assets are stolen</h3>
-        <p>When cyberthieves steal information, they have various options for how to then steal money or other financial assets. They might use your credit card details to make unauthorized purchases. Financial assets like your bank account could be their goal, too.</p>
-
-        <h3>5. Your information is sold or used to commit more fraud</h3>
-        <p>Even after the original ID thief has got what they wanted they might sell your data to other criminals. The new ID thief could go on to file fraudulent tax returns, obtain medical services in your name, and so on. The consequences can be far-reaching, damaging your credit score, leading to debt collection issues, and causing a bureaucratic nightmare untangling the fraudulent activity.</p>
-
-        <h3>6. Your social media accounts are compromised</h3>
-        <p>Once the scammers can’t get anything else from you, they could move on to your contacts if they have access to your social media accounts. They could use your compromised account to launch social media scams by pretending to be you to your friends and family. And so the process begins again for the new targets.</p>
-
-
-        <h2>Types of identity theft</h2>
-        <p>Criminals have different objectives when it comes to ID theft, although the motive is normally financial. Here are some common types of identity theft:</p>
-
-        <h3>Financial identity theft</h3>
-        <p>Financial identity theft is when someone steals your credit card information, bank account numbers, or other financial data to make unauthorized purchases or open new accounts in your name. This can have a devastating impact on your credit score and financial well-being.</p>
-        <p><b><i>Example</i>:</b> You receive a bill for a credit card you never opened.</p>
-        <p>Not only are you responsible for disputing the charges, but you must also take steps to close the fraudulent account and avoid future issues.</p>
-
-        <h3>Social Security number identity theft</h3>
-        <p>An identity thief could use your Social Security number to get government benefits, medical care, open fraudulent accounts, or even apply for a job while posing as you. This can cause significant delays and problems down the line.</p>
-        <p><b><i>Example</i>: </b>You receive a phone bill for an account you didn’t open.</p>
-        <p>If a criminal has your Social Security number along with other crucial personal information, they could do a lot of damage.</p>
-
-        <h3>Medical identity theft</h3>
-        <p>This is when cybercriminals use your name and insurance information to receive medical services. This can lead to inaccurate medical records and difficulty getting the necessary care. Incorrect medical history also can lead to misdiagnosis or even improper treatment.</p>
-        <p><b><i>Example</i>: </b>You receive a bill for a medical procedure you never had.</p>
-        <p>Medical identity theft can be serious, especially if you require regular healthcare appointments.</p>
-
-        <h3>Synthetic identity theft</h3>
-        <p>Synthetic identity theft happens when someone combines real and fake information to create a completely new identity as the basis of their fraudulent activity. By blending this info, the criminal can use the new fake identity to take loans out or commit other fraud.<br /></p>
-        <p><b><i>Example</i>: </b>You discover a loan application in your name with a different birthdate and other details that don’t match.</p>
-        <p>Synthetic identities are hard to detect since they blend real and fake data.</p>
-
-        <h2>Causes of ID theft</h2>
-        <p>There are a variety of ways an identity thief can steal your identity. There are <b>physical</b> methods like stealing your wallet or documents with personal info from your trash.</p>
-        <p>There are also <b>cyber</b> methods, like data breaches, phishing, skimming, Wi-Fi hacking, phone scams, and malware attacks.</p>
-
-        <!-- insert image -->
-        <img src="/static/images/content/learn/what-is-identity-theft-02.jpg" alt="Identity can be stolen when...">
-
-        <h3>Data breaches</h3>
-        <p>A data breach is a security incident where a criminal gains unauthorized access to sensitive information. If you find out that your info is caught up in a data breach, secure the account it was linked to by changing your password, then consider any knock-on effects that stolen info could have and take action.</p>
-
-        <h3>Phishing</h3>
-        <p>Phishing is when cybercriminals send fraudulent emails that look legitimate. They may include links that point to a fake website or malware download to get your data. Or the aim might be for you to respond to the message with personal details. Cybercriminals could use this information to commit identity theft or sell it on the dark web for others to use.</p>
-        <p>Avoid opening suspicious-looking emails or clicking unexpected links or attachments. And never hand over personal information, since any legitimate company won’t ever request this by email.</p>
-
-        <h3>Skimming</h3>
-        <p>Credit card or ATM card skimming happens when criminals replace card readers with counterfeit devices at point-of-sale systems in grocery stores, coffee shops, gas stations, and so on, or at ATMs.</p>
-        <p>These devices capture data stored on the magnetic strip of credit and debit cards. The information captured about the cardholder and account can be used for fraud.</p>
-
-        <h3>Wi-Fi hacking</h3>
-        <p>Some public Wi-Fi connections are unencrypted. This could allow hackers to snoop on data traveling to and from your device. Cybercriminals can also create fake Wi-Fi hotspots with names that sound like legitimate networks, in what is called an evil twin attack. Identity thieves may be able to view and exploit the information passing through the rogue network.</p>
-        <p>Always check the spelling of a network name before connecting. Plus, use a VPN to connect to public Wi-Fi.</p>
-
-        <h3>Phone scams</h3>
-        <p>In this variation of a phishing attack, fraudsters call you on the phone, claiming to be from a bank or a trusted organization. They’ll usually spoof the caller ID, so it looks convincing. If you get a call asking for personal info and you weren’t expecting it, hang up. Call the bank or organization directly to confirm whether it’s a phone scam and to warn them.</p>
-        <p>Look out for smishing scams too, where a con artist sends you a text message trying to get you to click a link or hand over personal details. Scammers may pretend it’s a delivery company contacting you, like in USPS scam texts. But there are also WhatsApp scams to look out for, which could be part of a wider romance scam. Be careful with texts you receive on any messaging platform as scammers target them all.</p>
-
-        <h3>Malware</h3>
-        <p>Criminals can sneak malware on your device using different tactics. Some types of malware allow a fraudster to access the information stored on your device, including:<br />
-
-
-
-
+        <h3>{{ _('What to do if you’re a victim of identity theft?') }}</h3>
+        <p>{{ _('If you become a victim of identity theft, here are the steps to take:') }}</p>
+        <ul>
+            <li>{{ _('Report the theft to your bank or credit card company to freeze accounts and protect against further charges.') }}</li>
+            <li>{{ _('Place a fraud alert on your credit report with major credit bureaus (Equifax, Experian, TransUnion).') }}</li>
+            <li>{{ _('File a report with the Federal Trade Commission (FTC) and local law enforcement.') }}</li>
+            <li>{{ _('Monitor your credit reports to ensure the thief has not opened new accounts in your name.') }}</li>
+        </ul>
     </main>
 {% endblock %}

@@ -1,73 +1,73 @@
 {% extends "base.html" %}
 
 {% block title %}
-    LEARN about VPN 
+    {{ _('LEARN about VPN') }}
 {% endblock %}
 
 {% block content %}
     <main>
-        <h1>VPN</h1>  
+        <h1>{{ _('VPN') }}</h1>  
         </br>      
         <!-- Add more content here -->
-        <h2>What is a VPN?</h2>
-        <p>A virtual private network gives you online privacy and anonymity by creating a private network from a public Internet connection. VPNs mask your Internet protocol (IP) address so your online actions are virtually untraceable. Most important, VPN services establish secure and encrypted connections, guaranteed to provide greater privacy than even a secured Wi-Fi hotspot.</p>
+        <h2>{{ _('What is a VPN?') }}</h2>
+        <p>{{ _('A virtual private network gives you online privacy and anonymity by creating a private network from a public Internet connection. VPNs mask your Internet protocol (IP) address so your online actions are virtually untraceable. Most important, VPN services establish secure and encrypted connections, guaranteed to provide greater privacy than even a secured Wi-Fi hotspot.') }}</p>
 
-        <h2>Why you need a VPN</h2>
-        <p>Think about all the times you’ve been on the go, reading emails while in line at the coffee shop, or checking your bank account while waiting at the doctor’s office. Unless you were logged into a private Wi-Fi network that required a password, any data transmitted during your online session was likely vulnerable to eavesdropping by strangers using the same network.</p>
-        <p>The encryption and anonymity that a VPN provides protects all of your online activities: sending emails, shopping online, or paying bills. VPNs also help keep your Web browsing anonymous.</p>
+        <h2>{{ _('Why you need a VPN') }}</h2>
+        <p>{{ _('Think about all the times you’ve been on the go, reading emails while in line at the coffee shop, or checking your bank account while waiting at the doctor’s office. Unless you were logged into a private Wi-Fi network that required a password, any data transmitted during your online session was likely vulnerable to eavesdropping by strangers using the same network.') }}</p>
+        <p>{{ _('The encryption and anonymity that a VPN provides protects all of your online activities: sending emails, shopping online, or paying bills. VPNs also help keep your Web browsing anonymous.') }}</p>
 
-        <h2>How does a VPN work?</h2>
-        <p>A VPN</a> (virtual private network) encrypts the traffic between your device and the internet. To do this, it creates a secure VPN tunnel</a> for your internet traffic to pass through when your device connects to a network. That helps to hide your IP address and keep your online activity private.</p>
-        <p>With a VPN, you can browse without worrying that a cybercriminal</a> or hacker is watching you, send messages safely, and access your favorite content from around the world.</p>
-        <p>Here’s a step-by-step breakdown of how VPNs work.</p>
+        <h2>{{ _('How does a VPN work?') }}</h2>
+        <p>{{ _('A VPN (virtual private network) encrypts the traffic between your device and the internet. To do this, it creates a secure VPN tunnel for your internet traffic to pass through when your device connects to a network. That helps to hide your IP address and keep your online activity private.') }}</p>
+        <p>{{ _('With a VPN, you can browse without worrying that a cybercriminal or hacker is watching you, send messages safely, and access your favorite content from around the world.') }}</p>
+        <p>{{ _('Here’s a step-by-step breakdown of how VPNs work.') }}</p>
 
-        <h3>#1 Turn on the VPN</h3>
-        <p>Turn on your VPN. Some VPNs, like Norton Secure VPN, allow you to choose the server location at this point, which can make you appear to be from other places when you visit websites.</p>
+        <h3>#1 {{ _('Turn on the VPN') }}</h3>
+        <p>{{ _('Turn on your VPN. Some VPNs, like Norton Secure VPN, allow you to choose the server location at this point, which can make you appear to be from other places when you visit websites.') }}</p>
 
-        <h3>#2 The device and the VPN establish a connection</h3>
-        <p>Your device will connect securely to the VPN server. Once it connects, the VPN begins encrypting traffic flowing between your device and the internet.</p>
+        <h3>#2 {{ _('The device and the VPN establish a connection') }}</h3>
+        <p>{{ _('Your device will connect securely to the VPN server. Once it connects, the VPN begins encrypting traffic flowing between your device and the internet.') }}</p>
 
-        <h3>#3 Traffic is encrypted to securely surf the web</h3>
-        <p>After you connect, all of your browsing becomes encrypted, meaning that no one else can see your online activity.</p>
+        <h3>#3 {{ _('Traffic is encrypted to securely surf the web') }}</h3>
+        <p>{{ _('After you connect, all of your browsing becomes encrypted, meaning that no one else can see your online activity.') }}</p>
         <!-- insert image -->
-        <img src="/static/images/content/learn/how-does-a-vpn-work.jpg" alt="How Does a VPN Work">
+        <img src="/static/images/content/learn/how-does-a-vpn-work.jpg" alt="{{ _('How Does a VPN Work') }}">
 
-        <h2>Advantages of using a VPN</h2>
-        <p>While it used to seem like VPNs were tools primarily for hackers</a> and journalists, everyone can benefit from one. Privacy or security</a> and accessing content are some of the greatest benefits of using a VPN</a>.</p>
-        <p>The advantages of a VPN include:</p>
+        <h2>{{ _('Advantages of using a VPN') }}</h2>
+        <p>{{ _('While it used to seem like VPNs were tools primarily for hackers and journalists, everyone can benefit from one. Privacy or security and accessing content are some of the greatest benefits of using a VPN.') }}</p>
+        <p>{{ _('The advantages of a VPN include:') }}</p>
         <ul>
-        <li><b>Masking your browsing history:</b> VPNs help you block snoopers, companies, and advertisers from following your browsing activity and profiling you.</li>
-        <li><b>Hiding your IP address and physical location:</b> Your internet browsing is your business. A VPN hides</a> your IP address and physical location by directing the traffic from your devices to a network far away from you, making your browsing private and helping you access the content you want.</li>
-        <li><b>Stopping cybercriminals from watching your activity:</b> If you’re using public Wi-Fi</a> or an unsecured home network, cybercriminals could monitor your activity. They may be able to steal your login credentials from your mobile banking</a> accounts and anything else you sign into online.</li>
-        <li><b>Protecting sensitive information:</b> Even if you don’t realize it, you expose sensitive information every time you log onto a website through an unsecured network. A VPN keeps your sensitive information safe by masking your IP address</a> and encrypting your traffic.</li>
-        <li><b>Sharing files securely:</b> Whether working from home or sending files to family members, a VPN lets you send and receive files without worrying about a hacker holding your files for ransom</a> or inserting malware</a>.</li>
-        <li><b>Making online payments safely:</b> A VPN helps keep your shopping activity private, making it safer to buy online.</li>
+            <li><b>{{ _('Masking your browsing history:') }}</b> {{ _('VPNs help you block snoopers, companies, and advertisers from following your browsing activity and profiling you.') }}</li>
+            <li><b>{{ _('Hiding your IP address and physical location:') }}</b> {{ _('Your internet browsing is your business. A VPN hides your IP address and physical location by directing the traffic from your devices to a network far away from you, making your browsing private and helping you access the content you want.') }}</li>
+            <li><b>{{ _('Stopping cybercriminals from watching your activity:') }}</b> {{ _('If you’re using public Wi-Fi or an unsecured home network, cybercriminals could monitor your activity. They may be able to steal your login credentials from your mobile banking accounts and anything else you sign into online.') }}</li>
+            <li><b>{{ _('Protecting sensitive information:') }}</b> {{ _('Even if you don’t realize it, you expose sensitive information every time you log onto a website through an unsecured network. A VPN keeps your sensitive information safe by masking your IP address and encrypting your traffic.') }}</li>
+            <li><b>{{ _('Sharing files securely:') }}</b> {{ _('Whether working from home or sending files to family members, a VPN lets you send and receive files without worrying about a hacker holding your files for ransom or inserting malware.') }}</li>
+            <li><b>{{ _('Making online payments safely:') }}</b> {{ _('A VPN helps keep your shopping activity private, making it safer to buy online.') }}</li>
         </ul>
         <!-- insert image -->
-        <img src="/static/images/content/learn/advantages-vpn.jpg" alt="Advantages of VPN">
+        <img src="/static/images/content/learn/advantages-vpn.jpg" alt="{{ _('Advantages of VPN') }}">
 
-        <h2>What can I do with a VPN?</h2>
-        <p>VPNs have many practical applications. Here are some common reasons to use a VPN:</p>
+        <h2>{{ _('What can I do with a VPN?') }}</h2>
+        <p>{{ _('VPNs have many practical applications. Here are some common reasons to use a VPN:') }}</p>
         <ul>
-        <li><b>Avoid location-based price discrimination:</b> Many online retailers charge more in the United States than other countries. You can save money on goods, travel, and accommodation by setting your location to different countries.</li>
-        <li><b>Avoid bandwidth throttling:</b> If you are streaming, gaming, or downloading many files, your ISP may decide to slow down your internet. With a VPN, they won’t be able to do that.</li>
-        <li><b>Secure your VoIP conversations:</b> Internet phone calls aren’t always secure, but a VPN means your conversations stay private.</li>
-        <li><b>Access the internet safely when traveling:</b> Depending on where you’re at, the internet may not be safe to use, especially if your only internet connection is public. A VPN lets you browse with less worry.</li>
-        <li><b>Avoid censorship:</b> Some countries censor the internet. If you’re traveling and need help avoiding censorship, a VPN may help.</li>
-        <li><b>Improve your gaming experience:</b> While VPNs can slow your connection a little, they can also create a more stable, secure connection that can improve your gaming experience.</li>
-        <li><b>Access content:</b> VPNs let you choose which country your traffic is routed through, which can help you access your favorite content and sites. Make sure VPNs are legal</a> to use wherever you are.</li>
+            <li><b>{{ _('Avoid location-based price discrimination:') }}</b> {{ _('Many online retailers charge more in the United States than other countries. You can save money on goods, travel, and accommodation by setting your location to different countries.') }}</li>
+            <li><b>{{ _('Avoid bandwidth throttling:') }}</b> {{ _('If you are streaming, gaming, or downloading many files, your ISP may decide to slow down your internet. With a VPN, they won’t be able to do that.') }}</li>
+            <li><b>{{ _('Secure your VoIP conversations:') }}</b> {{ _('Internet phone calls aren’t always secure, but a VPN means your conversations stay private.') }}</li>
+            <li><b>{{ _('Access the internet safely when traveling:') }}</b> {{ _('Depending on where you’re at, the internet may not be safe to use, especially if your only internet connection is public. A VPN lets you browse with less worry.') }}</li>
+            <li><b>{{ _('Avoid censorship:') }}</b> {{ _('Some countries censor the internet. If you’re traveling and need help avoiding censorship, a VPN may help.') }}</li>
+            <li><b>{{ _('Improve your gaming experience:') }}</b> {{ _('While VPNs can slow your connection a little, they can also create a more stable, secure connection that can improve your gaming experience.') }}</li>
+            <li><b>{{ _('Access content:') }}</b> {{ _('VPNs let you choose which country your traffic is routed through, which can help you access your favorite content and sites. Make sure VPNs are legal to use wherever you are.') }}</li>
         </ul>
         <!-- insert image -->
-        <img src="/static/images/content/learn/what-can-you-do-with-vpn.jpg" alt="What Can You Do with a VPN">
+        <img src="/static/images/content/learn/what-can-you-do-with-vpn.jpg" alt="{{ _('What Can You Do with a VPN') }}">
 
-        <h2>Are there any drawbacks to using a VPN?</h2>
-        <p>While most VPNs provide you with a much higher level of cybersecurity</a> than browsing without one, there are a few potential downsides to using a VPN:</p>
+        <h2>{{ _('Are there any drawbacks to using a VPN?') }}</h2>
+        <p>{{ _('While most VPNs provide you with a much higher level of cybersecurity than browsing without one, there are a few potential downsides to using a VPN:') }}</p>
         <ul>
-        <li><b>Not all VPNs protect you from cookies on the websites you visit:</b> While most cookies</a> are safe, they can introduce vulnerabilities and are used to track your habits.</li>
-        <li><b>Cybercriminals have hacked VPNs:</b> Cybercriminals can use zero-day exploits</a> that haven’t been discovered or patched by some VPNs. That’s one reason why it’s essential to download the latest software updates</a> as soon as they’re available.</li>
-        <li><b>VPNs are not created equally:</b> VPNs come in many varieties. Some are free, and others have monthly fees. Free VPN services often collect information about you and target you with ads based on your online profile.</li>
-        <li><b>Some free VPNs sell your data to third parties:</b> Free VPN users may have no control over whether or not their data gets sold. Cybercriminals have even set up free VPNs to harvest personal information.</li>
-        <li><b>Using a VPN can slow down your internet connection:</b> While it might not be that noticeable most of the time, you may experience slower download and upload speeds, which can impact your streaming or gaming.</li>
+            <li><b>{{ _('Not all VPNs protect you from cookies on the websites you visit:') }}</b> {{ _('While most cookies are safe, they can introduce vulnerabilities and are used to track your habits.') }}</li>
+            <li><b>{{ _('Cybercriminals have hacked VPNs:') }}</b> {{ _('Cybercriminals can use zero-day exploits that haven’t been discovered or patched by some VPNs. That’s one reason why it’s essential to download the latest software updates as soon as they’re available.') }}</li>
+            <li><b>{{ _('VPNs are not created equally:') }}</b> {{ _('VPNs come in many varieties. Some are free, and others have monthly fees. Free VPN services often collect information about you and target you with ads based on your online profile.') }}</li>
+            <li><b>{{ _('Some free VPNs sell your data to third parties:') }}</b> {{ _('Free VPN users may have no control over whether or not their data gets sold. Cybercriminals have even set up free VPNs to harvest personal information.') }}</li>
+            <li><b>{{ _('Using a VPN can slow down your internet connection:') }}</b> {{ _('While it might not be that noticeable most of the time, you may experience slower download and upload speeds, which can impact your streaming or gaming.') }}</li>
         </ul>
     
     </main>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-17 19:46+0000\n"
+"POT-Creation-Date: 2024-12-22 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,7 @@ msgid "Learn how to protect your mobile devices from threats."
 msgstr ""
 
 #: templates/guides.html:21 templates/learn.html:21
+#: templates/learn/encryption.html:9 templates/learn/mobile-security.html:33
 msgid "Encryption"
 msgstr ""
 
@@ -66,6 +67,7 @@ msgid "Identify and avoid common phishing attacks."
 msgstr ""
 
 #: templates/guides.html:45 templates/learn.html:45
+#: templates/learn/software-updates.html:9
 msgid "Software Updates"
 msgstr ""
 
@@ -74,6 +76,7 @@ msgid "Why keeping your software updated is critical."
 msgstr ""
 
 #: templates/guides.html:51 templates/learn.html:51
+#: templates/learn/identity-theft.html:9
 msgid "Identity Theft"
 msgstr ""
 
@@ -89,7 +92,7 @@ msgstr ""
 msgid "Learn about malware and how to prevent infections."
 msgstr ""
 
-#: templates/guides.html:63 templates/learn.html:63
+#: templates/guides.html:63 templates/learn.html:63 templates/learn/vpn.html:9
 msgid "VPN"
 msgstr ""
 
@@ -165,7 +168,7 @@ msgstr ""
 msgid "Learn about Cybersecurity Concepts"
 msgstr ""
 
-#: templates/learn.html:15
+#: templates/learn.html:15 templates/learn/mobile-security.html:9
 msgid "Mobile Security"
 msgstr ""
 
@@ -173,7 +176,7 @@ msgstr ""
 msgid "Password Security"
 msgstr ""
 
-#: templates/learn.html:57
+#: templates/learn.html:57 templates/learn/malware.html:9
 msgid "Malware"
 msgstr ""
 
@@ -241,5 +244,1990 @@ msgstr ""
 
 #: templates/tools.html:44
 msgid "Best Antivirus for Android"
+msgstr ""
+
+#: templates/learn/encryption.html:4
+msgid "LEARN about encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:12
+msgid "What is Encryption?"
+msgstr ""
+
+#: templates/learn/encryption.html:13
+msgid ""
+"Encryption is a cybersecurity measure that scrambles plain text so it can"
+" only be read by the user who has the secret code, or decryption key."
+msgstr ""
+
+#: templates/learn/encryption.html:13
+msgid "It provides added security for sensitive information."
+msgstr ""
+
+#: templates/learn/encryption.html:14
+msgid ""
+"Huge amounts of data are managed online and stored in the cloud or on "
+"servers with an ongoing connection to the web. It’s nearly impossible to "
+"do anything online—from purchasing new office chairs to logging in to "
+"your HR portal—without your personal data ending up in an organization’s "
+"networked computer system. That’s why it’s crucial to know how to help "
+"keep that personal information private."
+msgstr ""
+
+#: templates/learn/encryption.html:15
+msgid "Encryption plays an essential role in this task."
+msgstr ""
+
+#: templates/learn/encryption.html:17
+msgid "When to use encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:19
+msgid "When to Use Encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:21
+msgid ""
+"It’s important to encrypt messages, files, and data exchanged online "
+"whenever they contain personal, sensitive, or classified information "
+"like:"
+msgstr ""
+
+#: templates/learn/encryption.html:23
+msgid "Sending an email to your doctor regarding an illness"
+msgstr ""
+
+#: templates/learn/encryption.html:24
+msgid "Entering your financial information to log in to your online bank account"
+msgstr ""
+
+#: templates/learn/encryption.html:25
+msgid "Sharing a confidential report with your employer"
+msgstr ""
+
+#: templates/learn/encryption.html:28
+msgid ""
+"Encryption ensures only the intended recipient can access the information"
+" you shared."
+msgstr ""
+
+#: templates/learn/encryption.html:30
+msgid "How does encryption work?"
+msgstr ""
+
+#: templates/learn/encryption.html:31
+msgid ""
+"Encryption takes plain text, like a text message or email, and scrambles "
+"it into an unreadable format called"
+msgstr ""
+
+#: templates/learn/encryption.html:31
+msgid "ciphertext"
+msgstr ""
+
+#: templates/learn/encryption.html:31
+msgid ""
+"This helps protect the confidentiality of digital data either stored on "
+"computer systems or transmitted through a network like the internet."
+msgstr ""
+
+#: templates/learn/encryption.html:33
+msgid "How Does Encryption Work"
+msgstr ""
+
+#: templates/learn/encryption.html:35
+msgid ""
+"When the intended recipient accesses the message, the information is "
+"translated back to its original form. This is called"
+msgstr ""
+
+#: templates/learn/encryption.html:35
+msgid "decryption"
+msgstr ""
+
+#: templates/learn/encryption.html:36
+msgid ""
+"To unlock the message, both the sender and the recipient have to use a "
+"“secret”"
+msgstr ""
+
+#: templates/learn/encryption.html:36
+msgid "encryption key"
+msgstr ""
+
+#: templates/learn/encryption.html:36
+msgid ""
+"a collection of algorithms that scramble and unscramble data back to a "
+"readable format."
+msgstr ""
+
+#: templates/learn/encryption.html:38
+msgid "Types of encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:39
+msgid "An encryption key is a series of numbers used to encrypt and decrypt data."
+msgstr ""
+
+#: templates/learn/encryption.html:39
+msgid ""
+"Encryption keys are created with algorithms, and each key is random and "
+"unique."
+msgstr ""
+
+#: templates/learn/encryption.html:40
+msgid ""
+"There are two main types of encryption systems: symmetric encryption and "
+"asymmetric encryption."
+msgstr ""
+
+#: templates/learn/encryption.html:40
+msgid "Here’s how they differ."
+msgstr ""
+
+#: templates/learn/encryption.html:43
+msgid "Types of Encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:45
+msgid "Symmetric encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:46
+msgid ""
+"Symmetric encryption uses a single secret password or key to encrypt and "
+"decrypt data."
+msgstr ""
+
+#: templates/learn/encryption.html:46
+msgid ""
+"The key could be a code or a random string of letters or numbers "
+"generated by a random number generator (RNG), which is typically required"
+" for banking-grade encryption. Symmetric algorithms are the simplest and "
+"most used form of encryption."
+msgstr ""
+
+#: templates/learn/encryption.html:48
+msgid "Symmetric encryption are available in two forms:"
+msgstr ""
+
+#: templates/learn/encryption.html:50
+msgid "Block algorithms:"
+msgstr ""
+
+#: templates/learn/encryption.html:50
+msgid "Encrypt a group of plain text symbols as one block."
+msgstr ""
+
+#: templates/learn/encryption.html:51
+msgid "Stream algorithms:"
+msgstr ""
+
+#: templates/learn/encryption.html:51
+msgid "Convert one symbol of plain text directly into ciphertext."
+msgstr ""
+
+#: templates/learn/encryption.html:54
+msgid ""
+"Although symmetric encryption has its weak spots, it makes up for them in"
+" speed and efficiency. Since only one key is shared between parties—and "
+"that key is typically much shorter than with asymmetric "
+"encryption—symmetric cryptography is faster to run."
+msgstr ""
+
+#: templates/learn/encryption.html:56
+msgid "Asymmetric encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:57
+msgid ""
+"Asymmetric encryption—also known as public key cryptography—uses two keys"
+" for encryption and decryption. A public key, which is shared among "
+"users, can either encrypt or decrypt the data. A private key can also "
+"encrypt or decrypt data, but it's not shared among users. The key you "
+"choose to encrypt or decrypt depends on the security measure you’re "
+"trying to employ:"
+msgstr ""
+
+#: templates/learn/encryption.html:59
+msgid "Encrypting with the public key:"
+msgstr ""
+
+#: templates/learn/encryption.html:59
+msgid ""
+"ensures only the intended recipient can use the corresponding private key"
+" to decrypt the message, even if the information was breached during "
+"transit"
+msgstr ""
+
+#: templates/learn/encryption.html:60
+msgid "Encrypting with the private key:"
+msgstr ""
+
+#: templates/learn/encryption.html:60
+msgid ""
+"allows the recipient of the information to verify the sender’s identity, "
+"since they won’t be able to decrypt data that’s been tampered with by an "
+"unauthorized user"
+msgstr ""
+
+#: templates/learn/encryption.html:62
+msgid ""
+"Because asymmetric encryption uses two longer keys, it’s much slower and "
+"less efficient to run compared to symmetric cryptography. It can even bog"
+" down networks and create issues with memory capacity and battery life."
+msgstr ""
+
+#: templates/learn/encryption.html:63
+msgid ""
+"However, asymmetric encryption is considered more advanced in terms of "
+"security than symmetric cryptography. Both are still in use "
+"today—sometimes simultaneously to compensate for the other’s weaknesses."
+msgstr ""
+
+#: templates/learn/encryption.html:65
+msgid "What is email encryption?"
+msgstr ""
+
+#: templates/learn/encryption.html:66
+msgid ""
+"Email encryption is a security measure that disguises the contents of an "
+"email to protect against sensitive data exposure and ensure only the "
+"intended recipient can read it. Email encryption encodes and scrambles "
+"the plain text of the email so that any hackers taking a peek will see "
+"only unrecognizable nonsense."
+msgstr ""
+
+#: templates/learn/encryption.html:69
+msgid "Email Encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:71
+msgid "The importance of email encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:72
+msgid ""
+"Email encryption helps protect your personal information and "
+"communications from being exposed in data breaches and other "
+"cyberattacks. Protecting your personal information in emails can also "
+"help reduce the likelihood of identity theft."
+msgstr ""
+
+#: templates/learn/encryption.html:73
+msgid ""
+"If you send unencrypted emails, you risk hackers intercepting your "
+"messages. While a short email catching up with a friend may not have any "
+"information a scammer could use to break into your bank accounts or steal"
+" your identity, other messages could."
+msgstr ""
+
+#: templates/learn/encryption.html:74
+msgid ""
+"In 2022 alone, there were more than 21,000 business emails compromised. "
+"Using social engineering, scammers accessed business email accounts and "
+"used them to steal money, upload malware or spyware, and cause "
+"disruptions."
+msgstr ""
+
+#: templates/learn/encryption.html:76
+msgid "Types of email encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:77
+msgid ""
+"Understanding how email encryption works is important, and learning about"
+" the different types of protocols used for sending safer emails can help "
+"you choose the right encryption for them. Multiple email encryption "
+"protocols can protect information from unwanted online predators."
+msgstr ""
+
+#: templates/learn/encryption.html:79
+msgid "S/MIME (Secure/Multipurpose) encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:80
+msgid ""
+"Secure/Multipurpose Internet Mail Extension (S/MIME) is an email "
+"encryption protocol often built into macOS devices and major web-based "
+"email providers like Outlook and Gmail. It uses public key encryption, "
+"involving digital certificates issued by a Certificate Authority for "
+"verification."
+msgstr ""
+
+#: templates/learn/encryption.html:81
+msgid ""
+"S/MIME encryption enables the sender to secure messages with these "
+"digital certificates. The recipient can then use the provided certificate"
+" to verify the safety of the message received, helping to keep their "
+"device secure."
+msgstr ""
+
+#: templates/learn/encryption.html:83
+msgid "PGP/MIME encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:84
+msgid ""
+"Pretty Good Privacy/Multipurpose Internet Extensions (PGP/MIME) is "
+"another encryption protocol that can send secure emails. While it "
+"provides the same protection as S/MIME, this protocol only uses the "
+"recipient’s private and public encryption keys, eliminating the need to "
+"use a Certificate Authority (CA), and instead relying on the “web of "
+"trust” model."
+msgstr ""
+
+#: templates/learn/encryption.html:85
+msgid ""
+"PGP/MIME provides more control and flexibility concerning how well you "
+"want your emails encrypted but sometimes requires a third-party "
+"extension."
+msgstr ""
+
+#: templates/learn/encryption.html:87
+msgid "SSL/TLS/STARTTLS encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:88
+msgid ""
+"Secure Sockets Layer/Transport Layer Security is a protocol that uses SSL"
+" and TLS (the successor to SSL) to encrypt communications between two "
+"devices, including email encryption. This type of encryption does not "
+"apply directly to messages and email contents, but to the connection "
+"between email servers."
+msgstr ""
+
+#: templates/learn/encryption.html:89
+msgid ""
+"The sending server signals the receiver to secure the connection during "
+"email transmission. This helps prevent snoops from seeing the contents of"
+" a message while it’s being sent."
+msgstr ""
+
+#: templates/learn/identity-theft.html:4
+msgid "LEARN about identity theft"
+msgstr ""
+
+#: templates/learn/identity-theft.html:11
+msgid "What is identity theft?"
+msgstr ""
+
+#: templates/learn/identity-theft.html:12
+msgid ""
+"Identity theft is a crime where someone illegally obtains and uses "
+"another person’s personal information, usually for financial gain."
+msgstr ""
+
+#: templates/learn/identity-theft.html:13
+msgid ""
+"It’s a serious crime that can have devastating effects on victims, "
+"including ruined credit, financial loss, and personal distress."
+msgstr ""
+
+#: templates/learn/identity-theft.html:15
+msgid "How does identity theft happen?"
+msgstr ""
+
+#: templates/learn/identity-theft.html:16
+msgid "Identity thieves use various methods to steal your information, including:"
+msgstr ""
+
+#: templates/learn/identity-theft.html:18
+msgid ""
+"Phishing: A scam where fraudsters impersonate a legitimate entity to "
+"trick you into revealing your personal information."
+msgstr ""
+
+#: templates/learn/identity-theft.html:19
+msgid ""
+"Mail theft: Thieves may steal personal mail to get sensitive information,"
+" like credit card statements or tax returns."
+msgstr ""
+
+#: templates/learn/identity-theft.html:20
+msgid ""
+"Data breaches: Hackers may gain access to online databases that contain "
+"personal information."
+msgstr ""
+
+#: templates/learn/identity-theft.html:21
+msgid ""
+"Skimming: Fraudsters may use card readers to steal information from your "
+"credit or debit cards."
+msgstr ""
+
+#: templates/learn/identity-theft.html:24
+msgid "Signs of identity theft"
+msgstr ""
+
+#: templates/learn/identity-theft.html:25
+msgid ""
+"If you notice any of the following, it could be a sign that your identity"
+" has been stolen:"
+msgstr ""
+
+#: templates/learn/identity-theft.html:27
+msgid "Unexplained charges on your bank or credit card statements."
+msgstr ""
+
+#: templates/learn/identity-theft.html:28
+msgid "Receiving bills or collection notices for items you didn’t purchase."
+msgstr ""
+
+#: templates/learn/identity-theft.html:29
+msgid ""
+"Missing mail or notices that your financial or credit account information"
+" has been changed without your consent."
+msgstr ""
+
+#: templates/learn/identity-theft.html:32
+msgid "How to protect yourself from identity theft"
+msgstr ""
+
+#: templates/learn/identity-theft.html:33
+msgid "To protect yourself from identity theft, you can:"
+msgstr ""
+
+#: templates/learn/identity-theft.html:35
+msgid "Use strong, unique passwords for your online accounts."
+msgstr ""
+
+#: templates/learn/identity-theft.html:36
+msgid "Enable two-factor authentication wherever possible."
+msgstr ""
+
+#: templates/learn/identity-theft.html:37
+msgid ""
+"Be cautious of unsolicited requests for personal information via phone, "
+"email, or text message."
+msgstr ""
+
+#: templates/learn/identity-theft.html:38
+msgid ""
+"Monitor your bank accounts and credit reports regularly for any unusual "
+"activity."
+msgstr ""
+
+#: templates/learn/identity-theft.html:39
+msgid "Avoid sharing sensitive information on public Wi-Fi networks."
+msgstr ""
+
+#: templates/learn/identity-theft.html:42
+msgid "What to do if you’re a victim of identity theft?"
+msgstr ""
+
+#: templates/learn/identity-theft.html:43
+msgid "If you become a victim of identity theft, here are the steps to take:"
+msgstr ""
+
+#: templates/learn/identity-theft.html:45
+msgid ""
+"Report the theft to your bank or credit card company to freeze accounts "
+"and protect against further charges."
+msgstr ""
+
+#: templates/learn/identity-theft.html:46
+msgid ""
+"Place a fraud alert on your credit report with major credit bureaus "
+"(Equifax, Experian, TransUnion)."
+msgstr ""
+
+#: templates/learn/identity-theft.html:47
+msgid ""
+"File a report with the Federal Trade Commission (FTC) and local law "
+"enforcement."
+msgstr ""
+
+#: templates/learn/identity-theft.html:48
+msgid ""
+"Monitor your credit reports to ensure the thief has not opened new "
+"accounts in your name."
+msgstr ""
+
+#: templates/learn/malware.html:4
+msgid "LEARN about Malware"
+msgstr ""
+
+#: templates/learn/malware.html:11
+msgid "What is malware?"
+msgstr ""
+
+#: templates/learn/malware.html:12
+msgid ""
+"Malware, short for \"malicious software,\" is any kind of software "
+"designed to gain access to or damage a computer, usually without the "
+"owner's knowledge. Originally, software engineers created malware for "
+"experiments and pranks. Eventually, ill-willed individuals found it "
+"useful for vandalism and the destruction of targeted machines."
+msgstr ""
+
+#: templates/learn/malware.html:14
+msgid "How do you get malware?"
+msgstr ""
+
+#: templates/learn/malware.html:15
+msgid ""
+"Users get malware when a hacker infects a device; this process typically "
+"follows three general steps:"
+msgstr ""
+
+#: templates/learn/malware.html:17
+msgid ""
+"A hacker strategically places a malicious link, file, or attachment in "
+"front of their victim, potentially as a phishing email or other social "
+"engineering scheme."
+msgstr ""
+
+#: templates/learn/malware.html:18
+msgid ""
+"The victim clicks on the infected asset, unknowingly triggering the "
+"malware to install onto their device."
+msgstr ""
+
+#: templates/learn/malware.html:18
+msgid ""
+"The malware proceeds to steal, compromise, and/or destroy sensitive data "
+"stored on the device."
+msgstr ""
+
+#: templates/learn/malware.html:21
+msgid ""
+"While you may download many kinds of malware from the internet, some "
+"hackers use USB sticks and flash drives to spread malware, because it’s "
+"harder for the system to detect infections that way. To avoid this "
+"tactic, never insert unfamiliar storage devices into your computer."
+msgstr ""
+
+#: templates/learn/malware.html:23
+msgid "Common malware types"
+msgstr ""
+
+#: templates/learn/malware.html:24
+msgid ""
+"There are many different kinds of malware lurking online. Here are 14 of "
+"the most common types of malware seen on the internet:"
+msgstr ""
+
+#: templates/learn/malware.html:26
+msgid "Malware Types Pt.1"
+msgstr ""
+
+#: templates/learn/malware.html:28
+msgid "Virus"
+msgstr ""
+
+#: templates/learn/malware.html:28
+msgid ""
+"These are dangerous pieces of code inserted into a program or application"
+" and are often triggered by your actions."
+msgstr ""
+
+#: templates/learn/malware.html:29
+msgid "Worms"
+msgstr ""
+
+#: templates/learn/malware.html:29
+msgid ""
+"A worm is a type of malware infection that replicates itself and uses "
+"system flaws to make its way onto your devices."
+msgstr ""
+
+#: templates/learn/malware.html:30
+msgid "Ransomware"
+msgstr ""
+
+#: templates/learn/malware.html:30
+msgid ""
+"This kind of malware can lock, encrypt, and hold your data hostage before"
+" destroying your personal files unless you pay a ransom."
+msgstr ""
+
+#: templates/learn/malware.html:31
+msgid "Cryptojacker"
+msgstr ""
+
+#: templates/learn/malware.html:31
+msgid ""
+"To mine cryptocurrency faster, hackers create malware designed to take "
+"part of your device’s computing power to mine crypto on its behalf."
+msgstr ""
+
+#: templates/learn/malware.html:32
+msgid "Browser hijacker"
+msgstr ""
+
+#: templates/learn/malware.html:32
+msgid ""
+"This form of malware edits your browser's settings to get you to visit "
+"certain sites or perform other actions that the hacker wants."
+msgstr ""
+
+#: templates/learn/malware.html:35
+msgid "Malware Types Pt.2"
+msgstr ""
+
+#: templates/learn/malware.html:37
+msgid "Trojan"
+msgstr ""
+
+#: templates/learn/malware.html:37
+msgid ""
+"A Trojan imitates legitimate applications or programs to get you to "
+"download and unknowingly install malware."
+msgstr ""
+
+#: templates/learn/malware.html:38
+msgid "Logic bomb"
+msgstr ""
+
+#: templates/learn/malware.html:38
+msgid ""
+"A logic bomb is a type of malware that waits inside a system until you "
+"meet certain conditions or perform specific actions."
+msgstr ""
+
+#: templates/learn/malware.html:39
+msgid "Scareware"
+msgstr ""
+
+#: templates/learn/malware.html:39
+msgid ""
+"Scareware is designed to scare you into performing a specific action, "
+"like downloading fake security software."
+msgstr ""
+
+#: templates/learn/malware.html:40
+msgid "Malvertising"
+msgstr ""
+
+#: templates/learn/malware.html:40
+msgid ""
+"Infected ads loaded with malware download and install malicious programs "
+"onto your device after you click on a displayed pop-up."
+msgstr ""
+
+#: templates/learn/malware.html:41
+msgid "Rootkit"
+msgstr ""
+
+#: templates/learn/malware.html:41
+msgid ""
+"A rootkit is the kind of difficult-to-detect malware that grants hackers "
+"complete remote access to your device."
+msgstr ""
+
+#: templates/learn/malware.html:44
+msgid "Malware Types Pt.3"
+msgstr ""
+
+#: templates/learn/malware.html:46
+msgid "Spyware"
+msgstr ""
+
+#: templates/learn/malware.html:46
+msgid ""
+"This type of malware secretly tracks and records your activity to learn "
+"more about you, and often tries to gain access to data or financial "
+"accounts."
+msgstr ""
+
+#: templates/learn/malware.html:47
+msgid "Adware"
+msgstr ""
+
+#: templates/learn/malware.html:47
+msgid ""
+"Taking the form of unwanted pop-ups, this type of malware can track your "
+"browsing activity and install other forms of malware like keyloggers or "
+"spyware."
+msgstr ""
+
+#: templates/learn/malware.html:48
+msgid "Botnet"
+msgstr ""
+
+#: templates/learn/malware.html:48
+msgid ""
+"These spider-like programs crawl the internet looking for security flaws "
+"to exploit by linking a network of infected systems together to further "
+"its reach and ability to do damage."
+msgstr ""
+
+#: templates/learn/malware.html:49
+msgid "Fileless malware"
+msgstr ""
+
+#: templates/learn/malware.html:49
+msgid ""
+"By using protocols and software already built into operating systems to "
+"infect devices, fileless malware can operate undetected for a long time "
+"as it slowly hogs your resources or steals your information."
+msgstr ""
+
+#: templates/learn/mobile-security.html:4
+msgid "LEARN about Mobile Security"
+msgstr ""
+
+#: templates/learn/mobile-security.html:11
+msgid "What is mobile security?"
+msgstr ""
+
+#: templates/learn/mobile-security.html:12
+msgid ""
+"Mobile security is a system of security software and habits that keeps "
+"your data out of the hands of hackers, scammers, and identity thieves."
+msgstr ""
+
+#: templates/learn/mobile-security.html:12
+msgid ""
+"While it’s tempting to think that only politicians, financial "
+"institutions, and big tech companies need enhanced security, everyone "
+"needs protection."
+msgstr ""
+
+#: templates/learn/mobile-security.html:14
+msgid "Why mobile security is crucial"
+msgstr ""
+
+#: templates/learn/mobile-security.html:15
+msgid ""
+"While device manufacturers help you protect your Android and Apple "
+"devices and operating systems, it often isn’t enough to fully safeguard "
+"your data from attacks by hackers."
+msgstr ""
+
+#: templates/learn/mobile-security.html:17
+msgid ""
+"Cybercriminals don’t discriminate when they create malware to infect the "
+"latest computers, phones, and tablets. If they can design a virus that "
+"will make its way into the servers of large banks to steal account "
+"numbers and passwords, those scammers will also find a way to deploy it "
+"against normal people (or they’ll sell it to someone who will)."
+msgstr ""
+
+#: templates/learn/mobile-security.html:19
+msgid "Mobile security attacks can:"
+msgstr ""
+
+#: templates/learn/mobile-security.html:21
+msgid "Expose your financial information."
+msgstr ""
+
+#: templates/learn/mobile-security.html:22
+msgid "Increase the likelihood of identity theft."
+msgstr ""
+
+#: templates/learn/mobile-security.html:23
+msgid "Corrupt your files and personal data."
+msgstr ""
+
+#: templates/learn/mobile-security.html:26
+msgid ""
+"Real security means taking extra steps to improve your digital safety "
+"habits and using software that recognizes and stops threats before your "
+"devices are compromised."
+msgstr ""
+
+#: templates/learn/mobile-security.html:27
+msgid "What Mobile Security Protects"
+msgstr ""
+
+#: templates/learn/mobile-security.html:29
+msgid "5 examples of mobile security and how they work"
+msgstr ""
+
+#: templates/learn/mobile-security.html:30
+msgid ""
+"Because the threats posed by malware and hacking are so varied, the "
+"systems needed to prevent and stop them are varied, too. When mobile "
+"security systems work together, they create a much stronger shield "
+"against bad actors than any one system could on its own."
+msgstr ""
+
+#: templates/learn/mobile-security.html:31
+msgid "Some examples of mobile security include:"
+msgstr ""
+
+#: templates/learn/mobile-security.html:33
+msgid ""
+"to keep your online traffic and data secret. Encrypted information can "
+"only be read by those with the decryption key."
+msgstr ""
+
+#: templates/learn/mobile-security.html:34
+msgid "Secure boot processes"
+msgstr ""
+
+#: templates/learn/mobile-security.html:34
+msgid ""
+"for safer compliance between hardware and firmware. These security "
+"standards ensure that hardware can use operating systems and programs. "
+"This prevents dangerous hardware, like a flash drive loaded with malware,"
+" from being able to access and run amok within a system."
+msgstr ""
+
+#: templates/learn/mobile-security.html:35
+msgid "Application sandboxing"
+msgstr ""
+
+#: templates/learn/mobile-security.html:35
+msgid ""
+"to observe and stop the spread of malicious software. Application "
+"sandboxing creates a limited environment for code to run. These "
+"environments reduce access to resources to observe new programs, "
+"recognized threats, and suspicious code. By isolating and observing "
+"malware, these systems can learn how it functions and how to protect "
+"against it."
+msgstr ""
+
+#: templates/learn/mobile-security.html:36
+msgid "Mobile malware and antivirus software"
+msgstr ""
+
+#: templates/learn/mobile-security.html:36
+msgid ""
+"stop known threats and watch over your devices. Using signature detection"
+" to stop known threats along with a form of application sandboxing to "
+"contain possible threats, mobile antivirus software helps keep devices "
+"free from infection."
+msgstr ""
+
+#: templates/learn/mobile-security.html:37
+msgid "Network security protocols"
+msgstr ""
+
+#: templates/learn/mobile-security.html:37
+msgid ""
+"like HTTPS, let your devices know a connection is safe. These protocols, "
+"including SSL certificates, create an encrypted channel for traffic to "
+"move safely between trusted devices."
+msgstr ""
+
+#: templates/learn/mobile-security.html:40
+msgid "The main threats to mobile security"
+msgstr ""
+
+#: templates/learn/mobile-security.html:41
+msgid "What are Mobile Security Threats"
+msgstr ""
+
+#: templates/learn/mobile-security.html:42
+msgid ""
+"These threats present themselves in many different formats, and the "
+"people behind them always try to improve their effectiveness. Knowing "
+"these dangers, how they impact your mobile data security, and what damage"
+" they can do can help you react when these problems arise."
+msgstr ""
+
+#: templates/learn/password-security.html:4
+msgid "LEARN about password security"
+msgstr ""
+
+#: templates/learn/password-security.html:9
+msgid "Strong Passwords"
+msgstr ""
+
+#: templates/learn/password-security.html:12
+msgid "Why is password security important?"
+msgstr ""
+
+#: templates/learn/password-security.html:13
+msgid ""
+"If passwords aren’t strong and kept secure, cybercriminals could gain "
+"access to your accounts. That can lead to scams, financial repercussions,"
+" or even identity theft. And then there’s the added stress of recovering "
+"hacked accounts or a stolen identity."
+msgstr ""
+
+#: templates/learn/password-security.html:15
+msgid "Scams:"
+msgstr ""
+
+#: templates/learn/password-security.html:15
+msgid ""
+"If a cybercriminal can access your social media accounts or email with "
+"your password, they could scam your contacts or use your own information "
+"against you in a social engineering attack."
+msgstr ""
+
+#: templates/learn/password-security.html:16
+msgid "Financial loss:"
+msgstr ""
+
+#: templates/learn/password-security.html:16
+msgid ""
+"Whether it’s your bank account drained, blackmail, or transferring money "
+"from your payment app, the end goal for password thieves is typically "
+"financial."
+msgstr ""
+
+#: templates/learn/password-security.html:17
+msgid "Identity theft:"
+msgstr ""
+
+#: templates/learn/password-security.html:17
+msgid ""
+"If an identity thief has enough information about you, a password could "
+"be the final piece of the puzzle they need to achieve their objective. "
+"That could be anything from taking out a loan in your name to ordering a "
+"new credit card and intercepting it."
+msgstr ""
+
+#: templates/learn/password-security.html:20
+msgid ""
+"Creating a strong password can reduce the risk of cybercriminals guessing"
+" it and accessing your sensitive data. Keeper’s 2024 Future of Defense "
+"Report found that stolen or weak passwords remain a leading cause of "
+"breaches, solidifying the importance of creating and securely storing "
+"passwords for each of your online accounts."
+msgstr ""
+
+#: templates/learn/password-security.html:21
+msgid ""
+"When you use weak, short passwords to secure your online accounts it "
+"makes it a lot easier and faster for a cybercriminal to crack it. On the "
+"other hand, if you use a strong password that is 20 characters long and "
+"contains a mix of uppercase and lowercase letters, numbers and symbols, "
+"it would take a cybercriminal three sextillion years to crack it."
+msgstr ""
+
+#: templates/learn/password-security.html:22
+msgid "Time taken to crack password"
+msgstr ""
+
+#: templates/learn/password-security.html:24
+msgid "How are passwords stolen?"
+msgstr ""
+
+#: templates/learn/password-security.html:25
+msgid ""
+"Cybercriminals steal passwords through a variety of methods using scams "
+"or hacking techniques."
+msgstr ""
+
+#: templates/learn/password-security.html:27
+msgid "Data breaches:"
+msgstr ""
+
+#: templates/learn/password-security.html:27
+msgid ""
+"If your password is exposed in a data breach, hackers can use it to "
+"access the associated account."
+msgstr ""
+
+#: templates/learn/password-security.html:28
+msgid "Password-guessing attacks:"
+msgstr ""
+
+#: templates/learn/password-security.html:28
+msgid ""
+"Dictionary attacks involve hackers trying common words and phrases at "
+"scale to guess passwords."
+msgstr ""
+
+#: templates/learn/password-security.html:29
+msgid "Malware:"
+msgstr ""
+
+#: templates/learn/password-security.html:29
+msgid ""
+"Some types of malware can steal your passwords or record your keystrokes "
+"as you type."
+msgstr ""
+
+#: templates/learn/password-security.html:30
+msgid "Phishing:"
+msgstr ""
+
+#: templates/learn/password-security.html:30
+msgid ""
+"A phishing attack can be designed to trick you into revealing your "
+"password. An attack via email or text could also urge you to click a link"
+" that takes you to an unsafe website where you enter your password and "
+"unknowingly expose it."
+msgstr ""
+
+#: templates/learn/password-security.html:31 templates/learn/phishing.html:55
+msgid "Social engineering:"
+msgstr ""
+
+#: templates/learn/password-security.html:31
+msgid ""
+"Phishing is a common type of social engineering attack but there are "
+"other examples, like a scareware attack that could lead to a hacker "
+"stealing your password."
+msgstr ""
+
+#: templates/learn/phishing.html:4
+msgid "LEARN about Phishing"
+msgstr ""
+
+#: templates/learn/phishing.html:9
+msgid "Phishing"
+msgstr ""
+
+#: templates/learn/phishing.html:12
+msgid "What is phishing?"
+msgstr ""
+
+#: templates/learn/phishing.html:13
+msgid ""
+"Phishing is a social engineering cyberthreat where scammers impersonate a"
+" trustworthy source and trick you into revealing sensitive data like "
+"passwords, credit card numbers, or personally identifiable information."
+msgstr ""
+
+#: templates/learn/phishing.html:14
+msgid ""
+"Phishing attacks often begin with scammers sending a malicious link or "
+"attachment via email, social media, or text—possibly triggering a malware"
+" download. Alternatively, you may receive a phishing call that comes from"
+" a phisher pretending to offer customer service or tech support."
+msgstr ""
+
+#: templates/learn/phishing.html:16
+msgid "What is Phishing"
+msgstr ""
+
+#: templates/learn/phishing.html:18
+msgid "How does phishing work"
+msgstr ""
+
+#: templates/learn/phishing.html:19
+msgid ""
+"While phishing can vary based on the specific type of scam the scammer is"
+" carrying out, phishing attacks often follow these steps:"
+msgstr ""
+
+#: templates/learn/phishing.html:21
+msgid ""
+"The phisher selects a target (this can be an organization, group, or "
+"individual) and comes up with a ruse."
+msgstr ""
+
+#: templates/learn/phishing.html:22
+msgid "Next, the phisher chooses a communication method and makes contact."
+msgstr ""
+
+#: templates/learn/phishing.html:23
+msgid ""
+"If effective, the target will engage by replying, opening the phishing "
+"link, or downloading a malicious attachment."
+msgstr ""
+
+#: templates/learn/phishing.html:24
+msgid ""
+"Finally, phishers will collect data and use it to make illegal purchases "
+"or commit fraudulent acts such as identity theft."
+msgstr ""
+
+#: templates/learn/phishing.html:27
+msgid "What is a phishing link?"
+msgstr ""
+
+#: templates/learn/phishing.html:28
+msgid ""
+"A phishing link is a fake link used by cybercriminals to trick you into "
+"compromising your own privacy and security. Clicking a phishing link may "
+"install malware on your device, or guide you to a spoofed website where "
+"you’re prompted to enter sensitive information."
+msgstr ""
+
+#: templates/learn/phishing.html:30
+msgid "What is a Phishing Link"
+msgstr ""
+
+#: templates/learn/phishing.html:32
+msgid "Types of phishing attacks"
+msgstr ""
+
+#: templates/learn/phishing.html:33
+msgid ""
+"Phishing scams can take many forms—the type of individual attack "
+"ultimately depends on the phisher, who they target, the communication "
+"platform they use, and their end goal."
+msgstr ""
+
+#: templates/learn/phishing.html:34
+msgid "Here’s a rundown of a few predominantly link-based phishing attacks."
+msgstr ""
+
+#: templates/learn/phishing.html:36
+msgid "Email phishing"
+msgstr ""
+
+#: templates/learn/phishing.html:37
+msgid ""
+"The basic phishing email is sent by fraudsters impersonating legitimate "
+"companies, often banks or credit card providers. These email phishing "
+"examples trick you into providing sensitive information by getting you to"
+" download malware unknowingly or by directing you to an unsafe website "
+"where you’re asked to voluntarily enter private information."
+msgstr ""
+
+#: templates/learn/phishing.html:39
+msgid "Spear phishing"
+msgstr ""
+
+#: templates/learn/phishing.html:40
+msgid ""
+"Spear phishing emails target a specific individual, business, or "
+"organization rather than just casting a wide net. Typically, spear "
+"phishers invest a lot of time and effort into researching their targets "
+"and building a credible persona. For example, the attacker may assume the"
+" identity of your boss and trick you into revealing proprietary "
+"information in what you believe to be an internal conversation."
+msgstr ""
+
+#: templates/learn/phishing.html:42
+msgid "Clone phishing"
+msgstr ""
+
+#: templates/learn/phishing.html:43
+msgid ""
+"In clone phishing attacks, scammers create a nearly identical version of "
+"an email that victims have already received. The cloned email is sent "
+"from an address that is nearly, but not quite, the same as the email "
+"address used by the message’s original sender. The body of the email "
+"looks the same, too."
+msgstr ""
+
+#: templates/learn/phishing.html:44
+msgid ""
+"What’s different about a clone phishing attack is that the attachment or "
+"link in the message has been changed. If victims click those links now, "
+"it will take them to a malicious website or open an infected attachment."
+msgstr ""
+
+#: templates/learn/phishing.html:46
+msgid "Whaling"
+msgstr ""
+
+#: templates/learn/phishing.html:47
+msgid ""
+"Whaling attacks target chief executive officers, chief operating "
+"officers, or other high-ranking executives. The goal of a whaling attack "
+"is to trick powerful people into giving up sensitive corporate data. "
+"These attacks are more sophisticated than general phishing attacks and "
+"require plenty of research from scammers. They usually rely on fraudulent"
+" emails that appear to be from trusted sources within the company or from"
+" legitimate outside agencies."
+msgstr ""
+
+#: templates/learn/phishing.html:49
+msgid "Pop-up phishing"
+msgstr ""
+
+#: templates/learn/phishing.html:50
+msgid ""
+"Pop-up ad phishing scams trick people into installing various types of "
+"malware on their devices by leveraging scare tactics. A common pop-up "
+"phishing example is when a fake virus alert pops up on a user’s screen "
+"warning the user that their computer has been infected and the only way "
+"to remove the virus is by installing a particular type of antivirus "
+"software. Once the user installs this fake software, it either doesn’t "
+"work or, worse, actually does infect the computer with malware."
+msgstr ""
+
+#: templates/learn/phishing.html:52
+msgid "What techniques do phishers use to manipulate their targets?"
+msgstr ""
+
+#: templates/learn/phishing.html:53
+msgid ""
+"To help increase their chances of getting the information they want, "
+"scammers may employ a combination of different phishing techniques, "
+"including:"
+msgstr ""
+
+#: templates/learn/phishing.html:55
+msgid ""
+"This is the act of tricking someone into divulging sensitive information "
+"using manipulative persuasion tactics. For example, a scammer may pretend"
+" to be a family member in a dangerous situation to try to get you to "
+"quickly send them money."
+msgstr ""
+
+#: templates/learn/phishing.html:56
+msgid "Hyperlink manipulation:"
+msgstr ""
+
+#: templates/learn/phishing.html:56
+msgid ""
+"Phishers may use the text of a legitimate URL to disguise a link to a "
+"phishing website. For example, you may think you’re navigating to your "
+"bank’s official support page, but after hovering over the link, you "
+"discover it is actually going somewhere else."
+msgstr ""
+
+#: templates/learn/phishing.html:57
+msgid "Graphical rendering:"
+msgstr ""
+
+#: templates/learn/phishing.html:57
+msgid ""
+"This happens when a phisher uploads their email as an image rather than "
+"text to prevent certain text from being scanned by phishing filters."
+msgstr ""
+
+#: templates/learn/phishing.html:58
+msgid "Site redirects:"
+msgstr ""
+
+#: templates/learn/phishing.html:58
+msgid ""
+"Phishers may also use a malicious webpage as a middle ground between "
+"their phishing email and a legitimate site. For example, following their "
+"instructions may take you to a webpage created by a phisher to collect "
+"your personal information before redirecting you to a legitimate website "
+"to minimize your suspicion of a phishing attack."
+msgstr ""
+
+#: templates/learn/phishing.html:59
+msgid "Link shortening:"
+msgstr ""
+
+#: templates/learn/phishing.html:59
+msgid ""
+"Another popular phishing tactic is using link shortening tools to "
+"disguise links to dangerous websites."
+msgstr ""
+
+#: templates/learn/phishing.html:60
+msgid "Typosquatting:"
+msgstr ""
+
+#: templates/learn/phishing.html:60
+msgid ""
+"By using typosquatting, a phisher registers domains that are very close "
+"to a legitimate domain, hoping their targets won’t notice. For example, a"
+" phisher pretending to be an Amazon support representative might create a"
+" phishing site under the URL “Amazpn.com.”"
+msgstr ""
+
+#: templates/learn/phishing.html:61
+msgid "AI voice generators:"
+msgstr ""
+
+#: templates/learn/phishing.html:61
+msgid ""
+"Phishers may use AI voice generators to impersonate public figures or "
+"acquaintances of yours to get you to divulge sensitive information."
+msgstr ""
+
+#: templates/learn/phishing.html:62
+msgid "Chatbots:"
+msgstr ""
+
+#: templates/learn/phishing.html:62
+msgid ""
+"Scammers may also use AI-enabled chatbots to create highly personalized "
+"phishing messages free of the kind of spelling and grammatical errors "
+"often associated with phishing attacks."
+msgstr ""
+
+#: templates/learn/software-updates.html:13
+msgid "What is a software update?"
+msgstr ""
+
+#: templates/learn/software-updates.html:14
+msgid ""
+"A software update is a new version of an application, game, or other "
+"program on a computer or mobile device. New versions of software usually "
+"include patches to fix security vulnerabilities, performance upgrades, "
+"and cosmetic changes."
+msgstr ""
+
+#: templates/learn/software-updates.html:16
+msgid "The importance of software updates"
+msgstr ""
+
+#: templates/learn/software-updates.html:17
+msgid ""
+"Keeping your software and operating system up to date is an important "
+"step towards ensuring your information is safe, your device is secured "
+"and working properly, and your programs and system remain compatible with"
+" each other."
+msgstr ""
+
+#: templates/learn/software-updates.html:18
+msgid ""
+"Here’s a closer look at the benefits of software updates and why you "
+"should always keep them fully updated."
+msgstr ""
+
+#: templates/learn/software-updates.html:20
+msgid "Software updates reduce security flaws"
+msgstr ""
+
+#: templates/learn/software-updates.html:21
+msgid ""
+"Old software is full of security flaws. Over time, hackers find new ways "
+"to break through what was, at one time, the best available protection. "
+"Once these cybercriminals break into a system, they can spy on your "
+"computer, implant dangerous malware, or even use what they find in your "
+"system to commit identity theft."
+msgstr ""
+
+#: templates/learn/software-updates.html:22
+msgid ""
+"Software updates are there to patch zero-day exploits and update older, "
+"less effective protocols to the newer, tougher-to-crack standards. This "
+"makes updating all your software one of the most critical ways to improve"
+" your computer and mobile security."
+msgstr ""
+
+#: templates/learn/software-updates.html:24
+msgid "Software updates help protect your data"
+msgstr ""
+
+#: templates/learn/software-updates.html:25
+msgid ""
+"Your data is at risk of being stolen, sold, and used against you by "
+"criminals. But the risk of being hit by a data breach is much higher if "
+"you’re using outdated software, as is the risk of accidentally destroying"
+" or corrupting your files."
+msgstr ""
+
+#: templates/learn/software-updates.html:26
+msgid ""
+"Updating your software to the latest versions can close off any "
+"vulnerabilities that let hackers in. Updates can also correct problems "
+"that could corrupt your files while making sure they’re compatible with "
+"the newest versions of the programs you use."
+msgstr ""
+
+#: templates/learn/software-updates.html:28
+msgid "Software updates improve performance"
+msgstr ""
+
+#: templates/learn/software-updates.html:29
+msgid ""
+"If you want to make your computer faster, one of the easiest ways is to "
+"update your software. Older software versions operate using legacy code "
+"and protocols, but engineers are constantly making tweaks to improve "
+"performance and reduce resource usage. With more RAM available, your "
+"devices can do more—and do it quicker."
+msgstr ""
+
+#: templates/learn/software-updates.html:30
+msgid ""
+"Reliably high performance is vital for running multiple programs "
+"simultaneously, watching high-definition videos, playing the newest "
+"games, taking the best pictures and videos, and even browsing the "
+"internet."
+msgstr ""
+
+#: templates/learn/software-updates.html:32
+msgid "Software updates help protect others"
+msgstr ""
+
+#: templates/learn/software-updates.html:33
+msgid ""
+"The internet is a giant, interconnected network of devices. Because of "
+"the links between systems all over the globe, keeping your devices "
+"updated and free of malware and viruses that spread through networks is "
+"like covering your mouth when you cough in public."
+msgstr ""
+
+#: templates/learn/software-updates.html:34
+msgid ""
+"Doing your part can reduce the headaches and economic impacts of "
+"cybercrime and malicious software in your neighborhood as well as the "
+"farthest corners of the planet. And don’t think you’re less susceptible "
+"when using a Mac - Macs can get viruses, too."
+msgstr ""
+
+#: templates/learn/software-updates.html:36
+msgid "What is an operating system update?"
+msgstr ""
+
+#: templates/learn/software-updates.html:37
+msgid ""
+"An operating system update is a new version of an operating system that, "
+"along with drivers and other first-party software, tells your computer or"
+" mobile device how to run. New versions of operating systems commonly "
+"include software patches that fix security flaws, code that improves "
+"overall system performance, and changes to how the operating system looks"
+" and functions."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:4
+msgid "LEARN about Two Factor Authentication"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:9
+msgid "Two Factor Authentication (2FA)"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:12
+msgid "What is 2FA?"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:13
+msgid ""
+"2FA, or two-factor authentication, is when a site or app requires you to "
+"enter an extra form of identification to verify your identity and log "
+"into your account."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:13
+msgid ""
+"2FA requires people to verify their identity based on two of the three "
+"factors that can confirm identity:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:15
+msgid "Something you know (e.g., a password)"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:16
+msgid "Something you have (e.g., a phone)"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:17
+msgid "Something you are (e.g., a fingerprint or facial scan)"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:20
+msgid ""
+"That extra ID can be a code generated and sent directly through a text "
+"message or authenticator app. It can also be in the form of a piece of "
+"hardware like a USB drive or a biometric ID like a fingerprint."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:21
+msgid ""
+"Let’s break this down even further, including how two-factor "
+"authentication works, types of two-factor authentication, and why two-"
+"factor authentication is so important."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:24
+msgid "What is 2FA"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:26
+msgid "2FA vs. multi-factor authentication (MFA)"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:27
+msgid ""
+"MFA refers to any type of authentication that requires two or more "
+"factors. That means that while 2FA is a form of MFA, not all forms of MFA"
+" have only two factors. Increasing the level of security by adding an "
+"extra factor makes it much more difficult for hackers to gain entry into "
+"a system."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:29
+msgid "How does 2FA work?"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:30
+msgid ""
+"As the name suggests, two-factor authentication requires one extra step—a"
+" second factor—to log into an account. The process works as follows:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:32
+msgid "The user enters their username and password."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:33
+msgid ""
+"The account, platform, or site prompts users to input another "
+"verification form, such as a one-time password or code sent to their "
+"mobile phone."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:34
+msgid "The user enters the verification code to access their account."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:37
+msgid ""
+"An ATM card is a good example of two-factor authentication in the real "
+"world. In addition to physically presenting the card (something you "
+"have), you must also type in your PIN (something you know) to verify your"
+" identity and access your account."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:39
+msgid "What is 2FA Explained"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:41
+msgid "Why is two-factor authentication important?"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:42
+msgid ""
+"Two-factor authentication is important because adding an extra layer of "
+"verification before you can access your account means thieves will "
+"struggle to get your personal information. As cybercriminals continue to "
+"use brute force or password spraying attacks, even if you’re following "
+"good password security practices you need 2FA as well. It might seem like"
+" a hassle to add an extra step to your web surfing. But without it, you "
+"could be leaving yourself vulnerable to:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:44
+msgid "Cybercriminals who want to steal your personal information"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:45
+msgid "Hackers trying to access your bank accounts"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:46
+msgid "Thieves breaking into your online credit card portals"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:49
+msgid ""
+"If you add a knowledge factor to your bank account, a cybercriminal who "
+"knows your password due to a data breach or phishing operation won’t be "
+"able to access the account. This is because your phone will receive the "
+"verification code."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:50
+msgid ""
+"That way, those still relying on simple passwords have a better shot at "
+"keeping their bank accounts secure."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:52
+msgid "Statistics of accounts using simple password"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:54
+msgid "Types of 2FA security"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:55
+msgid "There are several types of two-factor authentication security, including:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:57
+msgid "Something you know:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:57
+msgid ""
+"These kinds of 2FA use a code, question, or password that are unique to "
+"you. Using your PIN at an ATM is a form of 2FA that requires something "
+"you know."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:58
+msgid "Something you have:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:58
+msgid ""
+"This type of 2FA requires users to possess a type of physical token or "
+"device, such as a phone or USB token, that they need to use to log in. "
+"When you need to enter a code you receive via email or text before you "
+"can log in, or when you use an Authenticator app, you’re using this "
+"method of 2FA."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:59
+msgid "Something you are:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:59
+msgid ""
+"This type of 2FA requires biometrics like fingerprint or facial "
+"recognition or a physical location (confirmed by GPS) to confirm your "
+"identity."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:62
+msgid "Types of Factors for 2FA"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:64
+msgid "3 benefits of 2FA"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:65
+msgid ""
+"The added security and protection that two-factor authentication gives "
+"you is a net positive. But there are a few extra benefits that you might "
+"not know about, including:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:67
+msgid "Account monitoring:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:67
+msgid ""
+"You’ll know if someone is trying to access your accounts because you’ll "
+"receive a message or prompt on your device. That allows you to report it "
+"and further strengthen your security by changing your password to "
+"something stronger."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:68
+msgid "Dynamic process:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:68
+msgid ""
+"2FA authenticator apps, push notifications, and texts are generated and "
+"sent when you log in, meaning you don’t have to worry about securely "
+"storing another factor."
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:69
+msgid "Account recovery assistance:"
+msgstr ""
+
+#: templates/learn/two-factor-authentication.html:69
+msgid ""
+"2FA means that you don’t have to put in a help desk ticket or try to get "
+"on the phone with a support team member to reset your logins or secure "
+"your account."
+msgstr ""
+
+#: templates/learn/vpn.html:4
+msgid "LEARN about VPN"
+msgstr ""
+
+#: templates/learn/vpn.html:12
+msgid "What is a VPN?"
+msgstr ""
+
+#: templates/learn/vpn.html:13
+msgid ""
+"A virtual private network gives you online privacy and anonymity by "
+"creating a private network from a public Internet connection. VPNs mask "
+"your Internet protocol (IP) address so your online actions are virtually "
+"untraceable. Most important, VPN services establish secure and encrypted "
+"connections, guaranteed to provide greater privacy than even a secured "
+"Wi-Fi hotspot."
+msgstr ""
+
+#: templates/learn/vpn.html:15
+msgid "Why you need a VPN"
+msgstr ""
+
+#: templates/learn/vpn.html:16
+msgid ""
+"Think about all the times you’ve been on the go, reading emails while in "
+"line at the coffee shop, or checking your bank account while waiting at "
+"the doctor’s office. Unless you were logged into a private Wi-Fi network "
+"that required a password, any data transmitted during your online session"
+" was likely vulnerable to eavesdropping by strangers using the same "
+"network."
+msgstr ""
+
+#: templates/learn/vpn.html:17
+msgid ""
+"The encryption and anonymity that a VPN provides protects all of your "
+"online activities: sending emails, shopping online, or paying bills. VPNs"
+" also help keep your Web browsing anonymous."
+msgstr ""
+
+#: templates/learn/vpn.html:19
+msgid "How does a VPN work?"
+msgstr ""
+
+#: templates/learn/vpn.html:20
+msgid ""
+"A VPN (virtual private network) encrypts the traffic between your device "
+"and the internet. To do this, it creates a secure VPN tunnel for your "
+"internet traffic to pass through when your device connects to a network. "
+"That helps to hide your IP address and keep your online activity private."
+msgstr ""
+
+#: templates/learn/vpn.html:21
+msgid ""
+"With a VPN, you can browse without worrying that a cybercriminal or "
+"hacker is watching you, send messages safely, and access your favorite "
+"content from around the world."
+msgstr ""
+
+#: templates/learn/vpn.html:22
+msgid "Here’s a step-by-step breakdown of how VPNs work."
+msgstr ""
+
+#: templates/learn/vpn.html:24
+msgid "Turn on the VPN"
+msgstr ""
+
+#: templates/learn/vpn.html:25
+msgid ""
+"Turn on your VPN. Some VPNs, like Norton Secure VPN, allow you to choose "
+"the server location at this point, which can make you appear to be from "
+"other places when you visit websites."
+msgstr ""
+
+#: templates/learn/vpn.html:27
+msgid "The device and the VPN establish a connection"
+msgstr ""
+
+#: templates/learn/vpn.html:28
+msgid ""
+"Your device will connect securely to the VPN server. Once it connects, "
+"the VPN begins encrypting traffic flowing between your device and the "
+"internet."
+msgstr ""
+
+#: templates/learn/vpn.html:30
+msgid "Traffic is encrypted to securely surf the web"
+msgstr ""
+
+#: templates/learn/vpn.html:31
+msgid ""
+"After you connect, all of your browsing becomes encrypted, meaning that "
+"no one else can see your online activity."
+msgstr ""
+
+#: templates/learn/vpn.html:33
+msgid "How Does a VPN Work"
+msgstr ""
+
+#: templates/learn/vpn.html:35
+msgid "Advantages of using a VPN"
+msgstr ""
+
+#: templates/learn/vpn.html:36
+msgid ""
+"While it used to seem like VPNs were tools primarily for hackers and "
+"journalists, everyone can benefit from one. Privacy or security and "
+"accessing content are some of the greatest benefits of using a VPN."
+msgstr ""
+
+#: templates/learn/vpn.html:37
+msgid "The advantages of a VPN include:"
+msgstr ""
+
+#: templates/learn/vpn.html:39
+msgid "Masking your browsing history:"
+msgstr ""
+
+#: templates/learn/vpn.html:39
+msgid ""
+"VPNs help you block snoopers, companies, and advertisers from following "
+"your browsing activity and profiling you."
+msgstr ""
+
+#: templates/learn/vpn.html:40
+msgid "Hiding your IP address and physical location:"
+msgstr ""
+
+#: templates/learn/vpn.html:40
+msgid ""
+"Your internet browsing is your business. A VPN hides your IP address and "
+"physical location by directing the traffic from your devices to a network"
+" far away from you, making your browsing private and helping you access "
+"the content you want."
+msgstr ""
+
+#: templates/learn/vpn.html:41
+msgid "Stopping cybercriminals from watching your activity:"
+msgstr ""
+
+#: templates/learn/vpn.html:41
+msgid ""
+"If you’re using public Wi-Fi or an unsecured home network, cybercriminals"
+" could monitor your activity. They may be able to steal your login "
+"credentials from your mobile banking accounts and anything else you sign "
+"into online."
+msgstr ""
+
+#: templates/learn/vpn.html:42
+msgid "Protecting sensitive information:"
+msgstr ""
+
+#: templates/learn/vpn.html:42
+msgid ""
+"Even if you don’t realize it, you expose sensitive information every time"
+" you log onto a website through an unsecured network. A VPN keeps your "
+"sensitive information safe by masking your IP address and encrypting your"
+" traffic."
+msgstr ""
+
+#: templates/learn/vpn.html:43
+msgid "Sharing files securely:"
+msgstr ""
+
+#: templates/learn/vpn.html:43
+msgid ""
+"Whether working from home or sending files to family members, a VPN lets "
+"you send and receive files without worrying about a hacker holding your "
+"files for ransom or inserting malware."
+msgstr ""
+
+#: templates/learn/vpn.html:44
+msgid "Making online payments safely:"
+msgstr ""
+
+#: templates/learn/vpn.html:44
+msgid ""
+"A VPN helps keep your shopping activity private, making it safer to buy "
+"online."
+msgstr ""
+
+#: templates/learn/vpn.html:47
+msgid "Advantages of VPN"
+msgstr ""
+
+#: templates/learn/vpn.html:49
+msgid "What can I do with a VPN?"
+msgstr ""
+
+#: templates/learn/vpn.html:50
+msgid ""
+"VPNs have many practical applications. Here are some common reasons to "
+"use a VPN:"
+msgstr ""
+
+#: templates/learn/vpn.html:52
+msgid "Avoid location-based price discrimination:"
+msgstr ""
+
+#: templates/learn/vpn.html:52
+msgid ""
+"Many online retailers charge more in the United States than other "
+"countries. You can save money on goods, travel, and accommodation by "
+"setting your location to different countries."
+msgstr ""
+
+#: templates/learn/vpn.html:53
+msgid "Avoid bandwidth throttling:"
+msgstr ""
+
+#: templates/learn/vpn.html:53
+msgid ""
+"If you are streaming, gaming, or downloading many files, your ISP may "
+"decide to slow down your internet. With a VPN, they won’t be able to do "
+"that."
+msgstr ""
+
+#: templates/learn/vpn.html:54
+msgid "Secure your VoIP conversations:"
+msgstr ""
+
+#: templates/learn/vpn.html:54
+msgid ""
+"Internet phone calls aren’t always secure, but a VPN means your "
+"conversations stay private."
+msgstr ""
+
+#: templates/learn/vpn.html:55
+msgid "Access the internet safely when traveling:"
+msgstr ""
+
+#: templates/learn/vpn.html:55
+msgid ""
+"Depending on where you’re at, the internet may not be safe to use, "
+"especially if your only internet connection is public. A VPN lets you "
+"browse with less worry."
+msgstr ""
+
+#: templates/learn/vpn.html:56
+msgid "Avoid censorship:"
+msgstr ""
+
+#: templates/learn/vpn.html:56
+msgid ""
+"Some countries censor the internet. If you’re traveling and need help "
+"avoiding censorship, a VPN may help."
+msgstr ""
+
+#: templates/learn/vpn.html:57
+msgid "Improve your gaming experience:"
+msgstr ""
+
+#: templates/learn/vpn.html:57
+msgid ""
+"While VPNs can slow your connection a little, they can also create a more"
+" stable, secure connection that can improve your gaming experience."
+msgstr ""
+
+#: templates/learn/vpn.html:58
+msgid "Access content:"
+msgstr ""
+
+#: templates/learn/vpn.html:58
+msgid ""
+"VPNs let you choose which country your traffic is routed through, which "
+"can help you access your favorite content and sites. Make sure VPNs are "
+"legal to use wherever you are."
+msgstr ""
+
+#: templates/learn/vpn.html:61
+msgid "What Can You Do with a VPN"
+msgstr ""
+
+#: templates/learn/vpn.html:63
+msgid "Are there any drawbacks to using a VPN?"
+msgstr ""
+
+#: templates/learn/vpn.html:64
+msgid ""
+"While most VPNs provide you with a much higher level of cybersecurity "
+"than browsing without one, there are a few potential downsides to using a"
+" VPN:"
+msgstr ""
+
+#: templates/learn/vpn.html:66
+msgid "Not all VPNs protect you from cookies on the websites you visit:"
+msgstr ""
+
+#: templates/learn/vpn.html:66
+msgid ""
+"While most cookies are safe, they can introduce vulnerabilities and are "
+"used to track your habits."
+msgstr ""
+
+#: templates/learn/vpn.html:67
+msgid "Cybercriminals have hacked VPNs:"
+msgstr ""
+
+#: templates/learn/vpn.html:67
+msgid ""
+"Cybercriminals can use zero-day exploits that haven’t been discovered or "
+"patched by some VPNs. That’s one reason why it’s essential to download "
+"the latest software updates as soon as they’re available."
+msgstr ""
+
+#: templates/learn/vpn.html:68
+msgid "VPNs are not created equally:"
+msgstr ""
+
+#: templates/learn/vpn.html:68
+msgid ""
+"VPNs come in many varieties. Some are free, and others have monthly fees."
+" Free VPN services often collect information about you and target you "
+"with ads based on your online profile."
+msgstr ""
+
+#: templates/learn/vpn.html:69
+msgid "Some free VPNs sell your data to third parties:"
+msgstr ""
+
+#: templates/learn/vpn.html:69
+msgid ""
+"Free VPN users may have no control over whether or not their data gets "
+"sold. Cybercriminals have even set up free VPNs to harvest personal "
+"information."
+msgstr ""
+
+#: templates/learn/vpn.html:70
+msgid "Using a VPN can slow down your internet connection:"
+msgstr ""
+
+#: templates/learn/vpn.html:70
+msgid ""
+"While it might not be that noticeable most of the time, you may "
+"experience slower download and upload speeds, which can impact your "
+"streaming or gaming."
 msgstr ""
 

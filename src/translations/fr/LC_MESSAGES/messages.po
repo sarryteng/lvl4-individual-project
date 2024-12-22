@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-17 19:46+0000\n"
-"PO-Revision-Date: 2024-12-17 21:16+0000\n"
+"POT-Creation-Date: 2024-12-22 00:07+0000\n"
+"PO-Revision-Date: 2024-12-22 00:07+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -35,6 +35,7 @@ msgid "Learn how to protect your mobile devices from threats."
 msgstr "Apprenez à protéger vos appareils mobiles contre les menaces."
 
 #: templates/guides.html:21 templates/learn.html:21
+#: templates/learn/encryption.html:9 templates/learn/mobile-security.html:33
 msgid "Encryption"
 msgstr "Cryptage"
 
@@ -68,6 +69,7 @@ msgid "Identify and avoid common phishing attacks."
 msgstr "Identifiez et évitez les attaques de phishing courantes."
 
 #: templates/guides.html:45 templates/learn.html:45
+#: templates/learn/software-updates.html:9
 msgid "Software Updates"
 msgstr "Mises à jour logicielles"
 
@@ -76,6 +78,7 @@ msgid "Why keeping your software updated is critical."
 msgstr "Pourquoi il est essentiel de maintenir votre logiciel à jour."
 
 #: templates/guides.html:51 templates/learn.html:51
+#: templates/learn/identity-theft.html:9
 msgid "Identity Theft"
 msgstr "Vol d'identité"
 
@@ -93,7 +96,7 @@ msgstr ""
 "Apprenez-en plus sur les logiciels malveillants et comment prévenir les "
 "infections."
 
-#: templates/guides.html:63 templates/learn.html:63
+#: templates/guides.html:63 templates/learn.html:63 templates/learn/vpn.html:9
 msgid "VPN"
 msgstr "VPN"
 
@@ -187,7 +190,7 @@ msgstr ""
 msgid "Learn about Cybersecurity Concepts"
 msgstr "En savoir plus sur les concepts de cybersécurité"
 
-#: templates/learn.html:15
+#: templates/learn.html:15 templates/learn/mobile-security.html:9
 msgid "Mobile Security"
 msgstr "Sécurité mobile"
 
@@ -195,7 +198,7 @@ msgstr "Sécurité mobile"
 msgid "Password Security"
 msgstr "Sécurité des mots de passe"
 
-#: templates/learn.html:57
+#: templates/learn.html:57 templates/learn/malware.html:9
 msgid "Malware"
 msgstr "Logiciels malveillants"
 
@@ -273,3 +276,2640 @@ msgstr ""
 #: templates/tools.html:44
 msgid "Best Antivirus for Android"
 msgstr "Meilleur antivirus pour Android"
+
+#: templates/learn/encryption.html:4
+msgid "LEARN about encryption"
+msgstr "EN SAVOIR PLUS sur le cryptage"
+
+#: templates/learn/encryption.html:12
+msgid "What is Encryption?"
+msgstr "Qu'est-ce que le cryptage ?"
+
+#: templates/learn/encryption.html:13
+msgid ""
+"Encryption is a cybersecurity measure that scrambles plain text so it can "
+"only be read by the user who has the secret code, or decryption key."
+msgstr ""
+"Le cryptage est une mesure de cybersécurité qui brouille le texte en clair "
+"afin qu'il ne puisse être lu que par l'utilisateur qui possède le code "
+"secret ou la clé de décryptage."
+
+#: templates/learn/encryption.html:13
+msgid "It provides added security for sensitive information."
+msgstr "Il offre une sécurité supplémentaire pour les informations sensibles."
+
+#: templates/learn/encryption.html:14
+msgid ""
+"Huge amounts of data are managed online and stored in the cloud or on "
+"servers with an ongoing connection to the web. It’s nearly impossible to do "
+"anything online—from purchasing new office chairs to logging in to your HR "
+"portal—without your personal data ending up in an organization’s networked "
+"computer system. That’s why it’s crucial to know how to help keep that "
+"personal information private."
+msgstr ""
+"D’énormes volumes de données sont gérés en ligne et stockés dans le cloud ou"
+" sur des serveurs avec une connexion permanente au Web. Il est quasiment "
+"impossible d’effectuer quoi que ce soit en ligne, de l’achat de nouvelles "
+"chaises de bureau à la connexion à votre portail RH, sans que vos données "
+"personnelles ne se retrouvent dans le système informatique en réseau d’une "
+"organisation. C’est pourquoi il est essentiel de savoir comment préserver la"
+" confidentialité de ces informations personnelles."
+
+#: templates/learn/encryption.html:15
+msgid "Encryption plays an essential role in this task."
+msgstr "Le cryptage joue un rôle essentiel dans cette tâche."
+
+#: templates/learn/encryption.html:17
+msgid "When to use encryption"
+msgstr "Quand utiliser le cryptage"
+
+#: templates/learn/encryption.html:19
+msgid "When to Use Encryption"
+msgstr "Quand utiliser le cryptage"
+
+#: templates/learn/encryption.html:21
+msgid ""
+"It’s important to encrypt messages, files, and data exchanged online "
+"whenever they contain personal, sensitive, or classified information like:"
+msgstr ""
+"Il est important de crypter les messages, les fichiers et les données "
+"échangés en ligne lorsqu’ils contiennent des informations personnelles, "
+"sensibles ou classifiées telles que :"
+
+#: templates/learn/encryption.html:23
+msgid "Sending an email to your doctor regarding an illness"
+msgstr "Envoyer un e-mail à votre médecin concernant une maladie"
+
+#: templates/learn/encryption.html:24
+msgid ""
+"Entering your financial information to log in to your online bank account"
+msgstr ""
+"Saisir vos informations financières pour vous connecter à votre compte "
+"bancaire en ligne"
+
+#: templates/learn/encryption.html:25
+msgid "Sharing a confidential report with your employer"
+msgstr "Partager un rapport confidentiel avec votre employeur"
+
+#: templates/learn/encryption.html:28
+msgid ""
+"Encryption ensures only the intended recipient can access the information "
+"you shared."
+msgstr ""
+"Le cryptage garantit que seul le destinataire prévu peut accéder aux "
+"informations que vous avez partagées."
+
+#: templates/learn/encryption.html:30
+msgid "How does encryption work?"
+msgstr "Comment fonctionne le cryptage ?"
+
+#: templates/learn/encryption.html:31
+msgid ""
+"Encryption takes plain text, like a text message or email, and scrambles it "
+"into an unreadable format called"
+msgstr ""
+"Le cryptage prend du texte brut, comme un message texte ou un e-mail, et le "
+"brouille dans un format illisible appelé"
+
+#: templates/learn/encryption.html:31
+msgid "ciphertext"
+msgstr "texte chiffré"
+
+#: templates/learn/encryption.html:31
+msgid ""
+"This helps protect the confidentiality of digital data either stored on "
+"computer systems or transmitted through a network like the internet."
+msgstr ""
+"Cela permet de protéger la confidentialité des données numériques stockées "
+"sur des systèmes informatiques ou transmises via un réseau comme Internet."
+
+#: templates/learn/encryption.html:33
+msgid "How Does Encryption Work"
+msgstr "Comment fonctionne le cryptage"
+
+#: templates/learn/encryption.html:35
+msgid ""
+"When the intended recipient accesses the message, the information is "
+"translated back to its original form. This is called"
+msgstr ""
+"Lorsque le destinataire prévu accède au message, les informations sont "
+"retranscrites dans leur forme d'origine. C'est ce qu'on appelle"
+
+#: templates/learn/encryption.html:35
+msgid "decryption"
+msgstr "décryptage"
+
+#: templates/learn/encryption.html:36
+msgid ""
+"To unlock the message, both the sender and the recipient have to use a "
+"“secret”"
+msgstr ""
+"Pour déverrouiller le message, l'expéditeur et le destinataire doivent tous "
+"deux utiliser un « secret »"
+
+#: templates/learn/encryption.html:36
+msgid "encryption key"
+msgstr "clé de cryptage"
+
+#: templates/learn/encryption.html:36
+msgid ""
+"a collection of algorithms that scramble and unscramble data back to a "
+"readable format."
+msgstr ""
+"un ensemble d'algorithmes qui brouillent et déchiffrent les données pour les"
+" remettre dans un format lisible."
+
+#: templates/learn/encryption.html:38
+msgid "Types of encryption"
+msgstr "Types de cryptage"
+
+#: templates/learn/encryption.html:39
+msgid ""
+"An encryption key is a series of numbers used to encrypt and decrypt data."
+msgstr ""
+"Une clé de cryptage est une série de chiffres utilisée pour crypter et "
+"décrypter des données."
+
+#: templates/learn/encryption.html:39
+msgid ""
+"Encryption keys are created with algorithms, and each key is random and "
+"unique."
+msgstr ""
+"Les clés de chiffrement sont créées avec des algorithmes, et chaque clé est "
+"aléatoire et unique."
+
+#: templates/learn/encryption.html:40
+msgid ""
+"There are two main types of encryption systems: symmetric encryption and "
+"asymmetric encryption."
+msgstr ""
+"Il existe deux principaux types de systèmes de cryptage : le cryptage "
+"symétrique et le cryptage asymétrique."
+
+#: templates/learn/encryption.html:40
+msgid "Here’s how they differ."
+msgstr "Voici en quoi ils diffèrent."
+
+#: templates/learn/encryption.html:43
+msgid "Types of Encryption"
+msgstr "Types de cryptage"
+
+#: templates/learn/encryption.html:45
+msgid "Symmetric encryption"
+msgstr "Cryptage symétrique"
+
+#: templates/learn/encryption.html:46
+msgid ""
+"Symmetric encryption uses a single secret password or key to encrypt and "
+"decrypt data."
+msgstr ""
+"Le cryptage symétrique utilise un seul mot de passe ou une seule clé secrète"
+" pour crypter et décrypter les données."
+
+#: templates/learn/encryption.html:46
+msgid ""
+"The key could be a code or a random string of letters or numbers generated "
+"by a random number generator (RNG), which is typically required for banking-"
+"grade encryption. Symmetric algorithms are the simplest and most used form "
+"of encryption."
+msgstr ""
+"La clé peut être un code ou une chaîne aléatoire de lettres ou de chiffres "
+"générée par un générateur de nombres aléatoires (RNG), ce qui est "
+"généralement nécessaire pour le cryptage de niveau bancaire. Les algorithmes"
+" symétriques sont la forme de cryptage la plus simple et la plus utilisée."
+
+#: templates/learn/encryption.html:48
+msgid "Symmetric encryption are available in two forms:"
+msgstr "Le cryptage symétrique est disponible sous deux formes :"
+
+#: templates/learn/encryption.html:50
+msgid "Block algorithms:"
+msgstr "Algorithmes de blocs :"
+
+#: templates/learn/encryption.html:50
+msgid "Encrypt a group of plain text symbols as one block."
+msgstr "Crypter un groupe de symboles de texte brut en un seul bloc."
+
+#: templates/learn/encryption.html:51
+msgid "Stream algorithms:"
+msgstr "Algorithmes de flux :"
+
+#: templates/learn/encryption.html:51
+msgid "Convert one symbol of plain text directly into ciphertext."
+msgstr "Convertissez un symbole de texte brut directement en texte chiffré."
+
+#: templates/learn/encryption.html:54
+msgid ""
+"Although symmetric encryption has its weak spots, it makes up for them in "
+"speed and efficiency. Since only one key is shared between parties—and that "
+"key is typically much shorter than with asymmetric encryption—symmetric "
+"cryptography is faster to run."
+msgstr ""
+"Bien que le chiffrement symétrique ait ses points faibles, il les compense "
+"en termes de rapidité et d'efficacité. Étant donné qu'une seule clé est "
+"partagée entre les parties (et que cette clé est généralement beaucoup plus "
+"courte qu'avec le chiffrement asymétrique), la cryptographie symétrique est "
+"plus rapide à exécuter."
+
+#: templates/learn/encryption.html:56
+msgid "Asymmetric encryption"
+msgstr "Cryptage asymétrique"
+
+#: templates/learn/encryption.html:57
+msgid ""
+"Asymmetric encryption—also known as public key cryptography—uses two keys "
+"for encryption and decryption. A public key, which is shared among users, "
+"can either encrypt or decrypt the data. A private key can also encrypt or "
+"decrypt data, but it's not shared among users. The key you choose to encrypt"
+" or decrypt depends on the security measure you’re trying to employ:"
+msgstr ""
+"Le chiffrement asymétrique, également appelé cryptographie à clé publique, "
+"utilise deux clés pour le chiffrement et le déchiffrement. Une clé publique,"
+" partagée entre les utilisateurs, peut chiffrer ou déchiffrer les données. "
+"Une clé privée peut également chiffrer ou déchiffrer les données, mais elle "
+"n'est pas partagée entre les utilisateurs. La clé que vous choisissez pour "
+"chiffrer ou déchiffrer dépend de la mesure de sécurité que vous essayez "
+"d'utiliser :"
+
+#: templates/learn/encryption.html:59
+msgid "Encrypting with the public key:"
+msgstr "Cryptage avec la clé publique :"
+
+#: templates/learn/encryption.html:59
+msgid ""
+"ensures only the intended recipient can use the corresponding private key to"
+" decrypt the message, even if the information was breached during transit"
+msgstr ""
+"garantit que seul le destinataire prévu peut utiliser la clé privée "
+"correspondante pour décrypter le message, même si les informations ont été "
+"violées pendant le transit"
+
+#: templates/learn/encryption.html:60
+msgid "Encrypting with the private key:"
+msgstr "Cryptage avec la clé privée :"
+
+#: templates/learn/encryption.html:60
+msgid ""
+"allows the recipient of the information to verify the sender’s identity, "
+"since they won’t be able to decrypt data that’s been tampered with by an "
+"unauthorized user"
+msgstr ""
+"permet au destinataire des informations de vérifier l’identité de "
+"l’expéditeur, car il ne pourra pas décrypter les données qui ont été "
+"falsifiées par un utilisateur non autorisé"
+
+#: templates/learn/encryption.html:62
+msgid ""
+"Because asymmetric encryption uses two longer keys, it’s much slower and "
+"less efficient to run compared to symmetric cryptography. It can even bog "
+"down networks and create issues with memory capacity and battery life."
+msgstr ""
+"Le chiffrement asymétrique utilise deux clés plus longues, ce qui le rend "
+"beaucoup plus lent et moins efficace que le chiffrement symétrique. Il peut "
+"même ralentir les réseaux et créer des problèmes de capacité de mémoire et "
+"d’autonomie de la batterie."
+
+#: templates/learn/encryption.html:63
+msgid ""
+"However, asymmetric encryption is considered more advanced in terms of "
+"security than symmetric cryptography. Both are still in use today—sometimes "
+"simultaneously to compensate for the other’s weaknesses."
+msgstr ""
+"Cependant, le chiffrement asymétrique est considéré comme plus avancé en "
+"termes de sécurité que la cryptographie symétrique. Les deux sont encore "
+"utilisés aujourd’hui, parfois simultanément pour compenser les faiblesses de"
+" l’autre."
+
+#: templates/learn/encryption.html:65
+msgid "What is email encryption?"
+msgstr "Qu'est-ce que le cryptage des e-mails ?"
+
+#: templates/learn/encryption.html:66
+msgid ""
+"Email encryption is a security measure that disguises the contents of an "
+"email to protect against sensitive data exposure and ensure only the "
+"intended recipient can read it. Email encryption encodes and scrambles the "
+"plain text of the email so that any hackers taking a peek will see only "
+"unrecognizable nonsense."
+msgstr ""
+"Le chiffrement des e-mails est une mesure de sécurité qui masque le contenu "
+"d'un e-mail pour le protéger contre l'exposition de données sensibles et "
+"garantir que seul le destinataire prévu puisse le lire. Le chiffrement des "
+"e-mails code et brouille le texte brut de l'e-mail afin que les pirates "
+"informatiques qui y jettent un œil ne voient que des absurdités "
+"méconnaissables."
+
+#: templates/learn/encryption.html:69
+msgid "Email Encryption"
+msgstr "Cryptage des e-mails"
+
+#: templates/learn/encryption.html:71
+msgid "The importance of email encryption"
+msgstr "L'importance du cryptage des e-mails"
+
+#: templates/learn/encryption.html:72
+msgid ""
+"Email encryption helps protect your personal information and communications "
+"from being exposed in data breaches and other cyberattacks. Protecting your "
+"personal information in emails can also help reduce the likelihood of "
+"identity theft."
+msgstr ""
+"Le chiffrement des e-mails permet de protéger vos informations personnelles "
+"et vos communications contre toute exposition à des violations de données et"
+" autres cyberattaques. La protection de vos informations personnelles dans "
+"les e-mails peut également contribuer à réduire le risque d'usurpation "
+"d'identité."
+
+#: templates/learn/encryption.html:73
+msgid ""
+"If you send unencrypted emails, you risk hackers intercepting your messages."
+" While a short email catching up with a friend may not have any information "
+"a scammer could use to break into your bank accounts or steal your identity,"
+" other messages could."
+msgstr ""
+"Si vous envoyez des e-mails non chiffrés, vous risquez d'être interceptés "
+"par des pirates informatiques. Si un court e-mail envoyé pour prendre des "
+"nouvelles d'un ami ne contient peut-être aucune information qu'un escroc "
+"pourrait utiliser pour pirater vos comptes bancaires ou voler votre "
+"identité, d'autres messages pourraient le faire."
+
+#: templates/learn/encryption.html:74
+msgid ""
+"In 2022 alone, there were more than 21,000 business emails compromised. "
+"Using social engineering, scammers accessed business email accounts and used"
+" them to steal money, upload malware or spyware, and cause disruptions."
+msgstr ""
+"Rien qu'en 2022, plus de 21 000 e-mails professionnels ont été compromis. En"
+" utilisant l'ingénierie sociale, les escrocs ont accédé aux comptes de "
+"messagerie professionnels et les ont utilisés pour voler de l'argent, "
+"télécharger des logiciels malveillants ou des logiciels espions et provoquer"
+" des perturbations."
+
+#: templates/learn/encryption.html:76
+msgid "Types of email encryption"
+msgstr "Types de cryptage des e-mails"
+
+#: templates/learn/encryption.html:77
+msgid ""
+"Understanding how email encryption works is important, and learning about "
+"the different types of protocols used for sending safer emails can help you "
+"choose the right encryption for them. Multiple email encryption protocols "
+"can protect information from unwanted online predators."
+msgstr ""
+"Il est important de comprendre le fonctionnement du cryptage des e-mails et "
+"de connaître les différents types de protocoles utilisés pour envoyer des "
+"e-mails plus sûrs, ce qui peut vous aider à choisir le cryptage adapté. "
+"Plusieurs protocoles de cryptage des e-mails peuvent protéger les "
+"informations contre les prédateurs en ligne indésirables."
+
+#: templates/learn/encryption.html:79
+msgid "S/MIME (Secure/Multipurpose) encryption"
+msgstr "Cryptage S/MIME (sécurisé/multifonctionnel)"
+
+#: templates/learn/encryption.html:80
+msgid ""
+"Secure/Multipurpose Internet Mail Extension (S/MIME) is an email encryption "
+"protocol often built into macOS devices and major web-based email providers "
+"like Outlook and Gmail. It uses public key encryption, involving digital "
+"certificates issued by a Certificate Authority for verification."
+msgstr ""
+"Secure/Multipurpose Internet Mail Extension (S/MIME) est un protocole de "
+"chiffrement de courrier électronique souvent intégré aux appareils macOS et "
+"aux principaux fournisseurs de messagerie Web comme Outlook et Gmail. Il "
+"utilise un chiffrement à clé publique, impliquant des certificats numériques"
+" émis par une autorité de certification à des fins de vérification."
+
+#: templates/learn/encryption.html:81
+msgid ""
+"S/MIME encryption enables the sender to secure messages with these digital "
+"certificates. The recipient can then use the provided certificate to verify "
+"the safety of the message received, helping to keep their device secure."
+msgstr ""
+"Le chiffrement S/MIME permet à l'expéditeur de sécuriser les messages avec "
+"ces certificats numériques. Le destinataire peut ensuite utiliser le "
+"certificat fourni pour vérifier la sécurité du message reçu, contribuant "
+"ainsi à la sécurité de son appareil."
+
+#: templates/learn/encryption.html:83
+msgid "PGP/MIME encryption"
+msgstr "Cryptage PGP/MIME"
+
+#: templates/learn/encryption.html:84
+msgid ""
+"Pretty Good Privacy/Multipurpose Internet Extensions (PGP/MIME) is another "
+"encryption protocol that can send secure emails. While it provides the same "
+"protection as S/MIME, this protocol only uses the recipient’s private and "
+"public encryption keys, eliminating the need to use a Certificate Authority "
+"(CA), and instead relying on the “web of trust” model."
+msgstr ""
+"Pretty Good Privacy/Multipurpose Internet Extensions (PGP/MIME) est un autre"
+" protocole de chiffrement qui permet d'envoyer des e-mails sécurisés. Bien "
+"qu'il offre la même protection que S/MIME, ce protocole utilise uniquement "
+"les clés de chiffrement privées et publiques du destinataire, éliminant "
+"ainsi le besoin de recourir à une autorité de certification (CA) et "
+"s'appuyant plutôt sur le modèle du « réseau de confiance »."
+
+#: templates/learn/encryption.html:85
+msgid ""
+"PGP/MIME provides more control and flexibility concerning how well you want "
+"your emails encrypted but sometimes requires a third-party extension."
+msgstr ""
+"PGP/MIME offre davantage de contrôle et de flexibilité concernant la manière"
+" dont vous souhaitez crypter vos e-mails, mais nécessite parfois une "
+"extension tierce."
+
+#: templates/learn/encryption.html:87
+msgid "SSL/TLS/STARTTLS encryption"
+msgstr "Cryptage SSL/TLS/STARTTLS"
+
+#: templates/learn/encryption.html:88
+msgid ""
+"Secure Sockets Layer/Transport Layer Security is a protocol that uses SSL "
+"and TLS (the successor to SSL) to encrypt communications between two "
+"devices, including email encryption. This type of encryption does not apply "
+"directly to messages and email contents, but to the connection between email"
+" servers."
+msgstr ""
+"Secure Sockets Layer/Transport Layer Security est un protocole qui utilise "
+"SSL et TLS (le successeur de SSL) pour crypter les communications entre deux"
+" appareils, y compris le cryptage des e-mails. Ce type de cryptage ne "
+"s'applique pas directement aux messages et au contenu des e-mails, mais à la"
+" connexion entre les serveurs de messagerie."
+
+#: templates/learn/encryption.html:89
+msgid ""
+"The sending server signals the receiver to secure the connection during "
+"email transmission. This helps prevent snoops from seeing the contents of a "
+"message while it’s being sent."
+msgstr ""
+"Le serveur d'envoi signale au destinataire de sécuriser la connexion pendant"
+" la transmission du courrier électronique. Cela permet d'empêcher les "
+"indiscrets de voir le contenu d'un message pendant son envoi."
+
+#: templates/learn/identity-theft.html:4
+msgid "LEARN about identity theft"
+msgstr "EN SAVOIR PLUS sur le vol d'identité"
+
+#: templates/learn/identity-theft.html:11
+msgid "What is identity theft?"
+msgstr "Qu'est-ce que le vol d'identité ?"
+
+#: templates/learn/identity-theft.html:12
+msgid ""
+"Identity theft is a crime where someone illegally obtains and uses another "
+"person’s personal information, usually for financial gain."
+msgstr ""
+"Le vol d’identité est un crime dans lequel une personne obtient et utilise "
+"illégalement les informations personnelles d’une autre personne, "
+"généralement à des fins financières."
+
+#: templates/learn/identity-theft.html:13
+msgid ""
+"It’s a serious crime that can have devastating effects on victims, including"
+" ruined credit, financial loss, and personal distress."
+msgstr ""
+"Il s’agit d’un crime grave qui peut avoir des effets dévastateurs sur les "
+"victimes, notamment une perte de crédit, une perte financière et une "
+"détresse personnelle."
+
+#: templates/learn/identity-theft.html:15
+msgid "How does identity theft happen?"
+msgstr "Comment se produit le vol d’identité ?"
+
+#: templates/learn/identity-theft.html:16
+msgid ""
+"Identity thieves use various methods to steal your information, including:"
+msgstr ""
+"Les voleurs d’identité utilisent diverses méthodes pour voler vos "
+"informations, notamment :"
+
+#: templates/learn/identity-theft.html:18
+msgid ""
+"Phishing: A scam where fraudsters impersonate a legitimate entity to trick "
+"you into revealing your personal information."
+msgstr ""
+"Phishing : une arnaque dans laquelle des fraudeurs se font passer pour une "
+"entité légitime pour vous inciter à révéler vos informations personnelles."
+
+#: templates/learn/identity-theft.html:19
+msgid ""
+"Mail theft: Thieves may steal personal mail to get sensitive information, "
+"like credit card statements or tax returns."
+msgstr ""
+"Vol de courrier : les voleurs peuvent voler du courrier personnel pour "
+"obtenir des informations sensibles, comme des relevés de carte de crédit ou "
+"des déclarations de revenus."
+
+#: templates/learn/identity-theft.html:20
+msgid ""
+"Data breaches: Hackers may gain access to online databases that contain "
+"personal information."
+msgstr ""
+"Violations de données : les pirates informatiques peuvent accéder à des "
+"bases de données en ligne contenant des informations personnelles."
+
+#: templates/learn/identity-theft.html:21
+msgid ""
+"Skimming: Fraudsters may use card readers to steal information from your "
+"credit or debit cards."
+msgstr ""
+"Écrémage : les fraudeurs peuvent utiliser des lecteurs de cartes pour voler "
+"des informations sur vos cartes de crédit ou de débit."
+
+#: templates/learn/identity-theft.html:24
+msgid "Signs of identity theft"
+msgstr "Signes d'usurpation d'identité"
+
+#: templates/learn/identity-theft.html:25
+msgid ""
+"If you notice any of the following, it could be a sign that your identity "
+"has been stolen:"
+msgstr ""
+"Si vous remarquez l’un des éléments suivants, cela pourrait être un signe "
+"que votre identité a été volée :"
+
+#: templates/learn/identity-theft.html:27
+msgid "Unexplained charges on your bank or credit card statements."
+msgstr ""
+"Des frais inexpliqués sur vos relevés bancaires ou de carte de crédit."
+
+#: templates/learn/identity-theft.html:28
+msgid "Receiving bills or collection notices for items you didn’t purchase."
+msgstr ""
+"Recevoir des factures ou des avis de recouvrement pour des articles que vous"
+" n’avez pas achetés."
+
+#: templates/learn/identity-theft.html:29
+msgid ""
+"Missing mail or notices that your financial or credit account information "
+"has been changed without your consent."
+msgstr ""
+"Courrier manquant ou avis indiquant que les informations relatives à votre "
+"compte financier ou de crédit ont été modifiées sans votre consentement."
+
+#: templates/learn/identity-theft.html:32
+msgid "How to protect yourself from identity theft"
+msgstr "Comment se protéger du vol d'identité"
+
+#: templates/learn/identity-theft.html:33
+msgid "To protect yourself from identity theft, you can:"
+msgstr "Pour vous protéger contre le vol d’identité, vous pouvez :"
+
+#: templates/learn/identity-theft.html:35
+msgid "Use strong, unique passwords for your online accounts."
+msgstr ""
+"Utilisez des mots de passe forts et uniques pour vos comptes en ligne."
+
+#: templates/learn/identity-theft.html:36
+msgid "Enable two-factor authentication wherever possible."
+msgstr ""
+"Activez l’authentification à deux facteurs dans la mesure du possible."
+
+#: templates/learn/identity-theft.html:37
+msgid ""
+"Be cautious of unsolicited requests for personal information via phone, "
+"email, or text message."
+msgstr ""
+"Méfiez-vous des demandes non sollicitées de renseignements personnels par "
+"téléphone, par courrier électronique ou par SMS."
+
+#: templates/learn/identity-theft.html:38
+msgid ""
+"Monitor your bank accounts and credit reports regularly for any unusual "
+"activity."
+msgstr ""
+"Surveillez régulièrement vos comptes bancaires et vos rapports de crédit "
+"pour détecter toute activité inhabituelle."
+
+#: templates/learn/identity-theft.html:39
+msgid "Avoid sharing sensitive information on public Wi-Fi networks."
+msgstr ""
+"Évitez de partager des informations sensibles sur les réseaux Wi-Fi publics."
+
+#: templates/learn/identity-theft.html:42
+msgid "What to do if you’re a victim of identity theft?"
+msgstr "Que faire si vous êtes victime d’un vol d’identité ?"
+
+#: templates/learn/identity-theft.html:43
+msgid "If you become a victim of identity theft, here are the steps to take:"
+msgstr "Si vous êtes victime d’un vol d’identité, voici les étapes à suivre :"
+
+#: templates/learn/identity-theft.html:45
+msgid ""
+"Report the theft to your bank or credit card company to freeze accounts and "
+"protect against further charges."
+msgstr ""
+"Signalez le vol à votre banque ou à votre société de carte de crédit pour "
+"geler les comptes et vous protéger contre de nouveaux frais."
+
+#: templates/learn/identity-theft.html:46
+msgid ""
+"Place a fraud alert on your credit report with major credit bureaus "
+"(Equifax, Experian, TransUnion)."
+msgstr ""
+"Placez une alerte de fraude sur votre rapport de crédit auprès des "
+"principaux bureaux de crédit (Equifax, Experian, TransUnion)."
+
+#: templates/learn/identity-theft.html:47
+msgid ""
+"File a report with the Federal Trade Commission (FTC) and local law "
+"enforcement."
+msgstr ""
+"Déposez un rapport auprès de la Federal Trade Commission (FTC) et des forces"
+" de l’ordre locales."
+
+#: templates/learn/identity-theft.html:48
+msgid ""
+"Monitor your credit reports to ensure the thief has not opened new accounts "
+"in your name."
+msgstr ""
+"Surveillez vos rapports de crédit pour vous assurer que le voleur n’a pas "
+"ouvert de nouveaux comptes à votre nom."
+
+#: templates/learn/malware.html:4
+msgid "LEARN about Malware"
+msgstr "EN SAVOIR PLUS sur les logiciels malveillants"
+
+#: templates/learn/malware.html:11
+msgid "What is malware?"
+msgstr "Qu'est-ce qu'un malware ?"
+
+#: templates/learn/malware.html:12
+msgid ""
+"Malware, short for \"malicious software,\" is any kind of software designed "
+"to gain access to or damage a computer, usually without the owner's "
+"knowledge. Originally, software engineers created malware for experiments "
+"and pranks. Eventually, ill-willed individuals found it useful for vandalism"
+" and the destruction of targeted machines."
+msgstr ""
+"Les logiciels malveillants, abréviation de « logiciels malveillants », sont "
+"des logiciels conçus pour accéder à un ordinateur ou l'endommager, "
+"généralement à l'insu de son propriétaire. À l'origine, les ingénieurs en "
+"logiciels créaient des logiciels malveillants pour des expériences et des "
+"farces. Au fil du temps, des individus mal intentionnés les ont trouvés "
+"utiles pour commettre des actes de vandalisme et détruire les machines "
+"ciblées."
+
+#: templates/learn/malware.html:14
+msgid "How do you get malware?"
+msgstr "Comment attrape-t-on un malware ?"
+
+#: templates/learn/malware.html:15
+msgid ""
+"Users get malware when a hacker infects a device; this process typically "
+"follows three general steps:"
+msgstr ""
+"Les utilisateurs sont infectés par un logiciel malveillant lorsqu'un pirate "
+"informatique infecte un appareil. Ce processus suit généralement trois "
+"étapes générales :"
+
+#: templates/learn/malware.html:17
+msgid ""
+"A hacker strategically places a malicious link, file, or attachment in front"
+" of their victim, potentially as a phishing email or other social "
+"engineering scheme."
+msgstr ""
+"Un pirate informatique place stratégiquement un lien, un fichier ou une "
+"pièce jointe malveillante devant sa victime, potentiellement sous la forme "
+"d'un e-mail de phishing ou d'un autre stratagème d'ingénierie sociale."
+
+#: templates/learn/malware.html:18
+msgid ""
+"The victim clicks on the infected asset, unknowingly triggering the malware "
+"to install onto their device."
+msgstr ""
+"La victime clique sur l'élément infecté, déclenchant sans le savoir "
+"l'installation du logiciel malveillant sur son appareil."
+
+#: templates/learn/malware.html:18
+msgid ""
+"The malware proceeds to steal, compromise, and/or destroy sensitive data "
+"stored on the device."
+msgstr ""
+"Le logiciel malveillant continue de voler, de compromettre et/ou de détruire"
+" les données sensibles stockées sur l’appareil."
+
+#: templates/learn/malware.html:21
+msgid ""
+"While you may download many kinds of malware from the internet, some hackers"
+" use USB sticks and flash drives to spread malware, because it’s harder for "
+"the system to detect infections that way. To avoid this tactic, never insert"
+" unfamiliar storage devices into your computer."
+msgstr ""
+"Bien que vous puissiez télécharger de nombreux types de programmes "
+"malveillants sur Internet, certains pirates informatiques utilisent des clés"
+" USB et des clés USB pour diffuser des programmes malveillants, car il est "
+"plus difficile pour le système de détecter les infections de cette manière. "
+"Pour éviter cette tactique, n'insérez jamais de périphériques de stockage "
+"inconnus dans votre ordinateur."
+
+#: templates/learn/malware.html:23
+msgid "Common malware types"
+msgstr "Types de logiciels malveillants courants"
+
+#: templates/learn/malware.html:24
+msgid ""
+"There are many different kinds of malware lurking online. Here are 14 of the"
+" most common types of malware seen on the internet:"
+msgstr ""
+"Il existe de nombreux types de programmes malveillants différents qui se "
+"cachent en ligne. Voici 14 des types de programmes malveillants les plus "
+"courants observés sur Internet :"
+
+#: templates/learn/malware.html:26
+msgid "Malware Types Pt.1"
+msgstr "Types de logiciels malveillants Pt.1"
+
+#: templates/learn/malware.html:28
+msgid "Virus"
+msgstr "Virus"
+
+#: templates/learn/malware.html:28
+msgid ""
+"These are dangerous pieces of code inserted into a program or application "
+"and are often triggered by your actions."
+msgstr ""
+"Il s’agit de morceaux de code dangereux insérés dans un programme ou une "
+"application et souvent déclenchés par vos actions."
+
+#: templates/learn/malware.html:29
+msgid "Worms"
+msgstr "Vers"
+
+#: templates/learn/malware.html:29
+msgid ""
+"A worm is a type of malware infection that replicates itself and uses system"
+" flaws to make its way onto your devices."
+msgstr ""
+"Un ver est un type d’infection malveillante qui se réplique et utilise les "
+"failles du système pour s’infiltrer dans vos appareils."
+
+#: templates/learn/malware.html:30
+msgid "Ransomware"
+msgstr "Ransomware"
+
+#: templates/learn/malware.html:30
+msgid ""
+"This kind of malware can lock, encrypt, and hold your data hostage before "
+"destroying your personal files unless you pay a ransom."
+msgstr ""
+"Ce type de malware peut verrouiller, crypter et retenir vos données en otage"
+" avant de détruire vos fichiers personnels à moins que vous ne payiez une "
+"rançon."
+
+#: templates/learn/malware.html:31
+msgid "Cryptojacker"
+msgstr "Cryptojacker"
+
+#: templates/learn/malware.html:31
+msgid ""
+"To mine cryptocurrency faster, hackers create malware designed to take part "
+"of your device’s computing power to mine crypto on its behalf."
+msgstr ""
+"Pour exploiter la cryptomonnaie plus rapidement, les pirates informatiques "
+"créent des logiciels malveillants conçus pour exploiter une partie de la "
+"puissance de calcul de votre appareil afin d’exploiter la cryptomonnaie en "
+"son nom."
+
+#: templates/learn/malware.html:32
+msgid "Browser hijacker"
+msgstr "Pirate de navigateur"
+
+#: templates/learn/malware.html:32
+msgid ""
+"This form of malware edits your browser's settings to get you to visit "
+"certain sites or perform other actions that the hacker wants."
+msgstr ""
+"Cette forme de logiciel malveillant modifie les paramètres de votre "
+"navigateur pour vous inciter à visiter certains sites ou à effectuer "
+"d'autres actions souhaitées par le pirate."
+
+#: templates/learn/malware.html:35
+msgid "Malware Types Pt.2"
+msgstr "Types de logiciels malveillants Pt.2"
+
+#: templates/learn/malware.html:37
+msgid "Trojan"
+msgstr "troyen"
+
+#: templates/learn/malware.html:37
+msgid ""
+"A Trojan imitates legitimate applications or programs to get you to download"
+" and unknowingly install malware."
+msgstr ""
+"Un cheval de Troie imite des applications ou des programmes légitimes pour "
+"vous inciter à télécharger et à installer sans le savoir des logiciels "
+"malveillants."
+
+#: templates/learn/malware.html:38
+msgid "Logic bomb"
+msgstr "Bombe logique"
+
+#: templates/learn/malware.html:38
+msgid ""
+"A logic bomb is a type of malware that waits inside a system until you meet "
+"certain conditions or perform specific actions."
+msgstr ""
+"Une bombe logique est un type de logiciel malveillant qui attend à "
+"l'intérieur d'un système que vous remplissiez certaines conditions ou que "
+"vous exécutiez des actions spécifiques."
+
+#: templates/learn/malware.html:39
+msgid "Scareware"
+msgstr "Logiciel de peur"
+
+#: templates/learn/malware.html:39
+msgid ""
+"Scareware is designed to scare you into performing a specific action, like "
+"downloading fake security software."
+msgstr ""
+"Les scarewares sont conçus pour vous effrayer et vous inciter à effectuer "
+"une action spécifique, comme télécharger un faux logiciel de sécurité."
+
+#: templates/learn/malware.html:40
+msgid "Malvertising"
+msgstr "Publicité malveillante"
+
+#: templates/learn/malware.html:40
+msgid ""
+"Infected ads loaded with malware download and install malicious programs "
+"onto your device after you click on a displayed pop-up."
+msgstr ""
+"Les publicités infectées chargées de logiciels malveillants téléchargent et "
+"installent des programmes malveillants sur votre appareil après avoir cliqué"
+" sur une fenêtre contextuelle affichée."
+
+#: templates/learn/malware.html:41
+msgid "Rootkit"
+msgstr "Rootkit"
+
+#: templates/learn/malware.html:41
+msgid ""
+"A rootkit is the kind of difficult-to-detect malware that grants hackers "
+"complete remote access to your device."
+msgstr ""
+"Un rootkit est le type de malware difficile à détecter qui accorde aux "
+"pirates un accès à distance complet à votre appareil."
+
+#: templates/learn/malware.html:44
+msgid "Malware Types Pt.3"
+msgstr "Types de logiciels malveillants Pt.3"
+
+#: templates/learn/malware.html:46
+msgid "Spyware"
+msgstr "Logiciel espion"
+
+#: templates/learn/malware.html:46
+msgid ""
+"This type of malware secretly tracks and records your activity to learn more"
+" about you, and often tries to gain access to data or financial accounts."
+msgstr ""
+"Ce type de logiciel malveillant suit et enregistre secrètement votre "
+"activité pour en savoir plus sur vous et tente souvent d'accéder à des "
+"données ou à des comptes financiers."
+
+#: templates/learn/malware.html:47
+msgid "Adware"
+msgstr "Logiciel publicitaire"
+
+#: templates/learn/malware.html:47
+msgid ""
+"Taking the form of unwanted pop-ups, this type of malware can track your "
+"browsing activity and install other forms of malware like keyloggers or "
+"spyware."
+msgstr ""
+"Prenant la forme de fenêtres contextuelles indésirables, ce type de logiciel"
+" malveillant peut suivre votre activité de navigation et installer d'autres "
+"formes de logiciels malveillants tels que des enregistreurs de frappe ou des"
+" logiciels espions."
+
+#: templates/learn/malware.html:48
+msgid "Botnet"
+msgstr "Botnet"
+
+#: templates/learn/malware.html:48
+msgid ""
+"These spider-like programs crawl the internet looking for security flaws to "
+"exploit by linking a network of infected systems together to further its "
+"reach and ability to do damage."
+msgstr ""
+"Ces programmes ressemblant à des araignées parcourent Internet à la "
+"recherche de failles de sécurité à exploiter en reliant un réseau de "
+"systèmes infectés pour accroître leur portée et leur capacité à causer des "
+"dégâts."
+
+#: templates/learn/malware.html:49
+msgid "Fileless malware"
+msgstr "Malware sans fichier"
+
+#: templates/learn/malware.html:49
+msgid ""
+"By using protocols and software already built into operating systems to "
+"infect devices, fileless malware can operate undetected for a long time as "
+"it slowly hogs your resources or steals your information."
+msgstr ""
+"En utilisant des protocoles et des logiciels déjà intégrés aux systèmes "
+"d'exploitation pour infecter les appareils, les logiciels malveillants sans "
+"fichier peuvent fonctionner sans être détectés pendant une longue période, "
+"car ils monopolisent lentement vos ressources ou volent vos informations."
+
+#: templates/learn/mobile-security.html:4
+msgid "LEARN about Mobile Security"
+msgstr "EN SAVOIR PLUS sur la sécurité mobile"
+
+#: templates/learn/mobile-security.html:11
+msgid "What is mobile security?"
+msgstr "Qu'est-ce que la sécurité mobile ?"
+
+#: templates/learn/mobile-security.html:12
+msgid ""
+"Mobile security is a system of security software and habits that keeps your "
+"data out of the hands of hackers, scammers, and identity thieves."
+msgstr ""
+"La sécurité mobile est un système de logiciels et d’habitudes de sécurité "
+"qui maintient vos données hors de portée des pirates, des escrocs et des "
+"voleurs d’identité."
+
+#: templates/learn/mobile-security.html:12
+msgid ""
+"While it’s tempting to think that only politicians, financial institutions, "
+"and big tech companies need enhanced security, everyone needs protection."
+msgstr ""
+"Bien qu’il soit tentant de penser que seuls les politiciens, les "
+"institutions financières et les grandes entreprises technologiques ont "
+"besoin d’une sécurité renforcée, tout le monde a besoin de protection."
+
+#: templates/learn/mobile-security.html:14
+msgid "Why mobile security is crucial"
+msgstr "Pourquoi la sécurité mobile est cruciale"
+
+#: templates/learn/mobile-security.html:15
+msgid ""
+"While device manufacturers help you protect your Android and Apple devices "
+"and operating systems, it often isn’t enough to fully safeguard your data "
+"from attacks by hackers."
+msgstr ""
+"Bien que les fabricants d’appareils vous aident à protéger vos appareils et "
+"systèmes d’exploitation Android et Apple, cela ne suffit souvent pas à "
+"protéger entièrement vos données contre les attaques des pirates "
+"informatiques."
+
+#: templates/learn/mobile-security.html:17
+msgid ""
+"Cybercriminals don’t discriminate when they create malware to infect the "
+"latest computers, phones, and tablets. If they can design a virus that will "
+"make its way into the servers of large banks to steal account numbers and "
+"passwords, those scammers will also find a way to deploy it against normal "
+"people (or they’ll sell it to someone who will)."
+msgstr ""
+"Les cybercriminels ne font pas de distinction lorsqu’ils créent des "
+"programmes malveillants pour infecter les ordinateurs, téléphones et "
+"tablettes les plus récents. S’ils parviennent à concevoir un virus capable "
+"de s’infiltrer dans les serveurs des grandes banques pour voler des numéros "
+"de compte et des mots de passe, ces escrocs trouveront également un moyen de"
+" le déployer contre des personnes ordinaires (ou le vendront à quelqu’un qui"
+" le fera)."
+
+#: templates/learn/mobile-security.html:19
+msgid "Mobile security attacks can:"
+msgstr "Les attaques de sécurité mobile peuvent :"
+
+#: templates/learn/mobile-security.html:21
+msgid "Expose your financial information."
+msgstr "Exposez vos informations financières."
+
+#: templates/learn/mobile-security.html:22
+msgid "Increase the likelihood of identity theft."
+msgstr "Augmenter la probabilité de vol d’identité."
+
+#: templates/learn/mobile-security.html:23
+msgid "Corrupt your files and personal data."
+msgstr "Corrompre vos fichiers et vos données personnelles."
+
+#: templates/learn/mobile-security.html:26
+msgid ""
+"Real security means taking extra steps to improve your digital safety habits"
+" and using software that recognizes and stops threats before your devices "
+"are compromised."
+msgstr ""
+"Une véritable sécurité signifie prendre des mesures supplémentaires pour "
+"améliorer vos habitudes de sécurité numérique et utiliser des logiciels qui "
+"reconnaissent et arrêtent les menaces avant que vos appareils ne soient "
+"compromis."
+
+#: templates/learn/mobile-security.html:27
+msgid "What Mobile Security Protects"
+msgstr "Ce que protège la sécurité mobile"
+
+#: templates/learn/mobile-security.html:29
+msgid "5 examples of mobile security and how they work"
+msgstr "5 exemples de sécurité mobile et de leur fonctionnement"
+
+#: templates/learn/mobile-security.html:30
+msgid ""
+"Because the threats posed by malware and hacking are so varied, the systems "
+"needed to prevent and stop them are varied, too. When mobile security "
+"systems work together, they create a much stronger shield against bad actors"
+" than any one system could on its own."
+msgstr ""
+"Les menaces posées par les logiciels malveillants et le piratage "
+"informatique étant très variées, les systèmes nécessaires pour les prévenir "
+"et les arrêter sont également variés. Lorsque les systèmes de sécurité "
+"mobile fonctionnent ensemble, ils créent un bouclier beaucoup plus solide "
+"contre les acteurs malveillants que n'importe quel système ne pourrait le "
+"faire seul."
+
+#: templates/learn/mobile-security.html:31
+msgid "Some examples of mobile security include:"
+msgstr "Voici quelques exemples de sécurité mobile :"
+
+#: templates/learn/mobile-security.html:33
+msgid ""
+"to keep your online traffic and data secret. Encrypted information can only "
+"be read by those with the decryption key."
+msgstr ""
+"pour garder votre trafic et vos données en ligne secrets. Les informations "
+"cryptées ne peuvent être lues que par ceux qui possèdent la clé de "
+"décryptage."
+
+#: templates/learn/mobile-security.html:34
+msgid "Secure boot processes"
+msgstr "Processus de démarrage sécurisé"
+
+#: templates/learn/mobile-security.html:34
+msgid ""
+"for safer compliance between hardware and firmware. These security standards"
+" ensure that hardware can use operating systems and programs. This prevents "
+"dangerous hardware, like a flash drive loaded with malware, from being able "
+"to access and run amok within a system."
+msgstr ""
+"pour une meilleure conformité entre le matériel et le micrologiciel. Ces "
+"normes de sécurité garantissent que le matériel peut utiliser les systèmes "
+"d'exploitation et les programmes. Cela empêche le matériel dangereux, comme "
+"une clé USB chargée de logiciels malveillants, d'accéder à un système et de "
+"s'y déchaîner."
+
+#: templates/learn/mobile-security.html:35
+msgid "Application sandboxing"
+msgstr "Sandboxing d'applications"
+
+#: templates/learn/mobile-security.html:35
+msgid ""
+"to observe and stop the spread of malicious software. Application sandboxing"
+" creates a limited environment for code to run. These environments reduce "
+"access to resources to observe new programs, recognized threats, and "
+"suspicious code. By isolating and observing malware, these systems can learn"
+" how it functions and how to protect against it."
+msgstr ""
+"pour observer et arrêter la propagation de logiciels malveillants. Le "
+"sandboxing applicatif crée un environnement limité pour l'exécution du code."
+" Ces environnements réduisent l'accès aux ressources pour observer les "
+"nouveaux programmes, les menaces reconnues et le code suspect. En isolant et"
+" en observant les logiciels malveillants, ces systèmes peuvent apprendre "
+"comment ils fonctionnent et comment s'en protéger."
+
+#: templates/learn/mobile-security.html:36
+msgid "Mobile malware and antivirus software"
+msgstr "Logiciels antivirus et logiciels malveillants pour mobiles"
+
+#: templates/learn/mobile-security.html:36
+msgid ""
+"stop known threats and watch over your devices. Using signature detection to"
+" stop known threats along with a form of application sandboxing to contain "
+"possible threats, mobile antivirus software helps keep devices free from "
+"infection."
+msgstr ""
+"Arrêtez les menaces connues et surveillez vos appareils. Grâce à la "
+"détection de signatures pour arrêter les menaces connues ainsi qu'à une "
+"forme de sandboxing d'application pour contenir les menaces potentielles, "
+"les logiciels antivirus mobiles aident à protéger les appareils contre les "
+"infections."
+
+#: templates/learn/mobile-security.html:37
+msgid "Network security protocols"
+msgstr "Protocoles de sécurité réseau"
+
+#: templates/learn/mobile-security.html:37
+msgid ""
+"like HTTPS, let your devices know a connection is safe. These protocols, "
+"including SSL certificates, create an encrypted channel for traffic to move "
+"safely between trusted devices."
+msgstr ""
+"comme HTTPS, indiquez à vos appareils qu'une connexion est sécurisée. Ces "
+"protocoles, y compris les certificats SSL, créent un canal crypté pour que "
+"le trafic puisse circuler en toute sécurité entre des appareils de "
+"confiance."
+
+#: templates/learn/mobile-security.html:40
+msgid "The main threats to mobile security"
+msgstr "Les principales menaces pour la sécurité mobile"
+
+#: templates/learn/mobile-security.html:41
+msgid "What are Mobile Security Threats"
+msgstr "Quelles sont les menaces de sécurité mobile"
+
+#: templates/learn/mobile-security.html:42
+msgid ""
+"These threats present themselves in many different formats, and the people "
+"behind them always try to improve their effectiveness. Knowing these "
+"dangers, how they impact your mobile data security, and what damage they can"
+" do can help you react when these problems arise."
+msgstr ""
+"Ces menaces se présentent sous de nombreux formats différents et les "
+"personnes qui les utilisent tentent toujours d'améliorer leur efficacité. "
+"Connaître ces dangers, leur impact sur la sécurité de vos données mobiles et"
+" les dommages qu'ils peuvent causer peut vous aider à réagir lorsque ces "
+"problèmes surviennent."
+
+#: templates/learn/password-security.html:4
+msgid "LEARN about password security"
+msgstr "EN SAVOIR PLUS sur la sécurité des mots de passe"
+
+#: templates/learn/password-security.html:9
+msgid "Strong Passwords"
+msgstr "Mots de passe forts"
+
+#: templates/learn/password-security.html:12
+msgid "Why is password security important?"
+msgstr "Pourquoi la sécurité des mots de passe est-elle importante ?"
+
+#: templates/learn/password-security.html:13
+msgid ""
+"If passwords aren’t strong and kept secure, cybercriminals could gain access"
+" to your accounts. That can lead to scams, financial repercussions, or even "
+"identity theft. And then there’s the added stress of recovering hacked "
+"accounts or a stolen identity."
+msgstr ""
+"Si les mots de passe ne sont pas forts et sécurisés, les cybercriminels "
+"peuvent accéder à vos comptes. Cela peut conduire à des escroqueries, des "
+"répercussions financières ou même à un vol d’identité. À cela s’ajoute le "
+"stress supplémentaire de la récupération de comptes piratés ou d’une "
+"identité volée."
+
+#: templates/learn/password-security.html:15
+msgid "Scams:"
+msgstr "Arnaques :"
+
+#: templates/learn/password-security.html:15
+msgid ""
+"If a cybercriminal can access your social media accounts or email with your "
+"password, they could scam your contacts or use your own information against "
+"you in a social engineering attack."
+msgstr ""
+"Si un cybercriminel peut accéder à vos comptes de réseaux sociaux ou à votre"
+" courrier électronique avec votre mot de passe, il pourrait arnaquer vos "
+"contacts ou utiliser vos propres informations contre vous dans le cadre "
+"d'une attaque d'ingénierie sociale."
+
+#: templates/learn/password-security.html:16
+msgid "Financial loss:"
+msgstr "Perte financière :"
+
+#: templates/learn/password-security.html:16
+msgid ""
+"Whether it’s your bank account drained, blackmail, or transferring money "
+"from your payment app, the end goal for password thieves is typically "
+"financial."
+msgstr ""
+"Qu’il s’agisse de vider votre compte bancaire, de faire du chantage ou de "
+"transférer de l’argent depuis votre application de paiement, l’objectif "
+"final des voleurs de mots de passe est généralement financier."
+
+#: templates/learn/password-security.html:17
+msgid "Identity theft:"
+msgstr "Vol d’identité :"
+
+#: templates/learn/password-security.html:17
+msgid ""
+"If an identity thief has enough information about you, a password could be "
+"the final piece of the puzzle they need to achieve their objective. That "
+"could be anything from taking out a loan in your name to ordering a new "
+"credit card and intercepting it."
+msgstr ""
+"Si un voleur d'identité possède suffisamment d'informations sur vous, un mot"
+" de passe pourrait être la dernière pièce du puzzle dont il a besoin pour "
+"atteindre son objectif. Il peut s'agir de n'importe quoi, comme de souscrire"
+" un prêt à votre nom ou de commander une nouvelle carte de crédit et de "
+"l'intercepter."
+
+#: templates/learn/password-security.html:20
+msgid ""
+"Creating a strong password can reduce the risk of cybercriminals guessing it"
+" and accessing your sensitive data. Keeper’s 2024 Future of Defense Report "
+"found that stolen or weak passwords remain a leading cause of breaches, "
+"solidifying the importance of creating and securely storing passwords for "
+"each of your online accounts."
+msgstr ""
+"Créer un mot de passe fort peut réduire le risque que des cybercriminels le "
+"devinent et accèdent à vos données sensibles. Le rapport 2024 de Keeper sur "
+"l’avenir de la défense révèle que les mots de passe volés ou faibles restent"
+" l’une des principales causes de violations, ce qui renforce l’importance de"
+" créer et de stocker en toute sécurité des mots de passe pour chacun de vos "
+"comptes en ligne."
+
+#: templates/learn/password-security.html:21
+msgid ""
+"When you use weak, short passwords to secure your online accounts it makes "
+"it a lot easier and faster for a cybercriminal to crack it. On the other "
+"hand, if you use a strong password that is 20 characters long and contains a"
+" mix of uppercase and lowercase letters, numbers and symbols, it would take "
+"a cybercriminal three sextillion years to crack it."
+msgstr ""
+"Lorsque vous utilisez des mots de passe faibles et courts pour sécuriser vos"
+" comptes en ligne, il est beaucoup plus facile et rapide pour un "
+"cybercriminel de les déchiffrer. En revanche, si vous utilisez un mot de "
+"passe fort de 20 caractères contenant un mélange de lettres majuscules et "
+"minuscules, de chiffres et de symboles, il faudra trois sextillions d'années"
+" à un cybercriminel pour le déchiffrer."
+
+#: templates/learn/password-security.html:22
+msgid "Time taken to crack password"
+msgstr "Temps nécessaire pour déchiffrer le mot de passe"
+
+#: templates/learn/password-security.html:24
+msgid "How are passwords stolen?"
+msgstr "Comment les mots de passe sont-ils volés ?"
+
+#: templates/learn/password-security.html:25
+msgid ""
+"Cybercriminals steal passwords through a variety of methods using scams or "
+"hacking techniques."
+msgstr ""
+"Les cybercriminels volent des mots de passe par diverses méthodes utilisant "
+"des escroqueries ou des techniques de piratage."
+
+#: templates/learn/password-security.html:27
+msgid "Data breaches:"
+msgstr "Violations de données :"
+
+#: templates/learn/password-security.html:27
+msgid ""
+"If your password is exposed in a data breach, hackers can use it to access "
+"the associated account."
+msgstr ""
+"Si votre mot de passe est exposé lors d’une violation de données, les "
+"pirates peuvent l’utiliser pour accéder au compte associé."
+
+#: templates/learn/password-security.html:28
+msgid "Password-guessing attacks:"
+msgstr "Attaques de type « devinette de mot de passe » :"
+
+#: templates/learn/password-security.html:28
+msgid ""
+"Dictionary attacks involve hackers trying common words and phrases at scale "
+"to guess passwords."
+msgstr ""
+"Les attaques par dictionnaire impliquent que les pirates essaient des mots "
+"et des phrases courants à grande échelle pour deviner les mots de passe."
+
+#: templates/learn/password-security.html:29
+msgid "Malware:"
+msgstr "Logiciel malveillant :"
+
+#: templates/learn/password-security.html:29
+msgid ""
+"Some types of malware can steal your passwords or record your keystrokes as "
+"you type."
+msgstr ""
+"Certains types de programmes malveillants peuvent voler vos mots de passe ou"
+" enregistrer vos frappes au clavier pendant que vous tapez."
+
+#: templates/learn/password-security.html:30
+msgid "Phishing:"
+msgstr "Hameçonnage :"
+
+#: templates/learn/password-security.html:30
+msgid ""
+"A phishing attack can be designed to trick you into revealing your password."
+" An attack via email or text could also urge you to click a link that takes "
+"you to an unsafe website where you enter your password and unknowingly "
+"expose it."
+msgstr ""
+"Une attaque de phishing peut être conçue pour vous inciter à révéler votre "
+"mot de passe. Une attaque par e-mail ou par SMS peut également vous inciter "
+"à cliquer sur un lien qui vous mènera vers un site Web non sécurisé sur "
+"lequel vous saisirez votre mot de passe et le dévoilerez sans le savoir."
+
+#: templates/learn/password-security.html:31 templates/learn/phishing.html:55
+msgid "Social engineering:"
+msgstr "Ingénierie sociale :"
+
+#: templates/learn/password-security.html:31
+msgid ""
+"Phishing is a common type of social engineering attack but there are other "
+"examples, like a scareware attack that could lead to a hacker stealing your "
+"password."
+msgstr ""
+"Le phishing est un type courant d'attaque d'ingénierie sociale, mais il "
+"existe d'autres exemples, comme une attaque de scareware qui pourrait "
+"conduire un pirate à voler votre mot de passe."
+
+#: templates/learn/phishing.html:4
+msgid "LEARN about Phishing"
+msgstr "EN SAVOIR PLUS sur le phishing"
+
+#: templates/learn/phishing.html:9
+msgid "Phishing"
+msgstr "Hameçonnage"
+
+#: templates/learn/phishing.html:12
+msgid "What is phishing?"
+msgstr "Qu'est-ce que le phishing ?"
+
+#: templates/learn/phishing.html:13
+msgid ""
+"Phishing is a social engineering cyberthreat where scammers impersonate a "
+"trustworthy source and trick you into revealing sensitive data like "
+"passwords, credit card numbers, or personally identifiable information."
+msgstr ""
+"L'hameçonnage (phishing) est une cybermenace d'ingénierie sociale dans "
+"laquelle des escrocs se font passer pour une source fiable et vous incitent "
+"à révéler des données sensibles telles que des mots de passe, des numéros de"
+" carte de crédit ou des informations personnelles identifiables."
+
+#: templates/learn/phishing.html:14
+msgid ""
+"Phishing attacks often begin with scammers sending a malicious link or "
+"attachment via email, social media, or text—possibly triggering a malware "
+"download. Alternatively, you may receive a phishing call that comes from a "
+"phisher pretending to offer customer service or tech support."
+msgstr ""
+"Les attaques de phishing commencent souvent par l'envoi par des escrocs d'un"
+" lien ou d'une pièce jointe malveillante par e-mail, sur les réseaux sociaux"
+" ou par SMS, ce qui peut déclencher le téléchargement d'un logiciel "
+"malveillant. Vous pouvez également recevoir un appel de phishing provenant "
+"d'un hameçonneur prétendant proposer un service client ou une assistance "
+"technique."
+
+#: templates/learn/phishing.html:16
+msgid "What is Phishing"
+msgstr "Qu'est-ce que le phishing ?"
+
+#: templates/learn/phishing.html:18
+msgid "How does phishing work"
+msgstr "Comment fonctionne le phishing"
+
+#: templates/learn/phishing.html:19
+msgid ""
+"While phishing can vary based on the specific type of scam the scammer is "
+"carrying out, phishing attacks often follow these steps:"
+msgstr ""
+"Bien que le phishing puisse varier en fonction du type spécifique "
+"d'escroquerie perpétrée par l'escroc, les attaques de phishing suivent "
+"souvent les étapes suivantes :"
+
+#: templates/learn/phishing.html:21
+msgid ""
+"The phisher selects a target (this can be an organization, group, or "
+"individual) and comes up with a ruse."
+msgstr ""
+"Le pirate sélectionne une cible (il peut s’agir d’une organisation, d’un "
+"groupe ou d’un individu) et élabore une ruse."
+
+#: templates/learn/phishing.html:22
+msgid "Next, the phisher chooses a communication method and makes contact."
+msgstr ""
+"Ensuite, le phisher choisit une méthode de communication et prend contact."
+
+#: templates/learn/phishing.html:23
+msgid ""
+"If effective, the target will engage by replying, opening the phishing link,"
+" or downloading a malicious attachment."
+msgstr ""
+"Si cette méthode est efficace, la cible interviendra en répondant, en "
+"ouvrant le lien de phishing ou en téléchargeant une pièce jointe "
+"malveillante."
+
+#: templates/learn/phishing.html:24
+msgid ""
+"Finally, phishers will collect data and use it to make illegal purchases or "
+"commit fraudulent acts such as identity theft."
+msgstr ""
+"Enfin, les fraudeurs collecteront des données et les utiliseront pour "
+"effectuer des achats illégaux ou commettre des actes frauduleux tels que le "
+"vol d’identité."
+
+#: templates/learn/phishing.html:27
+msgid "What is a phishing link?"
+msgstr "Qu'est-ce qu'un lien de phishing ?"
+
+#: templates/learn/phishing.html:28
+msgid ""
+"A phishing link is a fake link used by cybercriminals to trick you into "
+"compromising your own privacy and security. Clicking a phishing link may "
+"install malware on your device, or guide you to a spoofed website where "
+"you’re prompted to enter sensitive information."
+msgstr ""
+"Un lien de phishing est un faux lien utilisé par les cybercriminels pour "
+"vous inciter à compromettre votre confidentialité et votre sécurité. Cliquer"
+" sur un lien de phishing peut installer un logiciel malveillant sur votre "
+"appareil ou vous rediriger vers un faux site Web sur lequel vous êtes invité"
+" à saisir des informations sensibles."
+
+#: templates/learn/phishing.html:30
+msgid "What is a Phishing Link"
+msgstr "Qu'est-ce qu'un lien de phishing"
+
+#: templates/learn/phishing.html:32
+msgid "Types of phishing attacks"
+msgstr "Types d'attaques de phishing"
+
+#: templates/learn/phishing.html:33
+msgid ""
+"Phishing scams can take many forms—the type of individual attack ultimately "
+"depends on the phisher, who they target, the communication platform they "
+"use, and their end goal."
+msgstr ""
+"Les escroqueries par phishing peuvent prendre de nombreuses formes : le type"
+" d’attaque individuelle dépend en fin de compte du phishing, de la personne "
+"ciblée, de la plateforme de communication utilisée et de son objectif final."
+
+#: templates/learn/phishing.html:34
+msgid "Here’s a rundown of a few predominantly link-based phishing attacks."
+msgstr ""
+"Voici un aperçu de quelques attaques de phishing principalement basées sur "
+"des liens."
+
+#: templates/learn/phishing.html:36
+msgid "Email phishing"
+msgstr "Hameçonnage par courrier électronique"
+
+#: templates/learn/phishing.html:37
+msgid ""
+"The basic phishing email is sent by fraudsters impersonating legitimate "
+"companies, often banks or credit card providers. These email phishing "
+"examples trick you into providing sensitive information by getting you to "
+"download malware unknowingly or by directing you to an unsafe website where "
+"you’re asked to voluntarily enter private information."
+msgstr ""
+"Les e-mails de phishing de base sont envoyés par des fraudeurs se faisant "
+"passer pour des entreprises légitimes, souvent des banques ou des "
+"fournisseurs de cartes de crédit. Ces exemples d'e-mails de phishing vous "
+"incitent à fournir des informations sensibles en vous incitant à télécharger"
+" des logiciels malveillants sans le savoir ou en vous dirigeant vers un site"
+" Web non sécurisé sur lequel vous êtes invité à saisir volontairement des "
+"informations privées."
+
+#: templates/learn/phishing.html:39
+msgid "Spear phishing"
+msgstr "Hameçonnage ciblé"
+
+#: templates/learn/phishing.html:40
+msgid ""
+"Spear phishing emails target a specific individual, business, or "
+"organization rather than just casting a wide net. Typically, spear phishers "
+"invest a lot of time and effort into researching their targets and building "
+"a credible persona. For example, the attacker may assume the identity of "
+"your boss and trick you into revealing proprietary information in what you "
+"believe to be an internal conversation."
+msgstr ""
+"Les e-mails de spear phishing ciblent une personne, une entreprise ou une "
+"organisation spécifique plutôt qu'un simple filet large. En règle générale, "
+"les auteurs de spear phishing consacrent beaucoup de temps et d'efforts à la"
+" recherche de leurs cibles et à la construction d'une personnalité crédible."
+" Par exemple, l'attaquant peut prendre l'identité de votre patron et vous "
+"inciter à révéler des informations confidentielles dans ce que vous croyez "
+"être une conversation interne."
+
+#: templates/learn/phishing.html:42
+msgid "Clone phishing"
+msgstr "Hameçonnage par clonage"
+
+#: templates/learn/phishing.html:43
+msgid ""
+"In clone phishing attacks, scammers create a nearly identical version of an "
+"email that victims have already received. The cloned email is sent from an "
+"address that is nearly, but not quite, the same as the email address used by"
+" the message’s original sender. The body of the email looks the same, too."
+msgstr ""
+"Dans les attaques de phishing par clonage, les escrocs créent une version "
+"presque identique d’un e-mail que les victimes ont déjà reçu. L’e-mail cloné"
+" est envoyé à partir d’une adresse qui est presque, mais pas tout à fait, la"
+" même que l’adresse e-mail utilisée par l’expéditeur d’origine du message. "
+"Le corps de l’e-mail est également identique."
+
+#: templates/learn/phishing.html:44
+msgid ""
+"What’s different about a clone phishing attack is that the attachment or "
+"link in the message has been changed. If victims click those links now, it "
+"will take them to a malicious website or open an infected attachment."
+msgstr ""
+"La différence avec une attaque de phishing par clone est que la pièce jointe"
+" ou le lien du message a été modifié. Si les victimes cliquent sur ces "
+"liens, elles seront redirigées vers un site Web malveillant ou ouvriront une"
+" pièce jointe infectée."
+
+#: templates/learn/phishing.html:46
+msgid "Whaling"
+msgstr "Pêche à la baleine"
+
+#: templates/learn/phishing.html:47
+msgid ""
+"Whaling attacks target chief executive officers, chief operating officers, "
+"or other high-ranking executives. The goal of a whaling attack is to trick "
+"powerful people into giving up sensitive corporate data. These attacks are "
+"more sophisticated than general phishing attacks and require plenty of "
+"research from scammers. They usually rely on fraudulent emails that appear "
+"to be from trusted sources within the company or from legitimate outside "
+"agencies."
+msgstr ""
+"Les attaques de type « whaling » visent les PDG, les directeurs "
+"d'exploitation ou d'autres cadres supérieurs. L'objectif d'une attaque de "
+"type « whaling » est de tromper des personnes influentes afin qu'elles "
+"divulguent des données d'entreprise sensibles. Ces attaques sont plus "
+"sophistiquées que les attaques de phishing classiques et nécessitent de "
+"nombreuses recherches de la part des escrocs. Elles s'appuient généralement "
+"sur des e-mails frauduleux qui semblent provenir de sources fiables au sein "
+"de l'entreprise ou d'agences extérieures légitimes."
+
+#: templates/learn/phishing.html:49
+msgid "Pop-up phishing"
+msgstr "Pop-up phishing"
+
+#: templates/learn/phishing.html:50
+msgid ""
+"Pop-up ad phishing scams trick people into installing various types of "
+"malware on their devices by leveraging scare tactics. A common pop-up "
+"phishing example is when a fake virus alert pops up on a user’s screen "
+"warning the user that their computer has been infected and the only way to "
+"remove the virus is by installing a particular type of antivirus software. "
+"Once the user installs this fake software, it either doesn’t work or, worse,"
+" actually does infect the computer with malware."
+msgstr ""
+"Les escroqueries par phishing sous forme de fenêtres publicitaires "
+"intempestives incitent les utilisateurs à installer différents types de "
+"programmes malveillants sur leurs appareils en utilisant des tactiques de "
+"peur. Un exemple courant de phishing sous forme de fenêtres publicitaires "
+"intempestives est celui où une fausse alerte de virus apparaît sur l’écran "
+"d’un utilisateur l’avertissant que son ordinateur a été infecté et que la "
+"seule façon de supprimer le virus est d’installer un type particulier de "
+"logiciel antivirus. Une fois que l’utilisateur a installé ce faux logiciel, "
+"soit il ne fonctionne pas, soit, pire, il infecte réellement l’ordinateur "
+"avec un logiciel malveillant."
+
+#: templates/learn/phishing.html:52
+msgid "What techniques do phishers use to manipulate their targets?"
+msgstr ""
+"Quelles techniques les pirates utilisent-ils pour manipuler leurs cibles ?"
+
+#: templates/learn/phishing.html:53
+msgid ""
+"To help increase their chances of getting the information they want, "
+"scammers may employ a combination of different phishing techniques, "
+"including:"
+msgstr ""
+"Pour augmenter leurs chances d’obtenir les informations souhaitées, les "
+"escrocs peuvent utiliser une combinaison de différentes techniques de "
+"phishing, notamment :"
+
+#: templates/learn/phishing.html:55
+msgid ""
+"This is the act of tricking someone into divulging sensitive information "
+"using manipulative persuasion tactics. For example, a scammer may pretend to"
+" be a family member in a dangerous situation to try to get you to quickly "
+"send them money."
+msgstr ""
+"Il s'agit d'un acte consistant à tromper quelqu'un pour qu'il divulgue des "
+"informations sensibles en utilisant des tactiques de persuasion "
+"manipulatrices. Par exemple, un escroc peut se faire passer pour un membre "
+"de la famille se trouvant dans une situation dangereuse pour essayer de vous"
+" inciter à lui envoyer rapidement de l'argent."
+
+#: templates/learn/phishing.html:56
+msgid "Hyperlink manipulation:"
+msgstr "Manipulation des hyperliens :"
+
+#: templates/learn/phishing.html:56
+msgid ""
+"Phishers may use the text of a legitimate URL to disguise a link to a "
+"phishing website. For example, you may think you’re navigating to your "
+"bank’s official support page, but after hovering over the link, you discover"
+" it is actually going somewhere else."
+msgstr ""
+"Les fraudeurs peuvent utiliser le texte d’une URL légitime pour dissimuler "
+"un lien vers un site Web de phishing. Par exemple, vous pouvez penser que "
+"vous accédez à la page d’assistance officielle de votre banque, mais après "
+"avoir survolé le lien, vous découvrez qu’il mène en fait ailleurs."
+
+#: templates/learn/phishing.html:57
+msgid "Graphical rendering:"
+msgstr "Rendu graphique :"
+
+#: templates/learn/phishing.html:57
+msgid ""
+"This happens when a phisher uploads their email as an image rather than text"
+" to prevent certain text from being scanned by phishing filters."
+msgstr ""
+"Cela se produit lorsqu'un pirate télécharge son e-mail sous forme d'image "
+"plutôt que de texte pour empêcher que certains textes soient analysés par "
+"les filtres de phishing."
+
+#: templates/learn/phishing.html:58
+msgid "Site redirects:"
+msgstr "Redirections du site :"
+
+#: templates/learn/phishing.html:58
+msgid ""
+"Phishers may also use a malicious webpage as a middle ground between their "
+"phishing email and a legitimate site. For example, following their "
+"instructions may take you to a webpage created by a phisher to collect your "
+"personal information before redirecting you to a legitimate website to "
+"minimize your suspicion of a phishing attack."
+msgstr ""
+"Les auteurs d'attaques de phishing peuvent également utiliser une page Web "
+"malveillante comme intermédiaire entre leur e-mail d'hameçonnage et un site "
+"légitime. Par exemple, suivre leurs instructions peut vous amener à une page"
+" Web créée par un hameçonneur pour collecter vos informations personnelles "
+"avant de vous rediriger vers un site Web légitime afin de minimiser vos "
+"soupçons d'attaque de phishing."
+
+#: templates/learn/phishing.html:59
+msgid "Link shortening:"
+msgstr "Raccourcissement de lien :"
+
+#: templates/learn/phishing.html:59
+msgid ""
+"Another popular phishing tactic is using link shortening tools to disguise "
+"links to dangerous websites."
+msgstr ""
+"Une autre tactique de phishing populaire consiste à utiliser des outils de "
+"raccourcissement de liens pour masquer les liens vers des sites Web "
+"dangereux."
+
+#: templates/learn/phishing.html:60
+msgid "Typosquatting:"
+msgstr "Typosquattage :"
+
+#: templates/learn/phishing.html:60
+msgid ""
+"By using typosquatting, a phisher registers domains that are very close to a"
+" legitimate domain, hoping their targets won’t notice. For example, a "
+"phisher pretending to be an Amazon support representative might create a "
+"phishing site under the URL “Amazpn.com.”"
+msgstr ""
+"En utilisant le typosquatting, un pirate enregistre des domaines très "
+"proches d'un domaine légitime, en espérant que ses cibles ne s'en "
+"apercevront pas. Par exemple, un pirate se faisant passer pour un "
+"représentant du service client d'Amazon peut créer un site de phishing sous "
+"l'URL « Amazpn.com »."
+
+#: templates/learn/phishing.html:61
+msgid "AI voice generators:"
+msgstr "Générateurs de voix IA :"
+
+#: templates/learn/phishing.html:61
+msgid ""
+"Phishers may use AI voice generators to impersonate public figures or "
+"acquaintances of yours to get you to divulge sensitive information."
+msgstr ""
+"Les fraudeurs peuvent utiliser des générateurs de voix IA pour se faire "
+"passer pour des personnalités publiques ou des connaissances afin de vous "
+"inciter à divulguer des informations sensibles."
+
+#: templates/learn/phishing.html:62
+msgid "Chatbots:"
+msgstr "Chatbots :"
+
+#: templates/learn/phishing.html:62
+msgid ""
+"Scammers may also use AI-enabled chatbots to create highly personalized "
+"phishing messages free of the kind of spelling and grammatical errors often "
+"associated with phishing attacks."
+msgstr ""
+"Les escrocs peuvent également utiliser des chatbots dotés d’IA pour créer "
+"des messages de phishing hautement personnalisés, exempts du type d’erreurs "
+"d’orthographe et de grammaire souvent associées aux attaques de phishing."
+
+#: templates/learn/software-updates.html:13
+msgid "What is a software update?"
+msgstr "Qu'est-ce qu'une mise à jour logicielle ?"
+
+#: templates/learn/software-updates.html:14
+msgid ""
+"A software update is a new version of an application, game, or other program"
+" on a computer or mobile device. New versions of software usually include "
+"patches to fix security vulnerabilities, performance upgrades, and cosmetic "
+"changes."
+msgstr ""
+"Une mise à jour logicielle est une nouvelle version d'une application, d'un "
+"jeu ou d'un autre programme sur un ordinateur ou un appareil mobile. Les "
+"nouvelles versions de logiciels incluent généralement des correctifs pour "
+"corriger les vulnérabilités de sécurité, des mises à niveau des performances"
+" et des modifications esthétiques."
+
+#: templates/learn/software-updates.html:16
+msgid "The importance of software updates"
+msgstr "L'importance des mises à jour logicielles"
+
+#: templates/learn/software-updates.html:17
+msgid ""
+"Keeping your software and operating system up to date is an important step "
+"towards ensuring your information is safe, your device is secured and "
+"working properly, and your programs and system remain compatible with each "
+"other."
+msgstr ""
+"Maintenir votre logiciel et votre système d’exploitation à jour est une "
+"étape importante pour garantir la sécurité de vos informations, la sécurité "
+"et le bon fonctionnement de votre appareil, et la compatibilité de vos "
+"programmes et de votre système entre eux."
+
+#: templates/learn/software-updates.html:18
+msgid ""
+"Here’s a closer look at the benefits of software updates and why you should "
+"always keep them fully updated."
+msgstr ""
+"Voici un aperçu plus détaillé des avantages des mises à jour logicielles et "
+"des raisons pour lesquelles vous devez toujours les maintenir entièrement à "
+"jour."
+
+#: templates/learn/software-updates.html:20
+msgid "Software updates reduce security flaws"
+msgstr "Les mises à jour logicielles réduisent les failles de sécurité"
+
+#: templates/learn/software-updates.html:21
+msgid ""
+"Old software is full of security flaws. Over time, hackers find new ways to "
+"break through what was, at one time, the best available protection. Once "
+"these cybercriminals break into a system, they can spy on your computer, "
+"implant dangerous malware, or even use what they find in your system to "
+"commit identity theft."
+msgstr ""
+"Les anciens logiciels sont remplis de failles de sécurité. Au fil du temps, "
+"les pirates informatiques trouvent de nouvelles façons de contourner ce qui "
+"était, à un moment donné, la meilleure protection disponible. Une fois que "
+"ces cybercriminels s'introduisent dans un système, ils peuvent espionner "
+"votre ordinateur, implanter des logiciels malveillants dangereux ou même "
+"utiliser ce qu'ils trouvent dans votre système pour commettre un vol "
+"d'identité."
+
+#: templates/learn/software-updates.html:22
+msgid ""
+"Software updates are there to patch zero-day exploits and update older, less"
+" effective protocols to the newer, tougher-to-crack standards. This makes "
+"updating all your software one of the most critical ways to improve your "
+"computer and mobile security."
+msgstr ""
+"Les mises à jour logicielles servent à corriger les failles zero-day et à "
+"mettre à jour les protocoles plus anciens et moins efficaces vers les normes"
+" plus récentes et plus difficiles à pirater. La mise à jour de tous vos "
+"logiciels est donc l'un des moyens les plus importants pour améliorer la "
+"sécurité de votre ordinateur et de votre appareil mobile."
+
+#: templates/learn/software-updates.html:24
+msgid "Software updates help protect your data"
+msgstr "Les mises à jour logicielles aident à protéger vos données"
+
+#: templates/learn/software-updates.html:25
+msgid ""
+"Your data is at risk of being stolen, sold, and used against you by "
+"criminals. But the risk of being hit by a data breach is much higher if "
+"you’re using outdated software, as is the risk of accidentally destroying or"
+" corrupting your files."
+msgstr ""
+"Vos données risquent d’être volées, vendues et utilisées contre vous par des"
+" criminels. Mais le risque d’être victime d’une violation de données est "
+"bien plus élevé si vous utilisez un logiciel obsolète, tout comme le risque "
+"de détruire ou de corrompre accidentellement vos fichiers."
+
+#: templates/learn/software-updates.html:26
+msgid ""
+"Updating your software to the latest versions can close off any "
+"vulnerabilities that let hackers in. Updates can also correct problems that "
+"could corrupt your files while making sure they’re compatible with the "
+"newest versions of the programs you use."
+msgstr ""
+"La mise à jour de votre logiciel vers les dernières versions peut éliminer "
+"toutes les vulnérabilités qui permettent aux pirates d’entrer. Les mises à "
+"jour peuvent également corriger les problèmes qui pourraient corrompre vos "
+"fichiers tout en garantissant leur compatibilité avec les versions les plus "
+"récentes des programmes que vous utilisez."
+
+#: templates/learn/software-updates.html:28
+msgid "Software updates improve performance"
+msgstr "Les mises à jour logicielles améliorent les performances"
+
+#: templates/learn/software-updates.html:29
+msgid ""
+"If you want to make your computer faster, one of the easiest ways is to "
+"update your software. Older software versions operate using legacy code and "
+"protocols, but engineers are constantly making tweaks to improve performance"
+" and reduce resource usage. With more RAM available, your devices can do "
+"more—and do it quicker."
+msgstr ""
+"Si vous souhaitez accélérer votre ordinateur, l'un des moyens les plus "
+"simples consiste à mettre à jour votre logiciel. Les anciennes versions de "
+"logiciels fonctionnent à l'aide de codes et de protocoles hérités, mais les "
+"ingénieurs apportent constamment des modifications pour améliorer les "
+"performances et réduire l'utilisation des ressources. Avec plus de RAM "
+"disponible, vos appareils peuvent faire plus et le faire plus rapidement."
+
+#: templates/learn/software-updates.html:30
+msgid ""
+"Reliably high performance is vital for running multiple programs "
+"simultaneously, watching high-definition videos, playing the newest games, "
+"taking the best pictures and videos, and even browsing the internet."
+msgstr ""
+"Des performances élevées et fiables sont essentielles pour exécuter "
+"plusieurs programmes simultanément, regarder des vidéos haute définition, "
+"jouer aux jeux les plus récents, prendre les meilleures photos et vidéos et "
+"même naviguer sur Internet."
+
+#: templates/learn/software-updates.html:32
+msgid "Software updates help protect others"
+msgstr "Les mises à jour logicielles aident à protéger les autres"
+
+#: templates/learn/software-updates.html:33
+msgid ""
+"The internet is a giant, interconnected network of devices. Because of the "
+"links between systems all over the globe, keeping your devices updated and "
+"free of malware and viruses that spread through networks is like covering "
+"your mouth when you cough in public."
+msgstr ""
+"Internet est un gigantesque réseau d'appareils interconnectés. En raison des"
+" liens entre les systèmes du monde entier, maintenir vos appareils à jour et"
+" exempts de logiciels malveillants et de virus qui se propagent via les "
+"réseaux revient à se couvrir la bouche lorsque l'on tousse en public."
+
+#: templates/learn/software-updates.html:34
+msgid ""
+"Doing your part can reduce the headaches and economic impacts of cybercrime "
+"and malicious software in your neighborhood as well as the farthest corners "
+"of the planet. And don’t think you’re less susceptible when using a Mac - "
+"Macs can get viruses, too."
+msgstr ""
+"En faisant votre part, vous pouvez réduire les maux de tête et les impacts "
+"économiques de la cybercriminalité et des logiciels malveillants dans votre "
+"quartier ainsi que dans les coins les plus reculés de la planète. Et ne "
+"pensez pas que vous êtes moins vulnérable lorsque vous utilisez un Mac : les"
+" Mac peuvent également être infectés par des virus."
+
+#: templates/learn/software-updates.html:36
+msgid "What is an operating system update?"
+msgstr "Qu'est-ce qu'une mise à jour du système d'exploitation ?"
+
+#: templates/learn/software-updates.html:37
+msgid ""
+"An operating system update is a new version of an operating system that, "
+"along with drivers and other first-party software, tells your computer or "
+"mobile device how to run. New versions of operating systems commonly include"
+" software patches that fix security flaws, code that improves overall system"
+" performance, and changes to how the operating system looks and functions."
+msgstr ""
+"Une mise à jour du système d'exploitation est une nouvelle version d'un "
+"système d'exploitation qui, avec les pilotes et autres logiciels "
+"propriétaires, indique à votre ordinateur ou appareil mobile comment "
+"fonctionner. Les nouvelles versions des systèmes d'exploitation incluent "
+"généralement des correctifs logiciels qui corrigent les failles de sécurité,"
+" du code qui améliore les performances globales du système et des "
+"modifications de l'apparence et du fonctionnement du système d'exploitation."
+
+#: templates/learn/two-factor-authentication.html:4
+msgid "LEARN about Two Factor Authentication"
+msgstr "EN SAVOIR PLUS sur l'authentification à deux facteurs"
+
+#: templates/learn/two-factor-authentication.html:9
+msgid "Two Factor Authentication (2FA)"
+msgstr "Authentification à deux facteurs (2FA)"
+
+#: templates/learn/two-factor-authentication.html:12
+msgid "What is 2FA?"
+msgstr "Qu'est-ce que la 2FA ?"
+
+#: templates/learn/two-factor-authentication.html:13
+msgid ""
+"2FA, or two-factor authentication, is when a site or app requires you to "
+"enter an extra form of identification to verify your identity and log into "
+"your account."
+msgstr ""
+"L'authentification à deux facteurs (2FA) est une procédure utilisée par un "
+"site ou une application pour vous demander de saisir une forme "
+"d'identification supplémentaire afin de vérifier votre identité et de vous "
+"connecter à votre compte."
+
+#: templates/learn/two-factor-authentication.html:13
+msgid ""
+"2FA requires people to verify their identity based on two of the three "
+"factors that can confirm identity:"
+msgstr ""
+"La 2FA exige que les personnes vérifient leur identité en fonction de deux "
+"des trois facteurs qui peuvent confirmer l'identité :"
+
+#: templates/learn/two-factor-authentication.html:15
+msgid "Something you know (e.g., a password)"
+msgstr "Quelque chose que vous connaissez (par exemple, un mot de passe)"
+
+#: templates/learn/two-factor-authentication.html:16
+msgid "Something you have (e.g., a phone)"
+msgstr "Quelque chose que vous possédez (par exemple, un téléphone)"
+
+#: templates/learn/two-factor-authentication.html:17
+msgid "Something you are (e.g., a fingerprint or facial scan)"
+msgstr ""
+"Quelque chose que vous êtes (par exemple, une empreinte digitale ou un scan "
+"facial)"
+
+#: templates/learn/two-factor-authentication.html:20
+msgid ""
+"That extra ID can be a code generated and sent directly through a text "
+"message or authenticator app. It can also be in the form of a piece of "
+"hardware like a USB drive or a biometric ID like a fingerprint."
+msgstr ""
+"Cet identifiant supplémentaire peut être un code généré et envoyé "
+"directement par SMS ou via une application d'authentification. Il peut "
+"également s'agir d'un élément matériel comme une clé USB ou d'un identifiant"
+" biométrique comme une empreinte digitale."
+
+#: templates/learn/two-factor-authentication.html:21
+msgid ""
+"Let’s break this down even further, including how two-factor authentication "
+"works, types of two-factor authentication, and why two-factor authentication"
+" is so important."
+msgstr ""
+"Décomposons cela encore plus en détail, notamment le fonctionnement de "
+"l’authentification à deux facteurs, les types d’authentification à deux "
+"facteurs et pourquoi l’authentification à deux facteurs est si importante."
+
+#: templates/learn/two-factor-authentication.html:24
+msgid "What is 2FA"
+msgstr "Qu'est-ce que la 2FA"
+
+#: templates/learn/two-factor-authentication.html:26
+msgid "2FA vs. multi-factor authentication (MFA)"
+msgstr "2FA vs. authentification multifacteur (MFA)"
+
+#: templates/learn/two-factor-authentication.html:27
+msgid ""
+"MFA refers to any type of authentication that requires two or more factors. "
+"That means that while 2FA is a form of MFA, not all forms of MFA have only "
+"two factors. Increasing the level of security by adding an extra factor "
+"makes it much more difficult for hackers to gain entry into a system."
+msgstr ""
+"L'authentification multifacteur (MFA) fait référence à tout type "
+"d'authentification qui nécessite deux facteurs ou plus. Cela signifie que "
+"même si l'authentification à deux facteurs est une forme d'authentification "
+"multifacteur, toutes les formes d'authentification multifacteur ne "
+"comportent pas que deux facteurs. L'augmentation du niveau de sécurité par "
+"l'ajout d'un facteur supplémentaire rend l'accès à un système beaucoup plus "
+"difficile pour les pirates informatiques."
+
+#: templates/learn/two-factor-authentication.html:29
+msgid "How does 2FA work?"
+msgstr "Comment fonctionne la 2FA ?"
+
+#: templates/learn/two-factor-authentication.html:30
+msgid ""
+"As the name suggests, two-factor authentication requires one extra step—a "
+"second factor—to log into an account. The process works as follows:"
+msgstr ""
+"Comme son nom l'indique, l'authentification à deux facteurs nécessite une "
+"étape supplémentaire (un deuxième facteur) pour se connecter à un compte. Le"
+" processus fonctionne comme suit :"
+
+#: templates/learn/two-factor-authentication.html:32
+msgid "The user enters their username and password."
+msgstr "L'utilisateur entre son nom d'utilisateur et son mot de passe."
+
+#: templates/learn/two-factor-authentication.html:33
+msgid ""
+"The account, platform, or site prompts users to input another verification "
+"form, such as a one-time password or code sent to their mobile phone."
+msgstr ""
+"Le compte, la plateforme ou le site invite les utilisateurs à saisir un "
+"autre formulaire de vérification, tel qu'un mot de passe à usage unique ou "
+"un code envoyé sur leur téléphone portable."
+
+#: templates/learn/two-factor-authentication.html:34
+msgid "The user enters the verification code to access their account."
+msgstr ""
+"L'utilisateur entre le code de vérification pour accéder à son compte."
+
+#: templates/learn/two-factor-authentication.html:37
+msgid ""
+"An ATM card is a good example of two-factor authentication in the real "
+"world. In addition to physically presenting the card (something you have), "
+"you must also type in your PIN (something you know) to verify your identity "
+"and access your account."
+msgstr ""
+"Une carte bancaire est un bon exemple d'authentification à deux facteurs "
+"dans le monde réel. En plus de présenter physiquement la carte (quelque "
+"chose que vous possédez), vous devez également saisir votre code PIN "
+"(quelque chose que vous connaissez) pour vérifier votre identité et accéder "
+"à votre compte."
+
+#: templates/learn/two-factor-authentication.html:39
+msgid "What is 2FA Explained"
+msgstr "Qu'est-ce que 2FA expliqué"
+
+#: templates/learn/two-factor-authentication.html:41
+msgid "Why is two-factor authentication important?"
+msgstr "Pourquoi l’authentification à deux facteurs est-elle importante ?"
+
+#: templates/learn/two-factor-authentication.html:42
+msgid ""
+"Two-factor authentication is important because adding an extra layer of "
+"verification before you can access your account means thieves will struggle "
+"to get your personal information. As cybercriminals continue to use brute "
+"force or password spraying attacks, even if you’re following good password "
+"security practices you need 2FA as well. It might seem like a hassle to add "
+"an extra step to your web surfing. But without it, you could be leaving "
+"yourself vulnerable to:"
+msgstr ""
+"L’authentification à deux facteurs est importante, car l’ajout d’une couche "
+"de vérification supplémentaire avant de pouvoir accéder à votre compte "
+"signifie que les voleurs auront du mal à obtenir vos informations "
+"personnelles. Alors que les cybercriminels continuent d’utiliser la force "
+"brute ou les attaques par pulvérisation de mots de passe, même si vous "
+"suivez de bonnes pratiques de sécurité des mots de passe, vous avez "
+"également besoin de l’authentification à deux facteurs. Il peut sembler "
+"fastidieux d’ajouter une étape supplémentaire à votre navigation sur le Web."
+" Mais sans cela, vous pourriez vous exposer à :"
+
+#: templates/learn/two-factor-authentication.html:44
+msgid "Cybercriminals who want to steal your personal information"
+msgstr "Les cybercriminels qui veulent voler vos informations personnelles"
+
+#: templates/learn/two-factor-authentication.html:45
+msgid "Hackers trying to access your bank accounts"
+msgstr "Des pirates informatiques tentent d'accéder à vos comptes bancaires"
+
+#: templates/learn/two-factor-authentication.html:46
+msgid "Thieves breaking into your online credit card portals"
+msgstr ""
+"Des voleurs s'introduisent dans vos portails de cartes de crédit en ligne"
+
+#: templates/learn/two-factor-authentication.html:49
+msgid ""
+"If you add a knowledge factor to your bank account, a cybercriminal who "
+"knows your password due to a data breach or phishing operation won’t be able"
+" to access the account. This is because your phone will receive the "
+"verification code."
+msgstr ""
+"Si vous ajoutez un facteur de connaissance à votre compte bancaire, un "
+"cybercriminel qui connaîtrait votre mot de passe en raison d’une violation "
+"de données ou d’une opération de phishing ne pourra pas accéder à votre "
+"compte. En effet, votre téléphone recevra le code de vérification."
+
+#: templates/learn/two-factor-authentication.html:50
+msgid ""
+"That way, those still relying on simple passwords have a better shot at "
+"keeping their bank accounts secure."
+msgstr ""
+"De cette façon, ceux qui utilisent encore des mots de passe simples ont plus"
+" de chances de sécuriser leurs comptes bancaires."
+
+#: templates/learn/two-factor-authentication.html:52
+msgid "Statistics of accounts using simple password"
+msgstr "Statistiques des comptes utilisant un mot de passe simple"
+
+#: templates/learn/two-factor-authentication.html:54
+msgid "Types of 2FA security"
+msgstr "Types de sécurité 2FA"
+
+#: templates/learn/two-factor-authentication.html:55
+msgid ""
+"There are several types of two-factor authentication security, including:"
+msgstr ""
+"Il existe plusieurs types de sécurité d’authentification à deux facteurs, "
+"notamment :"
+
+#: templates/learn/two-factor-authentication.html:57
+msgid "Something you know:"
+msgstr "Quelque chose que tu sais :"
+
+#: templates/learn/two-factor-authentication.html:57
+msgid ""
+"These kinds of 2FA use a code, question, or password that are unique to you."
+" Using your PIN at an ATM is a form of 2FA that requires something you know."
+msgstr ""
+"Ces types d'authentification à deux facteurs utilisent un code, une question"
+" ou un mot de passe qui vous sont propres. L'utilisation de votre code PIN à"
+" un distributeur automatique est une forme d'authentification à deux "
+"facteurs qui nécessite quelque chose que vous connaissez."
+
+#: templates/learn/two-factor-authentication.html:58
+msgid "Something you have:"
+msgstr "Quelque chose que vous avez :"
+
+#: templates/learn/two-factor-authentication.html:58
+msgid ""
+"This type of 2FA requires users to possess a type of physical token or "
+"device, such as a phone or USB token, that they need to use to log in. When "
+"you need to enter a code you receive via email or text before you can log "
+"in, or when you use an Authenticator app, you’re using this method of 2FA."
+msgstr ""
+"Ce type de 2FA nécessite que les utilisateurs possèdent un type de jeton ou "
+"d'appareil physique, tel qu'un téléphone ou un jeton USB, qu'ils doivent "
+"utiliser pour se connecter. Lorsque vous devez saisir un code que vous "
+"recevez par e-mail ou par SMS avant de pouvoir vous connecter, ou lorsque "
+"vous utilisez une application Authenticator, vous utilisez cette méthode de "
+"2FA."
+
+#: templates/learn/two-factor-authentication.html:59
+msgid "Something you are:"
+msgstr "Quelque chose que tu es :"
+
+#: templates/learn/two-factor-authentication.html:59
+msgid ""
+"This type of 2FA requires biometrics like fingerprint or facial recognition "
+"or a physical location (confirmed by GPS) to confirm your identity."
+msgstr ""
+"Ce type de 2FA nécessite des données biométriques telles que les empreintes "
+"digitales ou la reconnaissance faciale ou une localisation physique "
+"(confirmée par GPS) pour confirmer votre identité."
+
+#: templates/learn/two-factor-authentication.html:62
+msgid "Types of Factors for 2FA"
+msgstr "Types de facteurs pour la 2FA"
+
+#: templates/learn/two-factor-authentication.html:64
+msgid "3 benefits of 2FA"
+msgstr "3 avantages de la 2FA"
+
+#: templates/learn/two-factor-authentication.html:65
+msgid ""
+"The added security and protection that two-factor authentication gives you "
+"is a net positive. But there are a few extra benefits that you might not "
+"know about, including:"
+msgstr ""
+"La sécurité et la protection supplémentaires que vous offre "
+"l'authentification à deux facteurs sont un avantage net. Mais il existe "
+"quelques avantages supplémentaires que vous ne connaissez peut-être pas, "
+"notamment :"
+
+#: templates/learn/two-factor-authentication.html:67
+msgid "Account monitoring:"
+msgstr "Suivi de compte :"
+
+#: templates/learn/two-factor-authentication.html:67
+msgid ""
+"You’ll know if someone is trying to access your accounts because you’ll "
+"receive a message or prompt on your device. That allows you to report it and"
+" further strengthen your security by changing your password to something "
+"stronger."
+msgstr ""
+"Vous saurez si quelqu'un tente d'accéder à vos comptes car vous recevrez un "
+"message ou une invite sur votre appareil. Cela vous permettra de le signaler"
+" et de renforcer davantage votre sécurité en remplaçant votre mot de passe "
+"par un mot de passe plus fort."
+
+#: templates/learn/two-factor-authentication.html:68
+msgid "Dynamic process:"
+msgstr "Processus dynamique :"
+
+#: templates/learn/two-factor-authentication.html:68
+msgid ""
+"2FA authenticator apps, push notifications, and texts are generated and sent"
+" when you log in, meaning you don’t have to worry about securely storing "
+"another factor."
+msgstr ""
+"Les applications d'authentification 2FA, les notifications push et les SMS "
+"sont générés et envoyés lorsque vous vous connectez, ce qui signifie que "
+"vous n'avez pas à vous soucier du stockage sécurisé d'un autre facteur."
+
+#: templates/learn/two-factor-authentication.html:69
+msgid "Account recovery assistance:"
+msgstr "Assistance à la récupération de compte :"
+
+#: templates/learn/two-factor-authentication.html:69
+msgid ""
+"2FA means that you don’t have to put in a help desk ticket or try to get on "
+"the phone with a support team member to reset your logins or secure your "
+"account."
+msgstr ""
+"Grâce à l’authentification à deux facteurs, vous n’avez pas besoin d’ouvrir "
+"un ticket d’assistance ni d’essayer de joindre par téléphone un membre de "
+"l’équipe d’assistance pour réinitialiser vos identifiants ou sécuriser votre"
+" compte."
+
+#: templates/learn/vpn.html:4
+msgid "LEARN about VPN"
+msgstr "EN SAVOIR PLUS sur le VPN"
+
+#: templates/learn/vpn.html:12
+msgid "What is a VPN?"
+msgstr "Qu'est-ce qu'un VPN ?"
+
+#: templates/learn/vpn.html:13
+msgid ""
+"A virtual private network gives you online privacy and anonymity by creating"
+" a private network from a public Internet connection. VPNs mask your "
+"Internet protocol (IP) address so your online actions are virtually "
+"untraceable. Most important, VPN services establish secure and encrypted "
+"connections, guaranteed to provide greater privacy than even a secured Wi-Fi"
+" hotspot."
+msgstr ""
+"Un réseau privé virtuel vous offre confidentialité et anonymat en ligne en "
+"créant un réseau privé à partir d'une connexion Internet publique. Les VPN "
+"masquent votre adresse IP (Internet Protocol) afin que vos actions en ligne "
+"soient pratiquement intraçables. Plus important encore, les services VPN "
+"établissent des connexions sécurisées et cryptées, garantissant une plus "
+"grande confidentialité que même un point d'accès Wi-Fi sécurisé."
+
+#: templates/learn/vpn.html:15
+msgid "Why you need a VPN"
+msgstr "Pourquoi avez-vous besoin d’un VPN"
+
+#: templates/learn/vpn.html:16
+msgid ""
+"Think about all the times you’ve been on the go, reading emails while in "
+"line at the coffee shop, or checking your bank account while waiting at the "
+"doctor’s office. Unless you were logged into a private Wi-Fi network that "
+"required a password, any data transmitted during your online session was "
+"likely vulnerable to eavesdropping by strangers using the same network."
+msgstr ""
+"Pensez à toutes les fois où vous avez été en déplacement, à lire vos e-mails"
+" pendant que vous faisiez la queue au café ou à consulter votre compte "
+"bancaire pendant que vous attendiez chez le médecin. À moins que vous ne "
+"soyez connecté à un réseau Wi-Fi privé nécessitant un mot de passe, toutes "
+"les données transmises pendant votre session en ligne étaient probablement "
+"vulnérables aux écoutes clandestines par des inconnus utilisant le même "
+"réseau."
+
+#: templates/learn/vpn.html:17
+msgid ""
+"The encryption and anonymity that a VPN provides protects all of your online"
+" activities: sending emails, shopping online, or paying bills. VPNs also "
+"help keep your Web browsing anonymous."
+msgstr ""
+"Le cryptage et l'anonymat fournis par un VPN protègent toutes vos activités "
+"en ligne : envoi d'e-mails, achats en ligne ou paiement de factures. Les VPN"
+" contribuent également à préserver l'anonymat de votre navigation sur le "
+"Web."
+
+#: templates/learn/vpn.html:19
+msgid "How does a VPN work?"
+msgstr "Comment fonctionne un VPN ?"
+
+#: templates/learn/vpn.html:20
+msgid ""
+"A VPN (virtual private network) encrypts the traffic between your device and"
+" the internet. To do this, it creates a secure VPN tunnel for your internet "
+"traffic to pass through when your device connects to a network. That helps "
+"to hide your IP address and keep your online activity private."
+msgstr ""
+"Un VPN (réseau privé virtuel) crypte le trafic entre votre appareil et "
+"Internet. Pour ce faire, il crée un tunnel VPN sécurisé par lequel transite "
+"votre trafic Internet lorsque votre appareil se connecte à un réseau. Cela "
+"permet de masquer votre adresse IP et de préserver la confidentialité de "
+"votre activité en ligne."
+
+#: templates/learn/vpn.html:21
+msgid ""
+"With a VPN, you can browse without worrying that a cybercriminal or hacker "
+"is watching you, send messages safely, and access your favorite content from"
+" around the world."
+msgstr ""
+"Avec un VPN, vous pouvez naviguer sans craindre qu'un cybercriminel ou un "
+"pirate informatique vous surveille, envoyer des messages en toute sécurité "
+"et accéder à votre contenu préféré partout dans le monde."
+
+#: templates/learn/vpn.html:22
+msgid "Here’s a step-by-step breakdown of how VPNs work."
+msgstr "Voici une description étape par étape du fonctionnement des VPN."
+
+#: templates/learn/vpn.html:24
+msgid "Turn on the VPN"
+msgstr "Activer le VPN"
+
+#: templates/learn/vpn.html:25
+msgid ""
+"Turn on your VPN. Some VPNs, like Norton Secure VPN, allow you to choose the"
+" server location at this point, which can make you appear to be from other "
+"places when you visit websites."
+msgstr ""
+"Activez votre VPN. Certains VPN, comme Norton Secure VPN, vous permettent de"
+" choisir l'emplacement du serveur à ce stade, ce qui peut vous faire "
+"apparaître comme provenant d'autres endroits lorsque vous visitez des sites "
+"Web."
+
+#: templates/learn/vpn.html:27
+msgid "The device and the VPN establish a connection"
+msgstr "L'appareil et le VPN établissent une connexion"
+
+#: templates/learn/vpn.html:28
+msgid ""
+"Your device will connect securely to the VPN server. Once it connects, the "
+"VPN begins encrypting traffic flowing between your device and the internet."
+msgstr ""
+"Votre appareil se connectera en toute sécurité au serveur VPN. Une fois "
+"connecté, le VPN commence à crypter le trafic circulant entre votre appareil"
+" et Internet."
+
+#: templates/learn/vpn.html:30
+msgid "Traffic is encrypted to securely surf the web"
+msgstr "Le trafic est crypté pour surfer en toute sécurité sur le Web"
+
+#: templates/learn/vpn.html:31
+msgid ""
+"After you connect, all of your browsing becomes encrypted, meaning that no "
+"one else can see your online activity."
+msgstr ""
+"Une fois connecté, toute votre navigation est cryptée, ce qui signifie que "
+"personne d'autre ne peut voir votre activité en ligne."
+
+#: templates/learn/vpn.html:33
+msgid "How Does a VPN Work"
+msgstr "Comment fonctionne un VPN"
+
+#: templates/learn/vpn.html:35
+msgid "Advantages of using a VPN"
+msgstr "Avantages de l'utilisation d'un VPN"
+
+#: templates/learn/vpn.html:36
+msgid ""
+"While it used to seem like VPNs were tools primarily for hackers and "
+"journalists, everyone can benefit from one. Privacy or security and "
+"accessing content are some of the greatest benefits of using a VPN."
+msgstr ""
+"Alors qu'auparavant les VPN semblaient être des outils destinés "
+"principalement aux pirates informatiques et aux journalistes, tout le monde "
+"peut en bénéficier. La confidentialité, la sécurité et l'accès au contenu "
+"sont quelques-uns des principaux avantages de l'utilisation d'un VPN."
+
+#: templates/learn/vpn.html:37
+msgid "The advantages of a VPN include:"
+msgstr "Les avantages d'un VPN incluent :"
+
+#: templates/learn/vpn.html:39
+msgid "Masking your browsing history:"
+msgstr "Masquer votre historique de navigation :"
+
+#: templates/learn/vpn.html:39
+msgid ""
+"VPNs help you block snoopers, companies, and advertisers from following your"
+" browsing activity and profiling you."
+msgstr ""
+"Les VPN vous aident à empêcher les espions, les entreprises et les "
+"annonceurs de suivre votre activité de navigation et de vous profiler."
+
+#: templates/learn/vpn.html:40
+msgid "Hiding your IP address and physical location:"
+msgstr "Masquer votre adresse IP et votre emplacement physique :"
+
+#: templates/learn/vpn.html:40
+msgid ""
+"Your internet browsing is your business. A VPN hides your IP address and "
+"physical location by directing the traffic from your devices to a network "
+"far away from you, making your browsing private and helping you access the "
+"content you want."
+msgstr ""
+"Votre navigation sur Internet est votre affaire. Un VPN masque votre adresse"
+" IP et votre emplacement physique en dirigeant le trafic de vos appareils "
+"vers un réseau éloigné de vous, ce qui rend votre navigation privée et vous "
+"aide à accéder au contenu que vous souhaitez."
+
+#: templates/learn/vpn.html:41
+msgid "Stopping cybercriminals from watching your activity:"
+msgstr "Empêcher les cybercriminels de surveiller votre activité :"
+
+#: templates/learn/vpn.html:41
+msgid ""
+"If you’re using public Wi-Fi or an unsecured home network, cybercriminals "
+"could monitor your activity. They may be able to steal your login "
+"credentials from your mobile banking accounts and anything else you sign "
+"into online."
+msgstr ""
+"Si vous utilisez un réseau Wi-Fi public ou un réseau domestique non "
+"sécurisé, les cybercriminels peuvent surveiller votre activité. Ils peuvent "
+"être en mesure de voler vos identifiants de connexion à partir de vos "
+"comptes bancaires mobiles et de tout autre élément auquel vous vous "
+"connectez en ligne."
+
+#: templates/learn/vpn.html:42
+msgid "Protecting sensitive information:"
+msgstr "Protection des informations sensibles :"
+
+#: templates/learn/vpn.html:42
+msgid ""
+"Even if you don’t realize it, you expose sensitive information every time "
+"you log onto a website through an unsecured network. A VPN keeps your "
+"sensitive information safe by masking your IP address and encrypting your "
+"traffic."
+msgstr ""
+"Même si vous ne le réalisez pas, vous exposez des informations sensibles à "
+"chaque fois que vous vous connectez à un site Web via un réseau non "
+"sécurisé. Un VPN protège vos informations sensibles en masquant votre "
+"adresse IP et en cryptant votre trafic."
+
+#: templates/learn/vpn.html:43
+msgid "Sharing files securely:"
+msgstr "Partager des fichiers en toute sécurité :"
+
+#: templates/learn/vpn.html:43
+msgid ""
+"Whether working from home or sending files to family members, a VPN lets you"
+" send and receive files without worrying about a hacker holding your files "
+"for ransom or inserting malware."
+msgstr ""
+"Que vous travailliez à domicile ou que vous envoyiez des fichiers aux "
+"membres de votre famille, un VPN vous permet d'envoyer et de recevoir des "
+"fichiers sans craindre qu'un pirate informatique ne retienne vos fichiers "
+"contre rançon ou n'insère des logiciels malveillants."
+
+#: templates/learn/vpn.html:44
+msgid "Making online payments safely:"
+msgstr "Effectuer des paiements en ligne en toute sécurité :"
+
+#: templates/learn/vpn.html:44
+msgid ""
+"A VPN helps keep your shopping activity private, making it safer to buy "
+"online."
+msgstr ""
+"Un VPN permet de préserver la confidentialité de vos achats, rendant ainsi "
+"vos achats en ligne plus sûrs."
+
+#: templates/learn/vpn.html:47
+msgid "Advantages of VPN"
+msgstr "Avantages du VPN"
+
+#: templates/learn/vpn.html:49
+msgid "What can I do with a VPN?"
+msgstr "Que puis-je faire avec un VPN ?"
+
+#: templates/learn/vpn.html:50
+msgid ""
+"VPNs have many practical applications. Here are some common reasons to use a"
+" VPN:"
+msgstr ""
+"Les VPN ont de nombreuses applications pratiques. Voici quelques raisons "
+"courantes d'utiliser un VPN :"
+
+#: templates/learn/vpn.html:52
+msgid "Avoid location-based price discrimination:"
+msgstr "Évitez la discrimination des prix basée sur la localisation :"
+
+#: templates/learn/vpn.html:52
+msgid ""
+"Many online retailers charge more in the United States than other countries."
+" You can save money on goods, travel, and accommodation by setting your "
+"location to different countries."
+msgstr ""
+"De nombreux détaillants en ligne facturent plus cher aux États-Unis que dans"
+" d'autres pays. Vous pouvez économiser de l'argent sur les biens, les "
+"voyages et l'hébergement en définissant votre emplacement sur différents "
+"pays."
+
+#: templates/learn/vpn.html:53
+msgid "Avoid bandwidth throttling:"
+msgstr "Évitez la limitation de la bande passante :"
+
+#: templates/learn/vpn.html:53
+msgid ""
+"If you are streaming, gaming, or downloading many files, your ISP may decide"
+" to slow down your internet. With a VPN, they won’t be able to do that."
+msgstr ""
+"Si vous regardez du contenu en streaming, jouez à des jeux ou téléchargez de"
+" nombreux fichiers, votre fournisseur d’accès Internet peut décider de "
+"ralentir votre connexion Internet. Avec un VPN, il ne pourra pas le faire."
+
+#: templates/learn/vpn.html:54
+msgid "Secure your VoIP conversations:"
+msgstr "Sécurisez vos conversations VoIP :"
+
+#: templates/learn/vpn.html:54
+msgid ""
+"Internet phone calls aren’t always secure, but a VPN means your "
+"conversations stay private."
+msgstr ""
+"Les appels téléphoniques sur Internet ne sont pas toujours sécurisés, mais "
+"un VPN signifie que vos conversations restent privées."
+
+#: templates/learn/vpn.html:55
+msgid "Access the internet safely when traveling:"
+msgstr "Accédez à Internet en toute sécurité lorsque vous voyagez :"
+
+#: templates/learn/vpn.html:55
+msgid ""
+"Depending on where you’re at, the internet may not be safe to use, "
+"especially if your only internet connection is public. A VPN lets you browse"
+" with less worry."
+msgstr ""
+"Selon l'endroit où vous vous trouvez, il se peut que l'utilisation "
+"d'Internet ne soit pas sûre, surtout si votre seule connexion Internet est "
+"publique. Un VPN vous permet de naviguer en toute tranquillité."
+
+#: templates/learn/vpn.html:56
+msgid "Avoid censorship:"
+msgstr "Éviter la censure :"
+
+#: templates/learn/vpn.html:56
+msgid ""
+"Some countries censor the internet. If you’re traveling and need help "
+"avoiding censorship, a VPN may help."
+msgstr ""
+"Certains pays censurent Internet. Si vous voyagez et avez besoin d'aide pour"
+" éviter la censure, un VPN peut vous aider."
+
+#: templates/learn/vpn.html:57
+msgid "Improve your gaming experience:"
+msgstr "Améliorez votre expérience de jeu :"
+
+#: templates/learn/vpn.html:57
+msgid ""
+"While VPNs can slow your connection a little, they can also create a more "
+"stable, secure connection that can improve your gaming experience."
+msgstr ""
+"Bien que les VPN puissent ralentir un peu votre connexion, ils peuvent "
+"également créer une connexion plus stable et sécurisée qui peut améliorer "
+"votre expérience de jeu."
+
+#: templates/learn/vpn.html:58
+msgid "Access content:"
+msgstr "Accéder au contenu :"
+
+#: templates/learn/vpn.html:58
+msgid ""
+"VPNs let you choose which country your traffic is routed through, which can "
+"help you access your favorite content and sites. Make sure VPNs are legal to"
+" use wherever you are."
+msgstr ""
+"Les VPN vous permettent de choisir le pays par lequel votre trafic est "
+"acheminé, ce qui peut vous aider à accéder à vos contenus et sites préférés."
+" Assurez-vous que l'utilisation des VPN est légale où que vous soyez."
+
+#: templates/learn/vpn.html:61
+msgid "What Can You Do with a VPN"
+msgstr "Que pouvez-vous faire avec un VPN"
+
+#: templates/learn/vpn.html:63
+msgid "Are there any drawbacks to using a VPN?"
+msgstr "L’utilisation d’un VPN présente-t-elle des inconvénients ?"
+
+#: templates/learn/vpn.html:64
+msgid ""
+"While most VPNs provide you with a much higher level of cybersecurity than "
+"browsing without one, there are a few potential downsides to using a VPN:"
+msgstr ""
+"Bien que la plupart des VPN vous offrent un niveau de cybersécurité bien "
+"plus élevé que la navigation sans VPN, l'utilisation d'un VPN présente "
+"quelques inconvénients potentiels :"
+
+#: templates/learn/vpn.html:66
+msgid "Not all VPNs protect you from cookies on the websites you visit:"
+msgstr ""
+"Tous les VPN ne vous protègent pas des cookies sur les sites Web que vous "
+"visitez :"
+
+#: templates/learn/vpn.html:66
+msgid ""
+"While most cookies are safe, they can introduce vulnerabilities and are used"
+" to track your habits."
+msgstr ""
+"Bien que la plupart des cookies soient sûrs, ils peuvent introduire des "
+"vulnérabilités et sont utilisés pour suivre vos habitudes."
+
+#: templates/learn/vpn.html:67
+msgid "Cybercriminals have hacked VPNs:"
+msgstr "Les cybercriminels ont piraté des VPN :"
+
+#: templates/learn/vpn.html:67
+msgid ""
+"Cybercriminals can use zero-day exploits that haven’t been discovered or "
+"patched by some VPNs. That’s one reason why it’s essential to download the "
+"latest software updates as soon as they’re available."
+msgstr ""
+"Les cybercriminels peuvent utiliser des failles zero-day qui n’ont pas été "
+"découvertes ou corrigées par certains VPN. C’est l’une des raisons pour "
+"lesquelles il est essentiel de télécharger les dernières mises à jour "
+"logicielles dès qu’elles sont disponibles."
+
+#: templates/learn/vpn.html:68
+msgid "VPNs are not created equally:"
+msgstr "Les VPN ne sont pas créés de la même manière :"
+
+#: templates/learn/vpn.html:68
+msgid ""
+"VPNs come in many varieties. Some are free, and others have monthly fees. "
+"Free VPN services often collect information about you and target you with "
+"ads based on your online profile."
+msgstr ""
+"Il existe de nombreux types de VPN. Certains sont gratuits, d'autres sont "
+"payants. Les services VPN gratuits collectent souvent des informations sur "
+"vous et vous ciblent avec des publicités basées sur votre profil en ligne."
+
+#: templates/learn/vpn.html:69
+msgid "Some free VPNs sell your data to third parties:"
+msgstr "Certains VPN gratuits vendent vos données à des tiers :"
+
+#: templates/learn/vpn.html:69
+msgid ""
+"Free VPN users may have no control over whether or not their data gets sold."
+" Cybercriminals have even set up free VPNs to harvest personal information."
+msgstr ""
+"Les utilisateurs de VPN gratuits n'ont aucun contrôle sur la vente ou non de"
+" leurs données. Les cybercriminels ont même mis en place des VPN gratuits "
+"pour récolter des informations personnelles."
+
+#: templates/learn/vpn.html:70
+msgid "Using a VPN can slow down your internet connection:"
+msgstr "L'utilisation d'un VPN peut ralentir votre connexion Internet :"
+
+#: templates/learn/vpn.html:70
+msgid ""
+"While it might not be that noticeable most of the time, you may experience "
+"slower download and upload speeds, which can impact your streaming or "
+"gaming."
+msgstr ""
+"Même si cela n'est pas forcément perceptible la plupart du temps, vous "
+"pouvez constater des vitesses de téléchargement et de téléversement plus "
+"lentes, ce qui peut avoir un impact sur votre streaming ou vos jeux."
