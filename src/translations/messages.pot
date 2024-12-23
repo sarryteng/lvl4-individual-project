@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-22 00:07+0000\n"
+"POT-Creation-Date: 2024-12-22 22:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,8 +33,9 @@ msgstr ""
 msgid "Learn how to protect your mobile devices from threats."
 msgstr ""
 
-#: templates/guides.html:21 templates/learn.html:21
-#: templates/learn/encryption.html:9 templates/learn/mobile-security.html:33
+#: templates/guides.html:21 templates/guides/use-encryption.html:9
+#: templates/learn.html:21 templates/learn/encryption.html:9
+#: templates/learn/mobile-security.html:33
 msgid "Encryption"
 msgstr ""
 
@@ -42,7 +43,7 @@ msgstr ""
 msgid "Understand how encryption safeguards sensitive information."
 msgstr ""
 
-#: templates/guides.html:27
+#: templates/guides.html:27 templates/guides/secure-passwords.html:9
 msgid "Secure Passwords"
 msgstr ""
 
@@ -75,8 +76,8 @@ msgstr ""
 msgid "Why keeping your software updated is critical."
 msgstr ""
 
-#: templates/guides.html:51 templates/learn.html:51
-#: templates/learn/identity-theft.html:9
+#: templates/guides.html:51 templates/guides/prevent-theft.html:9
+#: templates/learn.html:51 templates/learn/identity-theft.html:9
 msgid "Identity Theft"
 msgstr ""
 
@@ -92,7 +93,8 @@ msgstr ""
 msgid "Learn about malware and how to prevent infections."
 msgstr ""
 
-#: templates/guides.html:63 templates/learn.html:63 templates/learn/vpn.html:9
+#: templates/guides.html:63 templates/guides/use-vpn.html:9
+#: templates/learn.html:63 templates/learn/vpn.html:9
 msgid "VPN"
 msgstr ""
 
@@ -168,7 +170,8 @@ msgstr ""
 msgid "Learn about Cybersecurity Concepts"
 msgstr ""
 
-#: templates/learn.html:15 templates/learn/mobile-security.html:9
+#: templates/guides/secure-mobile.html:9 templates/learn.html:15
+#: templates/learn/mobile-security.html:9
 msgid "Mobile Security"
 msgstr ""
 
@@ -176,7 +179,8 @@ msgstr ""
 msgid "Password Security"
 msgstr ""
 
-#: templates/learn.html:57 templates/learn/malware.html:9
+#: templates/guides/malware-protection.html:9 templates/learn.html:57
+#: templates/learn/malware.html:9
 msgid "Malware"
 msgstr ""
 
@@ -244,6 +248,2409 @@ msgstr ""
 
 #: templates/tools.html:44
 msgid "Best Antivirus for Android"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:14
+msgid ""
+"How you update software depends on the devices and operating systems "
+"you’re using. You can update your software quickly by following the steps"
+" we’ve provided for the various platforms below."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:17
+msgid ""
+"If you have an iPhone, iPad, Apple Watch, or another device running iOS, "
+"your software and applications will be updated in the Apple App Store. "
+"You’ll see a red circle with a number in the top right corner of the App "
+"Store icon if any of your apps have an important update available."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:18
+msgid "Then, simply:"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:20
+msgid "Click on the App Store icon."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:21
+msgid ""
+"Click the Update button next to individual apps to begin the process, or "
+"click the Install All Updates button to do them all at once."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:25
+msgid ""
+"When using Android, you‘ll update most of your applications in the Google"
+" Play Store. You can also turn on automatic updates to make sure you’re "
+"doing everything possible to protect your Android device."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:26
+msgid "But to implement updates manually:"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:28
+msgid "Open the Google Play Store app."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:29
+msgid "Tap the profile icon in the top right."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:30
+msgid "Tap Manage apps & devices to view apps that have updates available."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:31
+msgid "Tap Update to start the update."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:35
+msgid ""
+"How you update your operating system also depends on the device you’re "
+"using. To make sure you’re running the latest version of your operating "
+"system, follow the steps for the different platforms provided below."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:38
+msgid ""
+"When using an iOS device, you’ll access your operating system updates "
+"through the System Settings. You’ll see a red circle with a number in the"
+" top right corner of the System Settings icon if an iOS update is ready "
+"to be installed."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:39
+msgid "To get the new version:"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:41
+#: templates/guides/how-to-update-software.html:54
+msgid "Open Settings."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:42
+msgid "Tap General."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:43
+msgid "Tap Software Update."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:44
+msgid ""
+"Tap the Update Now or Download and Install to install the newest version "
+"of Mac iOS."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:46
+msgid "Note:"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:46
+msgid "Apple recommends backing up your device before installing an iOS update."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:49
+msgid "How to Update iOS"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:51
+msgid ""
+"When using an Android phone or tablet, you’ll find operating system "
+"updates in Settings."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:52
+msgid "To check for, and install, available updates:"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:55
+msgid "Tap About phone."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:56
+msgid "Tap Software update or Check now for updates."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:57
+msgid ""
+"Tap Download and install or choose one of the other options to install "
+"the OS update later."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:61
+msgid "How to Update Android"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:64
+msgid ""
+"For most modern devices, it’s easy to keep your apps or OS updated. Let’s"
+" look at two of the best ways to stay as up to date as possible:"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:66
+msgid ""
+"Look for notifications: The Apple App Store, the Google Play Store, "
+"Android and iOS devices, and Windows and Mac OS computers will tell you "
+"when an update is ready for installation. You might receive a push "
+"notification, see a flag or bubble on the store or settings icon, or may "
+"need to go into the update menu directly."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:67
+msgid ""
+"Turn on automatic updates: Almost every device will let you turn on "
+"automatic updates for apps and operating systems. This process can vary "
+"depending on your device, but a good place to look for these settings is "
+"in the device settings section or store settings."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:71
+msgid "Have more questions about computer updates? We have answers."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:74
+msgid ""
+"If you don’t update your software, you’re at greater risk of system "
+"problems, hackers, malware, and compatibility issues. Older versions are "
+"usually less efficient, meaning your computer runs slower and may "
+"struggle to multitask or handle RAM-heavy tasks like audio or video "
+"editing."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:77
+msgid ""
+"There are some risks to updating software and operating systems. Any new "
+"version of an app or OS is almost certain to contain some security "
+"vulnerabilities. And if you have an older device, newer software might "
+"malfunction due to new hardware requirements. Even with those potential "
+"risks, the security and performance benefits of updated software far "
+"outweigh the downsides."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:80
+msgid ""
+"The easiest way to check if your software is up to date is to see if "
+"updates are available wherever you normally update your software. This "
+"usually means checking for Apple App Store or Google Play store updates. "
+"You can also usually find any available updates via your system settings."
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:83
+msgid ""
+"If you run outdated software, the known vulnerabilities in older versions"
+" of apps and operating systems mean you’re at a higher risk of being "
+"hacked. Additionally, your phone could run hotter, your device might fall"
+" prey to malware, and your computer may not run as smoothly as it could."
+msgstr ""
+
+#: templates/guides/malware-protection.html:4
+msgid "GUIDE on Malware Detection and Prevention Tips"
+msgstr ""
+
+#: templates/guides/malware-protection.html:12
+msgid "How to check for viruses on your iPhone"
+msgstr ""
+
+#: templates/guides/malware-protection.html:13
+msgid ""
+"If your iPhone is acting unusually, it's important to determine if these "
+"behaviors are typical signs of a virus. It's possible that other factors,"
+" like hardware issues or bugs in the iOS operating system or an app, "
+"might be the culprit. In that case, a simple software update could help "
+"fix the issue."
+msgstr ""
+
+#: templates/guides/malware-protection.html:14
+msgid ""
+"But, if your iPhone shows common virus symptoms, that’s a signal that you"
+" could be dealing with a malware infection. Here’s what to look out for:"
+msgstr ""
+
+#: templates/guides/malware-protection.html:16
+msgid "Phone performance"
+msgstr ""
+
+#: templates/guides/malware-protection.html:17
+msgid ""
+"If your iPhone's apps frequently crash or the device shuts down "
+"unexpectedly, a virus might be disrupting your phone's operations. That "
+"interference could affect task processing and negatively impact app "
+"functionality."
+msgstr ""
+
+#: templates/guides/malware-protection.html:18
+msgid ""
+"Viruses also strain your phone’s processor and memory with additional "
+"tasks, hindering the efficient operation of other apps. That extra "
+"workload can lead to increased power consumption and can cause your "
+"device to overheat and the battery to drain more quickly."
+msgstr ""
+
+#: templates/guides/malware-protection.html:20
+msgid "Data usage"
+msgstr ""
+
+#: templates/guides/malware-protection.html:21
+msgid ""
+"Malware on your iPhone can exploit your data connection for malicious "
+"activities. That may involve hijacking data-intensive apps, covertly "
+"downloading harmful code, or funneling your private information to other "
+"sources."
+msgstr ""
+
+#: templates/guides/malware-protection.html:22
+msgid ""
+"Such actions can lead to a significant increase in your mobile data "
+"usage. That excess data usage may cause you to exceed your data limit and"
+" lead to a higher phone bill."
+msgstr ""
+
+#: templates/guides/malware-protection.html:24
+msgid "Third-party software"
+msgstr ""
+
+#: templates/guides/malware-protection.html:25
+msgid ""
+"Discovering an unfamiliar app on your iPhone could indicate malware. Even"
+" if you installed the app, issues that emerge after installation could "
+"signal trouble. That is particularly true for apps from third-party "
+"sources or if your phone is jailbroken. Jailbreaking allows you to "
+"install apps outside of iOS's secured ecosystem, which can increase the "
+"risk of virus exposure."
+msgstr ""
+
+#: templates/guides/malware-protection.html:26
+msgid ""
+"But even malicious apps have snuck into Apple’s App Store. If you notice "
+"persistent pop-ups or other suspicious app behavior, that may be a sign "
+"that malicious third-party software has infiltrated your iPhone."
+msgstr ""
+
+#: templates/guides/malware-protection.html:28
+msgid "Scan for viruses"
+msgstr ""
+
+#: templates/guides/malware-protection.html:29
+msgid ""
+"If all the above steps fail, and you still think your iPhone may have a "
+"virus, then it’s time to use an antivirus app to help detect malware on "
+"your phone. Norton 360 for Mobile checks for the latest security patches "
+"and iOS updates, filters spam texts to help protect against phishing "
+"attacks, and notifies you if you’re using a potentially unsafe Wi-Fi "
+"network."
+msgstr ""
+
+#: templates/guides/malware-protection.html:31
+msgid "How to get rid of viruses on your iPhone"
+msgstr ""
+
+#: templates/guides/malware-protection.html:32
+msgid ""
+"Running an iOS antivirus scan with a security app like Norton 360 for "
+"Mobile is an effective way to remove iPhone viruses. As well as helping "
+"you identity a virus or other malware infection on your iPhone, it can "
+"also help secure your iPhone in real time by blocking infections before "
+"they spread to your device."
+msgstr ""
+
+#: templates/guides/malware-protection.html:33
+msgid ""
+"Keep reading and follow the methods below to learn how to remove iOS "
+"viruses and malware:"
+msgstr ""
+
+#: templates/guides/malware-protection.html:35
+msgid "Clean up your device"
+msgstr ""
+
+#: templates/guides/malware-protection.html:36
+msgid ""
+"The first step is to wipe your iPhone clean of the most likely sources of"
+" infection. To do this, delete suspicious apps, particularly those you "
+"downloaded right before you noticed signs of an infection. To help remove"
+" lingering traces of malicious code, clear your app and browser caches, "
+"such as iMessage cookies."
+msgstr ""
+
+#: templates/guides/malware-protection.html:38
+msgid "Restart your iPhone"
+msgstr ""
+
+#: templates/guides/malware-protection.html:39
+msgid ""
+"To help wipe the slate clean, restart your iPhone. Simply power off your "
+"phone, wait a few seconds after it finishes shutting down, and turn it on"
+" again. Restarting your device can help stop viruses from replicating and"
+" spreading further through iOS."
+msgstr ""
+
+#: templates/guides/malware-protection.html:41
+msgid "Install the latest iOS"
+msgstr ""
+
+#: templates/guides/malware-protection.html:42
+msgid ""
+"Whether or not the previous steps have managed to purge your iPhone of "
+"malware, installing the latest version of iOS will help prevent "
+"reinfections and help your phone more effectively quarantine viruses in "
+"your system."
+msgstr ""
+
+#: templates/guides/malware-protection.html:43
+msgid "To update your iOS, go to"
+msgstr ""
+
+#: templates/guides/malware-protection.html:43
+#: templates/guides/malware-protection.html:48
+#: templates/guides/use-encryption.html:15
+msgid "Settings"
+msgstr ""
+
+#: templates/guides/malware-protection.html:43
+#: templates/guides/malware-protection.html:48
+msgid "General"
+msgstr ""
+
+#: templates/guides/malware-protection.html:43
+msgid "Software Update"
+msgstr ""
+
+#: templates/guides/malware-protection.html:43
+msgid "and install any available software updates."
+msgstr ""
+
+#: templates/guides/malware-protection.html:45
+msgid "Restore from a backup or reset to factory settings"
+msgstr ""
+
+#: templates/guides/malware-protection.html:46
+msgid ""
+"To manually remove more advanced and stubborn malware, you may have to "
+"restore your iPhone to a previously backed-up version from before the "
+"malware infection hit."
+msgstr ""
+
+#: templates/guides/malware-protection.html:47
+msgid "You can restore a clean backup from iCloud by following these steps:"
+msgstr ""
+
+#: templates/guides/malware-protection.html:48
+msgid "Go to"
+msgstr ""
+
+#: templates/guides/malware-protection.html:48
+msgid "Transfer or Reset iPhone"
+msgstr ""
+
+#: templates/guides/malware-protection.html:49
+#: templates/guides/use-encryption.html:16
+msgid "Select"
+msgstr ""
+
+#: templates/guides/malware-protection.html:49
+msgid "Erase All Content and Settings"
+msgstr ""
+
+#: templates/guides/malware-protection.html:49
+msgid "Erase Now"
+msgstr ""
+
+#: templates/guides/malware-protection.html:49
+msgid "and follow the on-screen prompts to continue."
+msgstr ""
+
+#: templates/guides/malware-protection.html:50
+msgid "During rebooting, your iPhone will show the"
+msgstr ""
+
+#: templates/guides/malware-protection.html:50
+msgid "Apps &amp; Data"
+msgstr ""
+
+#: templates/guides/malware-protection.html:50
+msgid "page, where you can select"
+msgstr ""
+
+#: templates/guides/malware-protection.html:50
+msgid "Restore from iCloud Backup"
+msgstr ""
+
+#: templates/guides/malware-protection.html:51
+msgid "Sign into iCloud and choose the backed-up iOS version to restore."
+msgstr ""
+
+#: templates/guides/malware-protection.html:53
+msgid ""
+"If all else fails and you don’t have a backup to restore from, you should"
+" try performing a factory reset, which will"
+msgstr ""
+
+#: templates/guides/malware-protection.html:53
+msgid "erase all the data from your device"
+msgstr ""
+
+#: templates/guides/malware-protection.html:53
+msgid ""
+"Along with purging any viruses, a factory reset will also wipe your "
+"photos, files, apps, and settings—so proceed accordingly."
+msgstr ""
+
+#: templates/guides/malware-protection.html:54
+msgid ""
+"To factory reset your iPhone, follow the same steps as above—the only "
+"difference is that you won’t be able to restore a backed-up version of "
+"your phone’s memory during the reboot."
+msgstr ""
+
+#: templates/guides/malware-protection.html:56
+msgid "Preventing iPhone viruses"
+msgstr ""
+
+#: templates/guides/malware-protection.html:57
+msgid ""
+"Apple’s iOS has iPhone security features that make malware infiltration "
+"relatively rare. iPhones operate in a self-contained ecosystem, using "
+"only Apple’s programming and files and allowing app downloads only from "
+"the official App Store. That walled garden approach, combined with "
+"Apple’s extensive software security, makes it hard for malware to "
+"infiltrate."
+msgstr ""
+
+#: templates/guides/malware-protection.html:58
+msgid ""
+"There’s no way to prevent all iPhone viruses, but there are basic and "
+"essential steps you can take to help shield your device from malicious "
+"software:"
+msgstr ""
+
+#: templates/guides/malware-protection.html:60
+msgid "Don’t jailbreak"
+msgstr ""
+
+#: templates/guides/malware-protection.html:61
+msgid ""
+"Sticking to the standard iOS configuration and not jailbreaking your "
+"phone reduces the chances that an iPhone virus infects your phone. iOS "
+"comes with built-in security features, and the company’s walled garden "
+"approach to software means that apps on the App Store are vetted before "
+"becoming available to download. Unless you have a good reason (e.g, "
+"you’re a researcher), you shouldn’t try to jailbreak your iPhone."
+msgstr ""
+
+#: templates/guides/malware-protection.html:63
+msgid "Download apps only from the App Store"
+msgstr ""
+
+#: templates/guides/malware-protection.html:64
+msgid ""
+"Apple’s App Store is the safest place to download the apps you need for "
+"your iPhone. Downloading or installing apps from unverified third-party "
+"sources can increase the risk of exposing your device to iPhone malware."
+msgstr ""
+
+#: templates/guides/malware-protection.html:66
+msgid "Stay alert to potential risks"
+msgstr ""
+
+#: templates/guides/malware-protection.html:67
+#, python-format
+msgid ""
+"Although iOS may be safer than other operating systems, no computing "
+"system is 100%% secure—you also have a part to play. Take care not to "
+"open unknown, unexpected, or suspicious links you receive in emails or "
+"messages, even if they come from close friends or family. And make sure "
+"you use secure Wi-Fi networks and understand the risks of using public "
+"Wi-Fi."
+msgstr ""
+
+#: templates/guides/malware-protection.html:69
+msgid "Permissions and updates"
+msgstr ""
+
+#: templates/guides/malware-protection.html:70
+msgid ""
+"Even if you trust all the apps on your iPhone, be careful about what "
+"permissions you give them. Being careful with the permissions you grant "
+"helps protect your private data if an app becomes compromised by malware."
+" It will also ensure that an app which turns out to be malicious will be "
+"less capable of spreading viruses to other apps on your iPhone."
+msgstr ""
+
+#: templates/guides/malware-protection.html:72
+msgid "Signs your Android phone may have a virus or other malware"
+msgstr ""
+
+#: templates/guides/malware-protection.html:73
+msgid ""
+"Phones can be vulnerable to damage externally and internally. While the "
+"external damage is usually visible, internal damage is usually hidden "
+"from view."
+msgstr ""
+
+#: templates/guides/malware-protection.html:74
+msgid ""
+"Malware like viruses is known to perform repeated tasks that can take up "
+"resources on your devices. Signs of malware may show up in these ways:"
+msgstr ""
+
+#: templates/guides/malware-protection.html:76
+msgid "Your phone is too slow."
+msgstr ""
+
+#: templates/guides/malware-protection.html:77
+msgid "Apps take longer to load."
+msgstr ""
+
+#: templates/guides/malware-protection.html:78
+msgid "The battery drains faster than expected."
+msgstr ""
+
+#: templates/guides/malware-protection.html:79
+msgid "There is an abundance of pop-up ads."
+msgstr ""
+
+#: templates/guides/malware-protection.html:80
+msgid "Your phone has apps you don’t remember downloading."
+msgstr ""
+
+#: templates/guides/malware-protection.html:81
+msgid "Unexplained data usage occurs."
+msgstr ""
+
+#: templates/guides/malware-protection.html:82
+msgid "Higher phone bills arrive."
+msgstr ""
+
+#: templates/guides/malware-protection.html:85
+msgid "How to check for viruses and other malware on your Android phone"
+msgstr ""
+
+#: templates/guides/malware-protection.html:86
+msgid ""
+"A good way to check for malware on your Android phone is to run an "
+"antivirus scan."
+msgstr ""
+
+#: templates/guides/malware-protection.html:87
+msgid ""
+"Before buying antivirus software for your phone, make sure you consider "
+"the most comprehensive product that’s available for your device."
+msgstr ""
+
+#: templates/guides/malware-protection.html:88
+msgid ""
+"There are many antivirus software choices available on the market. Some "
+"are free, and some are sold."
+msgstr ""
+
+#: templates/guides/malware-protection.html:89
+msgid ""
+"It’s a good idea to do your research to ensure the security software you "
+"invest in runs a complete scan and doesn’t overlook any vulnerabilities. "
+"An incomplete scan could give you a false sense of security when, in "
+"fact, your device could be vulnerable to cyberattacks."
+msgstr ""
+
+#: templates/guides/malware-protection.html:91
+msgid "How to remove viruses and other malware from your Android device"
+msgstr ""
+
+#: templates/guides/malware-protection.html:92
+msgid ""
+"If you think you have malware on your phone, it’s important to stop the "
+"malware from causing any further damage. Here are a few steps you can "
+"take:"
+msgstr ""
+
+#: templates/guides/malware-protection.html:94
+msgid ""
+"Power off the phone and reboot in safe mode. Press the power button to "
+"access the Power Off options. Most Android phones come with the option to"
+" restart in Safe Mode. Here’s how, according to Google, although Safe "
+"Mode can vary by phone: Press your phone's power button. When the "
+"animation starts, press and hold your phone's volume down button. Hold it"
+" until the animation ends and your phone restarts. You'll see “Safe mode”"
+" at the bottom of your screen."
+msgstr ""
+
+#: templates/guides/malware-protection.html:95
+msgid ""
+"Uninstall the suspicious app. Find the app in Settings and uninstall or "
+"force close it. This may not completely remove the malware, but it could "
+"prevent further damage to your device, or from it transmitting the "
+"malware to other devices on your network."
+msgstr ""
+
+#: templates/guides/malware-protection.html:96
+msgid ""
+"Look for other apps you think may be infected. There’s a chance that some"
+" apps may have been infected by the malware. If you think you can "
+"identify those apps, delete them immediately."
+msgstr ""
+
+#: templates/guides/malware-protection.html:97
+msgid "Install a robust mobile security app on your phone."
+msgstr ""
+
+#: templates/guides/malware-protection.html:100
+msgid "Tips to help protect your Android device against viruses and other malware"
+msgstr ""
+
+#: templates/guides/malware-protection.html:101
+msgid ""
+"Here are seven key steps you can take to help protect against future "
+"risks."
+msgstr ""
+
+#: templates/guides/malware-protection.html:103
+msgid "Invest in and use robust security software to protect your Android device."
+msgstr ""
+
+#: templates/guides/malware-protection.html:104
+msgid "Keep all operating systems and software updated with the latest versions."
+msgstr ""
+
+#: templates/guides/malware-protection.html:105
+msgid "Don’t click on suspicious or unfamiliar links in emails and text messages."
+msgstr ""
+
+#: templates/guides/malware-protection.html:106
+msgid "Use strong, complicated passwords or a password manager."
+msgstr ""
+
+#: templates/guides/malware-protection.html:107
+msgid ""
+"Never use unsecure Wi-Fi connections. Always use a VPN when connecting to"
+" public Wi-Fi."
+msgstr ""
+
+#: templates/guides/malware-protection.html:108
+msgid ""
+"Always use strong cyber safety protection on all devices that connect to "
+"the internet."
+msgstr ""
+
+#: templates/guides/malware-protection.html:109
+msgid ""
+"Always install apps from trusted sources, such as the Google Play Store. "
+"Read the fine print and permissions on the apps to understand how much "
+"access you are giving the app developers."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:4
+msgid "GUIDE on How to Prevent Identity Theft"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:13
+msgid "Warning signs of identity theft"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:14
+msgid "ID theft warning signs can include:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:16
+msgid "Unexplained financial activity:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:16
+msgid ""
+"Charges, accounts, or withdrawals on your bank statements or credit card "
+"reports that you don't recognize."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:17
+msgid "Unexpected calls from debt collectors:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:17
+msgid "Phone calls from collection agencies about debts you aren’t aware of."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:18
+msgid "Missing mail or bills:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:18
+msgid ""
+"Important documents you were expecting never arrived, especially those "
+"containing financial information."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:19
+msgid "Errors on credit reports:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:19
+msgid ""
+"Inaccuracies on your credit report, such as accounts you haven't opened, "
+"inquiries you didn't initiate, or incorrect personal information."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:23
+msgid "Warning Signs of Identity Theft"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:24
+msgid ""
+"These are four common red flags of identity theft to look out for. And "
+"now that you know what identity theft may look like, here are the steps "
+"to take if you know or suspect you’re a victim."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:25
+msgid "What to do if you're a victim of identity theft"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:26
+msgid ""
+"If you’re a victim of ID theft, you need to mitigate damage quickly. Here"
+" are the immediate steps you should take to report identity theft."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:27
+msgid "If you are a victim of Identity Theft"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:30
+msgid "Contact financial institutions and companies where the fraud occurred:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:30
+msgid ""
+"Alert your bank, credit card companies, and other financial institutions "
+"about the identity theft. Also, contact the companies where the fraud "
+"occurred."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:31
+msgid "Freeze credit reports:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:31
+msgid ""
+"Contact the three major credit bureaus (Equifax®, Experian®, and "
+"TransUnion®) to freeze your credit report. This can help prevent "
+"criminals from opening new lines of credit in your name. You can also "
+"place a fraud alert on your report by contacting any of the major bureaus"
+" who must then alert the others."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:32
+msgid "File a report with law enforcement:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:32
+msgid ""
+"Report the identity theft to the FTC at IdentityTheft.gov to get your "
+"personal recovery plan or file a police report. You will need proof of "
+"one of these if you want to go on to place an extended fraud alert, which"
+" lasts seven years."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:35
+msgid "Ways to protect your identity"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:36
+msgid ""
+"There are several ways that you can help protect your identity from "
+"would-be thieves. ​​Here are the key strategies for safeguarding your "
+"personal information and helping protect against identity fraud occurring"
+" in the first place:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:38
+msgid "Strengthen passwords and PINs:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:38
+msgid ""
+"Use complex and unique passwords for all your online accounts. Avoid "
+"using obvious information like birthdays or pet names. Consider a "
+"password manager to help you create and manage strong passwords. Turn on "
+"two-factor authentication or multi-factor authentication wherever "
+"possible."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:39
+msgid "Be cautious with personal information online:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:39
+msgid ""
+"Don't share sensitive information like credit card details on unsecured "
+"websites or in response to unsolicited emails or messages. And think "
+"before sharing anything on social media or online, as even seemingly "
+"innocent info like your place of birth can be used by identity thieves."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:40
+msgid "Monitor financial accounts regularly:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:40
+msgid ""
+"Regularly review your bank statements and credit card reports for any "
+"unauthorized activity. Catching fraudulent charges early can minimize the"
+" damage. You can also use a service like Norton™ 360 with LifeLock™ "
+"Select to help monitor your credit."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:41
+msgid "Shred sensitive documents:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:41
+msgid ""
+"Before discarding documents containing personal information like bank "
+"statements or credit card offers, shred them thoroughly and dispose of "
+"them in separate loads. This makes it much harder for criminals to steal "
+"your information from the trash."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:42
+msgid "Secure personal devices and networks:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:42
+msgid ""
+"Use a strong password on your home network and keep your devices' "
+"software updated so they have the latest security patches. Be cautious "
+"when using public Wi-Fi networks and avoid accessing or sending sensitive"
+" information on unsecured connections."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:43
+msgid "Be skeptical of unsolicited communications:"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:43
+msgid ""
+"Be wary of emails, texts, or phone calls you’re not expecting that "
+"request personal information. Don't click suspicious links or "
+"attachments, and if you’re unsure about a communication's legitimacy "
+"contact the sender directly through a verified channel."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:45
+msgid ""
+"By following these steps and staying vigilant, you can reduce your risk "
+"of identity theft and help protect your personal information."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:47
+msgid "FAQs about identity theft"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:48
+msgid "Still have questions about identity theft? We’ve got you covered."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:50
+msgid "What should I do if I suspect I'm a victim of identity theft?"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:51
+msgid ""
+"If you suspect that somebody stole your identity, alert your bank and "
+"credit card companies immediately. You should also place a fraud alert or"
+" credit freeze on your credit report and notify the authorities that you "
+"think your identity has been compromised."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:53
+msgid "What do you do if someone has stolen your identity?"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:54
+msgid ""
+"Contact the company where you know the fraud took place and speak to the "
+"fraud department. Ask them to freeze your account or implement their "
+"fraud procedures. Then place a fraud alert or credit freeze on your "
+"credit report and file a report at IdentityTheft.gov and with your local "
+"law enforcement office. If the theft warrants it, consider contacting the"
+" IRS as well as your insurance and medical care providers."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:56
+msgid "Can children be victims of identity theft?"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:57
+msgid ""
+"Yes, child identity theft exists. If an ID thief knows your child’s "
+"Social Security number, they might use it to open new credit accounts or "
+"take out bank loans—and hurt your child’s credit score in the process."
+msgstr ""
+
+#: templates/guides/prevent-theft.html:59
+msgid "Is identity theft punishable by law?"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:60
+msgid ""
+"Absolutely, identity theft is a serious crime with significant "
+"consequences for the perpetrators. The penalties for identity theft vary "
+"depending on the severity of the crime and the state where it occurs."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:4
+msgid "GUIDE on keeping your mobile secure"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:12
+msgid "How to secure mobile devices"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:13
+msgid ""
+"Just as there are many different kinds of threats, there are many ways to"
+" reduce the likelihood of your device being impacted by one of them. With"
+" a few small changes, you can better secure your digital life and help "
+"keep different types of hackers and malware at bay."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:15
+msgid "Enable screen locks and biometrics for better in-person security"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:16
+msgid ""
+"Built-in security features should be your first line of defense against "
+"physical device tampering and theft. Choose as difficult a passcode as "
+"you can easily remember, and don’t reuse any of your codes. Biometrics, "
+"like FaceID or fingerprint scanners, create an extra layer of security "
+"that is more difficult to hack than a password."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:18
+msgid "Keep your devices and apps up to date to limit vulnerabilities"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:19
+msgid ""
+"An updated device is more secure than one running an older operating "
+"system or application. Turn on automatic updates to minimize the time "
+"your phone is vulnerable to known threats."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:21
+msgid "Use secure networks and VPNs for safer browsing, shopping, and downloading"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:22
+msgid ""
+"A VPN creates an encrypted path for you to use the internet by "
+"anonymizing your device and masking your IP address. Always protect your "
+"browsing when on public Wi-Fi by using a VPN."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:24
+msgid "Back up and encrypt data to protect your personal information"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:25
+msgid ""
+"Backing up an encrypted copy of your data protects you in the event of "
+"malware disabling your mobile device. Encrypted cloud backups mean you "
+"can access your data anywhere and be nearly as safe as with encrypted "
+"physical backups."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:27
+msgid "Employ strong, unique passwords and 2FA to keep your accounts safer"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:28
+msgid ""
+"Using a password manager will make securely storing and accessing "
+"passwords simple. Follow good password security practices by choosing "
+"unique passwords that you don’t reuse. Turn on two-factor authentication "
+"to put another roadblock between hackers and your personal information."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:30
+msgid "Use mobile security software for faster, more efficient mobile security"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:31
+msgid ""
+"Mobile security software like Norton Mobile Security for Android and iOS "
+"devices combines many of these security features into an easy-to-use "
+"package. It scans your messages for phishing attempts, warns you when "
+"suspicious networks are nearby, and protects your devices from malware."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:34
+msgid "6 Tips to Secure Mobile Device"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:36
+msgid "FAQs about mobile security"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:37
+msgid "Have more questions about mobile security? We have answers."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:39
+msgid "What is the best security you can put on a mobile device?"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:40
+msgid "The best mobile security depends on a variety of factors, including:"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:42
+msgid "Device type"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:43
+msgid "How frequently you use your device"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:44
+msgid "What you use your device for"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:46
+msgid ""
+"Regardless of these factors, it’s a good idea to take advantage of the "
+"security features in your devices. That means screen lock passcodes, "
+"biometrics, and remote wiping if you lose your device. Installing "
+"cybersecurity software will give you an extra level of protection from "
+"threats."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:48
+msgid "How can I make my phone more secure?"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:49
+msgid ""
+"To make your phone more secure, you should use security software, use a "
+"VPN when you browse the internet with public Wi-Fi, keep your operating "
+"system and applications updated, and avoid clicking on links and "
+"downloading files from people you don’t know."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:51
+msgid "What's the most secure way to lock your smartphone?"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:52
+msgid ""
+"The most secure way to lock your smartphone or tablet is to set a "
+"passcode and use any biometric security features (like a fingerprint scan"
+" or facial recognition) available on your device. It’s also vital that "
+"you choose a unique passcode and that you don’t share your passcode with "
+"anyone."
+msgstr ""
+
+#: templates/guides/secure-mobile.html:54
+msgid "Do I really need a password lock on my phone?"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:55
+msgid ""
+"If you care about the security of your phone and the personal information"
+" on it, yes. Not only will it stop people around you from accessing your "
+"device without your permission, but it may also prevent your information "
+"from falling into the hands of a thief if your phone is stolen."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:4
+msgid "GUIDE on creating strong passwords and keeping them safe"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:12
+msgid "Password mistakes to avoid:"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:13
+msgid "Make your passwords more secure by avoiding the following:"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:15
+msgid "Numerical patterns like “1234”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:16
+msgid "Common words like “password” or “guest”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:17
+msgid "Repeated characters like “1111”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:18
+msgid "Keyboard patterns like “qazwsx” or “asdf”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:19
+msgid "First and last names"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:20
+msgid "Pet and family member names"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:21
+msgid "Nicknames"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:22
+msgid "Important dates"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:23
+msgid "Cities you’ve lived in"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:24
+msgid "Schools you’ve attended"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:25
+msgid "Reversed words like “drowssap”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:26
+msgid "Character substitutions like using “@” in place of “a”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:29
+msgid "5 tips to create secure passwords"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:30
+msgid ""
+"When it comes to online security, creating long, strong, and unique "
+"passwords is your first line of defense. Here are five key tips to create"
+" strong passwords, fortify your accounts, and keep your personal "
+"information safer online:"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:32
+msgid "Randomize your passwords"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:33
+msgid ""
+"Random passwords are the ultimate shield against hackers. Since they lack"
+" patterns and personal information, it’s nearly impossible for hackers to"
+" guess them using dictionary attacks, numerical patterns like “123,” or "
+"birthday predictions. You should also avoid falling into the trap of "
+"using guessable words that are significant to your life, like nicknames, "
+"surnames, pets, cities, and schools you attended."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:35
+msgid "Randomize your password"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:37
+#: templates/guides/secure-passwords.html:40
+msgid "Make passwords long"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:38
+msgid ""
+"Longer passwords are more secure because every additional character "
+"increases the number of possible combinations. That means that it’s "
+"harder for hackers to guess your password. It also makes the password-"
+"cracking process more time-intensive, which could deter brute force "
+"attacks. To maximize account security, make your passwords at least 15 "
+"characters long."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:42
+#: templates/guides/secure-passwords.html:45
+msgid "Avoid password recycling"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:43
+msgid ""
+"Recycling the same password across accounts makes your passwords less "
+"secure. If an attacker compromises one password, all your accounts with "
+"the same password are at risk. To boost your password security, create a "
+"strong and unique password for every account. You can use a secure "
+"password generator to create them and a password manager to store them."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:47
+#: templates/guides/secure-passwords.html:50
+msgid "Use symbols, cases, and spellings"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:48
+msgid ""
+"Even if you develop a completely original password, it could still be "
+"easy to guess if you spell a word correctly, use predictable cases, and "
+"don’t use numbers or symbols. Up the ante by incorporating a mix of "
+"uppercase (A – Z) and lowercase letters (a – z), numbers (0 - 9), and "
+"symbols (#, $, %). Also, don’t substitute letters with symbols or numbers"
+" (like “p@ssw0rd”) unless you’re creating a passphrase—most "
+"cybercriminals are well aware of this password trick."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:52
+#: templates/guides/secure-passwords.html:56
+msgid "Opt for long passphrases"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:53
+msgid ""
+"Passphrases are strings of words that can help protect your accounts in "
+"the event of password attacks. They should use a complex and lengthy mix "
+"of characters, 5 to 7 words, and symbols. As a bonus, they are easier to "
+"remember since you can base them on movie quotes, rhymes, songs, etc., "
+"making them especially useful for securing your home computer lock "
+"screen."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:54
+msgid ""
+"Just don’t use personal information or choose a passphrase directly "
+"linked to something you’ve shared publicly. For example, if you’re a loud"
+" and proud Swiftie, don’t use one of Taylor Swift’s songs to inspire your"
+" passphrase."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:58
+msgid ""
+"If you’re not sure whether your passphrases are strong enough, consider "
+"using a random password generator to come up with hard-to-crack ideas."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:60
+msgid "How to remember strong passwords"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:61
+msgid ""
+"While strong passwords are vital, remembering them can be tough, "
+"especially when you’re supposed to have a long, strong, and unique "
+"iteration for each account. Consider using a password manager like Norton"
+" Password Manager or mnemonics to stay on top of your passwords."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:63
+msgid "Password managers"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:64
+msgid ""
+"A password manager is a secure digital vault that stores all your "
+"passwords. You just need to remember one master password to access it. "
+"Then, you can securely and conveniently auto-fill your credentials when "
+"you visit a website’s login page."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:66
+msgid "Mnemonic devices"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:67
+msgid ""
+"A mnemonic device is a memory trick that helps you recall information by "
+"associating it with something more memorable, such as a phrase or rhyme. "
+"You can use these to remember secure and complex passwords—just come up "
+"with a memorable phrase or acronym."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:68
+msgid ""
+"For example, you know you shouldn’t use your name in a password. But you "
+"can use your name as a mnemonic device for a passphrase. So, instead of "
+"making your password “AdamC” (your first name and surname initial), you "
+"could use the mnemonic device, “AstronautDrivesArmorMiracleCorduroy,” to "
+"remember each word of your passphrase. Of course, you also need to mix up"
+" the cases and add numbers and symbols."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:70
+msgid "How to keep your passwords safe"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:71
+msgid ""
+"Password security requires a comprehensive approach. To keep your "
+"passwords safe:"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:73
+msgid "Create long, complex passwords"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:74
+msgid "Use unique passwords for every account"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:75
+msgid "Use a reputable password manager"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:76
+#: templates/guides/spot-phishing.html:26
+msgid "Enable two-factor authentication (2FA)"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:77
+msgid "Change your passwords regularly"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:78
+msgid "Subscribe to data breach alerts"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:79
+msgid "Avoid clicking suspicious links"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:80
+msgid "Don’t share your passwords with anyone"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:81
+msgid "Use a reputable security app"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:84
+msgid "FAQs about password security"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:85
+msgid ""
+"Still have questions about password security? Here’s what you need to "
+"know."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:87
+msgid "How long should my password be?"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:88
+msgid ""
+"A strong password should be at least 15 characters long, with a "
+"combination of different character sets like letters, numbers, and "
+"symbols."
+msgstr ""
+
+#: templates/guides/secure-passwords.html:90
+msgid "How do I know if my password is no longer secure?"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:91
+msgid ""
+"If your password is short, simple, has been shared with others, used on "
+"multiple accounts, or has been compromised in a data breach, it is not "
+"secure. On top of creating long, strong, unique passwords, you should "
+"also change them regularly if you want strong password security."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:4
+msgid "GUIDE on How to Identify Phishing Links and What to Do After Clicking Them"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:9
+msgid "Recognizing and Preventing Phishing Attacks"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:12
+#: templates/guides/spot-phishing.html:15
+msgid "What to do if you clicked on a phishing link"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:13
+msgid ""
+"If a phishing scam lures you into clicking a malicious link, it’s "
+"important to act quickly to minimize the fallout. First, cease all "
+"interactions—stop communicating with the attacker, end any active "
+"downloads, and close out of the spoofed website if the URL took you to "
+"one. Then, secure your device and begin the process of monitoring your "
+"credit and other accounts for signs of fraud."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:17
+msgid "Stop interacting"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:18
+msgid ""
+"If you realize you fell into a phishing trap, immediately stop what "
+"you’re doing. Depending on the situation, this could mean closing the "
+"spoofed website window or halting an in-progress download. Ending the "
+"interaction after clicking a phishing link can help protect your data by "
+"preventing sensitive information from being transmitted to the attacker."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:20
+msgid "Disconnect your internet"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:21
+msgid ""
+"Disconnecting your internet connection after clicking a phishing link is "
+"another way to stop ongoing data transfers. This is a good option for "
+"stopping background processes and preventing malware from spreading to "
+"other devices on your network."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:23
+msgid "Change your passwords"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:24
+msgid ""
+"Prevent ongoing unauthorized access to your accounts by changing any "
+"account login credentials that may have been compromised when you clicked"
+" a phishing link. To help block hackers, craft long and unique passwords,"
+" mixing uppercase and lowercase letters, numbers, and symbols for maximum"
+" security."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:27
+msgid ""
+"If you recently clicked a phishing link, consider adding a further layer "
+"of protection to your accounts with two-factor authentication. This helps"
+" keep your accounts safer even if a hacker gets their hands on your "
+"password, because 2FA requires users to enter a secondary verification "
+"code sent directly to an alternative device."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:29
+msgid "Alert the credit bureaus"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:30
+msgid ""
+"Visit the home pages of the three national credit "
+"bureaus—Experian<sup>®</sup>, Equifax<sup>®</sup>, and "
+"TransUnion<sup>®</sup>—to alert them of the phishing attack and freeze "
+"your credit. Freezing your credit helps ensure criminals can't open new "
+"credit accounts or take out new loans in your name."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:32
+msgid "Contact your credit card providers and review your statements"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:33
+msgid ""
+"If you shared your credit card information with a phisher, contact your "
+"credit card issuer. They can help you freeze your credit card to stop "
+"unauthorized purchases and help you comb through your statements to "
+"identify fraudulent transactions. They may even be able to reimburse you "
+"for purchases the phisher made using your card."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:35
+msgid "Check your credit report"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:36
+msgid ""
+"Check your credit report regularly for signs of identity theft and "
+"financial fraud in the months after clicking a phishing link. This is "
+"where you’ll see if someone applies for loans or takes out lines of "
+"credit in your name."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:38
+msgid "Report the phishing attack"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:39
+msgid ""
+"Mark as spam or junk any phishing messages or calls you see. Then, report"
+" the phishing attempt to help counter-cybercrime groups track threats and"
+" limit future phishing attacks."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:40
+msgid "Here’s how to report phishing messages:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:42
+msgid "Report phishing text messages"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:42
+msgid "by forwarding them to SPAM (7726)."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:43
+msgid "Report phishing emails"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:43
+msgid "by forwarding the phishing email to reportphishing@apwg.org."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:46
+msgid "Scan your device for malware"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:47
+msgid ""
+"Use antivirus software to help identify and block online attacks and help"
+" prevent phishers from continuing to spy on you or stealing your personal"
+" information."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:49
+msgid "How can I spot a phishing attack before clicking a link?"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:50
+msgid ""
+"These days, phishers are much more adept at baiting their targets and "
+"luring them in. Still, there are several ways you can spot a phishing "
+"attack before it becomes a problem, including:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:52
+msgid "Unbelievable deals:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:52
+msgid ""
+"Be wary of emails offering wildly cheap products or services. If it seems"
+" too good to be true, it probably is."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:53
+msgid "Requests for personal information:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:53
+msgid ""
+"Legitimate institutions like banks will never ask for account details via"
+" email—never share such information this way."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:54
+msgid "Spelling and grammatical mistakes:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:54
+msgid ""
+"Emails littered with typos and awkward phrasing are common in phishing "
+"emails and text messages."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:55
+msgid "Generic greetings:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:55
+msgid ""
+"Many times, phishers don’t bother to personalize emails because they just"
+" want to cast a wide net and catch as many people as they can. So you "
+"might receive an email with a generic greeting like, “Hello, Sir” or "
+"“Dear Account Holder.”"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:56
+msgid "Urgent language:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:56
+msgid ""
+"Phishers create urgency to rush you into clicking links. Don't be "
+"pressured; take your time when reading and responding to emails."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:57
+msgid "Unfamiliar senders:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:57
+msgid ""
+"Delete emails from unknown senders without clicking anything. This is "
+"especially important if you can’t verify their identity."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:58
+msgid "Familiar senders:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:58
+msgid ""
+"Even seemingly familiar email addresses can be fake. If the tone, "
+"communication channel, or content feels off, try to reach out to the "
+"person using another form of communication to confirm their identity."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:59
+msgid "Suspicious links and attachments:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:59
+msgid ""
+"Before clicking a link or downloading an attachment, hover over the link "
+"and inspect the URL for inconsistencies."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:60
+msgid "Use a scam detection tool to analyze messages:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:60
+msgid ""
+"If a message looks suspicious, use an anti-scam tool to help determine if"
+" the message is legitimate."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:63
+msgid "How do I know if I clicked a phishing link?"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:64
+msgid ""
+"You may not immediately realize that you clicked a phishing link because "
+"it can take some time for red flags to appear."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:66
+msgid "How to know if clicked on phishing link"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:68
+msgid ""
+"You’ll know you’ve likely been phished if you start noticing warning "
+"signs like:"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:70
+msgid "Suspicious redirects"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:70
+msgid ""
+"that take you to crudely made websites with misspellings and odd "
+"characters in the URL."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:71
+msgid "Invasive personal information requests"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:71
+msgid ""
+"like a form prompting you to enter sensitive details like your Social "
+"Security number or account information."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:72
+msgid "Too-good-to-be-true messages and offers"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:72
+msgid ""
+"like free vacations or job offers with sky-high salaries to try to entice"
+" you to engage with the phisher."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:73
+msgid "High-pressure language"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:73
+msgid ""
+"in messages or website copy that creates a sense of urgency to encourage "
+"you to click a link without thinking."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:76
+msgid "FAQs about phishing"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:77
+msgid ""
+"If your questions don’t just stop at “What is phishing?” we’ve got you "
+"covered. Read through this FAQ section to learn more about phishing "
+"scams."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:79
+msgid "Who are the targets of phishing attacks?"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:80
+msgid ""
+"Anyone can be targeted in a phishing attack. To increase their chance of "
+"success, phishers will often target as many email addresses or phone "
+"numbers as possible."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:82
+msgid "Can AI be used for phishing attacks?"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:83
+msgid ""
+"Yes, scammers can use AI to make their communications sound more "
+"believable. For example, phishers may use it to generate realistic "
+"conversations free of spelling and grammatical errors so their phishing "
+"messages seem more legitimate."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:85
+msgid "Can you get scammed by opening a text message?"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:86
+msgid ""
+"No, opening a scam text message itself isn't risky. However, clicking "
+"links within those text messages or replying can expose you to malware or"
+" trick you into revealing personal information."
+msgstr ""
+
+#: templates/guides/spot-phishing.html:88
+msgid "What do you do when you click a suspicious link on your phone?"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:89
+msgid ""
+"If you click a suspicious link on your phone, close the website, stop any"
+" active downloads, and disconnect your internet connection. Then, use "
+"security software to scan your phone for malware. Finally, change the "
+"passwords for any accounts that may have been impacted."
+msgstr ""
+
+#: templates/guides/use-encryption.html:4
+msgid "GUIDE on how to use email encryption"
+msgstr ""
+
+#: templates/guides/use-encryption.html:12
+msgid "How to encrypt email on iPhone + other iOS devices"
+msgstr ""
+
+#: templates/guides/use-encryption.html:13
+msgid ""
+"The security measures on iOS devices allow for S/MIME encryption. But "
+"you'll have to purchase and download an S/MIME certificate before "
+"successfully encrypting email messages. These steps may vary depending on"
+" the device you’re using."
+msgstr ""
+
+#: templates/guides/use-encryption.html:15
+msgid "Open"
+msgstr ""
+
+#: templates/guides/use-encryption.html:15
+msgid "and select your"
+msgstr ""
+
+#: templates/guides/use-encryption.html:15
+msgid "Apple ID"
+msgstr ""
+
+#: templates/guides/use-encryption.html:15
+msgid "account at the top of the screen."
+msgstr ""
+
+#: templates/guides/use-encryption.html:16
+msgid "iCloud"
+msgstr ""
+
+#: templates/guides/use-encryption.html:17
+msgid "Tap the"
+msgstr ""
+
+#: templates/guides/use-encryption.html:17
+msgid "Mail"
+msgstr ""
+
+#: templates/guides/use-encryption.html:17
+msgid "button."
+msgstr ""
+
+#: templates/guides/use-encryption.html:18
+msgid "Scroll to the"
+msgstr ""
+
+#: templates/guides/use-encryption.html:18
+msgid "Advanced"
+msgstr ""
+
+#: templates/guides/use-encryption.html:18
+msgid "button at the bottom of the screen."
+msgstr ""
+
+#: templates/guides/use-encryption.html:19
+msgid "Tap"
+msgstr ""
+
+#: templates/guides/use-encryption.html:19
+msgid "Encrypt by Default"
+msgstr ""
+
+#: templates/guides/use-encryption.html:19
+msgid "and make sure the S/MIME details are correct."
+msgstr ""
+
+#: templates/guides/use-encryption.html:22
+msgid "How to Encrypt Email on iPhone"
+msgstr ""
+
+#: templates/guides/use-encryption.html:24
+msgid "Email encryption for Android"
+msgstr ""
+
+#: templates/guides/use-encryption.html:25
+msgid ""
+"Android devices are similar to iOS devices in that they can support an "
+"additional encryption extension to protect emails. However, these devices"
+" require the PGP/MIME protocol and third-party apps to send secure "
+"emails."
+msgstr ""
+
+#: templates/guides/use-encryption.html:27
+msgid "Email encryption tools/services"
+msgstr ""
+
+#: templates/guides/use-encryption.html:28
+msgid ""
+"Because some email providers and device makers make it harder than others"
+" to send encrypted email messages, there are also some third-party tools "
+"you can use to help send secure emails."
+msgstr ""
+
+#: templates/guides/use-encryption.html:29
+msgid ""
+"A few of the free apps available to send and receive encrypted messages, "
+"along with a few anonymous email services, include:"
+msgstr ""
+
+#: templates/guides/use-encryption.html:38
+msgid "How to read encrypted emails"
+msgstr ""
+
+#: templates/guides/use-encryption.html:39
+msgid "These are the main methods for reading encrypted emails:"
+msgstr ""
+
+#: templates/guides/use-encryption.html:41
+msgid ""
+"If an email is encrypted and protected by a password, you must enter the "
+"password to decrypt the email and read it."
+msgstr ""
+
+#: templates/guides/use-encryption.html:42
+msgid ""
+"If an email is encrypted and not protected by a password, you’ll need to "
+"have the encryption key before the message's contents are readable."
+msgstr ""
+
+#: templates/guides/use-encryption.html:45
+msgid "5 email security best practices"
+msgstr ""
+
+#: templates/guides/use-encryption.html:46
+msgid ""
+"Knowing how to encrypt email messages is a great start to improving your "
+"email security. With the following steps, you’ll make it more difficult "
+"for hackers to get into your email. These practices and other identity "
+"management routines can help you better protect your information."
+msgstr ""
+
+#: templates/guides/use-encryption.html:49
+msgid "Email Security Best Practices"
+msgstr ""
+
+#: templates/guides/use-encryption.html:51
+msgid "1. Create strong email passwords"
+msgstr ""
+
+#: templates/guides/use-encryption.html:52
+msgid ""
+"Cyberattacks and data breaches are not only carried out using session "
+"hijacking or brute force attacks. Today’s cybercriminals also use "
+"strategic methods, like credential stuffing, to access sensitive "
+"information. Having a well-thought-out and unique password can lessen the"
+" likelihood of you falling victim to these kinds of cyberattacks."
+msgstr ""
+
+#: templates/guides/use-encryption.html:53
+msgid ""
+"Because remembering several unique and difficult passwords can be tough, "
+"you should consider using a password manager."
+msgstr ""
+
+#: templates/guides/use-encryption.html:55
+msgid "2. Use two-factor authentication"
+msgstr ""
+
+#: templates/guides/use-encryption.html:56
+msgid ""
+"Two-factor authentication (2FA), a type of multifactor authentication, "
+"adds another step to your login process to keep unauthorized users from "
+"gaining access to your account. Email providers like Gmail and Outlook "
+"are already using these tools."
+msgstr ""
+
+#: templates/guides/use-encryption.html:57
+msgid ""
+"Some 2FA uses biometrics, like a fingerprint or FaceID, and a password "
+"before logging in. Others will send a text message to your device with a "
+"code you’ll need to log in. These login requirements are usually "
+"inaccessible to everyday hackers, meaning your email will be more secure."
+msgstr ""
+
+#: templates/guides/use-encryption.html:59
+msgid "3. Beware of phishing emails"
+msgstr ""
+
+#: templates/guides/use-encryption.html:60
+msgid ""
+"Hackers use phishing scams to access people's private information. One "
+"common type of phishing involves a scammer sending emails embedded with "
+"links leading to malicious websites designed to trick you into entering "
+"your login credentials. Those credentials are then saved and used to "
+"access your actual accounts."
+msgstr ""
+
+#: templates/guides/use-encryption.html:61
+msgid ""
+"Always verify that you're on a site’s proper URL, and try to avoid "
+"opening emails that appear to be suspicious."
+msgstr ""
+
+#: templates/guides/use-encryption.html:63
+msgid "4. Avoid accessing emails via public Wi-Fi"
+msgstr ""
+
+#: templates/guides/use-encryption.html:64
+msgid ""
+"Whether you’re checking your account balances while in line for coffee or"
+" checking your email while at lunch, if you’re doing it on a public Wi-Fi"
+" network, your data is at risk. Public Wi-Fi networks make it easy for "
+"cybercriminals to hack and siphon off information from everyday people "
+"because they’re often unencrypted."
+msgstr ""
+
+#: templates/guides/use-encryption.html:65
+msgid ""
+"If you’re using public Wi-Fi, consider downloading a virtual private "
+"network (VPN) to put a protective shield over your device."
+msgstr ""
+
+#: templates/guides/use-encryption.html:67
+msgid "5. Always log out when finished"
+msgstr ""
+
+#: templates/guides/use-encryption.html:68
+msgid ""
+"You should always log out of your email account after you've finished "
+"using it. This applies to when you're on both unfamiliar and familiar "
+"devices. If a hacker enters a protected network, you don’t want them to "
+"have a clear pathway toward the information they’re looking for by "
+"leaving your accounts wide open."
+msgstr ""
+
+#: templates/guides/use-encryption.html:70
+msgid "FAQs about encrypting email"
+msgstr ""
+
+#: templates/guides/use-encryption.html:71
+msgid "Still have questions about encrypting email messages? We have answers."
+msgstr ""
+
+#: templates/guides/use-encryption.html:73
+msgid "How do I password-protect an email attachment?"
+msgstr ""
+
+#: templates/guides/use-encryption.html:74
+msgid ""
+"It depends. For some types of attachments, you can save them with a "
+"password requirement. Other types of attachments can be password-"
+"protected within an email system, though this feature is not available "
+"for all providers."
+msgstr ""
+
+#: templates/guides/use-encryption.html:76
+msgid "Is it a good idea to encrypt your email?"
+msgstr ""
+
+#: templates/guides/use-encryption.html:77
+msgid ""
+"It is usually a good idea to encrypt your email, especially if you’re "
+"sharing any information you’d like to keep private. If somebody hacks "
+"your email, having certain types of email encryption can prevent the "
+"hacker from reading your messages."
+msgstr ""
+
+#: templates/guides/use-encryption.html:79
+msgid "What is the difference between encrypted email and secure email?"
+msgstr ""
+
+#: templates/guides/use-encryption.html:80
+msgid ""
+"Encrypted emails are messages that are themselves encrypted, meaning that"
+" they are secure whether they’re in your sent messages or the inbox of "
+"the intended recipient. Secure email means that the data in an email "
+"account is secure within the system, but individual emails are not "
+"necessarily encrypted."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:4
+msgid "GUIDE on How to Setup Two Factor Authentication"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:9
+#: templates/learn/two-factor-authentication.html:9
+msgid "Two Factor Authentication (2FA)"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:13
+msgid "2FA Approaches"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:14
+msgid ""
+"There are a few simple, widely supported approaches for adding 2FA to "
+"your accounts. There’s not one “right” way to use it, and each has "
+"distinct considerations for security and convenience."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:16
+msgid "A pretty good option: SMS text messages"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:17
+msgid ""
+"Most services allow you to use regular old text messages as your 2FA. "
+"When logging in to a site you need a password for, you’ll receive a short"
+" confirmation code on your mobile device. Enter the code when prompted "
+"during login."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:19
+msgid "SMS Authentication"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:21
+msgid ""
+"Text messages are a painless way to access 2FA codes, but are only as "
+"reliable as the phone network. For example, if you lose network access or"
+" travel outside the country, you might not be able to receive the "
+"messages.Text messages are a painless way to access 2FA codes, but are "
+"only as reliable as the phone network. For example, if you lose network "
+"access or travel outside the country, you might not be able to receive "
+"the messages."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:22
+msgid ""
+"For most people, SMS-based 2FA is much better than using a password "
+"alone. But because telephone infrastructure itself comes with a great "
+"deal of baggage, SMS isn’t the most secure method available."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:23
+msgid ""
+"For example, Associated Press writer Fatima Hussein told the story of how"
+" someone stole her phone number so they could take over her bank account "
+"for financial fraud. The attacker convinced her phone provider, Cricket "
+"Wireless, to transfer her number to a new SIM card on a remote device, "
+"allowing the attacker to intercept her 2FA messages."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:24
+msgid ""
+"That sounds scary, but remember the real story here: The attacker was "
+"forced to work much harder than if they could simply have entered a "
+"password."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:26
+msgid "Better option: Authentication apps"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:27
+msgid ""
+"Compared to SMS messages, authenticator apps are a little more convenient"
+" and a lot more secure. Some services allow you to receive your temporary"
+" login code from a mobile app. There are many options to choose from, "
+"such as Google Authenticator or Authy."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:29
+msgid "Authentication Apps"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:31
+msgid ""
+"Some web services let you attach multiple authentication apps to the same"
+" account, which can be incredibly helpful for getting login codes when "
+"multiple people need access. Authenticator apps are also great because "
+"they work when you don’t have access to your phone network."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:32
+msgid ""
+"Unlike SMS messages, authenticator apps can’t be intercepted on the phone"
+" network, making apps a hardened option."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:33
+msgid ""
+"But, just as you can be phished into entering passwords into a fraudulent"
+" website to steal your login information, the same is true of "
+"authenticator codes. So we can do even better."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:35
+msgid "Best option: Security keys"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:36
+msgid ""
+"Right now, security keys are one of the most secure and efficient ways to"
+" use 2FA. A security key is a physical USB device you can use to "
+"authenticate into your account."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:37
+msgid ""
+"Instead of typing in a code when prompted to provide your 2FA "
+"credentials, you insert your security key into your device and physically"
+" tap it when prompted during login. That’s all. Security keys are fairly "
+"resistant to phishing attacks, making them one of the best options "
+"available. Unlike code-based 2FA, phishing sites don’t have a great way "
+"to intercept information from security keys."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:38
+msgid ""
+"The main problem with security keys is that as soon as you try one, "
+"you’ll want to use them everywhere. And they can’t be used everywhere "
+"yet."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:39
+msgid ""
+"Security keys are not yet as well supported as authenticator apps, but "
+"the standard is getting traction on large websites. It can be used to log"
+" into Google, Facebook, Dropbox, and other services. Security keys are "
+"supported by most major browsers."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:41
+msgid "FAQs about 2FA"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:42
+msgid ""
+"Check out some frequently asked questions concerning the 2FA login "
+"process."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:44
+msgid "Is 2FA safe?"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:45
+msgid ""
+"For the most part, 2FA is safe. Still, like most online activities, there"
+" are ways that criminals can bypass 2FA security and access your account."
+" For example, lost password recovery usually resets your password via "
+"email, and it can bypass 2FA."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:46
+#, python-format
+msgid ""
+"Even though it's not 100%% secure, 2FA can bolster your online security "
+"and is recommended."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:48
+msgid "Can two-step verification be hacked?"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:49
+msgid "Yes, hackers can use certain phishing"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:49
+msgid "messages"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:49
+msgid ""
+"to work around 2FA login processes. That being said, having a second "
+"authentication factor makes it more difficult for hackers because more "
+"information is required to gain access."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:51
+msgid "What is the strongest 2FA method?"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:52
+msgid ""
+"Hardware-based 2FA is the strongest form of 2FA verification. Because a "
+"physical item is needed, whether it’s a phone, a thumb drive, an ID card,"
+" or another object, it’s much more difficult for a hacker or criminal to "
+"access all parts of 2FA logins."
+msgstr ""
+
+#: templates/guides/use-two-factor.html:54
+msgid "Is MFA better than 2FA?"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:55
+msgid ""
+"Multi-factor authentication that uses three or more authentication "
+"factors is more secure than 2FA. For most sites, apps, and platforms, 2FA"
+" should be secure enough. Groups that have higher security needs "
+"(governments, healthcare providers, and financial institutions, for "
+"example) may require additional verification factors."
+msgstr ""
+
+#: templates/guides/use-vpn.html:4
+msgid "GUIDE on VPN on Devices"
+msgstr ""
+
+#: templates/guides/use-vpn.html:13
+msgid "Are there smartphones that are equipped with VPN?"
+msgstr ""
+
+#: templates/guides/use-vpn.html:14
+msgid ""
+"Some smartphones come with built-in VPN software. These devices let you "
+"cloak your activity and have minimal set-up requirements. However, the "
+"VPN is restricted to your smartphone. You can't use the same network to "
+"protect your computer or tablet, something to keep in mind if you want "
+"the ease of connecting to the same service on multiple devices. With "
+"external VPN services, you can often choose which network you connect to "
+"and customize your choices based on server location."
+msgstr ""
+
+#: templates/guides/use-vpn.html:16
+msgid "How to choose a VPN provider for your smartphone"
+msgstr ""
+
+#: templates/guides/use-vpn.html:17
+msgid ""
+"With so many iOS VPN services, knowing where to start can be challenging."
+" Select a VPN app with suitable features to keep your data secure and let"
+" you do what you want online. Here’s what to look for when choosing a VPN"
+" for iPad or iPhone:"
+msgstr ""
+
+#: templates/guides/use-vpn.html:19
+msgid "Encryption method:"
+msgstr ""
+
+#: templates/guides/use-vpn.html:19
+msgid ""
+"A VPN's safety largely depends on the encryption method used to shield "
+"your internet traffic. Some of the best VPNs use bank-grade AES 256-bit "
+"encryption that's practically uncrackable—it'd take a supercomputer "
+"billions of years to brute-force attack it."
+msgstr ""
+
+#: templates/guides/use-vpn.html:20
+msgid "Privacy:"
+msgstr ""
+
+#: templates/guides/use-vpn.html:20
+msgid ""
+"Some VPNs record your online activity. If maximum privacy is your "
+"priority, select a VPN like Norton Secure VPN which has a no-log policy, "
+"meaning we don't track or store your online activities."
+msgstr ""
+
+#: templates/guides/use-vpn.html:21
+msgid "Cost:"
+msgstr ""
+
+#: templates/guides/use-vpn.html:21
+msgid ""
+"With weak security, bandwidth restrictions, and limited server options, "
+"free VPN services can bombard you with annoying ads or even sell your "
+"data to data brokers. Many of the best premium services offer a free "
+"trial to help you find a secure, reliable VPN that meets your needs."
+msgstr ""
+
+#: templates/guides/use-vpn.html:22
+msgid "Usage limitations:"
+msgstr ""
+
+#: templates/guides/use-vpn.html:22
+msgid ""
+"From monthly download limits to bandwidth restrictions, avoid any iPhone "
+"VPN settings that could limit your access. Choose a service that lets you"
+" browse freely without usage limitations."
+msgstr ""
+
+#: templates/guides/use-vpn.html:23
+msgid "Additional features:"
+msgstr ""
+
+#: templates/guides/use-vpn.html:23
+msgid ""
+"Additional VPN configurations and features that can further boost your "
+"privacy, security, and user experience include VPN kill switches, ad "
+"blockers or firewalls, and multi-device licenses that allow simultaneous "
+"connections."
+msgstr ""
+
+#: templates/guides/use-vpn.html:24
+msgid "Speed:"
+msgstr ""
+
+#: templates/guides/use-vpn.html:24
+msgid ""
+"Increase your download speeds by choosing a VPN that offers a wide range "
+"of geo-optimized servers that enable fast, stable connections from around"
+" the world."
+msgstr ""
+
+#: templates/guides/use-vpn.html:27
+msgid "Should you use a free VPN on your smartphone?"
+msgstr ""
+
+#: templates/guides/use-vpn.html:28
+msgid ""
+"Free options work for some parts of life. But when it comes to your "
+"online presence and security, you can't be too careful. Free VPNs may "
+"come with drawbacks such as:"
+msgstr ""
+
+#: templates/guides/use-vpn.html:30
+msgid "Security protocols may be limited"
+msgstr ""
+
+#: templates/guides/use-vpn.html:31
+msgid ""
+"Connection can be slow, laggy or entirely unavailable at times, "
+"particularly with free VPN services that cap your bandwidth usage"
+msgstr ""
+
+#: templates/guides/use-vpn.html:32
+msgid "The provider may track your data, and may use it for advertising purposes"
+msgstr ""
+
+#: templates/guides/use-vpn.html:34
+msgid ""
+"You want to select a provider whose quality and security you can trust. "
+"Speed is also important, and a paid VPN service may let you enjoy higher "
+"connection speeds than a free service, so you don't have to sacrifice "
+"speed or bandwidth for security. While free services may track and save "
+"your activity, many paid providers offer a no-log guarantee. This means "
+"they don't track the sites you visit as you surf the web. Perhaps most "
+"importantly, most paid options have strong security protocols so you can "
+"surf the web with peace of mind."
 msgstr ""
 
 #: templates/learn/encryption.html:4
@@ -1654,10 +4061,6 @@ msgstr ""
 
 #: templates/learn/two-factor-authentication.html:4
 msgid "LEARN about Two Factor Authentication"
-msgstr ""
-
-#: templates/learn/two-factor-authentication.html:9
-msgid "Two Factor Authentication (2FA)"
 msgstr ""
 
 #: templates/learn/two-factor-authentication.html:12

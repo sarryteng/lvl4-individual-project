@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-22 00:07+0000\n"
-"PO-Revision-Date: 2024-12-22 00:07+0000\n"
+"POT-Creation-Date: 2024-12-22 22:15+0000\n"
+"PO-Revision-Date: 2024-12-22 22:15+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -34,8 +34,9 @@ msgstr "Sécuriser les appareils mobiles"
 msgid "Learn how to protect your mobile devices from threats."
 msgstr "Apprenez à protéger vos appareils mobiles contre les menaces."
 
-#: templates/guides.html:21 templates/learn.html:21
-#: templates/learn/encryption.html:9 templates/learn/mobile-security.html:33
+#: templates/guides.html:21 templates/guides/use-encryption.html:9
+#: templates/learn.html:21 templates/learn/encryption.html:9
+#: templates/learn/mobile-security.html:33
 msgid "Encryption"
 msgstr "Cryptage"
 
@@ -43,7 +44,7 @@ msgstr "Cryptage"
 msgid "Understand how encryption safeguards sensitive information."
 msgstr "Comprendre comment le cryptage protège les informations sensibles."
 
-#: templates/guides.html:27
+#: templates/guides.html:27 templates/guides/secure-passwords.html:9
 msgid "Secure Passwords"
 msgstr "Mots de passe sécurisés"
 
@@ -77,8 +78,8 @@ msgstr "Mises à jour logicielles"
 msgid "Why keeping your software updated is critical."
 msgstr "Pourquoi il est essentiel de maintenir votre logiciel à jour."
 
-#: templates/guides.html:51 templates/learn.html:51
-#: templates/learn/identity-theft.html:9
+#: templates/guides.html:51 templates/guides/prevent-theft.html:9
+#: templates/learn.html:51 templates/learn/identity-theft.html:9
 msgid "Identity Theft"
 msgstr "Vol d'identité"
 
@@ -96,7 +97,8 @@ msgstr ""
 "Apprenez-en plus sur les logiciels malveillants et comment prévenir les "
 "infections."
 
-#: templates/guides.html:63 templates/learn.html:63 templates/learn/vpn.html:9
+#: templates/guides.html:63 templates/guides/use-vpn.html:9
+#: templates/learn.html:63 templates/learn/vpn.html:9
 msgid "VPN"
 msgstr "VPN"
 
@@ -190,7 +192,8 @@ msgstr ""
 msgid "Learn about Cybersecurity Concepts"
 msgstr "En savoir plus sur les concepts de cybersécurité"
 
-#: templates/learn.html:15 templates/learn/mobile-security.html:9
+#: templates/guides/secure-mobile.html:9 templates/learn.html:15
+#: templates/learn/mobile-security.html:9
 msgid "Mobile Security"
 msgstr "Sécurité mobile"
 
@@ -198,7 +201,8 @@ msgstr "Sécurité mobile"
 msgid "Password Security"
 msgstr "Sécurité des mots de passe"
 
-#: templates/learn.html:57 templates/learn/malware.html:9
+#: templates/guides/malware-protection.html:9 templates/learn.html:57
+#: templates/learn/malware.html:9
 msgid "Malware"
 msgstr "Logiciels malveillants"
 
@@ -276,6 +280,3279 @@ msgstr ""
 #: templates/tools.html:44
 msgid "Best Antivirus for Android"
 msgstr "Meilleur antivirus pour Android"
+
+#: templates/guides/how-to-update-software.html:14
+msgid ""
+"How you update software depends on the devices and operating systems you’re "
+"using. You can update your software quickly by following the steps we’ve "
+"provided for the various platforms below."
+msgstr ""
+"La manière de mettre à jour votre logiciel dépend des appareils et des "
+"systèmes d'exploitation que vous utilisez. Vous pouvez mettre à jour votre "
+"logiciel rapidement en suivant les étapes que nous avons fournies pour les "
+"différentes plateformes ci-dessous."
+
+#: templates/guides/how-to-update-software.html:17
+msgid ""
+"If you have an iPhone, iPad, Apple Watch, or another device running iOS, "
+"your software and applications will be updated in the Apple App Store. "
+"You’ll see a red circle with a number in the top right corner of the App "
+"Store icon if any of your apps have an important update available."
+msgstr ""
+"Si vous possédez un iPhone, un iPad, une Apple Watch ou un autre appareil "
+"fonctionnant sous iOS, vos logiciels et applications seront mis à jour dans "
+"l'App Store d'Apple. Vous verrez un cercle rouge avec un numéro dans le coin"
+" supérieur droit de l'icône de l'App Store si l'une de vos applications "
+"dispose d'une mise à jour importante."
+
+#: templates/guides/how-to-update-software.html:18
+msgid "Then, simply:"
+msgstr "Alors, tout simplement :"
+
+#: templates/guides/how-to-update-software.html:20
+msgid "Click on the App Store icon."
+msgstr "Cliquez sur l'icône App Store."
+
+#: templates/guides/how-to-update-software.html:21
+msgid ""
+"Click the Update button next to individual apps to begin the process, or "
+"click the Install All Updates button to do them all at once."
+msgstr ""
+"Cliquez sur le bouton Mettre à jour à côté des applications individuelles "
+"pour lancer le processus, ou cliquez sur le bouton Installer toutes les "
+"mises à jour pour les effectuer toutes en même temps."
+
+#: templates/guides/how-to-update-software.html:25
+msgid ""
+"When using Android, you‘ll update most of your applications in the Google "
+"Play Store. You can also turn on automatic updates to make sure you’re doing"
+" everything possible to protect your Android device."
+msgstr ""
+"Lorsque vous utilisez Android, vous devez mettre à jour la plupart de vos "
+"applications dans le Google Play Store. Vous pouvez également activer les "
+"mises à jour automatiques pour vous assurer de faire tout votre possible "
+"pour protéger votre appareil Android."
+
+#: templates/guides/how-to-update-software.html:26
+msgid "But to implement updates manually:"
+msgstr "Mais pour implémenter les mises à jour manuellement :"
+
+#: templates/guides/how-to-update-software.html:28
+msgid "Open the Google Play Store app."
+msgstr "Ouvrez l'application Google Play Store."
+
+#: templates/guides/how-to-update-software.html:29
+msgid "Tap the profile icon in the top right."
+msgstr "Appuyez sur l’icône de profil en haut à droite."
+
+#: templates/guides/how-to-update-software.html:30
+msgid "Tap Manage apps & devices to view apps that have updates available."
+msgstr ""
+"Appuyez sur Gérer les applications et les appareils pour afficher les "
+"applications pour lesquelles des mises à jour sont disponibles."
+
+#: templates/guides/how-to-update-software.html:31
+msgid "Tap Update to start the update."
+msgstr "Appuyez sur Mettre à jour pour démarrer la mise à jour."
+
+#: templates/guides/how-to-update-software.html:35
+msgid ""
+"How you update your operating system also depends on the device you’re "
+"using. To make sure you’re running the latest version of your operating "
+"system, follow the steps for the different platforms provided below."
+msgstr ""
+"La manière dont vous mettez à jour votre système d’exploitation dépend "
+"également de l’appareil que vous utilisez. Pour vous assurer que vous "
+"utilisez la dernière version de votre système d’exploitation, suivez les "
+"étapes correspondant aux différentes plateformes fournies ci-dessous."
+
+#: templates/guides/how-to-update-software.html:38
+msgid ""
+"When using an iOS device, you’ll access your operating system updates "
+"through the System Settings. You’ll see a red circle with a number in the "
+"top right corner of the System Settings icon if an iOS update is ready to be"
+" installed."
+msgstr ""
+"Lorsque vous utilisez un appareil iOS, vous accédez aux mises à jour de "
+"votre système d’exploitation via les paramètres système. Vous verrez un "
+"cercle rouge avec un numéro dans le coin supérieur droit de l’icône des "
+"paramètres système si une mise à jour iOS est prête à être installée."
+
+#: templates/guides/how-to-update-software.html:39
+msgid "To get the new version:"
+msgstr "Pour obtenir la nouvelle version :"
+
+#: templates/guides/how-to-update-software.html:41
+#: templates/guides/how-to-update-software.html:54
+msgid "Open Settings."
+msgstr "Ouvrez les paramètres."
+
+#: templates/guides/how-to-update-software.html:42
+msgid "Tap General."
+msgstr "Appuyez sur Général."
+
+#: templates/guides/how-to-update-software.html:43
+msgid "Tap Software Update."
+msgstr "Appuyez sur Mise à jour du logiciel."
+
+#: templates/guides/how-to-update-software.html:44
+msgid ""
+"Tap the Update Now or Download and Install to install the newest version of "
+"Mac iOS."
+msgstr ""
+"Appuyez sur Mettre à jour maintenant ou Télécharger et installer pour "
+"installer la dernière version de Mac iOS."
+
+#: templates/guides/how-to-update-software.html:46
+msgid "Note:"
+msgstr "Note:"
+
+#: templates/guides/how-to-update-software.html:46
+msgid ""
+"Apple recommends backing up your device before installing an iOS update."
+msgstr ""
+"Apple recommande de sauvegarder votre appareil avant d'installer une mise à "
+"jour iOS."
+
+#: templates/guides/how-to-update-software.html:49
+msgid "How to Update iOS"
+msgstr "Comment mettre à jour iOS"
+
+#: templates/guides/how-to-update-software.html:51
+msgid ""
+"When using an Android phone or tablet, you’ll find operating system updates "
+"in Settings."
+msgstr ""
+"Lorsque vous utilisez un téléphone ou une tablette Android, vous trouverez "
+"les mises à jour du système d’exploitation dans les paramètres."
+
+#: templates/guides/how-to-update-software.html:52
+msgid "To check for, and install, available updates:"
+msgstr "Pour rechercher et installer les mises à jour disponibles :"
+
+#: templates/guides/how-to-update-software.html:55
+msgid "Tap About phone."
+msgstr "Appuyez sur À propos du téléphone."
+
+#: templates/guides/how-to-update-software.html:56
+msgid "Tap Software update or Check now for updates."
+msgstr ""
+"Appuyez sur Mise à jour du logiciel ou Rechercher maintenant les mises à "
+"jour."
+
+#: templates/guides/how-to-update-software.html:57
+msgid ""
+"Tap Download and install or choose one of the other options to install the "
+"OS update later."
+msgstr ""
+"Appuyez sur Télécharger et installer ou choisissez l’une des autres options "
+"pour installer la mise à jour du système d’exploitation ultérieurement."
+
+#: templates/guides/how-to-update-software.html:61
+msgid "How to Update Android"
+msgstr "Comment mettre à jour Android"
+
+#: templates/guides/how-to-update-software.html:64
+msgid ""
+"For most modern devices, it’s easy to keep your apps or OS updated. Let’s "
+"look at two of the best ways to stay as up to date as possible:"
+msgstr ""
+"Pour la plupart des appareils modernes, il est facile de maintenir vos "
+"applications ou votre système d’exploitation à jour. Examinons deux des "
+"meilleures façons de rester aussi à jour que possible :"
+
+#: templates/guides/how-to-update-software.html:66
+msgid ""
+"Look for notifications: The Apple App Store, the Google Play Store, Android "
+"and iOS devices, and Windows and Mac OS computers will tell you when an "
+"update is ready for installation. You might receive a push notification, see"
+" a flag or bubble on the store or settings icon, or may need to go into the "
+"update menu directly."
+msgstr ""
+"Recherchez les notifications : l'App Store d'Apple, le Google Play Store, "
+"les appareils Android et iOS, ainsi que les ordinateurs Windows et Mac OS "
+"vous indiqueront lorsqu'une mise à jour est prête à être installée. Vous "
+"pouvez recevoir une notification push, voir un drapeau ou une bulle sur "
+"l'icône de la boutique ou des paramètres, ou devoir accéder directement au "
+"menu de mise à jour."
+
+#: templates/guides/how-to-update-software.html:67
+msgid ""
+"Turn on automatic updates: Almost every device will let you turn on "
+"automatic updates for apps and operating systems. This process can vary "
+"depending on your device, but a good place to look for these settings is in "
+"the device settings section or store settings."
+msgstr ""
+"Activer les mises à jour automatiques : presque tous les appareils vous "
+"permettent d'activer les mises à jour automatiques pour les applications et "
+"les systèmes d'exploitation. Ce processus peut varier en fonction de votre "
+"appareil, mais vous pouvez rechercher ces paramètres dans la section des "
+"paramètres de l'appareil ou dans les paramètres du Store."
+
+#: templates/guides/how-to-update-software.html:71
+msgid "Have more questions about computer updates? We have answers."
+msgstr ""
+"Vous avez d’autres questions sur les mises à jour informatiques ? Nous avons"
+" des réponses."
+
+#: templates/guides/how-to-update-software.html:74
+msgid ""
+"If you don’t update your software, you’re at greater risk of system "
+"problems, hackers, malware, and compatibility issues. Older versions are "
+"usually less efficient, meaning your computer runs slower and may struggle "
+"to multitask or handle RAM-heavy tasks like audio or video editing."
+msgstr ""
+"Si vous ne mettez pas à jour votre logiciel, vous courez un plus grand "
+"risque de rencontrer des problèmes système, des pirates informatiques, des "
+"logiciels malveillants et des problèmes de compatibilité. Les versions plus "
+"anciennes sont généralement moins efficaces, ce qui signifie que votre "
+"ordinateur fonctionne plus lentement et peut avoir du mal à effectuer "
+"plusieurs tâches à la fois ou à gérer des tâches gourmandes en RAM comme le "
+"montage audio ou vidéo."
+
+#: templates/guides/how-to-update-software.html:77
+msgid ""
+"There are some risks to updating software and operating systems. Any new "
+"version of an app or OS is almost certain to contain some security "
+"vulnerabilities. And if you have an older device, newer software might "
+"malfunction due to new hardware requirements. Even with those potential "
+"risks, the security and performance benefits of updated software far "
+"outweigh the downsides."
+msgstr ""
+"La mise à jour des logiciels et des systèmes d’exploitation comporte "
+"certains risques. Toute nouvelle version d’une application ou d’un système "
+"d’exploitation contient presque certainement des vulnérabilités en matière "
+"de sécurité. Et si vous possédez un appareil plus ancien, les logiciels plus"
+" récents peuvent ne pas fonctionner correctement en raison des nouvelles "
+"exigences matérielles. Même avec ces risques potentiels, les avantages en "
+"termes de sécurité et de performances des logiciels mis à jour dépassent de "
+"loin les inconvénients."
+
+#: templates/guides/how-to-update-software.html:80
+msgid ""
+"The easiest way to check if your software is up to date is to see if updates"
+" are available wherever you normally update your software. This usually "
+"means checking for Apple App Store or Google Play store updates. You can "
+"also usually find any available updates via your system settings."
+msgstr ""
+"Le moyen le plus simple de vérifier si votre logiciel est à jour est de "
+"vérifier si des mises à jour sont disponibles là où vous mettez "
+"habituellement à jour votre logiciel. Cela signifie généralement vérifier "
+"les mises à jour de l'App Store d'Apple ou du Google Play Store. Vous pouvez"
+" également généralement trouver les mises à jour disponibles via les "
+"paramètres de votre système."
+
+#: templates/guides/how-to-update-software.html:83
+msgid ""
+"If you run outdated software, the known vulnerabilities in older versions of"
+" apps and operating systems mean you’re at a higher risk of being hacked. "
+"Additionally, your phone could run hotter, your device might fall prey to "
+"malware, and your computer may not run as smoothly as it could."
+msgstr ""
+"Si vous utilisez un logiciel obsolète, les vulnérabilités connues des "
+"anciennes versions d’applications et de systèmes d’exploitation signifient "
+"que vous courez un risque plus élevé d’être piraté. De plus, votre téléphone"
+" peut chauffer davantage, votre appareil peut être la proie de logiciels "
+"malveillants et votre ordinateur peut ne pas fonctionner aussi bien qu’il le"
+" devrait."
+
+#: templates/guides/malware-protection.html:4
+msgid "GUIDE on Malware Detection and Prevention Tips"
+msgstr ""
+"GUIDE sur les conseils de détection et de prévention des logiciels "
+"malveillants"
+
+#: templates/guides/malware-protection.html:12
+msgid "How to check for viruses on your iPhone"
+msgstr "Comment vérifier la présence de virus sur votre iPhone"
+
+#: templates/guides/malware-protection.html:13
+msgid ""
+"If your iPhone is acting unusually, it's important to determine if these "
+"behaviors are typical signs of a virus. It's possible that other factors, "
+"like hardware issues or bugs in the iOS operating system or an app, might be"
+" the culprit. In that case, a simple software update could help fix the "
+"issue."
+msgstr ""
+"Si votre iPhone se comporte de manière inhabituelle, il est important de "
+"déterminer si ces comportements sont des signes typiques d'un virus. Il est "
+"possible que d'autres facteurs, comme des problèmes matériels ou des bugs "
+"dans le système d'exploitation iOS ou dans une application, en soient la "
+"cause. Dans ce cas, une simple mise à jour logicielle pourrait aider à "
+"résoudre le problème."
+
+#: templates/guides/malware-protection.html:14
+msgid ""
+"But, if your iPhone shows common virus symptoms, that’s a signal that you "
+"could be dealing with a malware infection. Here’s what to look out for:"
+msgstr ""
+"Mais si votre iPhone présente des symptômes courants de virus, cela peut "
+"indiquer que vous êtes peut-être victime d’une infection par un logiciel "
+"malveillant. Voici ce à quoi vous devez faire attention :"
+
+#: templates/guides/malware-protection.html:16
+msgid "Phone performance"
+msgstr "Performances du téléphone"
+
+#: templates/guides/malware-protection.html:17
+msgid ""
+"If your iPhone's apps frequently crash or the device shuts down "
+"unexpectedly, a virus might be disrupting your phone's operations. That "
+"interference could affect task processing and negatively impact app "
+"functionality."
+msgstr ""
+"Si les applications de votre iPhone se bloquent fréquemment ou si l'appareil"
+" s'éteint de manière inattendue, il se peut qu'un virus perturbe le "
+"fonctionnement de votre téléphone. Cette interférence peut affecter le "
+"traitement des tâches et avoir un impact négatif sur les fonctionnalités des"
+" applications."
+
+#: templates/guides/malware-protection.html:18
+msgid ""
+"Viruses also strain your phone’s processor and memory with additional tasks,"
+" hindering the efficient operation of other apps. That extra workload can "
+"lead to increased power consumption and can cause your device to overheat "
+"and the battery to drain more quickly."
+msgstr ""
+"Les virus surchargent également le processeur et la mémoire de votre "
+"téléphone en effectuant des tâches supplémentaires, ce qui entrave le "
+"fonctionnement efficace des autres applications. Cette charge de travail "
+"supplémentaire peut entraîner une augmentation de la consommation d'énergie "
+"et provoquer une surchauffe de votre appareil ainsi qu'un épuisement plus "
+"rapide de la batterie."
+
+#: templates/guides/malware-protection.html:20
+msgid "Data usage"
+msgstr "Utilisation des données"
+
+#: templates/guides/malware-protection.html:21
+msgid ""
+"Malware on your iPhone can exploit your data connection for malicious "
+"activities. That may involve hijacking data-intensive apps, covertly "
+"downloading harmful code, or funneling your private information to other "
+"sources."
+msgstr ""
+"Les logiciels malveillants sur votre iPhone peuvent exploiter votre "
+"connexion de données pour commettre des activités malveillantes. Il peut "
+"s'agir de détourner des applications gourmandes en données, de télécharger "
+"secrètement du code malveillant ou de canaliser vos informations privées "
+"vers d'autres sources."
+
+#: templates/guides/malware-protection.html:22
+msgid ""
+"Such actions can lead to a significant increase in your mobile data usage. "
+"That excess data usage may cause you to exceed your data limit and lead to a"
+" higher phone bill."
+msgstr ""
+"De telles actions peuvent entraîner une augmentation significative de votre "
+"consommation de données mobiles. Cette utilisation excessive de données peut"
+" vous amener à dépasser votre limite de données et entraîner une "
+"augmentation de votre facture téléphonique."
+
+#: templates/guides/malware-protection.html:24
+msgid "Third-party software"
+msgstr "Logiciels tiers"
+
+#: templates/guides/malware-protection.html:25
+msgid ""
+"Discovering an unfamiliar app on your iPhone could indicate malware. Even if"
+" you installed the app, issues that emerge after installation could signal "
+"trouble. That is particularly true for apps from third-party sources or if "
+"your phone is jailbroken. Jailbreaking allows you to install apps outside of"
+" iOS's secured ecosystem, which can increase the risk of virus exposure."
+msgstr ""
+"La découverte d'une application inconnue sur votre iPhone peut indiquer la "
+"présence d'un logiciel malveillant. Même si vous avez installé "
+"l'application, les problèmes qui surviennent après l'installation peuvent "
+"signaler un problème. Cela est particulièrement vrai pour les applications "
+"provenant de sources tierces ou si votre téléphone est jailbreaké. Le "
+"jailbreaking vous permet d'installer des applications en dehors de "
+"l'écosystème sécurisé d'iOS, ce qui peut augmenter le risque d'exposition "
+"aux virus."
+
+#: templates/guides/malware-protection.html:26
+msgid ""
+"But even malicious apps have snuck into Apple’s App Store. If you notice "
+"persistent pop-ups or other suspicious app behavior, that may be a sign that"
+" malicious third-party software has infiltrated your iPhone."
+msgstr ""
+"Mais même des applications malveillantes ont réussi à s’infiltrer dans l’App"
+" Store d’Apple. Si vous remarquez des fenêtres contextuelles persistantes ou"
+" d’autres comportements d’application suspects, cela peut être le signe "
+"qu’un logiciel tiers malveillant s’est infiltré dans votre iPhone."
+
+#: templates/guides/malware-protection.html:28
+msgid "Scan for viruses"
+msgstr "Rechercher des virus"
+
+#: templates/guides/malware-protection.html:29
+msgid ""
+"If all the above steps fail, and you still think your iPhone may have a "
+"virus, then it’s time to use an antivirus app to help detect malware on your"
+" phone. Norton 360 for Mobile checks for the latest security patches and iOS"
+" updates, filters spam texts to help protect against phishing attacks, and "
+"notifies you if you’re using a potentially unsafe Wi-Fi network."
+msgstr ""
+"Si toutes les étapes ci-dessus échouent et que vous pensez toujours que "
+"votre iPhone est infecté par un virus, il est temps d’utiliser une "
+"application antivirus pour vous aider à détecter les programmes malveillants"
+" sur votre téléphone. Norton 360 for Mobile recherche les derniers "
+"correctifs de sécurité et mises à jour iOS, filtre les messages indésirables"
+" pour vous protéger contre les attaques de phishing et vous avertit si vous "
+"utilisez un réseau Wi-Fi potentiellement dangereux."
+
+#: templates/guides/malware-protection.html:31
+msgid "How to get rid of viruses on your iPhone"
+msgstr "Comment se débarrasser des virus sur votre iPhone"
+
+#: templates/guides/malware-protection.html:32
+msgid ""
+"Running an iOS antivirus scan with a security app like Norton 360 for Mobile"
+" is an effective way to remove iPhone viruses. As well as helping you "
+"identity a virus or other malware infection on your iPhone, it can also help"
+" secure your iPhone in real time by blocking infections before they spread "
+"to your device."
+msgstr ""
+"L'exécution d'une analyse antivirus iOS avec une application de sécurité "
+"comme Norton 360 pour mobile est un moyen efficace de supprimer les virus de"
+" l'iPhone. En plus de vous aider à identifier un virus ou une autre "
+"infection par un logiciel malveillant sur votre iPhone, cette analyse peut "
+"également vous aider à sécuriser votre iPhone en temps réel en bloquant les "
+"infections avant qu'elles ne se propagent à votre appareil."
+
+#: templates/guides/malware-protection.html:33
+msgid ""
+"Keep reading and follow the methods below to learn how to remove iOS viruses"
+" and malware:"
+msgstr ""
+"Continuez à lire et suivez les méthodes ci-dessous pour savoir comment "
+"supprimer les virus et les logiciels malveillants iOS :"
+
+#: templates/guides/malware-protection.html:35
+msgid "Clean up your device"
+msgstr "Nettoyez votre appareil"
+
+#: templates/guides/malware-protection.html:36
+msgid ""
+"The first step is to wipe your iPhone clean of the most likely sources of "
+"infection. To do this, delete suspicious apps, particularly those you "
+"downloaded right before you noticed signs of an infection. To help remove "
+"lingering traces of malicious code, clear your app and browser caches, such "
+"as iMessage cookies."
+msgstr ""
+"La première étape consiste à effacer de votre iPhone les sources d’infection"
+" les plus probables. Pour ce faire, supprimez les applications suspectes, en"
+" particulier celles que vous avez téléchargées juste avant de remarquer des "
+"signes d’infection. Pour aider à supprimer les traces persistantes de code "
+"malveillant, effacez les caches de vos applications et de votre navigateur, "
+"tels que les cookies iMessage."
+
+#: templates/guides/malware-protection.html:38
+msgid "Restart your iPhone"
+msgstr "Redémarrez votre iPhone"
+
+#: templates/guides/malware-protection.html:39
+msgid ""
+"To help wipe the slate clean, restart your iPhone. Simply power off your "
+"phone, wait a few seconds after it finishes shutting down, and turn it on "
+"again. Restarting your device can help stop viruses from replicating and "
+"spreading further through iOS."
+msgstr ""
+"Pour faire table rase de tout, redémarrez votre iPhone. Éteignez simplement "
+"votre téléphone, attendez quelques secondes après l'arrêt complet, puis "
+"rallumez-le. Le redémarrage de votre appareil peut contribuer à empêcher les"
+" virus de se répliquer et de se propager davantage via iOS."
+
+#: templates/guides/malware-protection.html:41
+msgid "Install the latest iOS"
+msgstr "Installer la dernière version d'iOS"
+
+#: templates/guides/malware-protection.html:42
+msgid ""
+"Whether or not the previous steps have managed to purge your iPhone of "
+"malware, installing the latest version of iOS will help prevent reinfections"
+" and help your phone more effectively quarantine viruses in your system."
+msgstr ""
+"Que les étapes précédentes aient ou non réussi à purger votre iPhone des "
+"logiciels malveillants, l'installation de la dernière version d'iOS aidera à"
+" prévenir les réinfections et aidera votre téléphone à mettre en quarantaine"
+" plus efficacement les virus dans votre système."
+
+#: templates/guides/malware-protection.html:43
+msgid "To update your iOS, go to"
+msgstr "Pour mettre à jour votre iOS, accédez à"
+
+#: templates/guides/malware-protection.html:43
+#: templates/guides/malware-protection.html:48
+#: templates/guides/use-encryption.html:15
+msgid "Settings"
+msgstr "Paramètres"
+
+#: templates/guides/malware-protection.html:43
+#: templates/guides/malware-protection.html:48
+msgid "General"
+msgstr "Général"
+
+#: templates/guides/malware-protection.html:43
+msgid "Software Update"
+msgstr "Mise à jour du logiciel"
+
+#: templates/guides/malware-protection.html:43
+msgid "and install any available software updates."
+msgstr "et installez toutes les mises à jour logicielles disponibles."
+
+#: templates/guides/malware-protection.html:45
+msgid "Restore from a backup or reset to factory settings"
+msgstr ""
+"Restaurer à partir d'une sauvegarde ou réinitialiser les paramètres d'usine"
+
+#: templates/guides/malware-protection.html:46
+msgid ""
+"To manually remove more advanced and stubborn malware, you may have to "
+"restore your iPhone to a previously backed-up version from before the "
+"malware infection hit."
+msgstr ""
+"Pour supprimer manuellement les logiciels malveillants les plus avancés et "
+"les plus tenaces, vous devrez peut-être restaurer votre iPhone à une version"
+" précédemment sauvegardée avant l'infection par le logiciel malveillant."
+
+#: templates/guides/malware-protection.html:47
+msgid "You can restore a clean backup from iCloud by following these steps:"
+msgstr ""
+"Vous pouvez restaurer une sauvegarde propre à partir d'iCloud en suivant ces"
+" étapes :"
+
+#: templates/guides/malware-protection.html:48
+msgid "Go to"
+msgstr "Aller à"
+
+#: templates/guides/malware-protection.html:48
+msgid "Transfer or Reset iPhone"
+msgstr "Transférer ou réinitialiser l'iPhone"
+
+#: templates/guides/malware-protection.html:49
+#: templates/guides/use-encryption.html:16
+msgid "Select"
+msgstr "Sélectionner"
+
+#: templates/guides/malware-protection.html:49
+msgid "Erase All Content and Settings"
+msgstr "Effacer tout le contenu et les paramètres"
+
+#: templates/guides/malware-protection.html:49
+msgid "Erase Now"
+msgstr "Effacer maintenant"
+
+#: templates/guides/malware-protection.html:49
+msgid "and follow the on-screen prompts to continue."
+msgstr "et suivez les instructions à l’écran pour continuer."
+
+#: templates/guides/malware-protection.html:50
+msgid "During rebooting, your iPhone will show the"
+msgstr "Lors du redémarrage, votre iPhone affichera le"
+
+#: templates/guides/malware-protection.html:50
+msgid "Apps &amp; Data"
+msgstr "Applications et données"
+
+#: templates/guides/malware-protection.html:50
+msgid "page, where you can select"
+msgstr "page, où vous pouvez sélectionner"
+
+#: templates/guides/malware-protection.html:50
+msgid "Restore from iCloud Backup"
+msgstr "Restaurer à partir de la sauvegarde iCloud"
+
+#: templates/guides/malware-protection.html:51
+msgid "Sign into iCloud and choose the backed-up iOS version to restore."
+msgstr ""
+"Connectez-vous à iCloud et choisissez la version iOS sauvegardée à "
+"restaurer."
+
+#: templates/guides/malware-protection.html:53
+msgid ""
+"If all else fails and you don’t have a backup to restore from, you should "
+"try performing a factory reset, which will"
+msgstr ""
+"Si tout le reste échoue et que vous n’avez pas de sauvegarde à partir de "
+"laquelle restaurer, vous devriez essayer d’effectuer une réinitialisation "
+"d’usine, ce qui"
+
+#: templates/guides/malware-protection.html:53
+msgid "erase all the data from your device"
+msgstr "effacer toutes les données de votre appareil"
+
+#: templates/guides/malware-protection.html:53
+msgid ""
+"Along with purging any viruses, a factory reset will also wipe your photos, "
+"files, apps, and settings—so proceed accordingly."
+msgstr ""
+"En plus de supprimer tous les virus, une réinitialisation d'usine effacera "
+"également vos photos, fichiers, applications et paramètres. Procédez donc en"
+" conséquence."
+
+#: templates/guides/malware-protection.html:54
+msgid ""
+"To factory reset your iPhone, follow the same steps as above—the only "
+"difference is that you won’t be able to restore a backed-up version of your "
+"phone’s memory during the reboot."
+msgstr ""
+"Pour réinitialiser votre iPhone aux paramètres d’usine, suivez les mêmes "
+"étapes que ci-dessus. La seule différence est que vous ne pourrez pas "
+"restaurer une version sauvegardée de la mémoire de votre téléphone pendant "
+"le redémarrage."
+
+#: templates/guides/malware-protection.html:56
+msgid "Preventing iPhone viruses"
+msgstr "Prévenir les virus sur iPhone"
+
+#: templates/guides/malware-protection.html:57
+msgid ""
+"Apple’s iOS has iPhone security features that make malware infiltration "
+"relatively rare. iPhones operate in a self-contained ecosystem, using only "
+"Apple’s programming and files and allowing app downloads only from the "
+"official App Store. That walled garden approach, combined with Apple’s "
+"extensive software security, makes it hard for malware to infiltrate."
+msgstr ""
+"L’iOS d’Apple est doté de fonctionnalités de sécurité qui rendent "
+"l’infiltration de logiciels malveillants relativement rare. Les iPhones "
+"fonctionnent dans un écosystème autonome, utilisant uniquement la "
+"programmation et les fichiers d’Apple et autorisant les téléchargements "
+"d’applications uniquement depuis l’App Store officiel. Cette approche "
+"cloisonnée, combinée aux nombreuses mesures de sécurité logicielle d’Apple, "
+"rend l’infiltration de logiciels malveillants difficile."
+
+#: templates/guides/malware-protection.html:58
+msgid ""
+"There’s no way to prevent all iPhone viruses, but there are basic and "
+"essential steps you can take to help shield your device from malicious "
+"software:"
+msgstr ""
+"Il n’existe aucun moyen de prévenir tous les virus sur iPhone, mais il "
+"existe des mesures de base et essentielles que vous pouvez prendre pour "
+"protéger votre appareil contre les logiciels malveillants :"
+
+#: templates/guides/malware-protection.html:60
+msgid "Don’t jailbreak"
+msgstr "Ne pas jailbreaker"
+
+#: templates/guides/malware-protection.html:61
+msgid ""
+"Sticking to the standard iOS configuration and not jailbreaking your phone "
+"reduces the chances that an iPhone virus infects your phone. iOS comes with "
+"built-in security features, and the company’s walled garden approach to "
+"software means that apps on the App Store are vetted before becoming "
+"available to download. Unless you have a good reason (e.g, you’re a "
+"researcher), you shouldn’t try to jailbreak your iPhone."
+msgstr ""
+"En vous en tenant à la configuration standard d’iOS et en ne jailbreakant "
+"pas votre téléphone, vous réduisez les risques d’infection par un virus sur "
+"votre iPhone. iOS est doté de fonctionnalités de sécurité intégrées et "
+"l’approche de l’entreprise en matière de logiciels signifie que les "
+"applications de l’App Store sont vérifiées avant d’être disponibles au "
+"téléchargement. À moins que vous n’ayez une bonne raison (par exemple, vous "
+"êtes chercheur), vous ne devriez pas essayer de jailbreaker votre iPhone."
+
+#: templates/guides/malware-protection.html:63
+msgid "Download apps only from the App Store"
+msgstr "Téléchargez des applications uniquement depuis l'App Store"
+
+#: templates/guides/malware-protection.html:64
+msgid ""
+"Apple’s App Store is the safest place to download the apps you need for your"
+" iPhone. Downloading or installing apps from unverified third-party sources "
+"can increase the risk of exposing your device to iPhone malware."
+msgstr ""
+"L’App Store d’Apple est l’endroit le plus sûr pour télécharger les "
+"applications dont vous avez besoin pour votre iPhone. Le téléchargement ou "
+"l’installation d’applications provenant de sources tierces non vérifiées "
+"peut augmenter le risque d’exposer votre appareil à des programmes "
+"malveillants pour iPhone."
+
+#: templates/guides/malware-protection.html:66
+msgid "Stay alert to potential risks"
+msgstr "Restez attentif aux risques potentiels"
+
+#: templates/guides/malware-protection.html:67
+#, python-format
+msgid ""
+"Although iOS may be safer than other operating systems, no computing system "
+"is 100%% secure—you also have a part to play. Take care not to open unknown,"
+" unexpected, or suspicious links you receive in emails or messages, even if "
+"they come from close friends or family. And make sure you use secure Wi-Fi "
+"networks and understand the risks of using public Wi-Fi."
+msgstr ""
+"Bien qu'iOS soit plus sûr que d'autres systèmes d'exploitation, aucun "
+"système informatique n'est sûr à 100 %%. Vous avez également un rôle à jouer."
+" Veillez à ne pas ouvrir les liens inconnus, inattendus ou suspects que vous"
+" recevez dans les e-mails ou les messages, même s'ils proviennent d'amis "
+"proches ou de membres de votre famille. Assurez-vous également d'utiliser "
+"des réseaux Wi-Fi sécurisés et comprenez les risques liés à l'utilisation "
+"des réseaux Wi-Fi publics."
+
+#: templates/guides/malware-protection.html:69
+msgid "Permissions and updates"
+msgstr "Autorisations et mises à jour"
+
+#: templates/guides/malware-protection.html:70
+msgid ""
+"Even if you trust all the apps on your iPhone, be careful about what "
+"permissions you give them. Being careful with the permissions you grant "
+"helps protect your private data if an app becomes compromised by malware. It"
+" will also ensure that an app which turns out to be malicious will be less "
+"capable of spreading viruses to other apps on your iPhone."
+msgstr ""
+"Même si vous faites confiance à toutes les applications de votre iPhone, "
+"soyez prudent quant aux autorisations que vous leur accordez. En accordant "
+"des autorisations avec prudence, vous protégez vos données privées si une "
+"application est compromise par un logiciel malveillant. Cela garantit "
+"également qu'une application qui s'avère malveillante sera moins susceptible"
+" de propager des virus à d'autres applications de votre iPhone."
+
+#: templates/guides/malware-protection.html:72
+msgid "Signs your Android phone may have a virus or other malware"
+msgstr ""
+"Signes indiquant que votre téléphone Android peut être infecté par un virus "
+"ou un autre logiciel malveillant"
+
+#: templates/guides/malware-protection.html:73
+msgid ""
+"Phones can be vulnerable to damage externally and internally. While the "
+"external damage is usually visible, internal damage is usually hidden from "
+"view."
+msgstr ""
+"Les téléphones peuvent être exposés à des dommages externes et internes. "
+"Alors que les dommages externes sont généralement visibles, les dommages "
+"internes sont généralement invisibles."
+
+#: templates/guides/malware-protection.html:74
+msgid ""
+"Malware like viruses is known to perform repeated tasks that can take up "
+"resources on your devices. Signs of malware may show up in these ways:"
+msgstr ""
+"Les logiciels malveillants comme les virus sont connus pour effectuer des "
+"tâches répétitives qui peuvent occuper des ressources sur vos appareils. Les"
+" signes de logiciels malveillants peuvent se manifester de la manière "
+"suivante :"
+
+#: templates/guides/malware-protection.html:76
+msgid "Your phone is too slow."
+msgstr "Votre téléphone est trop lent."
+
+#: templates/guides/malware-protection.html:77
+msgid "Apps take longer to load."
+msgstr "Les applications prennent plus de temps à charger."
+
+#: templates/guides/malware-protection.html:78
+msgid "The battery drains faster than expected."
+msgstr "La batterie se décharge plus vite que prévu."
+
+#: templates/guides/malware-protection.html:79
+msgid "There is an abundance of pop-up ads."
+msgstr "Il existe une abondance de publicités pop-up."
+
+#: templates/guides/malware-protection.html:80
+msgid "Your phone has apps you don’t remember downloading."
+msgstr ""
+"Votre téléphone contient des applications que vous ne vous souvenez pas "
+"avoir téléchargées."
+
+#: templates/guides/malware-protection.html:81
+msgid "Unexplained data usage occurs."
+msgstr "Une utilisation inexpliquée des données se produit."
+
+#: templates/guides/malware-protection.html:82
+msgid "Higher phone bills arrive."
+msgstr "Les factures de téléphone augmentent."
+
+#: templates/guides/malware-protection.html:85
+msgid "How to check for viruses and other malware on your Android phone"
+msgstr ""
+"Comment vérifier la présence de virus et autres logiciels malveillants sur "
+"votre téléphone Android"
+
+#: templates/guides/malware-protection.html:86
+msgid ""
+"A good way to check for malware on your Android phone is to run an antivirus"
+" scan."
+msgstr ""
+"Une bonne façon de vérifier la présence de logiciels malveillants sur votre "
+"téléphone Android est d’exécuter une analyse antivirus."
+
+#: templates/guides/malware-protection.html:87
+msgid ""
+"Before buying antivirus software for your phone, make sure you consider the "
+"most comprehensive product that’s available for your device."
+msgstr ""
+"Avant d’acheter un logiciel antivirus pour votre téléphone, assurez-vous de "
+"prendre en compte le produit le plus complet disponible pour votre appareil."
+
+#: templates/guides/malware-protection.html:88
+msgid ""
+"There are many antivirus software choices available on the market. Some are "
+"free, and some are sold."
+msgstr ""
+"Il existe de nombreux logiciels antivirus disponibles sur le marché. "
+"Certains sont gratuits, d'autres payants."
+
+#: templates/guides/malware-protection.html:89
+msgid ""
+"It’s a good idea to do your research to ensure the security software you "
+"invest in runs a complete scan and doesn’t overlook any vulnerabilities. An "
+"incomplete scan could give you a false sense of security when, in fact, your"
+" device could be vulnerable to cyberattacks."
+msgstr ""
+"Il est judicieux de faire des recherches pour vous assurer que le logiciel "
+"de sécurité dans lequel vous investissez effectue une analyse complète et ne"
+" néglige aucune vulnérabilité. Une analyse incomplète peut vous donner un "
+"faux sentiment de sécurité alors qu’en fait, votre appareil pourrait être "
+"vulnérable aux cyberattaques."
+
+#: templates/guides/malware-protection.html:91
+msgid "How to remove viruses and other malware from your Android device"
+msgstr ""
+"Comment supprimer les virus et autres logiciels malveillants de votre "
+"appareil Android"
+
+#: templates/guides/malware-protection.html:92
+msgid ""
+"If you think you have malware on your phone, it’s important to stop the "
+"malware from causing any further damage. Here are a few steps you can take:"
+msgstr ""
+"Si vous pensez que votre téléphone est infecté par un logiciel malveillant, "
+"il est important de l’empêcher de causer d’autres dommages. Voici quelques "
+"mesures que vous pouvez prendre :"
+
+#: templates/guides/malware-protection.html:94
+msgid ""
+"Power off the phone and reboot in safe mode. Press the power button to "
+"access the Power Off options. Most Android phones come with the option to "
+"restart in Safe Mode. Here’s how, according to Google, although Safe Mode "
+"can vary by phone: Press your phone's power button. When the animation "
+"starts, press and hold your phone's volume down button. Hold it until the "
+"animation ends and your phone restarts. You'll see “Safe mode” at the bottom"
+" of your screen."
+msgstr ""
+"Éteignez le téléphone et redémarrez-le en mode sans échec. Appuyez sur le "
+"bouton d'alimentation pour accéder aux options d'arrêt. La plupart des "
+"téléphones Android sont dotés de l'option de redémarrage en mode sans échec."
+" Voici comment procéder, selon Google, bien que le mode sans échec puisse "
+"varier selon le téléphone : appuyez sur le bouton d'alimentation de votre "
+"téléphone. Lorsque l'animation démarre, maintenez enfoncé le bouton de "
+"réduction du volume de votre téléphone. Maintenez-le enfoncé jusqu'à ce que "
+"l'animation se termine et que votre téléphone redémarre. Vous verrez « Mode "
+"sans échec » en bas de votre écran."
+
+#: templates/guides/malware-protection.html:95
+msgid ""
+"Uninstall the suspicious app. Find the app in Settings and uninstall or "
+"force close it. This may not completely remove the malware, but it could "
+"prevent further damage to your device, or from it transmitting the malware "
+"to other devices on your network."
+msgstr ""
+"Désinstallez l'application suspecte. Recherchez l'application dans les "
+"paramètres et désinstallez-la ou forcez sa fermeture. Cela ne supprimera "
+"peut-être pas complètement le logiciel malveillant, mais cela pourrait "
+"empêcher d'autres dommages à votre appareil ou de transmettre le logiciel "
+"malveillant à d'autres appareils de votre réseau."
+
+#: templates/guides/malware-protection.html:96
+msgid ""
+"Look for other apps you think may be infected. There’s a chance that some "
+"apps may have been infected by the malware. If you think you can identify "
+"those apps, delete them immediately."
+msgstr ""
+"Recherchez d’autres applications qui pourraient être infectées. Il est "
+"possible que certaines applications aient été infectées par le logiciel "
+"malveillant. Si vous pensez pouvoir identifier ces applications, supprimez-"
+"les immédiatement."
+
+#: templates/guides/malware-protection.html:97
+msgid "Install a robust mobile security app on your phone."
+msgstr ""
+"Installez une application de sécurité mobile robuste sur votre téléphone."
+
+#: templates/guides/malware-protection.html:100
+msgid ""
+"Tips to help protect your Android device against viruses and other malware"
+msgstr ""
+"Conseils pour protéger votre appareil Android contre les virus et autres "
+"logiciels malveillants"
+
+#: templates/guides/malware-protection.html:101
+msgid ""
+"Here are seven key steps you can take to help protect against future risks."
+msgstr ""
+"Voici sept mesures clés que vous pouvez prendre pour vous protéger contre "
+"les risques futurs."
+
+#: templates/guides/malware-protection.html:103
+msgid ""
+"Invest in and use robust security software to protect your Android device."
+msgstr ""
+"Investissez et utilisez un logiciel de sécurité robuste pour protéger votre "
+"appareil Android."
+
+#: templates/guides/malware-protection.html:104
+msgid ""
+"Keep all operating systems and software updated with the latest versions."
+msgstr ""
+"Maintenez tous les systèmes d’exploitation et logiciels à jour avec les "
+"dernières versions."
+
+#: templates/guides/malware-protection.html:105
+msgid ""
+"Don’t click on suspicious or unfamiliar links in emails and text messages."
+msgstr ""
+"Ne cliquez pas sur des liens suspects ou inconnus dans les e-mails et les "
+"SMS."
+
+#: templates/guides/malware-protection.html:106
+msgid "Use strong, complicated passwords or a password manager."
+msgstr ""
+"Utilisez des mots de passe forts et complexes ou un gestionnaire de mots de "
+"passe."
+
+#: templates/guides/malware-protection.html:107
+msgid ""
+"Never use unsecure Wi-Fi connections. Always use a VPN when connecting to "
+"public Wi-Fi."
+msgstr ""
+"N'utilisez jamais de connexions Wi-Fi non sécurisées. Utilisez toujours un "
+"VPN lorsque vous vous connectez à un réseau Wi-Fi public."
+
+#: templates/guides/malware-protection.html:108
+msgid ""
+"Always use strong cyber safety protection on all devices that connect to the"
+" internet."
+msgstr ""
+"Utilisez toujours une protection de cybersécurité renforcée sur tous les "
+"appareils qui se connectent à Internet."
+
+#: templates/guides/malware-protection.html:109
+msgid ""
+"Always install apps from trusted sources, such as the Google Play Store. "
+"Read the fine print and permissions on the apps to understand how much "
+"access you are giving the app developers."
+msgstr ""
+"Installez toujours des applications provenant de sources fiables, telles que"
+" Google Play Store. Lisez les petits caractères et les autorisations des "
+"applications pour comprendre le niveau d'accès que vous accordez aux "
+"développeurs d'applications."
+
+#: templates/guides/prevent-theft.html:4
+msgid "GUIDE on How to Prevent Identity Theft"
+msgstr "GUIDE sur la façon de prévenir le vol d'identité"
+
+#: templates/guides/prevent-theft.html:13
+msgid "Warning signs of identity theft"
+msgstr "Signes avant-coureurs d'usurpation d'identité"
+
+#: templates/guides/prevent-theft.html:14
+msgid "ID theft warning signs can include:"
+msgstr "Les signes avant-coureurs d’un vol d’identité peuvent inclure :"
+
+#: templates/guides/prevent-theft.html:16
+msgid "Unexplained financial activity:"
+msgstr "Activité financière inexpliquée :"
+
+#: templates/guides/prevent-theft.html:16
+msgid ""
+"Charges, accounts, or withdrawals on your bank statements or credit card "
+"reports that you don't recognize."
+msgstr ""
+"Frais, comptes ou retraits sur vos relevés bancaires ou rapports de carte de"
+" crédit que vous ne reconnaissez pas."
+
+#: templates/guides/prevent-theft.html:17
+msgid "Unexpected calls from debt collectors:"
+msgstr "Appels inattendus des agents de recouvrement :"
+
+#: templates/guides/prevent-theft.html:17
+msgid "Phone calls from collection agencies about debts you aren’t aware of."
+msgstr ""
+"Appels téléphoniques d’agences de recouvrement concernant des dettes dont "
+"vous n’êtes pas au courant."
+
+#: templates/guides/prevent-theft.html:18
+msgid "Missing mail or bills:"
+msgstr "Courrier ou factures manquants :"
+
+#: templates/guides/prevent-theft.html:18
+msgid ""
+"Important documents you were expecting never arrived, especially those "
+"containing financial information."
+msgstr ""
+"Les documents importants que vous attendiez ne sont jamais arrivés, en "
+"particulier ceux contenant des informations financières."
+
+#: templates/guides/prevent-theft.html:19
+msgid "Errors on credit reports:"
+msgstr "Erreurs dans les rapports de crédit :"
+
+#: templates/guides/prevent-theft.html:19
+msgid ""
+"Inaccuracies on your credit report, such as accounts you haven't opened, "
+"inquiries you didn't initiate, or incorrect personal information."
+msgstr ""
+"Des inexactitudes dans votre rapport de solvabilité, comme des comptes que "
+"vous n’avez pas ouverts, des demandes que vous n’avez pas initiées ou des "
+"informations personnelles incorrectes."
+
+#: templates/guides/prevent-theft.html:23
+msgid "Warning Signs of Identity Theft"
+msgstr "Signes avant-coureurs d'usurpation d'identité"
+
+#: templates/guides/prevent-theft.html:24
+msgid ""
+"These are four common red flags of identity theft to look out for. And now "
+"that you know what identity theft may look like, here are the steps to take "
+"if you know or suspect you’re a victim."
+msgstr ""
+"Voici quatre signes avant-coureurs courants du vol d’identité auxquels il "
+"faut prêter attention. Et maintenant que vous savez à quoi peut ressembler "
+"un vol d’identité, voici les mesures à prendre si vous savez ou soupçonnez "
+"que vous en êtes victime."
+
+#: templates/guides/prevent-theft.html:25
+msgid "What to do if you're a victim of identity theft"
+msgstr "Que faire si vous êtes victime d'un vol d'identité"
+
+#: templates/guides/prevent-theft.html:26
+msgid ""
+"If you’re a victim of ID theft, you need to mitigate damage quickly. Here "
+"are the immediate steps you should take to report identity theft."
+msgstr ""
+"Si vous êtes victime d’un vol d’identité, vous devez rapidement atténuer les"
+" dommages. Voici les mesures immédiates à prendre pour signaler un vol "
+"d’identité."
+
+#: templates/guides/prevent-theft.html:27
+msgid "If you are a victim of Identity Theft"
+msgstr "Si vous êtes victime d'un vol d'identité"
+
+#: templates/guides/prevent-theft.html:30
+msgid "Contact financial institutions and companies where the fraud occurred:"
+msgstr ""
+"Contactez les institutions financières et les entreprises où la fraude a eu "
+"lieu :"
+
+#: templates/guides/prevent-theft.html:30
+msgid ""
+"Alert your bank, credit card companies, and other financial institutions "
+"about the identity theft. Also, contact the companies where the fraud "
+"occurred."
+msgstr ""
+"Prévenez votre banque, les sociétés émettrices de cartes de crédit et les "
+"autres institutions financières du vol d’identité. Contactez également les "
+"entreprises où la fraude a eu lieu."
+
+#: templates/guides/prevent-theft.html:31
+msgid "Freeze credit reports:"
+msgstr "Geler les rapports de crédit :"
+
+#: templates/guides/prevent-theft.html:31
+msgid ""
+"Contact the three major credit bureaus (Equifax®, Experian®, and "
+"TransUnion®) to freeze your credit report. This can help prevent criminals "
+"from opening new lines of credit in your name. You can also place a fraud "
+"alert on your report by contacting any of the major bureaus who must then "
+"alert the others."
+msgstr ""
+"Communiquez avec les trois principales agences d'évaluation du crédit "
+"(Equifax®, Experian® et TransUnion®) pour faire geler votre rapport de "
+"solvabilité. Cela peut empêcher les criminels d'ouvrir de nouvelles lignes "
+"de crédit à votre nom. Vous pouvez également placer une alerte de fraude sur"
+" votre rapport en contactant l'une des principales agences qui doivent "
+"ensuite alerter les autres."
+
+#: templates/guides/prevent-theft.html:32
+msgid "File a report with law enforcement:"
+msgstr "Déposer une plainte auprès des forces de l’ordre :"
+
+#: templates/guides/prevent-theft.html:32
+msgid ""
+"Report the identity theft to the FTC at IdentityTheft.gov to get your "
+"personal recovery plan or file a police report. You will need proof of one "
+"of these if you want to go on to place an extended fraud alert, which lasts "
+"seven years."
+msgstr ""
+"Signalez le vol d'identité à la FTC sur IdentityTheft.gov pour obtenir votre"
+" plan de rétablissement personnel ou déposer une plainte auprès de la "
+"police. Vous aurez besoin d'une preuve de l'une de ces deux preuves si vous "
+"souhaitez déposer une alerte à la fraude prolongée, qui dure sept ans."
+
+#: templates/guides/prevent-theft.html:35
+msgid "Ways to protect your identity"
+msgstr "Façons de protéger votre identité"
+
+#: templates/guides/prevent-theft.html:36
+msgid ""
+"There are several ways that you can help protect your identity from would-be"
+" thieves. ​​Here are the key strategies for safeguarding your personal "
+"information and helping protect against identity fraud occurring in the "
+"first place:"
+msgstr ""
+"Il existe plusieurs façons de protéger votre identité contre les voleurs "
+"potentiels. Voici les principales stratégies pour protéger vos informations "
+"personnelles et vous protéger contre les fraudes d'identité :"
+
+#: templates/guides/prevent-theft.html:38
+msgid "Strengthen passwords and PINs:"
+msgstr "Renforcez les mots de passe et les codes PIN :"
+
+#: templates/guides/prevent-theft.html:38
+msgid ""
+"Use complex and unique passwords for all your online accounts. Avoid using "
+"obvious information like birthdays or pet names. Consider a password manager"
+" to help you create and manage strong passwords. Turn on two-factor "
+"authentication or multi-factor authentication wherever possible."
+msgstr ""
+"Utilisez des mots de passe complexes et uniques pour tous vos comptes en "
+"ligne. Évitez d'utiliser des informations évidentes comme les dates de "
+"naissance ou les noms d'animaux de compagnie. Pensez à utiliser un "
+"gestionnaire de mots de passe pour vous aider à créer et à gérer des mots de"
+" passe forts. Activez l'authentification à deux facteurs ou "
+"l'authentification à plusieurs facteurs dans la mesure du possible."
+
+#: templates/guides/prevent-theft.html:39
+msgid "Be cautious with personal information online:"
+msgstr "Soyez prudent avec les informations personnelles en ligne :"
+
+#: templates/guides/prevent-theft.html:39
+msgid ""
+"Don't share sensitive information like credit card details on unsecured "
+"websites or in response to unsolicited emails or messages. And think before "
+"sharing anything on social media or online, as even seemingly innocent info "
+"like your place of birth can be used by identity thieves."
+msgstr ""
+"Ne partagez pas d'informations sensibles telles que les informations de "
+"votre carte de crédit sur des sites Web non sécurisés ou en réponse à des "
+"e-mails ou messages non sollicités. Réfléchissez avant de partager quoi que "
+"ce soit sur les réseaux sociaux ou en ligne, car même des informations "
+"apparemment anodines comme votre lieu de naissance peuvent être utilisées "
+"par des voleurs d'identité."
+
+#: templates/guides/prevent-theft.html:40
+msgid "Monitor financial accounts regularly:"
+msgstr "Surveiller régulièrement les comptes financiers :"
+
+#: templates/guides/prevent-theft.html:40
+msgid ""
+"Regularly review your bank statements and credit card reports for any "
+"unauthorized activity. Catching fraudulent charges early can minimize the "
+"damage. You can also use a service like Norton™ 360 with LifeLock™ Select to"
+" help monitor your credit."
+msgstr ""
+"Vérifiez régulièrement vos relevés bancaires et vos rapports de carte de "
+"crédit pour détecter toute activité non autorisée. Détecter les frais "
+"frauduleux au plus tôt peut minimiser les dégâts. Vous pouvez également "
+"utiliser un service comme Norton™ 360 avec LifeLock™ Select pour vous aider "
+"à surveiller votre crédit."
+
+#: templates/guides/prevent-theft.html:41
+msgid "Shred sensitive documents:"
+msgstr "Déchiqueter les documents sensibles :"
+
+#: templates/guides/prevent-theft.html:41
+msgid ""
+"Before discarding documents containing personal information like bank "
+"statements or credit card offers, shred them thoroughly and dispose of them "
+"in separate loads. This makes it much harder for criminals to steal your "
+"information from the trash."
+msgstr ""
+"Avant de jeter des documents contenant des informations personnelles, comme "
+"des relevés bancaires ou des offres de carte de crédit, déchiquetez-les "
+"soigneusement et jetez-les dans des bacs séparés. Il sera ainsi beaucoup "
+"plus difficile pour les criminels de voler vos informations à la poubelle."
+
+#: templates/guides/prevent-theft.html:42
+msgid "Secure personal devices and networks:"
+msgstr "Sécuriser les appareils et les réseaux personnels :"
+
+#: templates/guides/prevent-theft.html:42
+msgid ""
+"Use a strong password on your home network and keep your devices' software "
+"updated so they have the latest security patches. Be cautious when using "
+"public Wi-Fi networks and avoid accessing or sending sensitive information "
+"on unsecured connections."
+msgstr ""
+"Utilisez un mot de passe fort sur votre réseau domestique et maintenez à "
+"jour les logiciels de vos appareils afin qu'ils disposent des derniers "
+"correctifs de sécurité. Soyez prudent lorsque vous utilisez des réseaux Wi-"
+"Fi publics et évitez d'accéder ou d'envoyer des informations sensibles sur "
+"des connexions non sécurisées."
+
+#: templates/guides/prevent-theft.html:43
+msgid "Be skeptical of unsolicited communications:"
+msgstr "Soyez sceptique face aux communications non sollicitées :"
+
+#: templates/guides/prevent-theft.html:43
+msgid ""
+"Be wary of emails, texts, or phone calls you’re not expecting that request "
+"personal information. Don't click suspicious links or attachments, and if "
+"you’re unsure about a communication's legitimacy contact the sender directly"
+" through a verified channel."
+msgstr ""
+"Méfiez-vous des e-mails, SMS ou appels téléphoniques inattendus qui vous "
+"demandent des informations personnelles. Ne cliquez pas sur des liens ou des"
+" pièces jointes suspectes et, si vous n'êtes pas sûr de la légitimité d'une "
+"communication, contactez directement l'expéditeur via un canal vérifié."
+
+#: templates/guides/prevent-theft.html:45
+msgid ""
+"By following these steps and staying vigilant, you can reduce your risk of "
+"identity theft and help protect your personal information."
+msgstr ""
+"En suivant ces étapes et en restant vigilant, vous pouvez réduire votre "
+"risque de vol d’identité et contribuer à protéger vos renseignements "
+"personnels."
+
+#: templates/guides/prevent-theft.html:47
+msgid "FAQs about identity theft"
+msgstr "FAQ sur le vol d'identité"
+
+#: templates/guides/prevent-theft.html:48
+msgid "Still have questions about identity theft? We’ve got you covered."
+msgstr ""
+"Vous avez encore des questions sur le vol d’identité ? Nous sommes là pour "
+"vous aider."
+
+#: templates/guides/prevent-theft.html:50
+msgid "What should I do if I suspect I'm a victim of identity theft?"
+msgstr "Que dois-je faire si je soupçonne être victime d’un vol d’identité ?"
+
+#: templates/guides/prevent-theft.html:51
+msgid ""
+"If you suspect that somebody stole your identity, alert your bank and credit"
+" card companies immediately. You should also place a fraud alert or credit "
+"freeze on your credit report and notify the authorities that you think your "
+"identity has been compromised."
+msgstr ""
+"Si vous pensez que quelqu'un a volé votre identité, prévenez immédiatement "
+"votre banque et votre société de carte de crédit. Vous devez également "
+"placer une alerte à la fraude ou un gel de crédit sur votre rapport de "
+"solvabilité et informer les autorités que vous pensez que votre identité a "
+"été compromise."
+
+#: templates/guides/prevent-theft.html:53
+msgid "What do you do if someone has stolen your identity?"
+msgstr "Que faire si quelqu’un a volé votre identité ?"
+
+#: templates/guides/prevent-theft.html:54
+msgid ""
+"Contact the company where you know the fraud took place and speak to the "
+"fraud department. Ask them to freeze your account or implement their fraud "
+"procedures. Then place a fraud alert or credit freeze on your credit report "
+"and file a report at IdentityTheft.gov and with your local law enforcement "
+"office. If the theft warrants it, consider contacting the IRS as well as "
+"your insurance and medical care providers."
+msgstr ""
+"Contactez l'entreprise dans laquelle vous savez que la fraude a eu lieu et "
+"parlez au service des fraudes. Demandez-leur de geler votre compte ou de "
+"mettre en œuvre leurs procédures anti-fraude. Placez ensuite une alerte de "
+"fraude ou un gel de crédit sur votre rapport de crédit et déposez une "
+"plainte sur IdentityTheft.gov et auprès de votre bureau local d'application "
+"de la loi. Si le vol le justifie, envisagez de contacter l'IRS ainsi que vos"
+" assureurs et prestataires de soins médicaux."
+
+#: templates/guides/prevent-theft.html:56
+msgid "Can children be victims of identity theft?"
+msgstr "Les enfants peuvent-ils être victimes d’usurpation d’identité ?"
+
+#: templates/guides/prevent-theft.html:57
+msgid ""
+"Yes, child identity theft exists. If an ID thief knows your child’s Social "
+"Security number, they might use it to open new credit accounts or take out "
+"bank loans—and hurt your child’s credit score in the process."
+msgstr ""
+"Oui, le vol d’identité des enfants existe. Si un voleur d’identité connaît "
+"le numéro de sécurité sociale de votre enfant, il peut l’utiliser pour "
+"ouvrir de nouveaux comptes de crédit ou contracter des prêts bancaires, et "
+"ainsi nuire à la cote de crédit de votre enfant."
+
+#: templates/guides/prevent-theft.html:59
+msgid "Is identity theft punishable by law?"
+msgstr "Le vol d’identité est-il puni par la loi ?"
+
+#: templates/guides/prevent-theft.html:60
+msgid ""
+"Absolutely, identity theft is a serious crime with significant consequences "
+"for the perpetrators. The penalties for identity theft vary depending on the"
+" severity of the crime and the state where it occurs."
+msgstr ""
+"Bien entendu, le vol d’identité est un délit grave qui peut avoir des "
+"conséquences graves pour les auteurs. Les sanctions pour vol d’identité "
+"varient en fonction de la gravité du délit et de l’État où il est commis."
+
+#: templates/guides/secure-mobile.html:4
+msgid "GUIDE on keeping your mobile secure"
+msgstr "GUIDE pour sécuriser votre mobile"
+
+#: templates/guides/secure-mobile.html:12
+msgid "How to secure mobile devices"
+msgstr "Comment sécuriser les appareils mobiles"
+
+#: templates/guides/secure-mobile.html:13
+msgid ""
+"Just as there are many different kinds of threats, there are many ways to "
+"reduce the likelihood of your device being impacted by one of them. With a "
+"few small changes, you can better secure your digital life and help keep "
+"different types of hackers and malware at bay."
+msgstr ""
+"Tout comme il existe de nombreux types de menaces, il existe de nombreuses "
+"façons de réduire la probabilité que votre appareil soit affecté par l'une "
+"d'entre elles. Avec quelques petits changements, vous pouvez mieux sécuriser"
+" votre vie numérique et aider à tenir à distance différents types de pirates"
+" et de logiciels malveillants."
+
+#: templates/guides/secure-mobile.html:15
+msgid "Enable screen locks and biometrics for better in-person security"
+msgstr ""
+"Activez les verrouillages d'écran et la biométrie pour une meilleure "
+"sécurité en personne"
+
+#: templates/guides/secure-mobile.html:16
+msgid ""
+"Built-in security features should be your first line of defense against "
+"physical device tampering and theft. Choose as difficult a passcode as you "
+"can easily remember, and don’t reuse any of your codes. Biometrics, like "
+"FaceID or fingerprint scanners, create an extra layer of security that is "
+"more difficult to hack than a password."
+msgstr ""
+"Les fonctions de sécurité intégrées doivent constituer votre première ligne "
+"de défense contre les altérations et les vols physiques des appareils. "
+"Choisissez un code d’accès aussi complexe que possible et dont vous pouvez "
+"facilement vous souvenir, et ne réutilisez aucun de vos codes. Les "
+"dispositifs biométriques, comme FaceID ou les scanners d’empreintes "
+"digitales, créent une couche de sécurité supplémentaire plus difficile à "
+"pirater qu’un mot de passe."
+
+#: templates/guides/secure-mobile.html:18
+msgid "Keep your devices and apps up to date to limit vulnerabilities"
+msgstr ""
+"Maintenez vos appareils et applications à jour pour limiter les "
+"vulnérabilités"
+
+#: templates/guides/secure-mobile.html:19
+msgid ""
+"An updated device is more secure than one running an older operating system "
+"or application. Turn on automatic updates to minimize the time your phone is"
+" vulnerable to known threats."
+msgstr ""
+"Un appareil mis à jour est plus sécurisé qu'un appareil doté d'un système "
+"d'exploitation ou d'une application plus ancien. Activez les mises à jour "
+"automatiques pour réduire le temps pendant lequel votre téléphone est "
+"vulnérable aux menaces connues."
+
+#: templates/guides/secure-mobile.html:21
+msgid ""
+"Use secure networks and VPNs for safer browsing, shopping, and downloading"
+msgstr ""
+"Utilisez des réseaux sécurisés et des VPN pour une navigation, des achats et"
+" des téléchargements plus sûrs"
+
+#: templates/guides/secure-mobile.html:22
+msgid ""
+"A VPN creates an encrypted path for you to use the internet by anonymizing "
+"your device and masking your IP address. Always protect your browsing when "
+"on public Wi-Fi by using a VPN."
+msgstr ""
+"Un VPN crée un chemin crypté pour vous permettre d'utiliser Internet en "
+"anonymisant votre appareil et en masquant votre adresse IP. Protégez "
+"toujours votre navigation lorsque vous êtes sur un réseau Wi-Fi public en "
+"utilisant un VPN."
+
+#: templates/guides/secure-mobile.html:24
+msgid "Back up and encrypt data to protect your personal information"
+msgstr ""
+"Sauvegardez et cryptez vos données pour protéger vos informations "
+"personnelles"
+
+#: templates/guides/secure-mobile.html:25
+msgid ""
+"Backing up an encrypted copy of your data protects you in the event of "
+"malware disabling your mobile device. Encrypted cloud backups mean you can "
+"access your data anywhere and be nearly as safe as with encrypted physical "
+"backups."
+msgstr ""
+"La sauvegarde d'une copie cryptée de vos données vous protège en cas de "
+"désactivation de votre appareil mobile par un logiciel malveillant. Les "
+"sauvegardes cloud cryptées vous permettent d'accéder à vos données où que "
+"vous soyez et d'être presque aussi en sécurité qu'avec des sauvegardes "
+"physiques cryptées."
+
+#: templates/guides/secure-mobile.html:27
+msgid "Employ strong, unique passwords and 2FA to keep your accounts safer"
+msgstr ""
+"Utilisez des mots de passe forts et uniques et la 2FA pour sécuriser vos "
+"comptes"
+
+#: templates/guides/secure-mobile.html:28
+msgid ""
+"Using a password manager will make securely storing and accessing passwords "
+"simple. Follow good password security practices by choosing unique passwords"
+" that you don’t reuse. Turn on two-factor authentication to put another "
+"roadblock between hackers and your personal information."
+msgstr ""
+"L’utilisation d’un gestionnaire de mots de passe vous permettra de stocker "
+"et d’accéder facilement et en toute sécurité à vos mots de passe. Adoptez de"
+" bonnes pratiques de sécurité des mots de passe en choisissant des mots de "
+"passe uniques que vous ne réutilisez pas. Activez l’authentification à deux "
+"facteurs pour mettre un autre obstacle entre les pirates et vos informations"
+" personnelles."
+
+#: templates/guides/secure-mobile.html:30
+msgid ""
+"Use mobile security software for faster, more efficient mobile security"
+msgstr ""
+"Utilisez un logiciel de sécurité mobile pour une sécurité mobile plus rapide"
+" et plus efficace"
+
+#: templates/guides/secure-mobile.html:31
+msgid ""
+"Mobile security software like Norton Mobile Security for Android and iOS "
+"devices combines many of these security features into an easy-to-use "
+"package. It scans your messages for phishing attempts, warns you when "
+"suspicious networks are nearby, and protects your devices from malware."
+msgstr ""
+"Les logiciels de sécurité mobile comme Norton Mobile Security pour appareils"
+" Android et iOS combinent bon nombre de ces fonctionnalités de sécurité dans"
+" un package facile à utiliser. Il analyse vos messages à la recherche de "
+"tentatives de phishing, vous avertit lorsque des réseaux suspects se "
+"trouvent à proximité et protège vos appareils contre les programmes "
+"malveillants."
+
+#: templates/guides/secure-mobile.html:34
+msgid "6 Tips to Secure Mobile Device"
+msgstr "6 conseils pour sécuriser votre appareil mobile"
+
+#: templates/guides/secure-mobile.html:36
+msgid "FAQs about mobile security"
+msgstr "FAQ sur la sécurité mobile"
+
+#: templates/guides/secure-mobile.html:37
+msgid "Have more questions about mobile security? We have answers."
+msgstr ""
+"Vous avez d’autres questions sur la sécurité mobile ? Nous avons des "
+"réponses."
+
+#: templates/guides/secure-mobile.html:39
+msgid "What is the best security you can put on a mobile device?"
+msgstr ""
+"Quelle est la meilleure sécurité que vous pouvez mettre sur un appareil "
+"mobile ?"
+
+#: templates/guides/secure-mobile.html:40
+msgid "The best mobile security depends on a variety of factors, including:"
+msgstr "La meilleure sécurité mobile dépend de divers facteurs, notamment :"
+
+#: templates/guides/secure-mobile.html:42
+msgid "Device type"
+msgstr "Type d'appareil"
+
+#: templates/guides/secure-mobile.html:43
+msgid "How frequently you use your device"
+msgstr "À quelle fréquence utilisez-vous votre appareil"
+
+#: templates/guides/secure-mobile.html:44
+msgid "What you use your device for"
+msgstr "À quoi sert votre appareil"
+
+#: templates/guides/secure-mobile.html:46
+msgid ""
+"Regardless of these factors, it’s a good idea to take advantage of the "
+"security features in your devices. That means screen lock passcodes, "
+"biometrics, and remote wiping if you lose your device. Installing "
+"cybersecurity software will give you an extra level of protection from "
+"threats."
+msgstr ""
+"Indépendamment de ces facteurs, il est judicieux de tirer parti des "
+"fonctionnalités de sécurité de vos appareils. Cela signifie des codes de "
+"verrouillage d’écran, des données biométriques et un effacement à distance "
+"en cas de perte de votre appareil. L’installation d’un logiciel de "
+"cybersécurité vous offrira un niveau de protection supplémentaire contre les"
+" menaces."
+
+#: templates/guides/secure-mobile.html:48
+msgid "How can I make my phone more secure?"
+msgstr "Comment puis-je rendre mon téléphone plus sécurisé ?"
+
+#: templates/guides/secure-mobile.html:49
+msgid ""
+"To make your phone more secure, you should use security software, use a VPN "
+"when you browse the internet with public Wi-Fi, keep your operating system "
+"and applications updated, and avoid clicking on links and downloading files "
+"from people you don’t know."
+msgstr ""
+"Pour renforcer la sécurité de votre téléphone, vous devez utiliser un "
+"logiciel de sécurité, utiliser un VPN lorsque vous naviguez sur Internet via"
+" un réseau Wi-Fi public, maintenir votre système d’exploitation et vos "
+"applications à jour et éviter de cliquer sur des liens et de télécharger des"
+" fichiers provenant de personnes que vous ne connaissez pas."
+
+#: templates/guides/secure-mobile.html:51
+msgid "What's the most secure way to lock your smartphone?"
+msgstr "Quel est le moyen le plus sûr de verrouiller votre smartphone ?"
+
+#: templates/guides/secure-mobile.html:52
+msgid ""
+"The most secure way to lock your smartphone or tablet is to set a passcode "
+"and use any biometric security features (like a fingerprint scan or facial "
+"recognition) available on your device. It’s also vital that you choose a "
+"unique passcode and that you don’t share your passcode with anyone."
+msgstr ""
+"Le moyen le plus sûr de verrouiller votre smartphone ou votre tablette est "
+"de définir un code d’accès et d’utiliser les fonctions de sécurité "
+"biométriques (comme l’analyse des empreintes digitales ou la reconnaissance "
+"faciale) disponibles sur votre appareil. Il est également essentiel que vous"
+" choisissiez un code d’accès unique et que vous ne le partagiez avec "
+"personne."
+
+#: templates/guides/secure-mobile.html:54
+msgid "Do I really need a password lock on my phone?"
+msgstr ""
+"Ai-je vraiment besoin d’un mot de passe de verrouillage sur mon téléphone ?"
+
+#: templates/guides/secure-mobile.html:55
+msgid ""
+"If you care about the security of your phone and the personal information on"
+" it, yes. Not only will it stop people around you from accessing your device"
+" without your permission, but it may also prevent your information from "
+"falling into the hands of a thief if your phone is stolen."
+msgstr ""
+"Si vous vous souciez de la sécurité de votre téléphone et des informations "
+"personnelles qu'il contient, oui. Non seulement cela empêchera les personnes"
+" autour de vous d'accéder à votre appareil sans votre permission, mais cela "
+"peut également empêcher que vos informations tombent entre les mains d'un "
+"voleur si votre téléphone est volé."
+
+#: templates/guides/secure-passwords.html:4
+msgid "GUIDE on creating strong passwords and keeping them safe"
+msgstr ""
+"GUIDE pour créer des mots de passe forts et les conserver en toute sécurité"
+
+#: templates/guides/secure-passwords.html:12
+msgid "Password mistakes to avoid:"
+msgstr "Erreurs de mot de passe à éviter :"
+
+#: templates/guides/secure-passwords.html:13
+msgid "Make your passwords more secure by avoiding the following:"
+msgstr "Rendez vos mots de passe plus sûrs en évitant les éléments suivants :"
+
+#: templates/guides/secure-passwords.html:15
+msgid "Numerical patterns like “1234”"
+msgstr "Des modèles numériques comme « 1234 »"
+
+#: templates/guides/secure-passwords.html:16
+msgid "Common words like “password” or “guest”"
+msgstr "Mots courants comme « mot de passe » ou « invité »"
+
+#: templates/guides/secure-passwords.html:17
+msgid "Repeated characters like “1111”"
+msgstr "Caractères répétés comme « 1111 »"
+
+#: templates/guides/secure-passwords.html:18
+msgid "Keyboard patterns like “qazwsx” or “asdf”"
+msgstr "Modèles de clavier tels que « qazwsx » ou « asdf »"
+
+#: templates/guides/secure-passwords.html:19
+msgid "First and last names"
+msgstr "Nom et prénom"
+
+#: templates/guides/secure-passwords.html:20
+msgid "Pet and family member names"
+msgstr "Noms des animaux de compagnie et des membres de la famille"
+
+#: templates/guides/secure-passwords.html:21
+msgid "Nicknames"
+msgstr "Surnoms"
+
+#: templates/guides/secure-passwords.html:22
+msgid "Important dates"
+msgstr "Dates importantes"
+
+#: templates/guides/secure-passwords.html:23
+msgid "Cities you’ve lived in"
+msgstr "Les villes dans lesquelles vous avez vécu"
+
+#: templates/guides/secure-passwords.html:24
+msgid "Schools you’ve attended"
+msgstr "Les écoles que vous avez fréquentées"
+
+#: templates/guides/secure-passwords.html:25
+msgid "Reversed words like “drowssap”"
+msgstr "Mots inversés comme « drowssap »"
+
+#: templates/guides/secure-passwords.html:26
+msgid "Character substitutions like using “@” in place of “a”"
+msgstr ""
+"Substitutions de caractères comme l'utilisation de « @ » à la place de « a »"
+
+#: templates/guides/secure-passwords.html:29
+msgid "5 tips to create secure passwords"
+msgstr "5 conseils pour créer des mots de passe sécurisés"
+
+#: templates/guides/secure-passwords.html:30
+msgid ""
+"When it comes to online security, creating long, strong, and unique "
+"passwords is your first line of defense. Here are five key tips to create "
+"strong passwords, fortify your accounts, and keep your personal information "
+"safer online:"
+msgstr ""
+"En matière de sécurité en ligne, la création de mots de passe longs, forts "
+"et uniques constitue votre première ligne de défense. Voici cinq conseils "
+"clés pour créer des mots de passe forts, renforcer vos comptes et protéger "
+"vos informations personnelles en ligne :"
+
+#: templates/guides/secure-passwords.html:32
+msgid "Randomize your passwords"
+msgstr "Randomisez vos mots de passe"
+
+#: templates/guides/secure-passwords.html:33
+msgid ""
+"Random passwords are the ultimate shield against hackers. Since they lack "
+"patterns and personal information, it’s nearly impossible for hackers to "
+"guess them using dictionary attacks, numerical patterns like “123,” or "
+"birthday predictions. You should also avoid falling into the trap of using "
+"guessable words that are significant to your life, like nicknames, surnames,"
+" pets, cities, and schools you attended."
+msgstr ""
+"Les mots de passe aléatoires sont le meilleur bouclier contre les pirates "
+"informatiques. Comme ils ne contiennent pas de modèles ni d’informations "
+"personnelles, il est presque impossible pour les pirates de les deviner à "
+"l’aide d’attaques par dictionnaire, de modèles numériques comme « 123 » ou "
+"de prédictions d’anniversaire. Vous devez également éviter de tomber dans le"
+" piège d’utiliser des mots faciles à deviner qui ont une importance dans "
+"votre vie, comme des surnoms, des noms de famille, des animaux de compagnie,"
+" des villes et des écoles que vous avez fréquentées."
+
+#: templates/guides/secure-passwords.html:35
+msgid "Randomize your password"
+msgstr "Randomisez votre mot de passe"
+
+#: templates/guides/secure-passwords.html:37
+#: templates/guides/secure-passwords.html:40
+msgid "Make passwords long"
+msgstr "Créez des mots de passe longs"
+
+#: templates/guides/secure-passwords.html:38
+msgid ""
+"Longer passwords are more secure because every additional character "
+"increases the number of possible combinations. That means that it’s harder "
+"for hackers to guess your password. It also makes the password-cracking "
+"process more time-intensive, which could deter brute force attacks. To "
+"maximize account security, make your passwords at least 15 characters long."
+msgstr ""
+"Les mots de passe plus longs sont plus sûrs, car chaque caractère "
+"supplémentaire augmente le nombre de combinaisons possibles. Cela signifie "
+"qu’il est plus difficile pour les pirates de deviner votre mot de passe. "
+"Cela rend également le processus de piratage de mot de passe plus long, ce "
+"qui peut dissuader les attaques par force brute. Pour maximiser la sécurité "
+"de votre compte, créez des mots de passe d’au moins 15 caractères."
+
+#: templates/guides/secure-passwords.html:42
+#: templates/guides/secure-passwords.html:45
+msgid "Avoid password recycling"
+msgstr "Évitez le recyclage des mots de passe"
+
+#: templates/guides/secure-passwords.html:43
+msgid ""
+"Recycling the same password across accounts makes your passwords less "
+"secure. If an attacker compromises one password, all your accounts with the "
+"same password are at risk. To boost your password security, create a strong "
+"and unique password for every account. You can use a secure password "
+"generator to create them and a password manager to store them."
+msgstr ""
+"Le fait de réutiliser le même mot de passe sur plusieurs comptes rend vos "
+"mots de passe moins sûrs. Si un pirate informatique compromet un mot de "
+"passe, tous vos comptes avec le même mot de passe sont en danger. Pour "
+"renforcer la sécurité de vos mots de passe, créez un mot de passe fort et "
+"unique pour chaque compte. Vous pouvez utiliser un générateur de mots de "
+"passe sécurisé pour les créer et un gestionnaire de mots de passe pour les "
+"stocker."
+
+#: templates/guides/secure-passwords.html:47
+#: templates/guides/secure-passwords.html:50
+msgid "Use symbols, cases, and spellings"
+msgstr "Utilisez des symboles, des majuscules et des orthographes"
+
+#: templates/guides/secure-passwords.html:48
+msgid ""
+"Even if you develop a completely original password, it could still be easy "
+"to guess if you spell a word correctly, use predictable cases, and don’t use"
+" numbers or symbols. Up the ante by incorporating a mix of uppercase (A – Z)"
+" and lowercase letters (a – z), numbers (0 - 9), and symbols (#, $, %). "
+"Also, don’t substitute letters with symbols or numbers (like “p@ssw0rd”) "
+"unless you’re creating a passphrase—most cybercriminals are well aware of "
+"this password trick."
+msgstr ""
+"Même si vous créez un mot de passe totalement original, il peut être facile "
+"à deviner si vous épelez correctement le mot, utilisez des majuscules et des"
+" minuscules prévisibles et n’utilisez pas de chiffres ou de symboles. "
+"Augmentez la mise en incorporant un mélange de lettres majuscules (A – Z) et"
+" minuscules (a – z), de chiffres (0 – 9) et de symboles (#, $, %). De plus, "
+"ne remplacez pas les lettres par des symboles ou des chiffres (comme « "
+"p@ssw0rd ») à moins que vous ne créiez une phrase de passe. La plupart des "
+"cybercriminels connaissent bien cette astuce de mot de passe."
+
+#: templates/guides/secure-passwords.html:52
+#: templates/guides/secure-passwords.html:56
+msgid "Opt for long passphrases"
+msgstr "Optez pour des phrases de passe longues"
+
+#: templates/guides/secure-passwords.html:53
+msgid ""
+"Passphrases are strings of words that can help protect your accounts in the "
+"event of password attacks. They should use a complex and lengthy mix of "
+"characters, 5 to 7 words, and symbols. As a bonus, they are easier to "
+"remember since you can base them on movie quotes, rhymes, songs, etc., "
+"making them especially useful for securing your home computer lock screen."
+msgstr ""
+"Les phrases de passe sont des chaînes de mots qui peuvent aider à protéger "
+"vos comptes en cas d'attaques de mot de passe. Elles doivent utiliser un "
+"mélange complexe et long de caractères, de 5 à 7 mots et de symboles. En "
+"prime, elles sont plus faciles à retenir car vous pouvez les baser sur des "
+"citations de films, des comptines, des chansons, etc., ce qui les rend "
+"particulièrement utiles pour sécuriser l'écran de verrouillage de votre "
+"ordinateur personnel."
+
+#: templates/guides/secure-passwords.html:54
+msgid ""
+"Just don’t use personal information or choose a passphrase directly linked "
+"to something you’ve shared publicly. For example, if you’re a loud and proud"
+" Swiftie, don’t use one of Taylor Swift’s songs to inspire your passphrase."
+msgstr ""
+"N’utilisez pas d’informations personnelles ou de phrase de passe directement"
+" liée à quelque chose que vous avez partagé publiquement. Par exemple, si "
+"vous êtes un fan de Swift, n’utilisez pas l’une des chansons de Taylor Swift"
+" pour vous inspirer de votre phrase de passe."
+
+#: templates/guides/secure-passwords.html:58
+msgid ""
+"If you’re not sure whether your passphrases are strong enough, consider "
+"using a random password generator to come up with hard-to-crack ideas."
+msgstr ""
+"Si vous n’êtes pas sûr que vos phrases de passe sont suffisamment fortes, "
+"pensez à utiliser un générateur de mots de passe aléatoires pour trouver des"
+" idées difficiles à déchiffrer."
+
+#: templates/guides/secure-passwords.html:60
+msgid "How to remember strong passwords"
+msgstr "Comment se souvenir de mots de passe forts"
+
+#: templates/guides/secure-passwords.html:61
+msgid ""
+"While strong passwords are vital, remembering them can be tough, especially "
+"when you’re supposed to have a long, strong, and unique iteration for each "
+"account. Consider using a password manager like Norton Password Manager or "
+"mnemonics to stay on top of your passwords."
+msgstr ""
+"Bien que des mots de passe forts soient essentiels, il peut être difficile "
+"de s'en souvenir, surtout lorsque vous êtes censé avoir une itération "
+"longue, forte et unique pour chaque compte. Pensez à utiliser un "
+"gestionnaire de mots de passe comme Norton Password Manager ou des "
+"mnémoniques pour garder le contrôle de vos mots de passe."
+
+#: templates/guides/secure-passwords.html:63
+msgid "Password managers"
+msgstr "Gestionnaires de mots de passe"
+
+#: templates/guides/secure-passwords.html:64
+msgid ""
+"A password manager is a secure digital vault that stores all your passwords."
+" You just need to remember one master password to access it. Then, you can "
+"securely and conveniently auto-fill your credentials when you visit a "
+"website’s login page."
+msgstr ""
+"Un gestionnaire de mots de passe est un coffre-fort numérique sécurisé qui "
+"stocke tous vos mots de passe. Il vous suffit de mémoriser un mot de passe "
+"principal pour y accéder. Vous pouvez ensuite saisir automatiquement vos "
+"informations d'identification de manière sécurisée et pratique lorsque vous "
+"visitez la page de connexion d'un site Web."
+
+#: templates/guides/secure-passwords.html:66
+msgid "Mnemonic devices"
+msgstr "Moyens mnémotechniques"
+
+#: templates/guides/secure-passwords.html:67
+msgid ""
+"A mnemonic device is a memory trick that helps you recall information by "
+"associating it with something more memorable, such as a phrase or rhyme. You"
+" can use these to remember secure and complex passwords—just come up with a "
+"memorable phrase or acronym."
+msgstr ""
+"Un moyen mnémotechnique est une astuce qui vous aide à mémoriser des "
+"informations en les associant à quelque chose de plus facile à retenir, "
+"comme une phrase ou une rime. Vous pouvez les utiliser pour mémoriser des "
+"mots de passe sûrs et complexes : il vous suffit de trouver une phrase ou un"
+" acronyme facile à retenir."
+
+#: templates/guides/secure-passwords.html:68
+msgid ""
+"For example, you know you shouldn’t use your name in a password. But you can"
+" use your name as a mnemonic device for a passphrase. So, instead of making "
+"your password “AdamC” (your first name and surname initial), you could use "
+"the mnemonic device, “AstronautDrivesArmorMiracleCorduroy,” to remember each"
+" word of your passphrase. Of course, you also need to mix up the cases and "
+"add numbers and symbols."
+msgstr ""
+"Par exemple, vous savez que vous ne devez pas utiliser votre nom dans un mot"
+" de passe. Mais vous pouvez utiliser votre nom comme moyen mnémotechnique "
+"pour une phrase de passe. Ainsi, au lieu de définir votre mot de passe comme"
+" « AdamC » (l’initiale de votre prénom et de votre nom de famille), vous "
+"pouvez utiliser le moyen mnémotechnique « "
+"AstronautDrivesArmorMiracleCorduroy » pour mémoriser chaque mot de votre "
+"phrase de passe. Bien entendu, vous devez également mélanger les majuscules "
+"et les minuscules et ajouter des chiffres et des symboles."
+
+#: templates/guides/secure-passwords.html:70
+msgid "How to keep your passwords safe"
+msgstr "Comment protéger vos mots de passe"
+
+#: templates/guides/secure-passwords.html:71
+msgid ""
+"Password security requires a comprehensive approach. To keep your passwords "
+"safe:"
+msgstr ""
+"La sécurité des mots de passe nécessite une approche globale. Pour protéger "
+"vos mots de passe :"
+
+#: templates/guides/secure-passwords.html:73
+msgid "Create long, complex passwords"
+msgstr "Créez des mots de passe longs et complexes"
+
+#: templates/guides/secure-passwords.html:74
+msgid "Use unique passwords for every account"
+msgstr "Utilisez des mots de passe uniques pour chaque compte"
+
+#: templates/guides/secure-passwords.html:75
+msgid "Use a reputable password manager"
+msgstr "Utilisez un gestionnaire de mots de passe réputé"
+
+#: templates/guides/secure-passwords.html:76
+#: templates/guides/spot-phishing.html:26
+msgid "Enable two-factor authentication (2FA)"
+msgstr "Activer l'authentification à deux facteurs (2FA)"
+
+#: templates/guides/secure-passwords.html:77
+msgid "Change your passwords regularly"
+msgstr "Changez régulièrement vos mots de passe"
+
+#: templates/guides/secure-passwords.html:78
+msgid "Subscribe to data breach alerts"
+msgstr "Abonnez-vous aux alertes de violation de données"
+
+#: templates/guides/secure-passwords.html:79
+msgid "Avoid clicking suspicious links"
+msgstr "Évitez de cliquer sur des liens suspects"
+
+#: templates/guides/secure-passwords.html:80
+msgid "Don’t share your passwords with anyone"
+msgstr "Ne partagez vos mots de passe avec personne"
+
+#: templates/guides/secure-passwords.html:81
+msgid "Use a reputable security app"
+msgstr "Utilisez une application de sécurité réputée"
+
+#: templates/guides/secure-passwords.html:84
+msgid "FAQs about password security"
+msgstr "FAQ sur la sécurité des mots de passe"
+
+#: templates/guides/secure-passwords.html:85
+msgid ""
+"Still have questions about password security? Here’s what you need to know."
+msgstr ""
+"Vous avez encore des questions sur la sécurité des mots de passe ? Voici ce "
+"que vous devez savoir."
+
+#: templates/guides/secure-passwords.html:87
+msgid "How long should my password be?"
+msgstr "Quelle doit être la longueur de mon mot de passe ?"
+
+#: templates/guides/secure-passwords.html:88
+msgid ""
+"A strong password should be at least 15 characters long, with a combination "
+"of different character sets like letters, numbers, and symbols."
+msgstr ""
+"Un mot de passe fort doit comporter au moins 15 caractères, avec une "
+"combinaison de différents ensembles de caractères tels que des lettres, des "
+"chiffres et des symboles."
+
+#: templates/guides/secure-passwords.html:90
+msgid "How do I know if my password is no longer secure?"
+msgstr "Comment savoir si mon mot de passe n’est plus sécurisé ?"
+
+#: templates/guides/secure-passwords.html:91
+msgid ""
+"If your password is short, simple, has been shared with others, used on "
+"multiple accounts, or has been compromised in a data breach, it is not "
+"secure. On top of creating long, strong, unique passwords, you should also "
+"change them regularly if you want strong password security."
+msgstr ""
+"Si votre mot de passe est court, simple, a été partagé avec d'autres "
+"personnes, utilisé sur plusieurs comptes ou a été compromis lors d'une "
+"violation de données, il n'est pas sécurisé. En plus de créer des mots de "
+"passe longs, forts et uniques, vous devez également les changer "
+"régulièrement si vous souhaitez une sécurité renforcée."
+
+#: templates/guides/spot-phishing.html:4
+msgid ""
+"GUIDE on How to Identify Phishing Links and What to Do After Clicking Them"
+msgstr ""
+"GUIDE sur la façon d'identifier les liens de phishing et que faire après "
+"avoir cliqué dessus"
+
+#: templates/guides/spot-phishing.html:9
+msgid "Recognizing and Preventing Phishing Attacks"
+msgstr "Reconnaître et prévenir les attaques de phishing"
+
+#: templates/guides/spot-phishing.html:12
+#: templates/guides/spot-phishing.html:15
+msgid "What to do if you clicked on a phishing link"
+msgstr "Que faire si vous avez cliqué sur un lien de phishing"
+
+#: templates/guides/spot-phishing.html:13
+msgid ""
+"If a phishing scam lures you into clicking a malicious link, it’s important "
+"to act quickly to minimize the fallout. First, cease all interactions—stop "
+"communicating with the attacker, end any active downloads, and close out of "
+"the spoofed website if the URL took you to one. Then, secure your device and"
+" begin the process of monitoring your credit and other accounts for signs of"
+" fraud."
+msgstr ""
+"Si une arnaque par phishing vous incite à cliquer sur un lien malveillant, "
+"il est important d’agir rapidement pour minimiser les conséquences. Tout "
+"d’abord, cessez toute interaction : cessez de communiquer avec l’attaquant, "
+"arrêtez tout téléchargement actif et fermez le site Web usurpé si l’URL vous"
+" a redirigé vers un site Web. Ensuite, sécurisez votre appareil et commencez"
+" à surveiller votre crédit et vos autres comptes pour détecter tout signe de"
+" fraude."
+
+#: templates/guides/spot-phishing.html:17
+msgid "Stop interacting"
+msgstr "Arrêter d'interagir"
+
+#: templates/guides/spot-phishing.html:18
+msgid ""
+"If you realize you fell into a phishing trap, immediately stop what you’re "
+"doing. Depending on the situation, this could mean closing the spoofed "
+"website window or halting an in-progress download. Ending the interaction "
+"after clicking a phishing link can help protect your data by preventing "
+"sensitive information from being transmitted to the attacker."
+msgstr ""
+"Si vous vous rendez compte que vous êtes tombé dans un piège de phishing, "
+"arrêtez immédiatement ce que vous faites. Selon la situation, cela peut "
+"signifier fermer la fenêtre du site Web usurpé ou interrompre un "
+"téléchargement en cours. Mettre fin à l'interaction après avoir cliqué sur "
+"un lien de phishing peut contribuer à protéger vos données en empêchant la "
+"transmission d'informations sensibles à l'attaquant."
+
+#: templates/guides/spot-phishing.html:20
+msgid "Disconnect your internet"
+msgstr "Déconnectez votre internet"
+
+#: templates/guides/spot-phishing.html:21
+msgid ""
+"Disconnecting your internet connection after clicking a phishing link is "
+"another way to stop ongoing data transfers. This is a good option for "
+"stopping background processes and preventing malware from spreading to other"
+" devices on your network."
+msgstr ""
+"Déconnecter votre connexion Internet après avoir cliqué sur un lien de "
+"phishing est une autre façon d'arrêter les transferts de données en cours. "
+"C'est une bonne option pour arrêter les processus en arrière-plan et "
+"empêcher la propagation de logiciels malveillants vers d'autres appareils de"
+" votre réseau."
+
+#: templates/guides/spot-phishing.html:23
+msgid "Change your passwords"
+msgstr "Changez vos mots de passe"
+
+#: templates/guides/spot-phishing.html:24
+msgid ""
+"Prevent ongoing unauthorized access to your accounts by changing any account"
+" login credentials that may have been compromised when you clicked a "
+"phishing link. To help block hackers, craft long and unique passwords, "
+"mixing uppercase and lowercase letters, numbers, and symbols for maximum "
+"security."
+msgstr ""
+"Empêchez tout accès non autorisé à vos comptes en modifiant les identifiants"
+" de connexion qui pourraient avoir été compromis lorsque vous avez cliqué "
+"sur un lien de phishing. Pour bloquer les pirates, créez des mots de passe "
+"longs et uniques, en mélangeant des lettres majuscules et minuscules, des "
+"chiffres et des symboles pour une sécurité maximale."
+
+#: templates/guides/spot-phishing.html:27
+msgid ""
+"If you recently clicked a phishing link, consider adding a further layer of "
+"protection to your accounts with two-factor authentication. This helps keep "
+"your accounts safer even if a hacker gets their hands on your password, "
+"because 2FA requires users to enter a secondary verification code sent "
+"directly to an alternative device."
+msgstr ""
+"Si vous avez récemment cliqué sur un lien de phishing, pensez à ajouter une "
+"couche de protection supplémentaire à vos comptes avec l'authentification à "
+"deux facteurs. Cela permet de sécuriser davantage vos comptes même si un "
+"pirate met la main sur votre mot de passe, car l'authentification à deux "
+"facteurs oblige les utilisateurs à saisir un code de vérification secondaire"
+" envoyé directement sur un autre appareil."
+
+#: templates/guides/spot-phishing.html:29
+msgid "Alert the credit bureaus"
+msgstr "Alertez les bureaux de crédit"
+
+#: templates/guides/spot-phishing.html:30
+msgid ""
+"Visit the home pages of the three national credit "
+"bureaus—Experian<sup>®</sup>, Equifax<sup>®</sup>, and "
+"TransUnion<sup>®</sup>—to alert them of the phishing attack and freeze your "
+"credit. Freezing your credit helps ensure criminals can't open new credit "
+"accounts or take out new loans in your name."
+msgstr ""
+"Consultez les pages d'accueil des trois agences nationales de crédit, "
+"Experian<sup>®</sup>, Equifax<sup>®</sup> et TransUnion<sup>®</sup>, pour "
+"les alerter de l'attaque par hameçonnage et geler votre crédit. Le gel de "
+"votre crédit permet de garantir que les criminels ne peuvent pas ouvrir de "
+"nouveaux comptes de crédit ou contracter de nouveaux prêts en votre nom."
+
+#: templates/guides/spot-phishing.html:32
+msgid "Contact your credit card providers and review your statements"
+msgstr ""
+"Contactez vos fournisseurs de cartes de crédit et examinez vos relevés"
+
+#: templates/guides/spot-phishing.html:33
+msgid ""
+"If you shared your credit card information with a phisher, contact your "
+"credit card issuer. They can help you freeze your credit card to stop "
+"unauthorized purchases and help you comb through your statements to identify"
+" fraudulent transactions. They may even be able to reimburse you for "
+"purchases the phisher made using your card."
+msgstr ""
+"Si vous avez partagé vos informations de carte de crédit avec un pirate "
+"informatique, contactez l'émetteur de votre carte de crédit. Il pourra vous "
+"aider à bloquer votre carte de crédit pour empêcher les achats non autorisés"
+" et vous aider à examiner vos relevés pour identifier les transactions "
+"frauduleuses. Il pourra même être en mesure de vous rembourser les achats "
+"effectués par le pirate informatique avec votre carte."
+
+#: templates/guides/spot-phishing.html:35
+msgid "Check your credit report"
+msgstr "Vérifiez votre rapport de solvabilité"
+
+#: templates/guides/spot-phishing.html:36
+msgid ""
+"Check your credit report regularly for signs of identity theft and financial"
+" fraud in the months after clicking a phishing link. This is where you’ll "
+"see if someone applies for loans or takes out lines of credit in your name."
+msgstr ""
+"Vérifiez régulièrement votre rapport de solvabilité pour déceler tout signe "
+"de vol d’identité ou de fraude financière dans les mois qui suivent votre "
+"clic sur un lien d’hameçonnage. C’est là que vous verrez si quelqu’un "
+"demande un prêt ou souscrit une ligne de crédit en votre nom."
+
+#: templates/guides/spot-phishing.html:38
+msgid "Report the phishing attack"
+msgstr "Signaler l'attaque de phishing"
+
+#: templates/guides/spot-phishing.html:39
+msgid ""
+"Mark as spam or junk any phishing messages or calls you see. Then, report "
+"the phishing attempt to help counter-cybercrime groups track threats and "
+"limit future phishing attacks."
+msgstr ""
+"Marquez comme spam ou indésirable tous les messages ou appels de phishing "
+"que vous voyez. Signalez ensuite la tentative de phishing pour aider les "
+"groupes de lutte contre la cybercriminalité à suivre les menaces et à "
+"limiter les futures attaques de phishing."
+
+#: templates/guides/spot-phishing.html:40
+msgid "Here’s how to report phishing messages:"
+msgstr "Voici comment signaler les messages de phishing :"
+
+#: templates/guides/spot-phishing.html:42
+msgid "Report phishing text messages"
+msgstr "Signaler les SMS de phishing"
+
+#: templates/guides/spot-phishing.html:42
+msgid "by forwarding them to SPAM (7726)."
+msgstr "en les transmettant au SPAM (7726)."
+
+#: templates/guides/spot-phishing.html:43
+msgid "Report phishing emails"
+msgstr "Signaler les e-mails de phishing"
+
+#: templates/guides/spot-phishing.html:43
+msgid "by forwarding the phishing email to reportphishing@apwg.org."
+msgstr "en transmettant l'e-mail de phishing à reportphishing@apwg.org."
+
+#: templates/guides/spot-phishing.html:46
+msgid "Scan your device for malware"
+msgstr "Analysez votre appareil à la recherche de logiciels malveillants"
+
+#: templates/guides/spot-phishing.html:47
+msgid ""
+"Use antivirus software to help identify and block online attacks and help "
+"prevent phishers from continuing to spy on you or stealing your personal "
+"information."
+msgstr ""
+"Utilisez un logiciel antivirus pour vous aider à identifier et à bloquer les"
+" attaques en ligne et à empêcher les pirates de continuer à vous espionner "
+"ou à voler vos informations personnelles."
+
+#: templates/guides/spot-phishing.html:49
+msgid "How can I spot a phishing attack before clicking a link?"
+msgstr ""
+"Comment puis-je repérer une attaque de phishing avant de cliquer sur un lien"
+" ?"
+
+#: templates/guides/spot-phishing.html:50
+msgid ""
+"These days, phishers are much more adept at baiting their targets and luring"
+" them in. Still, there are several ways you can spot a phishing attack "
+"before it becomes a problem, including:"
+msgstr ""
+"De nos jours, les auteurs d'attaques de phishing sont beaucoup plus habiles "
+"à appâter leurs cibles et à les attirer. Néanmoins, il existe plusieurs "
+"façons de détecter une attaque de phishing avant qu'elle ne devienne un "
+"problème, notamment :"
+
+#: templates/guides/spot-phishing.html:52
+msgid "Unbelievable deals:"
+msgstr "Offres incroyables :"
+
+#: templates/guides/spot-phishing.html:52
+msgid ""
+"Be wary of emails offering wildly cheap products or services. If it seems "
+"too good to be true, it probably is."
+msgstr ""
+"Méfiez-vous des e-mails proposant des produits ou des services à des prix "
+"extrêmement bas. Si cela semble trop beau pour être vrai, c'est probablement"
+" le cas."
+
+#: templates/guides/spot-phishing.html:53
+msgid "Requests for personal information:"
+msgstr "Demandes de renseignements personnels :"
+
+#: templates/guides/spot-phishing.html:53
+msgid ""
+"Legitimate institutions like banks will never ask for account details via "
+"email—never share such information this way."
+msgstr ""
+"Les institutions légitimes comme les banques ne demanderont jamais les "
+"détails d’un compte par courrier électronique et ne partageront jamais ces "
+"informations de cette manière."
+
+#: templates/guides/spot-phishing.html:54
+msgid "Spelling and grammatical mistakes:"
+msgstr "Fautes d'orthographe et de grammaire :"
+
+#: templates/guides/spot-phishing.html:54
+msgid ""
+"Emails littered with typos and awkward phrasing are common in phishing "
+"emails and text messages."
+msgstr ""
+"Les courriers électroniques remplis de fautes de frappe et de formulations "
+"maladroites sont courants dans les courriers électroniques et les SMS de "
+"phishing."
+
+#: templates/guides/spot-phishing.html:55
+msgid "Generic greetings:"
+msgstr "Salutations génériques :"
+
+#: templates/guides/spot-phishing.html:55
+msgid ""
+"Many times, phishers don’t bother to personalize emails because they just "
+"want to cast a wide net and catch as many people as they can. So you might "
+"receive an email with a generic greeting like, “Hello, Sir” or “Dear Account"
+" Holder.”"
+msgstr ""
+"Souvent, les hameçonneurs ne prennent pas la peine de personnaliser leurs "
+"e-mails, car ils souhaitent simplement étendre leur filet et attraper le "
+"plus de personnes possible. Vous pouvez donc recevoir un e-mail avec une "
+"salutation générique telle que « Bonjour, Monsieur » ou « Cher titulaire du "
+"compte »."
+
+#: templates/guides/spot-phishing.html:56
+msgid "Urgent language:"
+msgstr "Langue urgente :"
+
+#: templates/guides/spot-phishing.html:56
+msgid ""
+"Phishers create urgency to rush you into clicking links. Don't be pressured;"
+" take your time when reading and responding to emails."
+msgstr ""
+"Les fraudeurs créent un sentiment d'urgence pour vous pousser à cliquer sur "
+"des liens. Ne vous laissez pas influencer ; prenez votre temps pour lire et "
+"répondre aux e-mails."
+
+#: templates/guides/spot-phishing.html:57
+msgid "Unfamiliar senders:"
+msgstr "Expéditeurs inconnus :"
+
+#: templates/guides/spot-phishing.html:57
+msgid ""
+"Delete emails from unknown senders without clicking anything. This is "
+"especially important if you can’t verify their identity."
+msgstr ""
+"Supprimez les e-mails provenant d’expéditeurs inconnus sans rien cliquer. "
+"Cette étape est particulièrement importante si vous ne pouvez pas vérifier "
+"leur identité."
+
+#: templates/guides/spot-phishing.html:58
+msgid "Familiar senders:"
+msgstr "Expéditeurs familiers :"
+
+#: templates/guides/spot-phishing.html:58
+msgid ""
+"Even seemingly familiar email addresses can be fake. If the tone, "
+"communication channel, or content feels off, try to reach out to the person "
+"using another form of communication to confirm their identity."
+msgstr ""
+"Même les adresses e-mail qui semblent familières peuvent être fausses. Si le"
+" ton, le canal de communication ou le contenu vous semblent étranges, "
+"essayez de contacter la personne en utilisant un autre moyen de "
+"communication pour confirmer son identité."
+
+#: templates/guides/spot-phishing.html:59
+msgid "Suspicious links and attachments:"
+msgstr "Liens et pièces jointes suspectes :"
+
+#: templates/guides/spot-phishing.html:59
+msgid ""
+"Before clicking a link or downloading an attachment, hover over the link and"
+" inspect the URL for inconsistencies."
+msgstr ""
+"Avant de cliquer sur un lien ou de télécharger une pièce jointe, passez la "
+"souris sur le lien et inspectez l'URL pour détecter d'éventuelles "
+"incohérences."
+
+#: templates/guides/spot-phishing.html:60
+msgid "Use a scam detection tool to analyze messages:"
+msgstr "Utilisez un outil de détection d'arnaque pour analyser les messages :"
+
+#: templates/guides/spot-phishing.html:60
+msgid ""
+"If a message looks suspicious, use an anti-scam tool to help determine if "
+"the message is legitimate."
+msgstr ""
+"Si un message semble suspect, utilisez un outil anti-arnaque pour vous aider"
+" à déterminer si le message est légitime."
+
+#: templates/guides/spot-phishing.html:63
+msgid "How do I know if I clicked a phishing link?"
+msgstr "Comment savoir si j’ai cliqué sur un lien de phishing ?"
+
+#: templates/guides/spot-phishing.html:64
+msgid ""
+"You may not immediately realize that you clicked a phishing link because it "
+"can take some time for red flags to appear."
+msgstr ""
+"Il se peut que vous ne réalisiez pas immédiatement que vous avez cliqué sur "
+"un lien de phishing, car les signaux d’alarme peuvent mettre un certain "
+"temps à apparaître."
+
+#: templates/guides/spot-phishing.html:66
+msgid "How to know if clicked on phishing link"
+msgstr "Comment savoir si vous avez cliqué sur un lien de phishing"
+
+#: templates/guides/spot-phishing.html:68
+msgid ""
+"You’ll know you’ve likely been phished if you start noticing warning signs "
+"like:"
+msgstr ""
+"Vous saurez que vous avez probablement été victime d’une attaque de phishing"
+" si vous commencez à remarquer des signes avant-coureurs tels que :"
+
+#: templates/guides/spot-phishing.html:70
+msgid "Suspicious redirects"
+msgstr "Redirections suspectes"
+
+#: templates/guides/spot-phishing.html:70
+msgid ""
+"that take you to crudely made websites with misspellings and odd characters "
+"in the URL."
+msgstr ""
+"qui vous mènent vers des sites Web grossièrement conçus avec des fautes "
+"d'orthographe et des caractères étranges dans l'URL."
+
+#: templates/guides/spot-phishing.html:71
+msgid "Invasive personal information requests"
+msgstr "Demandes de renseignements personnels invasives"
+
+#: templates/guides/spot-phishing.html:71
+msgid ""
+"like a form prompting you to enter sensitive details like your Social "
+"Security number or account information."
+msgstr ""
+"comme un formulaire vous invitant à saisir des informations sensibles telles"
+" que votre numéro de sécurité sociale ou vos informations de compte."
+
+#: templates/guides/spot-phishing.html:72
+msgid "Too-good-to-be-true messages and offers"
+msgstr "Des messages et des offres trop beaux pour être vrais"
+
+#: templates/guides/spot-phishing.html:72
+msgid ""
+"like free vacations or job offers with sky-high salaries to try to entice "
+"you to engage with the phisher."
+msgstr ""
+"comme des vacances gratuites ou des offres d'emploi avec des salaires "
+"exorbitants pour essayer de vous inciter à interagir avec le pêcheur."
+
+#: templates/guides/spot-phishing.html:73
+msgid "High-pressure language"
+msgstr "Langage à haute pression"
+
+#: templates/guides/spot-phishing.html:73
+msgid ""
+"in messages or website copy that creates a sense of urgency to encourage you"
+" to click a link without thinking."
+msgstr ""
+"dans des messages ou des copies de sites Web qui créent un sentiment "
+"d'urgence pour vous encourager à cliquer sur un lien sans réfléchir."
+
+#: templates/guides/spot-phishing.html:76
+msgid "FAQs about phishing"
+msgstr "FAQ sur le phishing"
+
+#: templates/guides/spot-phishing.html:77
+msgid ""
+"If your questions don’t just stop at “What is phishing?” we’ve got you "
+"covered. Read through this FAQ section to learn more about phishing scams."
+msgstr ""
+"Si vos questions ne se limitent pas à « Qu’est-ce que le phishing ? », nous "
+"avons ce qu’il vous faut. Lisez cette section FAQ pour en savoir plus sur "
+"les escroqueries par phishing."
+
+#: templates/guides/spot-phishing.html:79
+msgid "Who are the targets of phishing attacks?"
+msgstr "Qui sont les cibles des attaques de phishing ?"
+
+#: templates/guides/spot-phishing.html:80
+msgid ""
+"Anyone can be targeted in a phishing attack. To increase their chance of "
+"success, phishers will often target as many email addresses or phone numbers"
+" as possible."
+msgstr ""
+"N'importe qui peut être la cible d'une attaque de phishing. Pour augmenter "
+"leurs chances de réussite, les auteurs de phishing ciblent souvent autant "
+"d'adresses e-mail ou de numéros de téléphone que possible."
+
+#: templates/guides/spot-phishing.html:82
+msgid "Can AI be used for phishing attacks?"
+msgstr "L’IA peut-elle être utilisée pour des attaques de phishing ?"
+
+#: templates/guides/spot-phishing.html:83
+msgid ""
+"Yes, scammers can use AI to make their communications sound more believable."
+" For example, phishers may use it to generate realistic conversations free "
+"of spelling and grammatical errors so their phishing messages seem more "
+"legitimate."
+msgstr ""
+"Oui, les escrocs peuvent utiliser l’IA pour rendre leurs communications plus"
+" crédibles. Par exemple, les auteurs d’attaques de phishing peuvent "
+"l’utiliser pour générer des conversations réalistes, exemptes de fautes "
+"d’orthographe et de grammaire, afin que leurs messages d’hameçonnage "
+"semblent plus légitimes."
+
+#: templates/guides/spot-phishing.html:85
+msgid "Can you get scammed by opening a text message?"
+msgstr "Peut-on se faire arnaquer en ouvrant un SMS ?"
+
+#: templates/guides/spot-phishing.html:86
+msgid ""
+"No, opening a scam text message itself isn't risky. However, clicking links "
+"within those text messages or replying can expose you to malware or trick "
+"you into revealing personal information."
+msgstr ""
+"Non, ouvrir un SMS frauduleux ne présente aucun risque en soi. Cependant, "
+"cliquer sur les liens contenus dans ces SMS ou y répondre peut vous exposer "
+"à des logiciels malveillants ou vous inciter à révéler des informations "
+"personnelles."
+
+#: templates/guides/spot-phishing.html:88
+msgid "What do you do when you click a suspicious link on your phone?"
+msgstr ""
+"Que faites-vous lorsque vous cliquez sur un lien suspect sur votre "
+"téléphone ?"
+
+#: templates/guides/spot-phishing.html:89
+msgid ""
+"If you click a suspicious link on your phone, close the website, stop any "
+"active downloads, and disconnect your internet connection. Then, use "
+"security software to scan your phone for malware. Finally, change the "
+"passwords for any accounts that may have been impacted."
+msgstr ""
+"Si vous cliquez sur un lien suspect sur votre téléphone, fermez le site Web,"
+" arrêtez tous les téléchargements actifs et déconnectez votre connexion "
+"Internet. Ensuite, utilisez un logiciel de sécurité pour analyser votre "
+"téléphone à la recherche de logiciels malveillants. Enfin, modifiez les mots"
+" de passe de tous les comptes qui pourraient avoir été affectés."
+
+#: templates/guides/use-encryption.html:4
+msgid "GUIDE on how to use email encryption"
+msgstr "GUIDE sur l'utilisation du cryptage des e-mails"
+
+#: templates/guides/use-encryption.html:12
+msgid "How to encrypt email on iPhone + other iOS devices"
+msgstr "Comment crypter les e-mails sur iPhone et autres appareils iOS"
+
+#: templates/guides/use-encryption.html:13
+msgid ""
+"The security measures on iOS devices allow for S/MIME encryption. But you'll"
+" have to purchase and download an S/MIME certificate before successfully "
+"encrypting email messages. These steps may vary depending on the device "
+"you’re using."
+msgstr ""
+"Les mesures de sécurité sur les appareils iOS permettent le chiffrement "
+"S/MIME. Mais vous devrez acheter et télécharger un certificat S/MIME avant "
+"de pouvoir chiffrer correctement les messages électroniques. Ces étapes "
+"peuvent varier en fonction de l'appareil que vous utilisez."
+
+#: templates/guides/use-encryption.html:15
+msgid "Open"
+msgstr "Ouvrir"
+
+#: templates/guides/use-encryption.html:15
+msgid "and select your"
+msgstr "et sélectionnez votre"
+
+#: templates/guides/use-encryption.html:15
+msgid "Apple ID"
+msgstr "Identifiant Apple"
+
+#: templates/guides/use-encryption.html:15
+msgid "account at the top of the screen."
+msgstr "compte en haut de l'écran."
+
+#: templates/guides/use-encryption.html:16
+msgid "iCloud"
+msgstr "iCloud"
+
+#: templates/guides/use-encryption.html:17
+msgid "Tap the"
+msgstr "Appuyez sur le"
+
+#: templates/guides/use-encryption.html:17
+msgid "Mail"
+msgstr "Mail"
+
+#: templates/guides/use-encryption.html:17
+msgid "button."
+msgstr "bouton."
+
+#: templates/guides/use-encryption.html:18
+msgid "Scroll to the"
+msgstr "Faites défiler jusqu'à la"
+
+#: templates/guides/use-encryption.html:18
+msgid "Advanced"
+msgstr "Avancé"
+
+#: templates/guides/use-encryption.html:18
+msgid "button at the bottom of the screen."
+msgstr "bouton en bas de l'écran."
+
+#: templates/guides/use-encryption.html:19
+msgid "Tap"
+msgstr "Robinet"
+
+#: templates/guides/use-encryption.html:19
+msgid "Encrypt by Default"
+msgstr "Crypter par défaut"
+
+#: templates/guides/use-encryption.html:19
+msgid "and make sure the S/MIME details are correct."
+msgstr "et assurez-vous que les détails S/MIME sont corrects."
+
+#: templates/guides/use-encryption.html:22
+msgid "How to Encrypt Email on iPhone"
+msgstr "Comment crypter les e-mails sur iPhone"
+
+#: templates/guides/use-encryption.html:24
+msgid "Email encryption for Android"
+msgstr "Cryptage des e-mails pour Android"
+
+#: templates/guides/use-encryption.html:25
+msgid ""
+"Android devices are similar to iOS devices in that they can support an "
+"additional encryption extension to protect emails. However, these devices "
+"require the PGP/MIME protocol and third-party apps to send secure emails."
+msgstr ""
+"Les appareils Android sont similaires aux appareils iOS dans le sens où ils "
+"peuvent prendre en charge une extension de chiffrement supplémentaire pour "
+"protéger les e-mails. Cependant, ces appareils nécessitent le protocole "
+"PGP/MIME et des applications tierces pour envoyer des e-mails sécurisés."
+
+#: templates/guides/use-encryption.html:27
+msgid "Email encryption tools/services"
+msgstr "Outils/services de cryptage de courrier électronique"
+
+#: templates/guides/use-encryption.html:28
+msgid ""
+"Because some email providers and device makers make it harder than others to"
+" send encrypted email messages, there are also some third-party tools you "
+"can use to help send secure emails."
+msgstr ""
+"Étant donné que certains fournisseurs de messagerie et fabricants "
+"d'appareils rendent l'envoi de messages électroniques cryptés plus difficile"
+" que d'autres, il existe également des outils tiers que vous pouvez utiliser"
+" pour vous aider à envoyer des messages électroniques sécurisés."
+
+#: templates/guides/use-encryption.html:29
+msgid ""
+"A few of the free apps available to send and receive encrypted messages, "
+"along with a few anonymous email services, include:"
+msgstr ""
+"Voici quelques-unes des applications gratuites disponibles pour envoyer et "
+"recevoir des messages cryptés, ainsi que quelques services de messagerie "
+"anonymes :"
+
+#: templates/guides/use-encryption.html:38
+msgid "How to read encrypted emails"
+msgstr "Comment lire les e-mails cryptés"
+
+#: templates/guides/use-encryption.html:39
+msgid "These are the main methods for reading encrypted emails:"
+msgstr "Voici les principales méthodes pour lire les e-mails cryptés :"
+
+#: templates/guides/use-encryption.html:41
+msgid ""
+"If an email is encrypted and protected by a password, you must enter the "
+"password to decrypt the email and read it."
+msgstr ""
+"Si un e-mail est crypté et protégé par un mot de passe, vous devez saisir le"
+" mot de passe pour décrypter l'e-mail et le lire."
+
+#: templates/guides/use-encryption.html:42
+msgid ""
+"If an email is encrypted and not protected by a password, you’ll need to "
+"have the encryption key before the message's contents are readable."
+msgstr ""
+"Si un e-mail est chiffré et non protégé par un mot de passe, vous devrez "
+"disposer de la clé de chiffrement avant que le contenu du message soit "
+"lisible."
+
+#: templates/guides/use-encryption.html:45
+msgid "5 email security best practices"
+msgstr "5 bonnes pratiques en matière de sécurité des e-mails"
+
+#: templates/guides/use-encryption.html:46
+msgid ""
+"Knowing how to encrypt email messages is a great start to improving your "
+"email security. With the following steps, you’ll make it more difficult for "
+"hackers to get into your email. These practices and other identity "
+"management routines can help you better protect your information."
+msgstr ""
+"Savoir comment crypter les messages électroniques est un excellent début "
+"pour améliorer la sécurité de votre messagerie. En suivant les étapes "
+"suivantes, vous rendrez plus difficile l'accès à votre messagerie par les "
+"pirates. Ces pratiques et d'autres routines de gestion des identités peuvent"
+" vous aider à mieux protéger vos informations."
+
+#: templates/guides/use-encryption.html:49
+msgid "Email Security Best Practices"
+msgstr "Bonnes pratiques en matière de sécurité des e-mails"
+
+#: templates/guides/use-encryption.html:51
+msgid "1. Create strong email passwords"
+msgstr "1. Créez des mots de passe de messagerie forts"
+
+#: templates/guides/use-encryption.html:52
+msgid ""
+"Cyberattacks and data breaches are not only carried out using session "
+"hijacking or brute force attacks. Today’s cybercriminals also use strategic "
+"methods, like credential stuffing, to access sensitive information. Having a"
+" well-thought-out and unique password can lessen the likelihood of you "
+"falling victim to these kinds of cyberattacks."
+msgstr ""
+"Les cyberattaques et les violations de données ne se limitent pas au "
+"détournement de session ou aux attaques par force brute. Les cybercriminels "
+"d’aujourd’hui ont également recours à des méthodes stratégiques, comme le "
+"vol d’identifiants, pour accéder à des informations sensibles. Un mot de "
+"passe bien pensé et unique peut réduire le risque d’être victime de ce type "
+"de cyberattaque."
+
+#: templates/guides/use-encryption.html:53
+msgid ""
+"Because remembering several unique and difficult passwords can be tough, you"
+" should consider using a password manager."
+msgstr ""
+"Parce qu’il peut être difficile de se souvenir de plusieurs mots de passe "
+"uniques et complexes, vous devriez envisager d’utiliser un gestionnaire de "
+"mots de passe."
+
+#: templates/guides/use-encryption.html:55
+msgid "2. Use two-factor authentication"
+msgstr "2. Utilisez l’authentification à deux facteurs"
+
+#: templates/guides/use-encryption.html:56
+msgid ""
+"Two-factor authentication (2FA), a type of multifactor authentication, adds "
+"another step to your login process to keep unauthorized users from gaining "
+"access to your account. Email providers like Gmail and Outlook are already "
+"using these tools."
+msgstr ""
+"L'authentification à deux facteurs (2FA), un type d'authentification "
+"multifacteur, ajoute une étape supplémentaire à votre processus de connexion"
+" pour empêcher les utilisateurs non autorisés d'accéder à votre compte. Les "
+"fournisseurs de messagerie comme Gmail et Outlook utilisent déjà ces outils."
+
+#: templates/guides/use-encryption.html:57
+msgid ""
+"Some 2FA uses biometrics, like a fingerprint or FaceID, and a password "
+"before logging in. Others will send a text message to your device with a "
+"code you’ll need to log in. These login requirements are usually "
+"inaccessible to everyday hackers, meaning your email will be more secure."
+msgstr ""
+"Certaines authentifications à deux facteurs utilisent la biométrie, comme "
+"une empreinte digitale ou FaceID, et un mot de passe avant de se connecter. "
+"D'autres enverront un SMS sur votre appareil avec un code dont vous aurez "
+"besoin pour vous connecter. Ces exigences de connexion sont généralement "
+"inaccessibles aux pirates informatiques ordinaires, ce qui signifie que "
+"votre courrier électronique sera plus sécurisé."
+
+#: templates/guides/use-encryption.html:59
+msgid "3. Beware of phishing emails"
+msgstr "3. Méfiez-vous des e-mails de phishing"
+
+#: templates/guides/use-encryption.html:60
+msgid ""
+"Hackers use phishing scams to access people's private information. One "
+"common type of phishing involves a scammer sending emails embedded with "
+"links leading to malicious websites designed to trick you into entering your"
+" login credentials. Those credentials are then saved and used to access your"
+" actual accounts."
+msgstr ""
+"Les pirates informatiques utilisent des escroqueries par phishing pour "
+"accéder aux informations privées des utilisateurs. Un type courant "
+"d'hameçonnage consiste pour un escroc à envoyer des e-mails contenant des "
+"liens menant à des sites Web malveillants conçus pour vous inciter à saisir "
+"vos identifiants de connexion. Ces identifiants sont ensuite enregistrés et "
+"utilisés pour accéder à vos comptes réels."
+
+#: templates/guides/use-encryption.html:61
+msgid ""
+"Always verify that you're on a site’s proper URL, and try to avoid opening "
+"emails that appear to be suspicious."
+msgstr ""
+"Vérifiez toujours que vous êtes sur la bonne URL d’un site et essayez "
+"d’éviter d’ouvrir les e-mails qui semblent suspects."
+
+#: templates/guides/use-encryption.html:63
+msgid "4. Avoid accessing emails via public Wi-Fi"
+msgstr "4. Évitez d'accéder à vos e-mails via un réseau Wi-Fi public"
+
+#: templates/guides/use-encryption.html:64
+msgid ""
+"Whether you’re checking your account balances while in line for coffee or "
+"checking your email while at lunch, if you’re doing it on a public Wi-Fi "
+"network, your data is at risk. Public Wi-Fi networks make it easy for "
+"cybercriminals to hack and siphon off information from everyday people "
+"because they’re often unencrypted."
+msgstr ""
+"Que vous consultiez le solde de votre compte en faisant la queue pour "
+"prendre un café ou que vous consultiez vos e-mails pendant votre déjeuner, "
+"si vous le faites sur un réseau Wi-Fi public, vos données sont en danger. "
+"Les réseaux Wi-Fi publics permettent aux cybercriminels de pirater et de "
+"siphonner facilement les informations des gens ordinaires, car ils ne sont "
+"souvent pas chiffrés."
+
+#: templates/guides/use-encryption.html:65
+msgid ""
+"If you’re using public Wi-Fi, consider downloading a virtual private network"
+" (VPN) to put a protective shield over your device."
+msgstr ""
+"Si vous utilisez un réseau Wi-Fi public, pensez à télécharger un réseau "
+"privé virtuel (VPN) pour protéger votre appareil."
+
+#: templates/guides/use-encryption.html:67
+msgid "5. Always log out when finished"
+msgstr "5. Déconnectez-vous toujours lorsque vous avez terminé"
+
+#: templates/guides/use-encryption.html:68
+msgid ""
+"You should always log out of your email account after you've finished using "
+"it. This applies to when you're on both unfamiliar and familiar devices. If "
+"a hacker enters a protected network, you don’t want them to have a clear "
+"pathway toward the information they’re looking for by leaving your accounts "
+"wide open."
+msgstr ""
+"Vous devez toujours vous déconnecter de votre compte de messagerie après "
+"avoir fini de l'utiliser. Cela s'applique à la fois lorsque vous utilisez "
+"des appareils que vous connaissez et que vous ne connaissez pas. Si un "
+"pirate informatique pénètre dans un réseau protégé, vous ne voulez pas qu'il"
+" ait un accès direct aux informations qu'il recherche en laissant vos "
+"comptes ouverts."
+
+#: templates/guides/use-encryption.html:70
+msgid "FAQs about encrypting email"
+msgstr "FAQ sur le cryptage des e-mails"
+
+#: templates/guides/use-encryption.html:71
+msgid "Still have questions about encrypting email messages? We have answers."
+msgstr ""
+"Vous avez encore des questions sur le cryptage des messages électroniques ? "
+"Nous avons des réponses."
+
+#: templates/guides/use-encryption.html:73
+msgid "How do I password-protect an email attachment?"
+msgstr "Comment protéger une pièce jointe d’un e-mail avec un mot de passe ?"
+
+#: templates/guides/use-encryption.html:74
+msgid ""
+"It depends. For some types of attachments, you can save them with a password"
+" requirement. Other types of attachments can be password-protected within an"
+" email system, though this feature is not available for all providers."
+msgstr ""
+"Cela dépend. Pour certains types de pièces jointes, vous pouvez les "
+"enregistrer avec un mot de passe. D'autres types de pièces jointes peuvent "
+"être protégées par un mot de passe dans un système de messagerie, bien que "
+"cette fonctionnalité ne soit pas disponible pour tous les fournisseurs."
+
+#: templates/guides/use-encryption.html:76
+msgid "Is it a good idea to encrypt your email?"
+msgstr "Est-ce une bonne idée de crypter votre courrier électronique ?"
+
+#: templates/guides/use-encryption.html:77
+msgid ""
+"It is usually a good idea to encrypt your email, especially if you’re "
+"sharing any information you’d like to keep private. If somebody hacks your "
+"email, having certain types of email encryption can prevent the hacker from "
+"reading your messages."
+msgstr ""
+"Il est généralement judicieux de crypter votre courrier électronique, en "
+"particulier si vous partagez des informations que vous souhaitez garder "
+"privées. Si quelqu'un pirate votre courrier électronique, certains types de "
+"cryptage de courrier électronique peuvent empêcher le pirate de lire vos "
+"messages."
+
+#: templates/guides/use-encryption.html:79
+msgid "What is the difference between encrypted email and secure email?"
+msgstr ""
+"Quelle est la différence entre un courrier électronique crypté et un "
+"courrier électronique sécurisé ?"
+
+#: templates/guides/use-encryption.html:80
+msgid ""
+"Encrypted emails are messages that are themselves encrypted, meaning that "
+"they are secure whether they’re in your sent messages or the inbox of the "
+"intended recipient. Secure email means that the data in an email account is "
+"secure within the system, but individual emails are not necessarily "
+"encrypted."
+msgstr ""
+"Les e-mails chiffrés sont des messages qui sont eux-mêmes chiffrés, ce qui "
+"signifie qu'ils sont sécurisés, qu'ils se trouvent dans les messages que "
+"vous avez envoyés ou dans la boîte de réception du destinataire prévu. Un "
+"e-mail sécurisé signifie que les données d'un compte de messagerie sont "
+"sécurisées dans le système, mais les e-mails individuels ne sont pas "
+"nécessairement chiffrés."
+
+#: templates/guides/use-two-factor.html:4
+msgid "GUIDE on How to Setup Two Factor Authentication"
+msgstr "GUIDE sur la configuration de l'authentification à deux facteurs"
+
+#: templates/guides/use-two-factor.html:9
+#: templates/learn/two-factor-authentication.html:9
+msgid "Two Factor Authentication (2FA)"
+msgstr "Authentification à deux facteurs (2FA)"
+
+#: templates/guides/use-two-factor.html:13
+msgid "2FA Approaches"
+msgstr "Approches 2FA"
+
+#: templates/guides/use-two-factor.html:14
+msgid ""
+"There are a few simple, widely supported approaches for adding 2FA to your "
+"accounts. There’s not one “right” way to use it, and each has distinct "
+"considerations for security and convenience."
+msgstr ""
+"Il existe quelques approches simples et largement acceptées pour ajouter la "
+"2FA à vos comptes. Il n’existe pas une seule « bonne » façon de l’utiliser, "
+"et chacune d’entre elles nécessite des considérations distinctes en matière "
+"de sécurité et de commodité."
+
+#: templates/guides/use-two-factor.html:16
+msgid "A pretty good option: SMS text messages"
+msgstr "Une très bonne option : les SMS"
+
+#: templates/guides/use-two-factor.html:17
+msgid ""
+"Most services allow you to use regular old text messages as your 2FA. When "
+"logging in to a site you need a password for, you’ll receive a short "
+"confirmation code on your mobile device. Enter the code when prompted during"
+" login."
+msgstr ""
+"La plupart des services vous permettent d'utiliser des SMS classiques comme "
+"authentification à deux facteurs. Lorsque vous vous connectez à un site pour"
+" lequel vous avez besoin d'un mot de passe, vous recevez un court code de "
+"confirmation sur votre appareil mobile. Saisissez le code lorsque vous y "
+"êtes invité lors de la connexion."
+
+#: templates/guides/use-two-factor.html:19
+msgid "SMS Authentication"
+msgstr "Authentification SMS"
+
+#: templates/guides/use-two-factor.html:21
+msgid ""
+"Text messages are a painless way to access 2FA codes, but are only as "
+"reliable as the phone network. For example, if you lose network access or "
+"travel outside the country, you might not be able to receive the "
+"messages.Text messages are a painless way to access 2FA codes, but are only "
+"as reliable as the phone network. For example, if you lose network access or"
+" travel outside the country, you might not be able to receive the messages."
+msgstr ""
+"Les SMS sont un moyen simple d'accéder aux codes 2FA, mais leur fiabilité "
+"dépend du réseau téléphonique. Par exemple, si vous perdez l'accès au réseau"
+" ou si vous voyagez à l'étranger, vous risquez de ne pas pouvoir recevoir "
+"les messages. Les SMS sont un moyen simple d'accéder aux codes 2FA, mais "
+"leur fiabilité dépend du réseau téléphonique. Par exemple, si vous perdez "
+"l'accès au réseau ou si vous voyagez à l'étranger, vous risquez de ne pas "
+"pouvoir recevoir les messages."
+
+#: templates/guides/use-two-factor.html:22
+msgid ""
+"For most people, SMS-based 2FA is much better than using a password alone. "
+"But because telephone infrastructure itself comes with a great deal of "
+"baggage, SMS isn’t the most secure method available."
+msgstr ""
+"Pour la plupart des gens, l’authentification à deux facteurs par SMS est "
+"bien plus efficace que l’utilisation d’un mot de passe seul. Mais comme "
+"l’infrastructure téléphonique elle-même est lourde de conséquences, le SMS "
+"n’est pas la méthode la plus sûre disponible."
+
+#: templates/guides/use-two-factor.html:23
+msgid ""
+"For example, Associated Press writer Fatima Hussein told the story of how "
+"someone stole her phone number so they could take over her bank account for "
+"financial fraud. The attacker convinced her phone provider, Cricket "
+"Wireless, to transfer her number to a new SIM card on a remote device, "
+"allowing the attacker to intercept her 2FA messages."
+msgstr ""
+"Par exemple, Fatima Hussein, journaliste à l'Associated Press, a raconté "
+"comment quelqu'un lui a volé son numéro de téléphone afin de pouvoir "
+"s'emparer de son compte bancaire pour commettre une fraude financière. "
+"L'attaquant a convaincu son opérateur téléphonique, Cricket Wireless, de "
+"transférer son numéro sur une nouvelle carte SIM sur un appareil distant, ce"
+" qui lui a permis d'intercepter ses messages 2FA."
+
+#: templates/guides/use-two-factor.html:24
+msgid ""
+"That sounds scary, but remember the real story here: The attacker was forced"
+" to work much harder than if they could simply have entered a password."
+msgstr ""
+"Cela peut paraître effrayant, mais rappelez-vous la véritable histoire : "
+"l’attaquant a été obligé de travailler beaucoup plus dur que s’il avait "
+"simplement pu entrer un mot de passe."
+
+#: templates/guides/use-two-factor.html:26
+msgid "Better option: Authentication apps"
+msgstr "Meilleure option : les applications d’authentification"
+
+#: templates/guides/use-two-factor.html:27
+msgid ""
+"Compared to SMS messages, authenticator apps are a little more convenient "
+"and a lot more secure. Some services allow you to receive your temporary "
+"login code from a mobile app. There are many options to choose from, such as"
+" Google Authenticator or Authy."
+msgstr ""
+"Par rapport aux SMS, les applications d'authentification sont un peu plus "
+"pratiques et beaucoup plus sécurisées. Certains services vous permettent de "
+"recevoir votre code de connexion temporaire à partir d'une application "
+"mobile. Il existe de nombreuses options parmi lesquelles choisir, telles que"
+" Google Authenticator ou Authy."
+
+#: templates/guides/use-two-factor.html:29
+msgid "Authentication Apps"
+msgstr "Applications d'authentification"
+
+#: templates/guides/use-two-factor.html:31
+msgid ""
+"Some web services let you attach multiple authentication apps to the same "
+"account, which can be incredibly helpful for getting login codes when "
+"multiple people need access. Authenticator apps are also great because they "
+"work when you don’t have access to your phone network."
+msgstr ""
+"Certains services Web vous permettent d’associer plusieurs applications "
+"d’authentification au même compte, ce qui peut s’avérer extrêmement utile "
+"pour obtenir des codes de connexion lorsque plusieurs personnes ont besoin "
+"d’y accéder. Les applications d’authentification sont également très utiles,"
+" car elles fonctionnent lorsque vous n’avez pas accès à votre réseau "
+"téléphonique."
+
+#: templates/guides/use-two-factor.html:32
+msgid ""
+"Unlike SMS messages, authenticator apps can’t be intercepted on the phone "
+"network, making apps a hardened option."
+msgstr ""
+"Contrairement aux messages SMS, les applications d’authentification ne "
+"peuvent pas être interceptées sur le réseau téléphonique, ce qui fait des "
+"applications une option renforcée."
+
+#: templates/guides/use-two-factor.html:33
+msgid ""
+"But, just as you can be phished into entering passwords into a fraudulent "
+"website to steal your login information, the same is true of authenticator "
+"codes. So we can do even better."
+msgstr ""
+"Mais, tout comme vous pouvez être victime d'un phishing vous incitant à "
+"saisir des mots de passe sur un site Web frauduleux pour voler vos "
+"informations de connexion, il en va de même pour les codes "
+"d'authentification. Nous pouvons donc faire encore mieux."
+
+#: templates/guides/use-two-factor.html:35
+msgid "Best option: Security keys"
+msgstr "Meilleure option : les clés de sécurité"
+
+#: templates/guides/use-two-factor.html:36
+msgid ""
+"Right now, security keys are one of the most secure and efficient ways to "
+"use 2FA. A security key is a physical USB device you can use to authenticate"
+" into your account."
+msgstr ""
+"À l'heure actuelle, les clés de sécurité constituent l'un des moyens les "
+"plus sûrs et les plus efficaces d'utiliser la 2FA. Une clé de sécurité est "
+"un périphérique USB physique que vous pouvez utiliser pour vous authentifier"
+" sur votre compte."
+
+#: templates/guides/use-two-factor.html:37
+msgid ""
+"Instead of typing in a code when prompted to provide your 2FA credentials, "
+"you insert your security key into your device and physically tap it when "
+"prompted during login. That’s all. Security keys are fairly resistant to "
+"phishing attacks, making them one of the best options available. Unlike "
+"code-based 2FA, phishing sites don’t have a great way to intercept "
+"information from security keys."
+msgstr ""
+"Au lieu de saisir un code lorsque vous êtes invité à fournir vos "
+"identifiants 2FA, vous insérez votre clé de sécurité dans votre appareil et "
+"appuyez dessus physiquement lorsque vous y êtes invité lors de la connexion."
+" C'est tout. Les clés de sécurité sont assez résistantes aux attaques de "
+"phishing, ce qui en fait l'une des meilleures options disponibles. "
+"Contrairement à la 2FA basée sur un code, les sites de phishing ne disposent"
+" pas d'un moyen efficace d'intercepter les informations des clés de "
+"sécurité."
+
+#: templates/guides/use-two-factor.html:38
+msgid ""
+"The main problem with security keys is that as soon as you try one, you’ll "
+"want to use them everywhere. And they can’t be used everywhere yet."
+msgstr ""
+"Le principal problème avec les clés de sécurité est que dès que vous en "
+"essayez une, vous aurez envie de les utiliser partout. Et elles ne peuvent "
+"pas encore être utilisées partout."
+
+#: templates/guides/use-two-factor.html:39
+msgid ""
+"Security keys are not yet as well supported as authenticator apps, but the "
+"standard is getting traction on large websites. It can be used to log into "
+"Google, Facebook, Dropbox, and other services. Security keys are supported "
+"by most major browsers."
+msgstr ""
+"Les clés de sécurité ne sont pas encore aussi bien prises en charge que les "
+"applications d'authentification, mais la norme gagne du terrain sur les "
+"grands sites Web. Elle peut être utilisée pour se connecter à Google, "
+"Facebook, Dropbox et d'autres services. Les clés de sécurité sont prises en "
+"charge par la plupart des principaux navigateurs."
+
+#: templates/guides/use-two-factor.html:41
+msgid "FAQs about 2FA"
+msgstr "FAQ sur la 2FA"
+
+#: templates/guides/use-two-factor.html:42
+msgid ""
+"Check out some frequently asked questions concerning the 2FA login process."
+msgstr ""
+"Consultez quelques questions fréquemment posées concernant le processus de "
+"connexion 2FA."
+
+#: templates/guides/use-two-factor.html:44
+msgid "Is 2FA safe?"
+msgstr "La 2FA est-elle sûre ?"
+
+#: templates/guides/use-two-factor.html:45
+msgid ""
+"For the most part, 2FA is safe. Still, like most online activities, there "
+"are ways that criminals can bypass 2FA security and access your account. For"
+" example, lost password recovery usually resets your password via email, and"
+" it can bypass 2FA."
+msgstr ""
+"Dans la plupart des cas, la 2FA est sûre. Cependant, comme pour la plupart "
+"des activités en ligne, il existe des moyens par lesquels les criminels "
+"peuvent contourner la sécurité de la 2FA et accéder à votre compte. Par "
+"exemple, la récupération d'un mot de passe perdu réinitialise généralement "
+"votre mot de passe par e-mail et peut contourner la 2FA."
+
+#: templates/guides/use-two-factor.html:46
+#, python-format
+msgid ""
+"Even though it's not 100%% secure, 2FA can bolster your online security and "
+"is recommended."
+msgstr ""
+"Même si elle n'est pas sécurisée à 100 %%, la 2FA peut renforcer votre "
+"sécurité en ligne et est recommandée."
+
+#: templates/guides/use-two-factor.html:48
+msgid "Can two-step verification be hacked?"
+msgstr "La vérification en deux étapes peut-elle être piratée ?"
+
+#: templates/guides/use-two-factor.html:49
+msgid "Yes, hackers can use certain phishing"
+msgstr ""
+"Oui, les pirates informatiques peuvent utiliser certaines techniques de "
+"phishing"
+
+#: templates/guides/use-two-factor.html:49
+msgid "messages"
+msgstr "messages"
+
+#: templates/guides/use-two-factor.html:49
+msgid ""
+"to work around 2FA login processes. That being said, having a second "
+"authentication factor makes it more difficult for hackers because more "
+"information is required to gain access."
+msgstr ""
+"pour contourner les processus de connexion 2FA. Cela étant dit, avoir un "
+"deuxième facteur d'authentification rend la tâche plus difficile aux pirates"
+" informatiques, car davantage d'informations sont nécessaires pour y "
+"accéder."
+
+#: templates/guides/use-two-factor.html:51
+msgid "What is the strongest 2FA method?"
+msgstr "Quelle est la méthode 2FA la plus puissante ?"
+
+#: templates/guides/use-two-factor.html:52
+msgid ""
+"Hardware-based 2FA is the strongest form of 2FA verification. Because a "
+"physical item is needed, whether it’s a phone, a thumb drive, an ID card, or"
+" another object, it’s much more difficult for a hacker or criminal to access"
+" all parts of 2FA logins."
+msgstr ""
+"La vérification 2FA matérielle est la forme de vérification 2FA la plus "
+"puissante. Comme un élément physique est nécessaire, qu'il s'agisse d'un "
+"téléphone, d'une clé USB, d'une carte d'identité ou d'un autre objet, il est"
+" beaucoup plus difficile pour un pirate informatique ou un criminel "
+"d'accéder à toutes les parties des identifiants 2FA."
+
+#: templates/guides/use-two-factor.html:54
+msgid "Is MFA better than 2FA?"
+msgstr ""
+"L’authentification multifacteur (MFA) est-elle meilleure que "
+"l’authentification à deux facteurs (2FA) ?"
+
+#: templates/guides/use-two-factor.html:55
+msgid ""
+"Multi-factor authentication that uses three or more authentication factors "
+"is more secure than 2FA. For most sites, apps, and platforms, 2FA should be "
+"secure enough. Groups that have higher security needs (governments, "
+"healthcare providers, and financial institutions, for example) may require "
+"additional verification factors."
+msgstr ""
+"L'authentification multifacteur qui utilise trois facteurs "
+"d'authentification ou plus est plus sécurisée que l'authentification à deux "
+"facteurs. Pour la plupart des sites, applications et plateformes, "
+"l'authentification à deux facteurs devrait être suffisamment sécurisée. Les "
+"groupes qui ont des besoins de sécurité plus élevés (gouvernements, "
+"prestataires de soins de santé et institutions financières, par exemple) "
+"peuvent nécessiter des facteurs de vérification supplémentaires."
+
+#: templates/guides/use-vpn.html:4
+msgid "GUIDE on VPN on Devices"
+msgstr "GUIDE sur le VPN sur les appareils"
+
+#: templates/guides/use-vpn.html:13
+msgid "Are there smartphones that are equipped with VPN?"
+msgstr "Existe-t-il des smartphones équipés de VPN ?"
+
+#: templates/guides/use-vpn.html:14
+msgid ""
+"Some smartphones come with built-in VPN software. These devices let you "
+"cloak your activity and have minimal set-up requirements. However, the VPN "
+"is restricted to your smartphone. You can't use the same network to protect "
+"your computer or tablet, something to keep in mind if you want the ease of "
+"connecting to the same service on multiple devices. With external VPN "
+"services, you can often choose which network you connect to and customize "
+"your choices based on server location."
+msgstr ""
+"Certains smartphones sont équipés d'un logiciel VPN intégré. Ces appareils "
+"vous permettent de masquer votre activité et nécessitent une configuration "
+"minimale. Cependant, le VPN est limité à votre smartphone. Vous ne pouvez "
+"pas utiliser le même réseau pour protéger votre ordinateur ou votre "
+"tablette, ce qui est important si vous souhaitez pouvoir vous connecter "
+"facilement au même service sur plusieurs appareils. Avec les services VPN "
+"externes, vous pouvez souvent choisir le réseau auquel vous vous connectez "
+"et personnaliser vos choix en fonction de l'emplacement du serveur."
+
+#: templates/guides/use-vpn.html:16
+msgid "How to choose a VPN provider for your smartphone"
+msgstr "Comment choisir un fournisseur VPN pour votre smartphone"
+
+#: templates/guides/use-vpn.html:17
+msgid ""
+"With so many iOS VPN services, knowing where to start can be challenging. "
+"Select a VPN app with suitable features to keep your data secure and let you"
+" do what you want online. Here’s what to look for when choosing a VPN for "
+"iPad or iPhone:"
+msgstr ""
+"Avec autant de services VPN pour iOS, il peut être difficile de savoir par "
+"où commencer. Sélectionnez une application VPN dotée de fonctionnalités "
+"adaptées pour sécuriser vos données et vous permettre de faire ce que vous "
+"voulez en ligne. Voici ce qu'il faut rechercher lors du choix d'un VPN pour "
+"iPad ou iPhone :"
+
+#: templates/guides/use-vpn.html:19
+msgid "Encryption method:"
+msgstr "Méthode de cryptage :"
+
+#: templates/guides/use-vpn.html:19
+msgid ""
+"A VPN's safety largely depends on the encryption method used to shield your "
+"internet traffic. Some of the best VPNs use bank-grade AES 256-bit "
+"encryption that's practically uncrackable—it'd take a supercomputer billions"
+" of years to brute-force attack it."
+msgstr ""
+"La sécurité d'un VPN dépend en grande partie de la méthode de cryptage "
+"utilisée pour protéger votre trafic Internet. Certains des meilleurs VPN "
+"utilisent un cryptage AES 256 bits de qualité bancaire qui est pratiquement "
+"indéchiffrable : il faudrait des milliards d'années à un superordinateur "
+"pour l'attaquer par force brute."
+
+#: templates/guides/use-vpn.html:20
+msgid "Privacy:"
+msgstr "Confidentialité:"
+
+#: templates/guides/use-vpn.html:20
+msgid ""
+"Some VPNs record your online activity. If maximum privacy is your priority, "
+"select a VPN like Norton Secure VPN which has a no-log policy, meaning we "
+"don't track or store your online activities."
+msgstr ""
+"Certains VPN enregistrent votre activité en ligne. Si la confidentialité "
+"maximale est votre priorité, choisissez un VPN comme Norton Secure VPN qui "
+"applique une politique de non-journalisation, ce qui signifie que nous ne "
+"suivons ni ne stockons vos activités en ligne."
+
+#: templates/guides/use-vpn.html:21
+msgid "Cost:"
+msgstr "Coût:"
+
+#: templates/guides/use-vpn.html:21
+msgid ""
+"With weak security, bandwidth restrictions, and limited server options, free"
+" VPN services can bombard you with annoying ads or even sell your data to "
+"data brokers. Many of the best premium services offer a free trial to help "
+"you find a secure, reliable VPN that meets your needs."
+msgstr ""
+"Avec une sécurité faible, des restrictions de bande passante et des options "
+"de serveur limitées, les services VPN gratuits peuvent vous bombarder de "
+"publicités ennuyeuses ou même vendre vos données à des courtiers en données."
+" La plupart des meilleurs services premium proposent un essai gratuit pour "
+"vous aider à trouver un VPN sécurisé et fiable qui répond à vos besoins."
+
+#: templates/guides/use-vpn.html:22
+msgid "Usage limitations:"
+msgstr "Limitations d'utilisation :"
+
+#: templates/guides/use-vpn.html:22
+msgid ""
+"From monthly download limits to bandwidth restrictions, avoid any iPhone VPN"
+" settings that could limit your access. Choose a service that lets you "
+"browse freely without usage limitations."
+msgstr ""
+"Des limites de téléchargement mensuelles aux restrictions de bande passante,"
+" évitez les paramètres VPN pour iPhone qui pourraient limiter votre accès. "
+"Choisissez un service qui vous permet de naviguer librement sans limitation "
+"d'utilisation."
+
+#: templates/guides/use-vpn.html:23
+msgid "Additional features:"
+msgstr "Caractéristiques supplémentaires :"
+
+#: templates/guides/use-vpn.html:23
+msgid ""
+"Additional VPN configurations and features that can further boost your "
+"privacy, security, and user experience include VPN kill switches, ad "
+"blockers or firewalls, and multi-device licenses that allow simultaneous "
+"connections."
+msgstr ""
+"Les configurations et fonctionnalités VPN supplémentaires qui peuvent encore"
+" améliorer votre confidentialité, votre sécurité et votre expérience "
+"utilisateur incluent les commutateurs d'arrêt VPN, les bloqueurs de "
+"publicités ou les pare-feu et les licences multi-appareils qui permettent "
+"des connexions simultanées."
+
+#: templates/guides/use-vpn.html:24
+msgid "Speed:"
+msgstr "Vitesse:"
+
+#: templates/guides/use-vpn.html:24
+msgid ""
+"Increase your download speeds by choosing a VPN that offers a wide range of "
+"geo-optimized servers that enable fast, stable connections from around the "
+"world."
+msgstr ""
+"Augmentez vos vitesses de téléchargement en choisissant un VPN qui offre une"
+" large gamme de serveurs géo-optimisés qui permettent des connexions rapides"
+" et stables partout dans le monde."
+
+#: templates/guides/use-vpn.html:27
+msgid "Should you use a free VPN on your smartphone?"
+msgstr "Faut-il utiliser un VPN gratuit sur son smartphone ?"
+
+#: templates/guides/use-vpn.html:28
+msgid ""
+"Free options work for some parts of life. But when it comes to your online "
+"presence and security, you can't be too careful. Free VPNs may come with "
+"drawbacks such as:"
+msgstr ""
+"Les options gratuites fonctionnent dans certains domaines de la vie. Mais "
+"lorsqu'il s'agit de votre présence en ligne et de votre sécurité, vous ne "
+"pouvez jamais être trop prudent. Les VPN gratuits peuvent présenter des "
+"inconvénients tels que :"
+
+#: templates/guides/use-vpn.html:30
+msgid "Security protocols may be limited"
+msgstr "Les protocoles de sécurité peuvent être limités"
+
+#: templates/guides/use-vpn.html:31
+msgid ""
+"Connection can be slow, laggy or entirely unavailable at times, particularly"
+" with free VPN services that cap your bandwidth usage"
+msgstr ""
+"La connexion peut parfois être lente, lente ou totalement indisponible, en "
+"particulier avec les services VPN gratuits qui limitent votre utilisation de"
+" la bande passante"
+
+#: templates/guides/use-vpn.html:32
+msgid ""
+"The provider may track your data, and may use it for advertising purposes"
+msgstr ""
+"Le fournisseur peut suivre vos données et les utiliser à des fins "
+"publicitaires"
+
+#: templates/guides/use-vpn.html:34
+msgid ""
+"You want to select a provider whose quality and security you can trust. "
+"Speed is also important, and a paid VPN service may let you enjoy higher "
+"connection speeds than a free service, so you don't have to sacrifice speed "
+"or bandwidth for security. While free services may track and save your "
+"activity, many paid providers offer a no-log guarantee. This means they "
+"don't track the sites you visit as you surf the web. Perhaps most "
+"importantly, most paid options have strong security protocols so you can "
+"surf the web with peace of mind."
+msgstr ""
+"Vous devez sélectionner un fournisseur dont vous pouvez avoir confiance en "
+"la qualité et la sécurité. La vitesse est également importante, et un "
+"service VPN payant peut vous permettre de bénéficier de vitesses de "
+"connexion plus élevées qu'un service gratuit, de sorte que vous n'avez pas à"
+" sacrifier la vitesse ou la bande passante pour la sécurité. Bien que les "
+"services gratuits puissent suivre et enregistrer votre activité, de nombreux"
+" fournisseurs payants offrent une garantie sans journal. Cela signifie "
+"qu'ils ne suivent pas les sites que vous visitez lorsque vous naviguez sur "
+"le Web. Peut-être plus important encore, la plupart des options payantes "
+"disposent de protocoles de sécurité solides pour que vous puissiez surfer "
+"sur le Web en toute tranquillité."
 
 #: templates/learn/encryption.html:4
 msgid "LEARN about encryption"
@@ -2166,10 +5443,6 @@ msgstr ""
 #: templates/learn/two-factor-authentication.html:4
 msgid "LEARN about Two Factor Authentication"
 msgstr "EN SAVOIR PLUS sur l'authentification à deux facteurs"
-
-#: templates/learn/two-factor-authentication.html:9
-msgid "Two Factor Authentication (2FA)"
-msgstr "Authentification à deux facteurs (2FA)"
 
 #: templates/learn/two-factor-authentication.html:12
 msgid "What is 2FA?"

@@ -1,37 +1,37 @@
 {% extends "base.html" %}
 
 {% block title %}
-    GUIDE on VPN on Devices 
+    {{ _('GUIDE on VPN on Devices') }}
 {% endblock %}
 
 {% block content %}
     <main>
-        <h1>VPN</h1>  
+        <h1>{{ _('VPN') }}</h1>  
         </br>      
         <!-- Add more content here -->
 
-        <h2><b>Are there smartphones that are equipped with VPN?</b></h2>
-        <p>Some smartphones come with built-in VPN software. These devices let you cloak your activity and have minimal set-up requirements. However, the VPN is restricted to your smartphone. You can't use the same network to protect your computer or tablet, something to keep in mind if you want the ease of connecting to the same service on multiple devices. With external VPN services, you can often choose which network you connect to and customize your choices based on server location.</p>
+        <h2><b>{{ _('Are there smartphones that are equipped with VPN?') }}</b></h2>
+        <p>{{ _('Some smartphones come with built-in VPN software. These devices let you cloak your activity and have minimal set-up requirements. However, the VPN is restricted to your smartphone. You can\'t use the same network to protect your computer or tablet, something to keep in mind if you want the ease of connecting to the same service on multiple devices. With external VPN services, you can often choose which network you connect to and customize your choices based on server location.') }}</p>
 
-        <h2>How to choose a VPN provider for your smartphone</h2>
-        <p>With so many iOS VPN services, knowing where to start can be challenging. Select a VPN app with suitable features to keep your data secure and let you do what you want online. Here’s what to look for when choosing a VPN for iPad or iPhone:</p>
+        <h2>{{ _('How to choose a VPN provider for your smartphone') }}</h2>
+        <p>{{ _('With so many iOS VPN services, knowing where to start can be challenging. Select a VPN app with suitable features to keep your data secure and let you do what you want online. Here’s what to look for when choosing a VPN for iPad or iPhone:') }}</p>
         <ul>
-        <li><b>Encryption method:</b>A VPN's safety largely depends on the encryption method used to shield your internet traffic. Some of the best VPNs use bank-grade AES 256-bit encryption that's practically uncrackable—it'd take a supercomputer billions of years to brute-force attack it.</li>
-        <li><b>Privacy:</b> Some VPNs record your online activity. If maximum privacy is your priority, select a VPN like Norton Secure VPN which has a no-log policy, meaning we don't track or store your online activities.</li>
-        <li><b>Cost:</b> With weak security, bandwidth restrictions, and limited server options, free VPN services can bombard you with annoying ads or even sell your data to data brokers. Many of the best premium services offer a free trial to help you find a secure, reliable VPN that meets your needs.</li>
-        <li><b>Usage limitations:</b> From monthly download limits to bandwidth restrictions, avoid any iPhone VPN settings that could limit your access. Choose a service that lets you browse freely without usage limitations.</li>
-        <li><b>Additional features:</b> Additional VPN configurations and features that can further boost your privacy, security, and user experience include VPN kill switches, ad blockers or firewalls, and multi-device licenses that allow simultaneous connections.</li>
-        <li><b>Speed:</b>Increase your download speeds by choosing a VPN that offers a wide range of geo-optimized servers that enable fast, stable connections from around the world.</li>
+            <li><b>{{ _('Encryption method:') }}</b>{{ _('A VPN\'s safety largely depends on the encryption method used to shield your internet traffic. Some of the best VPNs use bank-grade AES 256-bit encryption that\'s practically uncrackable—it\'d take a supercomputer billions of years to brute-force attack it.') }}</li>
+            <li><b>{{ _('Privacy:') }}</b>{{ _('Some VPNs record your online activity. If maximum privacy is your priority, select a VPN like Norton Secure VPN which has a no-log policy, meaning we don\'t track or store your online activities.') }}</li>
+            <li><b>{{ _('Cost:') }}</b>{{ _('With weak security, bandwidth restrictions, and limited server options, free VPN services can bombard you with annoying ads or even sell your data to data brokers. Many of the best premium services offer a free trial to help you find a secure, reliable VPN that meets your needs.') }}</li>
+            <li><b>{{ _('Usage limitations:') }}</b>{{ _('From monthly download limits to bandwidth restrictions, avoid any iPhone VPN settings that could limit your access. Choose a service that lets you browse freely without usage limitations.') }}</li>
+            <li><b>{{ _('Additional features:') }}</b>{{ _('Additional VPN configurations and features that can further boost your privacy, security, and user experience include VPN kill switches, ad blockers or firewalls, and multi-device licenses that allow simultaneous connections.') }}</li>
+            <li><b>{{ _('Speed:') }}</b>{{ _('Increase your download speeds by choosing a VPN that offers a wide range of geo-optimized servers that enable fast, stable connections from around the world.') }}</li>
         </ul>
 
-        <h2><b>Should you use a free VPN on your smartphone?</b></h2>
-        <p>Free options work for some parts of life. But when it comes to your online presence and security, you can't be too careful. Free VPNs may come with drawbacks such as:</p>
-            <ul>
-                <li>Security protocols may be limited</li>
-                <li>Connection can be slow, laggy or entirely unavailable at times, particularly with free VPN services that cap your bandwidth usage</li>
-                <li>The provider may track your data, and may use it for advertising purposes</li>
-            </ul>
-        <p>You want to select a provider whose quality and security you can trust. Speed is also important, and a paid VPN service may let you enjoy higher connection speeds than a free service, so you don't have to sacrifice speed or bandwidth for security. While free services may track and save your activity, many paid providers offer a no-log guarantee. This means they don't track the sites you visit as you surf the web. Perhaps most importantly, most paid options have strong security protocols so you can surf the web with peace of mind.</p>
+        <h2><b>{{ _('Should you use a free VPN on your smartphone?') }}</b></h2>
+        <p>{{ _('Free options work for some parts of life. But when it comes to your online presence and security, you can\'t be too careful. Free VPNs may come with drawbacks such as:') }}</p>
+        <ul>
+            <li>{{ _('Security protocols may be limited') }}</li>
+            <li>{{ _('Connection can be slow, laggy or entirely unavailable at times, particularly with free VPN services that cap your bandwidth usage') }}</li>
+            <li>{{ _('The provider may track your data, and may use it for advertising purposes') }}</li>
+        </ul>
+        <p>{{ _('You want to select a provider whose quality and security you can trust. Speed is also important, and a paid VPN service may let you enjoy higher connection speeds than a free service, so you don\'t have to sacrifice speed or bandwidth for security. While free services may track and save your activity, many paid providers offer a no-log guarantee. This means they don\'t track the sites you visit as you surf the web. Perhaps most importantly, most paid options have strong security protocols so you can surf the web with peace of mind.') }}</p>
 
     </main>
 {% endblock %}
