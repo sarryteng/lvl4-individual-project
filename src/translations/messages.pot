@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-22 22:15+0000\n"
+"POT-Creation-Date: 2024-12-23 20:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1488,13 +1488,14 @@ msgid "Use symbols, cases, and spellings"
 msgstr ""
 
 #: templates/guides/secure-passwords.html:48
+#, python-format
 msgid ""
 "Even if you develop a completely original password, it could still be "
 "easy to guess if you spell a word correctly, use predictable cases, and "
 "don’t use numbers or symbols. Up the ante by incorporating a mix of "
 "uppercase (A – Z) and lowercase letters (a – z), numbers (0 - 9), and "
-"symbols (#, $, %). Also, don’t substitute letters with symbols or numbers"
-" (like “p@ssw0rd”) unless you’re creating a passphrase—most "
+"symbols (#, $, %%). Also, don’t substitute letters with symbols or "
+"numbers (like “p@ssw0rd”) unless you’re creating a passphrase—most "
 "cybercriminals are well aware of this password trick."
 msgstr ""
 
@@ -2477,18 +2478,11 @@ msgid "Can two-step verification be hacked?"
 msgstr ""
 
 #: templates/guides/use-two-factor.html:49
-msgid "Yes, hackers can use certain phishing"
-msgstr ""
-
-#: templates/guides/use-two-factor.html:49
-msgid "messages"
-msgstr ""
-
-#: templates/guides/use-two-factor.html:49
 msgid ""
-"to work around 2FA login processes. That being said, having a second "
-"authentication factor makes it more difficult for hackers because more "
-"information is required to gain access."
+"Yes, hackers can use certain phishing messages to work around 2FA login "
+"processes. That being said, having a second authentication factor makes "
+"it more difficult for hackers because more information is required to "
+"gain access."
 msgstr ""
 
 #: templates/guides/use-two-factor.html:51
