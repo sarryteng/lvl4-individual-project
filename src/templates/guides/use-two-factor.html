@@ -16,7 +16,7 @@
         <h3>{{ _('A pretty good option: SMS text messages') }}</h3>
         <p>{{ _('Most services allow you to use regular old text messages as your 2FA. When logging in to a site you need a password for, you’ll receive a short confirmation code on your mobile device. Enter the code when prompted during login.') }}</p>
         <!-- insert image of sms authentication -->
-        <img src="/static/images/content/guides/sms-authentication.png" alt="{{ _('SMS Authentication') }}">
+        <img src="/static/images/content/{{ g.lang }}/guides/sms-authentication.png" alt="{{ _('SMS Authentication') }}">
 
         <p>{{ _('Text messages are a painless way to access 2FA codes, but are only as reliable as the phone network. For example, if you lose network access or travel outside the country, you might not be able to receive the messages.Text messages are a painless way to access 2FA codes, but are only as reliable as the phone network. For example, if you lose network access or travel outside the country, you might not be able to receive the messages.') }}</p>
         <p>{{ _('For most people, SMS-based 2FA is much better than using a password alone. But because telephone infrastructure itself comes with a great deal of baggage, SMS isn’t the most secure method available.') }}</p>
@@ -26,7 +26,7 @@
         <h3>{{ _('Better option: Authentication apps') }}</h3>
         <p>{{ _('Compared to SMS messages, authenticator apps are a little more convenient and a lot more secure. Some services allow you to receive your temporary login code from a mobile app. There are many options to choose from, such as Google Authenticator or Authy.') }}</p>
         <!-- insert image of authentication apps -->
-        <img src="/static/images/content/guides/authentication-app.png" alt="{{ _('Authentication Apps') }}">
+        <img src="/static/images/content/{{ g.lang }}/guides/authentication-app.png" alt="{{ _('Authentication Apps') }}">
 
         <p>{{ _('Some web services let you attach multiple authentication apps to the same account, which can be incredibly helpful for getting login codes when multiple people need access. Authenticator apps are also great because they work when you don’t have access to your phone network.') }}</p>
         <p>{{ _('Unlike SMS messages, authenticator apps can’t be intercepted on the phone network, making apps a hardened option.') }}</p>
