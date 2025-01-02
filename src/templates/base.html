@@ -25,8 +25,6 @@
                     <span id="currentLanguage">
                         {% if g.lang == 'fr' %}
                             FR
-                        {% elif g.lang == 'es' %}
-                            ES
                         {% else %}
                             ENG
                         {% endif %}
@@ -41,9 +39,6 @@
                 {% endif %}
                 {% if g.lang != 'fr' %}
                     <a href="/fr{{ request.path[3:] }}" data-lang="fr">FR</a>
-                {% endif %}
-                {% if g.lang != 'es' %}
-                    <a href="/es{{ request.path[3:] }}" data-lang="es">ES</a>
                 {% endif %}
             </div>
 
@@ -76,9 +71,9 @@
     
     <!-- Menu Links -->
     <ul>
-        <li><a href="{{ url_for('learn', lang=g.lang) }}">Learn Concepts</a></li>
-        <li><a href="{{ url_for('guides', lang=g.lang) }}">Guides</a></li>
-        <li><a href="{{ url_for('tools', lang=g.lang) }}">Tools</a></li>
+        <li><a href="{{ url_for('learn', lang=g.lang) }}">{{ _("Learn") }}</a></li>
+        <li><a href="{{ url_for('guides', lang=g.lang) }}">{{ _("Guides") }}</a></li>
+        <li><a href="{{ url_for('tools', lang=g.lang) }}">{{ _("Tools") }}</a></li>
     </ul>
 </div>    
 
