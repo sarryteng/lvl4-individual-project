@@ -1,13 +1,22 @@
 {% extends "base.html" %}
 
 {% block title %}
-    LEARN about Software Updates 
+    {{ _('LEARN about Software Updates') }}
 {% endblock %}
 
 {% block content %}
     <main>
         <h1>{{ _('Software Updates') }}</h1>  
-        </br>      
+        <!-- credit source-->
+        <p>
+            <i>{{ _('Source: ') }}
+                <a href="https://us.norton.com/blog/how-to/the-importance-of-general-software-updates-and-patches" target="_blank">
+                    {{ _('US Norton Blog - Why you should install software updates and operating system updates today') }}
+                </a>
+            </i>
+        </p>
+        </br>
+        
         <!-- Add more content here -->
 
         <h2><b>{{ _('What is a software update?') }}</b><br /></h2>

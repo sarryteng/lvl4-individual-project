@@ -7,9 +7,22 @@
 {% block content %}
     <main>
         <h1>{{ _('Two Factor Authentication (2FA)') }}</h1>  
-        </br>      
+        <!-- credit source-->
+        <p>
+            <i>{{ _('Source: ') }}
+            <ul>
+                <li><a href="https://freedom.press/digisec/blog/2fa-beginners/" target="_blank">
+                    {{ _('Two-factor authentication for beginners') }}
+                </a></li>
+                <li><a href="https://us.norton.com/blog/privacy/what-is-2fa" target="_blank">
+                    {{ _('US Norton Blog - 2FA: A simplified guide to two-factor authentication') }}
+                </a></li>
+            </ul>
+            </i>
+        </p>
+        </br>
+        
         <!-- Add more content here -->
-
         <h2>{{ _('2FA Approaches') }}</h2>
         <p>{{ _('There are a few simple, widely supported approaches for adding 2FA to your accounts. There’s not one “right” way to use it, and each has distinct considerations for security and convenience.') }}</p>
 

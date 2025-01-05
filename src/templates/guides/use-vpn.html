@@ -7,14 +7,31 @@
 {% block content %}
     <main>
         <h1>{{ _('VPN') }}</h1>  
-        </br>      
+        <!-- credit source-->
+        <p>
+            <i>{{ _('Source: ') }}
+            <ul>
+                <li>
+                    <a href="https://us.norton.com/blog/mobile/vpn-for-smartphones" target="_blank">
+                        {{ _('US Norton Blog - VPN for smartphones') }}
+                    </a>
+                </li>
+                <li>
+                    <a href="https://us.norton.com/blog/mobile/how-to-use-vpn-on-iphone" target="_blank">
+                        {{ _('US Norton Blog - How to use a VPN on an iPhone or iPad in 2024') }}
+                    </a>
+                </li>        
+            </ul>
+            </i>
+        </p>
+        </br>
+        
         <!-- Add more content here -->
-
         <h2><b>{{ _('Are there smartphones that are equipped with VPN?') }}</b></h2>
         <p>{{ _('Some smartphones come with built-in VPN software. These devices let you cloak your activity and have minimal set-up requirements. However, the VPN is restricted to your smartphone. You can\'t use the same network to protect your computer or tablet, something to keep in mind if you want the ease of connecting to the same service on multiple devices. With external VPN services, you can often choose which network you connect to and customize your choices based on server location.') }}</p>
 
         <h2>{{ _('How to choose a VPN provider for your smartphone') }}</h2>
-        <p>{{ _('With so many iOS VPN services, knowing where to start can be challenging. Select a VPN app with suitable features to keep your data secure and let you do what you want online. Here’s what to look for when choosing a VPN for iPad or iPhone:') }}</p>
+        <p>{{ _('With so many VPN services, knowing where to start can be challenging. Select a VPN app with suitable features to keep your data secure and let you do what you want online. Here’s what to look for when choosing a VPN:') }}</p>
         <ul>
             <li><b>{{ _('Encryption method:') }}</b>{{ _('A VPN\'s safety largely depends on the encryption method used to shield your internet traffic. Some of the best VPNs use bank-grade AES 256-bit encryption that\'s practically uncrackable—it\'d take a supercomputer billions of years to brute-force attack it.') }}</li>
             <li><b>{{ _('Privacy:') }}</b>{{ _('Some VPNs record your online activity. If maximum privacy is your priority, select a VPN like Norton Secure VPN which has a no-log policy, meaning we don\'t track or store your online activities.') }}</li>

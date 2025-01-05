@@ -7,7 +7,16 @@
 {% block content %}
     <main>
         <h1>{{ _('Phishing') }}</h1>  
-        </br>      
+        <!-- credit source-->
+        <p>
+            <i>{{ _('Source: ') }}
+                <a href="https://us.norton.com/blog/online-scams/what-is-phishing" target="_blank">
+                    {{ _('US Norton Blog - What is phishing? How to spot and avoid it') }}
+                </a>
+            </i>
+        </p>
+        </br>
+        
         <!-- Add more content here -->
         <h2>{{ _('What is phishing?') }}</h2>
         <p>{{ _('Phishing is a social engineering cyberthreat where scammers impersonate a trustworthy source and trick you into revealing sensitive data like passwords, credit card numbers, or personally identifiable information.') }}</p>

@@ -7,7 +7,21 @@
 {% block content %}
     <main>
         <h1>{{ _('Encryption') }}</h1>  
-        </br>      
+        <!-- credit source-->
+        <p>
+            <i>{{ _('Source: ') }}
+            <ul>
+                <li><a href="https://us.norton.com/blog/privacy/what-is-encryption" target="_blank">
+                    {{ _('US Norton Blog - What is encryption? How it works + types of encryption') }}
+                </a></li>
+                <li><a href="https://us.norton.com/blog/how-to/how-to-encrypt-email" target="_blank">
+                    {{ _('US Norton Blog - How to encrypt email in Gmail, Outlook, iOS, and Android') }}
+                </a></li>
+            </ul>
+            </i>
+        </p>
+        </br>
+        
         <!-- Add more content here -->
         <h3>{{ _('What is Encryption?') }}</h3>
         <p><b>{{ _('Encryption is a cybersecurity measure that scrambles plain text so it can only be read by the user who has the secret code, or decryption key.') }}</b> {{ _('It provides added security for sensitive information.') }}</p>
