@@ -1,93 +1,107 @@
 {% extends "base.html" %}
 
 {% block title %}
-    LEARN about encryption 
+    {{ _('LEARN about encryption') }}
 {% endblock %}
 
 {% block content %}
     <main>
-        <h1>Encryption</h1>  
-        </br>      
+        <h1>{{ _('Encryption') }}</h1>  
+        <!-- credit source-->
+        <p>
+            <i>{{ _('Source: ') }}
+            <ul>
+                <li><a href="https://us.norton.com/blog/privacy/what-is-encryption" target="_blank">
+                    {{ _('US Norton Blog - What is encryption? How it works + types of encryption') }}
+                </a></li>
+                <li><a href="https://us.norton.com/blog/how-to/how-to-encrypt-email" target="_blank">
+                    {{ _('US Norton Blog - How to encrypt email in Gmail, Outlook, iOS, and Android') }}
+                </a></li>
+            </ul>
+            </i>
+        </p>
+        </br>
+        
         <!-- Add more content here -->
-        <h3>What is Encryption?</h3>
-        <p><b>Encryption is a cybersecurity measure that scrambles plain text so it can only be read by the user who has the secret code, or decryption key.</b> It provides added security for sensitive information.</p>
-        <p>Huge amounts of data are managed online and stored in the cloud or on servers with an ongoing connection to the web. It’s nearly impossible to do anything online—from purchasing new office chairs to logging in to your HR portal—without your personal data ending up in an organization’s networked computer system. That’s why it’s crucial to know how to help keep that personal information private.</p>
-        <p>Encryption plays an essential role in this task. </p>
+        <h3>{{ _('What is Encryption?') }}</h3>
+        <p><b>{{ _('Encryption is a cybersecurity measure that scrambles plain text so it can only be read by the user who has the secret code, or decryption key.') }}</b> {{ _('It provides added security for sensitive information.') }}</p>
+        <p>{{ _('Huge amounts of data are managed online and stored in the cloud or on servers with an ongoing connection to the web. It’s nearly impossible to do anything online—from purchasing new office chairs to logging in to your HR portal—without your personal data ending up in an organization’s networked computer system. That’s why it’s crucial to know how to help keep that personal information private.') }}</p>
+        <p>{{ _('Encryption plays an essential role in this task.') }}</p>
 
-        <h3>When to use encryption</h3>
+        <h3>{{ _('When to use encryption') }}</h3>
         <!-- insert image -->
-        <img src="/static/images/content/learn/use-encryption-when.jpg" alt="When to Use Encryption">
+        <img src="/static/images/content/{{ g.lang }}/learn/use-encryption-when.jpg" alt="{{ _('When to Use Encryption') }}">
 
-        <p>It’s important to encrypt messages, files, and data exchanged online whenever they contain personal, sensitive, or classified information like:</p>
+        <p>{{ _('It’s important to encrypt messages, files, and data exchanged online whenever they contain personal, sensitive, or classified information like:') }}</p>
         <ul>
-        <li>Sending an email to your doctor regarding an illness</li>
-        <li>Entering your financial information to log in to your online bank account</li>
-        <li>Sharing a confidential report with your employer</li>
+            <li>{{ _('Sending an email to your doctor regarding an illness') }}</li>
+            <li>{{ _('Entering your financial information to log in to your online bank account') }}</li>
+            <li>{{ _('Sharing a confidential report with your employer') }}</li>
         </ul>
 
-        <p>Encryption ensures only the intended recipient can access the information you shared.</p>
+        <p>{{ _('Encryption ensures only the intended recipient can access the information you shared.') }}</p>
 
-        <h3>How does encryption work?</h2>
-        <p>Encryption takes plain text, like a text message or email, and scrambles it into an unreadable format called <b>ciphertext</b>. This helps protect the confidentiality of digital data either stored on computer systems or transmitted through a network like the internet. </p>
+        <h3>{{ _('How does encryption work?') }}</h3>
+        <p>{{ _('Encryption takes plain text, like a text message or email, and scrambles it into an unreadable format called') }} <b>{{ _('ciphertext') }}</b>. {{ _('This helps protect the confidentiality of digital data either stored on computer systems or transmitted through a network like the internet.') }}</p>
         <!-- insert image -->
-        <img src="/static/images/content/learn/how-does-encryption-work.jpg" alt="How Does Encryption Work">
+        <img src="/static/images/content/{{ g.lang }}/learn/how-does-encryption-work.jpg" alt="{{ _('How Does Encryption Work') }}">
 
-        <p>When the intended recipient accesses the message, the information is translated back to its original form. This is called <b>decryption</b>.</p>
-        <p>To unlock the message, both the sender and the recipient have to use a “secret” <b>encryption key</b>—a collection of algorithms that scramble and unscramble data back to a readable format. </p>
+        <p>{{ _('When the intended recipient accesses the message, the information is translated back to its original form. This is called') }} <b>{{ _('decryption') }}</b>.</p>
+        <p>{{ _('To unlock the message, both the sender and the recipient have to use a “secret”') }} <b>{{ _('encryption key') }}</b>—{{ _('a collection of algorithms that scramble and unscramble data back to a readable format.') }}</p>
 
-        <h3>Types of encryption</h3>
-        <p><b>An encryption key is a series of numbers used to encrypt and decrypt data. </b>Encryption keys are created with algorithms, and each key is random and unique.</p>
-        <p><b>There are two main types of encryption systems: symmetric encryption and asymmetric encryption.</b> Here’s how they differ.       </p>
+        <h3>{{ _('Types of encryption') }}</h3>
+        <p><b>{{ _('An encryption key is a series of numbers used to encrypt and decrypt data.') }}</b> {{ _('Encryption keys are created with algorithms, and each key is random and unique.') }}</p>
+        <p><b>{{ _('There are two main types of encryption systems: symmetric encryption and asymmetric encryption.') }}</b> {{ _('Here’s how they differ.') }}</p>
 
         <!-- insert image -->
-        <img src="/static/images/content/learn/types-of-encryption.jpg" alt="Types of Encryption">
+        <img src="/static/images/content/{{ g.lang }}/learn/types-of-encryption.jpg" alt="{{ _('Types of Encryption') }}">
 
-        <h3>Symmetric encryption</h3>
-        <p><b>Symmetric encryption uses a single secret password or key to encrypt and decrypt data.</b> The key could be a code or a random string of letters or numbers generated by a random number generator (RNG), which is typically required for banking-grade encryption. Symmetric algorithms are the simplest and most used form of encryption.</p>
+        <h3>{{ _('Symmetric encryption') }}</h3>
+        <p><b>{{ _('Symmetric encryption uses a single secret password or key to encrypt and decrypt data.') }}</b> {{ _('The key could be a code or a random string of letters or numbers generated by a random number generator (RNG), which is typically required for banking-grade encryption. Symmetric algorithms are the simplest and most used form of encryption.') }}</p>
 
-        <p>Symmetric encryption are available in two forms:</p>
+        <p>{{ _('Symmetric encryption are available in two forms:') }}</p>
         <ul>
-        <li><b>Block algorithms:</b> Encrypt a group of plain text symbols as one block.</li>
-        <li><b>Stream algorithms:</b> Convert one symbol of plain text directly into ciphertext.</li>
+            <li><b>{{ _('Block algorithms:') }}</b> {{ _('Encrypt a group of plain text symbols as one block.') }}</li>
+            <li><b>{{ _('Stream algorithms:') }}</b> {{ _('Convert one symbol of plain text directly into ciphertext.') }}</li>
         </ul>
 
-        <p>Although symmetric encryption has its weak spots, it makes up for them in speed and efficiency. Since only one key is shared between parties—and that key is typically much shorter than with asymmetric encryption—symmetric cryptography is faster to run.</p>
+        <p>{{ _('Although symmetric encryption has its weak spots, it makes up for them in speed and efficiency. Since only one key is shared between parties—and that key is typically much shorter than with asymmetric encryption—symmetric cryptography is faster to run.') }}</p>
 
-        <h3>Asymmetric encryption</h3>
-        <p>Asymmetric encryption—also known as public key cryptography—uses two keys for encryption and decryption. A public key, which is shared among users, can either encrypt or decrypt the data. A private key can also encrypt or decrypt data, but it's not shared among users. The key you choose to encrypt or decrypt depends on the security measure you’re trying to employ:</p>
+        <h3>{{ _('Asymmetric encryption') }}</h3>
+        <p>{{ _('Asymmetric encryption—also known as public key cryptography—uses two keys for encryption and decryption. A public key, which is shared among users, can either encrypt or decrypt the data. A private key can also encrypt or decrypt data, but it\'s not shared among users. The key you choose to encrypt or decrypt depends on the security measure you’re trying to employ:') }}</p>
         <ul>
-        <li><b>Encrypting with the public key:</b> ensures only the intended recipient can use the corresponding private key to decrypt the message, even if the information was breached during transit</li>
-        <li><b>Encrypting with the private key:</b> allows the recipient of the information to verify the sender’s identity, since they won’t be able to decrypt data that’s been tampered with by an unauthorized user</li>
+            <li><b>{{ _('Encrypting with the public key:') }}</b> {{ _('ensures only the intended recipient can use the corresponding private key to decrypt the message, even if the information was breached during transit') }}</li>
+            <li><b>{{ _('Encrypting with the private key:') }}</b> {{ _('allows the recipient of the information to verify the sender’s identity, since they won’t be able to decrypt data that’s been tampered with by an unauthorized user') }}</li>
         </ul>
-        <p>Because asymmetric encryption uses two longer keys, it’s much slower and less efficient to run compared to symmetric cryptography. It can even bog down networks and create issues with memory capacity and battery life.</p>
-        <p>However, asymmetric encryption is considered more advanced in terms of security than symmetric cryptography. Both are still in use today—sometimes simultaneously to compensate for the other’s weaknesses. </p>
+        <p>{{ _('Because asymmetric encryption uses two longer keys, it’s much slower and less efficient to run compared to symmetric cryptography. It can even bog down networks and create issues with memory capacity and battery life.') }}</p>
+        <p>{{ _('However, asymmetric encryption is considered more advanced in terms of security than symmetric cryptography. Both are still in use today—sometimes simultaneously to compensate for the other’s weaknesses.') }}</p>
 
-        <h2>What is email encryption?</h2>
-        <p>Email encryption is a security measure that disguises the contents of an email to protect against sensitive data exposure and ensure only the intended recipient can read it. Email encryption encodes and scrambles the plain text of the email so that any hackers taking a peek will see only unrecognizable nonsense.</p>
+        <h2>{{ _('What is email encryption?') }}</h2>
+        <p>{{ _('Email encryption is a security measure that disguises the contents of an email to protect against sensitive data exposure and ensure only the intended recipient can read it. Email encryption encodes and scrambles the plain text of the email so that any hackers taking a peek will see only unrecognizable nonsense.') }}</p>
 
         <!-- insert image email encryption pic -->
-        <img src="/static/images/content/learn/email-encryption.jpg" alt="Email Encryption">
+        <img src="/static/images/content/{{ g.lang }}/learn/email-encryption.jpg" alt="{{ _('Email Encryption') }}">
 
-        <h2>The importance of email encryption</h2>
-        <p>Email encryption helps protect your personal information and communications from being exposed in data breaches and other cyberattacks. Protecting your personal information in emails can also help reduce the likelihood of identity theft.</p>
-        <p>If you send unencrypted emails, you risk hackers intercepting your messages. While a short email catching up with a friend may not have any information a scammer could use to break into your bank accounts or steal your identity, other messages could.</p>
-        <p>In 2022 alone, there were more than 21,000 business emails compromised. Using social engineering, scammers accessed business email accounts and used them to steal money, upload malware or spyware, and cause disruptions.</p>
+        <h2>{{ _('The importance of email encryption') }}</h2>
+        <p>{{ _('Email encryption helps protect your personal information and communications from being exposed in data breaches and other cyberattacks. Protecting your personal information in emails can also help reduce the likelihood of identity theft.') }}</p>
+        <p>{{ _('If you send unencrypted emails, you risk hackers intercepting your messages. While a short email catching up with a friend may not have any information a scammer could use to break into your bank accounts or steal your identity, other messages could.') }}</p>
+        <p>{{ _('In 2022 alone, there were more than 21,000 business emails compromised. Using social engineering, scammers accessed business email accounts and used them to steal money, upload malware or spyware, and cause disruptions.') }}</p>
 
-        <h2>Types of email encryption</h2>
-        <p>Understanding how email encryption works is important, and learning about the different types of protocols used for sending safer emails can help you choose the right encryption for them. Multiple email encryption protocols can protect information from unwanted online predators</a>.</p>
+        <h2>{{ _('Types of email encryption') }}</h2>
+        <p>{{ _('Understanding how email encryption works is important, and learning about the different types of protocols used for sending safer emails can help you choose the right encryption for them. Multiple email encryption protocols can protect information from unwanted online predators.') }}</p>
 
-        <h3>S/MIME (Secure/Multipurpose) encryption</h3>
-        <p>Secure/Multipurpose Internet Mail Extension (S/MIME) is an email encryption protocol often built into macOS devices and major web-based email providers like Outlook and Gmail. It uses public key encryption, involving digital certificates issued by a Certificate Authority for verification.</p>
-        <p>S/MIME encryption enables the sender to secure messages with these digital certificates. The recipient can then use the provided certificate to verify the safety of the message received, helping to keep their device secure.</p>
+        <h3>{{ _('S/MIME (Secure/Multipurpose) encryption') }}</h3>
+        <p>{{ _('Secure/Multipurpose Internet Mail Extension (S/MIME) is an email encryption protocol often built into macOS devices and major web-based email providers like Outlook and Gmail. It uses public key encryption, involving digital certificates issued by a Certificate Authority for verification.') }}</p>
+        <p>{{ _('S/MIME encryption enables the sender to secure messages with these digital certificates. The recipient can then use the provided certificate to verify the safety of the message received, helping to keep their device secure.') }}</p>
 
-        <h3>PGP/MIME encryption</h3>
-        <p>Pretty Good Privacy/Multipurpose Internet Extensions (PGP/MIME) is another encryption protocol that can send secure emails. While it provides the same protection as S/MIME, this protocol only uses the recipient’s private and public encryption keys, eliminating the need to use a Certificate Authority (CA), and instead relying on the “web of trust” model. </p>
-        <p>PGP/MIME provides more control and flexibility concerning how well you want your emails encrypted but sometimes requires a third-party extension. </p>
+        <h3>{{ _('PGP/MIME encryption') }}</h3>
+        <p>{{ _('Pretty Good Privacy/Multipurpose Internet Extensions (PGP/MIME) is another encryption protocol that can send secure emails. While it provides the same protection as S/MIME, this protocol only uses the recipient’s private and public encryption keys, eliminating the need to use a Certificate Authority (CA), and instead relying on the “web of trust” model.') }}</p>
+        <p>{{ _('PGP/MIME provides more control and flexibility concerning how well you want your emails encrypted but sometimes requires a third-party extension.') }}</p>
 
-        <h3>SSL/TLS/STARTTLS encryption</h3>
-        <p>Secure Sockets Layer/Transport Layer Security is a protocol that uses SSL</a> and TLS (the successor to SSL) to encrypt communications between two devices, including email encryption. This type of encryption does not apply directly to messages and email contents, but to the connection between email servers.</p>
-        <p>The sending server signals the receiver to secure the connection during email transmission. This helps prevent snoops from seeing the contents of a message while it’s being sent.    </p>
-
-
+        <h3>{{ _('SSL/TLS/STARTTLS encryption') }}</h3>
+        <p>{{ _('Secure Sockets Layer/Transport Layer Security is a protocol that uses SSL and TLS (the successor to SSL) to encrypt communications between two devices, including email encryption. This type of encryption does not apply directly to messages and email contents, but to the connection between email servers.') }}</p>
+        <p>{{ _('The sending server signals the receiver to secure the connection during email transmission. This helps prevent snoops from seeing the contents of a message while it’s being sent.') }}</p>
+    
+    
     </main>
 {% endblock %}

@@ -1,84 +1,93 @@
 {% extends "base.html" %}
 
 {% block title %}
-    GUIDE on how to use email encryption 
+    {{ _('GUIDE on how to use email encryption') }}
 {% endblock %}
 
 {% block content %}
     <main>
-        <h1>Encryption</h1>  
-        </br>      
+        <h1>{{ _('Encryption') }}</h1>  
+        <!-- credit source-->
+        <p>
+            <i>{{ _('Source: ') }}
+                <a href="https://us.norton.com/blog/how-to/how-to-encrypt-email" target="_blank">
+                    {{ _('US Norton Blog - How to encrypt email in Gmail, Outlook, iOS, and Android') }}
+                </a>
+            </i>
+        </p>
+        </br>
+        
         <!-- Add more content here -->
-        <h2>How to encrypt email on iPhone + other iOS devices</h2>
-        <p>The security measures on iOS devices allow for S/MIME encryption. But you'll have to purchase and download an S/MIME certificate before successfully encrypting email messages. These steps may vary depending on the device you’re using.</p>
-            <ol>
-            <li>Open <b>Settings</b> and select your <b>Apple ID</b> account at the top of the screen.</li>
-            <li>Select <b>iCloud</b>.</li>
-            <li>Tap the <b>Mail</b> button.</li>
-            <li>Scroll to the <b>Advanced</b> button at the bottom of the screen.</li>
-            <li>Tap <b>Encrypt by Default</b> and make sure the S/MIME details are correct.</li>
-            </ol>
+        <h2>{{ _('How to encrypt email on iPhone + other iOS devices') }}</h2>
+        <p>{{ _('The security measures on iOS devices allow for S/MIME encryption. But you\'ll have to purchase and download an S/MIME certificate before successfully encrypting email messages. These steps may vary depending on the device you’re using.') }}</p>
+        <ol>
+            <li>{{ _('Open') }} <b>{{ _('Settings') }}</b> {{ _('and select your') }} <b>{{ _('Apple ID') }}</b> {{ _('account at the top of the screen.') }}</li>
+            <li>{{ _('Select') }} <b>{{ _('iCloud') }}</b>.</li>
+            <li>{{ _('Tap the') }} <b>{{ _('Mail') }}</b> {{ _('button.') }}</li>
+            <li>{{ _('Scroll to the') }} <b>{{ _('Advanced') }}</b> {{ _('button at the bottom of the screen.') }}</li>
+            <li>{{ _('Tap') }} <b>{{ _('Encrypt by Default') }}</b> {{ _('and make sure the S/MIME details are correct.') }}</li>
+        </ol>
         <!-- insert image for steps -->
-        <img src="/static/images/content/guides/encrypt-email-ios.jpg" alt="How to Encrypt Email on iPhone">
+        <img src="/static/images/content/{{ g.lang }}/guides/encrypt-email-ios.jpg" alt="{{ _('How to Encrypt Email on iPhone') }}">
 
-        <h2>Email encryption for Android</h2>
-        <p>Android devices are similar to iOS devices in that they can support an additional encryption extension to protect emails. However, these devices require the PGP/MIME protocol and third-party apps to send secure emails.   </p>
+        <h2>{{ _('Email encryption for Android') }}</h2>
+        <p>{{ _('Android devices are similar to iOS devices in that they can support an additional encryption extension to protect emails. However, these devices require the PGP/MIME protocol and third-party apps to send secure emails.') }}</p>
 
-        <h2>Email encryption tools/services</h2>
-        <p>Because some email providers and device makers make it harder than others to send encrypted email messages, there are also some third-party tools you can use to help send secure emails.</p>
-        <p>A few of the free apps available to send and receive encrypted messages, along with a few anonymous email services, include:<br /></p>
-            <ul>
+        <h2>{{ _('Email encryption tools/services') }}</h2>
+        <p>{{ _('Because some email providers and device makers make it harder than others to send encrypted email messages, there are also some third-party tools you can use to help send secure emails.') }}</p>
+        <p>{{ _('A few of the free apps available to send and receive encrypted messages, along with a few anonymous email services, include:') }}<br /></p>
+        <ul>
             <li>GPGTools</li>
             <li>Mailvelope</li>
             <li>GNU Privacy Guard</li>
             <li>AnonEmail</li>
             <li>Proton</li>
-            </ul>
+        </ul>
 
-        <h2>How to read encrypted emails</h2>
-        <p>These are the main methods for reading encrypted emails:</p>
-            <ul>
-            <li>If an email is encrypted and protected by a password, you must enter the password to decrypt the email and read it.</li>
-            <li>If an email is encrypted and not protected by a password, you’ll need to have the encryption key before the message's contents are readable.</li>
-            </ul>
+        <h2>{{ _('How to read encrypted emails') }}</h2>
+        <p>{{ _('These are the main methods for reading encrypted emails:') }}</p>
+        <ul>
+            <li>{{ _('If an email is encrypted and protected by a password, you must enter the password to decrypt the email and read it.') }}</li>
+            <li>{{ _('If an email is encrypted and not protected by a password, you’ll need to have the encryption key before the message\'s contents are readable.') }}</li>
+        </ul>
 
-        <h2>5 email security best practices</h2>
-        <p>Knowing how to encrypt email messages is a great start to improving your email security. With the following steps, you’ll make it more difficult for hackers to get into your email. These practices and other identity management routines can help you better protect your information.</p>
+        <h2>{{ _('5 email security best practices') }}</h2>
+        <p>{{ _('Knowing how to encrypt email messages is a great start to improving your email security. With the following steps, you’ll make it more difficult for hackers to get into your email. These practices and other identity management routines can help you better protect your information.') }}</p>
         
         <!-- insert image of best practices -->
-        <img src="/static/images/content/guides/email-security-best-practices.jpg" alt="Email Security Best Practices">
+        <img src="/static/images/content/{{ g.lang }}/guides/email-security-best-practices.jpg" alt="{{ _('Email Security Best Practices') }}">
 
-        <h3>1. Create strong email passwords</h3>
-        <p>Cyberattacks and data breaches are not only carried out using session hijacking or brute force attacks. Today’s cybercriminals also use strategic methods, like credential stuffing, to access sensitive information. Having a well-thought-out and unique password can lessen the likelihood of you falling victim to these kinds of cyberattacks.</p>
-        <p>Because remembering several unique and difficult passwords can be tough, you should consider using a password manager.</p>
+        <h3>{{ _('1. Create strong email passwords') }}</h3>
+        <p>{{ _('Cyberattacks and data breaches are not only carried out using session hijacking or brute force attacks. Today’s cybercriminals also use strategic methods, like credential stuffing, to access sensitive information. Having a well-thought-out and unique password can lessen the likelihood of you falling victim to these kinds of cyberattacks.') }}</p>
+        <p>{{ _('Because remembering several unique and difficult passwords can be tough, you should consider using a password manager.') }}</p>
 
-        <h3>2. Use two-factor authentication</h3>
-        <p>Two-factor authentication (2FA), a type of multifactor authentication, adds another step to your login process to keep unauthorized users from gaining access to your account. Email providers like Gmail and Outlook are already using these tools.</p>
-        <p>Some 2FA uses biometrics, like a fingerprint or FaceID, and a password before logging in. Others will send a text message to your device with a code you’ll need to log in. These login requirements are usually inaccessible to everyday hackers, meaning your email will be more secure.</p>
+        <h3>{{ _('2. Use two-factor authentication') }}</h3>
+        <p>{{ _('Two-factor authentication (2FA), a type of multifactor authentication, adds another step to your login process to keep unauthorized users from gaining access to your account. Email providers like Gmail and Outlook are already using these tools.') }}</p>
+        <p>{{ _('Some 2FA uses biometrics, like a fingerprint or FaceID, and a password before logging in. Others will send a text message to your device with a code you’ll need to log in. These login requirements are usually inaccessible to everyday hackers, meaning your email will be more secure.') }}</p>
 
-        <h3>3. Beware of phishing emails</h3>
-        <p>Hackers use phishing scams to access people's private information. One common type of phishing involves a scammer sending emails embedded with links leading to malicious websites designed to trick you into entering your login credentials. Those credentials are then saved and used to access your actual accounts.</p>
-        <p>Always verify that you're on a site’s proper URL, and try to avoid opening emails that appear to be suspicious.</p>
+        <h3>{{ _('3. Beware of phishing emails') }}</h3>
+        <p>{{ _('Hackers use phishing scams to access people\'s private information. One common type of phishing involves a scammer sending emails embedded with links leading to malicious websites designed to trick you into entering your login credentials. Those credentials are then saved and used to access your actual accounts.') }}</p>
+        <p>{{ _('Always verify that you\'re on a site’s proper URL, and try to avoid opening emails that appear to be suspicious.') }}</p>
 
-        <h3>4. Avoid accessing emails via public Wi-Fi</h3>
-        <p>Whether you’re checking your account balances while in line for coffee or checking your email while at lunch, if you’re doing it on a public Wi-Fi network, your data is at risk. Public Wi-Fi networks make it easy for cybercriminals to hack and siphon off information from everyday people because they’re often unencrypted.</p>
-        <p>If you’re using public Wi-Fi, consider downloading a virtual private network (VPN) to put a protective shield over your device. </p>
+        <h3>{{ _('4. Avoid accessing emails via public Wi-Fi') }}</h3>
+        <p>{{ _('Whether you’re checking your account balances while in line for coffee or checking your email while at lunch, if you’re doing it on a public Wi-Fi network, your data is at risk. Public Wi-Fi networks make it easy for cybercriminals to hack and siphon off information from everyday people because they’re often unencrypted.') }}</p>
+        <p>{{ _('If you’re using public Wi-Fi, consider downloading a virtual private network (VPN) to put a protective shield over your device.') }}</p>
 
-        <h3>5. Always log out when finished</h3>
-        <p>You should always log out of your email account after you've finished using it. This applies to when you're on both unfamiliar and familiar devices. If a hacker enters a protected network, you don’t want them to have a clear pathway toward the information they’re looking for by leaving your accounts wide open. </p>
+        <h3>{{ _('5. Always log out when finished') }}</h3>
+        <p>{{ _('You should always log out of your email account after you\'ve finished using it. This applies to when you\'re on both unfamiliar and familiar devices. If a hacker enters a protected network, you don’t want them to have a clear pathway toward the information they’re looking for by leaving your accounts wide open.') }}</p>
 
-        <h2>FAQs about encrypting email</h2>
-        <p>Still have questions about encrypting email messages? We have answers.</p>
+        <h2>{{ _('FAQs about encrypting email') }}</h2>
+        <p>{{ _('Still have questions about encrypting email messages? We have answers.') }}</p>
 
-        <h3>How do I password-protect an email attachment?</h3>
-        <p>It depends. For some types of attachments, you can save them with a password requirement. Other types of attachments can be password-protected within an email system, though this feature is not available for all providers.</p>
+        <h3>{{ _('How do I password-protect an email attachment?') }}</h3>
+        <p>{{ _('It depends. For some types of attachments, you can save them with a password requirement. Other types of attachments can be password-protected within an email system, though this feature is not available for all providers.') }}</p>
 
-        <h3>Is it a good idea to encrypt your email?</h3>
-        <p>It is usually a good idea to encrypt your email, especially if you’re sharing any information you’d like to keep private. If somebody hacks your email, having certain types of email encryption can prevent the hacker from reading your messages.</p>
+        <h3>{{ _('Is it a good idea to encrypt your email?') }}</h3>
+        <p>{{ _('It is usually a good idea to encrypt your email, especially if you’re sharing any information you’d like to keep private. If somebody hacks your email, having certain types of email encryption can prevent the hacker from reading your messages.') }}</p>
 
-        <h3>What is the difference between encrypted email and secure email?</h3>
-        <p>Encrypted emails are messages that are themselves encrypted, meaning that they are secure whether they’re in your sent messages or the inbox of the intended recipient. Secure email means that the data in an email account is secure within the system, but individual emails are not necessarily encrypted.</p>
+        <h3>{{ _('What is the difference between encrypted email and secure email?') }}</h3>
+        <p>{{ _('Encrypted emails are messages that are themselves encrypted, meaning that they are secure whether they’re in your sent messages or the inbox of the intended recipient. Secure email means that the data in an email account is secure within the system, but individual emails are not necessarily encrypted.') }}</p>
 
-
+        
     </main>
 {% endblock %}

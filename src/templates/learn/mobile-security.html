@@ -1,51 +1,54 @@
 {% extends "base.html" %}
 
 {% block title %}
-    LEARN about mobile security 
+    {{ _('LEARN about Mobile Security') }}
 {% endblock %}
 
 {% block content %}
     <main>
-        <h1>Mobile Security</h1>  
-        </br>      
-        <!-- Add more content here -->
-        <h2>What is mobile security?</h2>
-        <p><b>Mobile security is a system of security software and habits that keeps your data out of the hands of hackers, scammers, and identity thieves. </b>While it’s tempting to think that only politicians, financial institutions, and big tech companies need enhanced security, everyone needs protection.</p>
+        <h1>{{ _('Mobile Security') }}</h1>  
+        <!-- credit source-->
+        <p>
+            <i>{{ _('Source: ') }}
+                <a href="https://us.norton.com/blog/mobile/mobile-security-101" target="_blank">
+                    {{ _('US Norton Blog - Mobile security: What it is and why you need it') }}
+                </a>
+            </i>
+        </p>
+        </br>
         
-        <h2>Why mobile security is crucial</h2>
-        <p><b>While device manufacturers help you protect your Android and Apple devices and operating systems, it often isn’t enough to fully safeguard your data from attacks by hackers.</b></p>
+        <h2>{{ _('What is mobile security?') }}</h2>
+        <p><b>{{ _('Mobile security is a system of security software and habits that keeps your data out of the hands of hackers, scammers, and identity thieves.') }}</b> {{ _('While it’s tempting to think that only politicians, financial institutions, and big tech companies need enhanced security, everyone needs protection.') }}</p>
         
-        <p>Cybercriminals don’t discriminate when they create malware to infect the latest computers, phones, and tablets. If they can design a virus that will make its way into the servers of large banks to steal account numbers and passwords, those scammers will also find a way to deploy it against normal people (or they’ll sell it to someone who will).</p>
+        <h2>{{ _('Why mobile security is crucial') }}</h2>
+        <p><b>{{ _('While device manufacturers help you protect your Android and Apple devices and operating systems, it often isn’t enough to fully safeguard your data from attacks by hackers.') }}</b></p>
+        
+        <p>{{ _('Cybercriminals don’t discriminate when they create malware to infect the latest computers, phones, and tablets. If they can design a virus that will make its way into the servers of large banks to steal account numbers and passwords, those scammers will also find a way to deploy it against normal people (or they’ll sell it to someone who will).') }}</p>
 
-        <p>Mobile security attacks can:</p>
+        <p>{{ _('Mobile security attacks can:') }}</p>
             <ul>
-            <li>Expose your financial information.</li>
-            <li>Increase the likelihood of identity theft.</li>
-            <li>Corrupt your files and personal data.</li>
+                <li>{{ _('Expose your financial information.') }}</li>
+                <li>{{ _('Increase the likelihood of identity theft.') }}</li>
+                <li>{{ _('Corrupt your files and personal data.') }}</li>
             </ul>
         
-        <p><b>Real security means taking extra steps to improve your digital safety habits and using software that recognizes and stops threats before your devices are compromised. </b></p>
-        <!-- insert image of what mobile security protects-->
-        <img src="/static/images/content/learn/mobile-security-protects.jpg" alt="What Mobile Security Protects">
+        <p><b>{{ _('Real security means taking extra steps to improve your digital safety habits and using software that recognizes and stops threats before your devices are compromised.') }}</b></p>
+        <img src="/static/images/content/{{ g.lang }}/learn/mobile-security-protects.jpg" alt="{{ _('What Mobile Security Protects') }}">
 
-        <h2>5 examples of mobile security and how they work</h2>
-        <p>Because the threats posed by malware and hacking are so varied, the systems needed to prevent and stop them are varied, too. When mobile security systems work together, they create a much stronger shield against bad actors than any one system could on its own.</p>
-        <p>Some examples of mobile security include:</p>
+        <h2>{{ _('5 examples of mobile security and how they work') }}</h2>
+        <p>{{ _('Because the threats posed by malware and hacking are so varied, the systems needed to prevent and stop them are varied, too. When mobile security systems work together, they create a much stronger shield against bad actors than any one system could on its own.') }}</p>
+        <p>{{ _('Some examples of mobile security include:') }}</p>
         <ol>
-        <li><b>Encryption</b>to keep your online traffic and data secret. Encrypted information can only be read by those with the decryption key. </li>
-        <li><b>Secure boot processes</b> for safer compliance between hardware and firmware.<b> </b>These security standards ensure that hardware can use operating systems and programs. This prevents dangerous hardware, like a flash drive loaded with malware, from being able to access and run amok within a system.</li>
-        <li><b>Application sandboxing</b> to observe and stop the spread of malicious software. Application sandboxing creates a limited environment for code to run. These environments reduce access to resources to observe new programs, recognized threats, and suspicious code. By isolating and observing malware, these systems can learn how it functions and how to protect against it.</li>
-        <li><b>Mobile malware and antivirus software</b> stop known threats and watch over your devices. Using signature detection to stop known threats along with a form of application sandboxing to contain possible threats, mobile antivirus software helps keep devices free from infection.  </li>
-        <li><b>Network security protocols</b>, like HTTPS, let your devices know a connection is safe. These protocols, including SSL certificates, create an encrypted channel for traffic to move safely between trusted devices. <br />
-         </li>
+            <li><b>{{ _('Encryption') }}</b> {{ _('to keep your online traffic and data secret. Encrypted information can only be read by those with the decryption key.') }}</li>
+            <li><b>{{ _('Secure boot processes') }}</b> {{ _('for safer compliance between hardware and firmware. These security standards ensure that hardware can use operating systems and programs. This prevents dangerous hardware, like a flash drive loaded with malware, from being able to access and run amok within a system.') }}</li>
+            <li><b>{{ _('Application sandboxing') }}</b> {{ _('to observe and stop the spread of malicious software. Application sandboxing creates a limited environment for code to run. These environments reduce access to resources to observe new programs, recognized threats, and suspicious code. By isolating and observing malware, these systems can learn how it functions and how to protect against it.') }}</li>
+            <li><b>{{ _('Mobile malware and antivirus software') }}</b> {{ _('stop known threats and watch over your devices. Using signature detection to stop known threats along with a form of application sandboxing to contain possible threats, mobile antivirus software helps keep devices free from infection.') }}</li>
+            <li><b>{{ _('Network security protocols') }}</b> {{ _('like HTTPS, let your devices know a connection is safe. These protocols, including SSL certificates, create an encrypted channel for traffic to move safely between trusted devices.') }}</li>
         </ol>
         
-        <h2>The main threats to mobile security</h2>
-        <!-- insert image of common mobile security threats -->
-        <img src="/static/images/content/learn/mobile-security-threats.jpg" alt="What are Mobile Security Threats">
-
-        <p>These threats present themselves in many different formats, and the people behind them always try to improve their effectiveness. Knowing these dangers, how they impact your mobile data security, and what damage they can do can help you react when these problems arise.</p>
-
-
+        <h2>{{ _('The main threats to mobile security') }}</h2>
+        <img src="/static/images/content/{{ g.lang }}/learn/mobile-security-threats.jpg" alt="{{ _('What are Mobile Security Threats') }}">
+        <p>{{ _('These threats present themselves in many different formats, and the people behind them always try to improve their effectiveness. Knowing these dangers, how they impact your mobile data security, and what damage they can do can help you react when these problems arise.') }}</p>
+    
     </main>
 {% endblock %}
