@@ -1,14 +1,14 @@
 # Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-23 20:08+0000\n"
+"POT-Creation-Date: 2025-01-05 23:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: templates/guides.html:4 templates/home.html:18
+#: templates/base.html:74 templates/home.html:15 templates/learn.html:4
+msgid "Learn"
+msgstr ""
+
+#: templates/base.html:75 templates/guides.html:4 templates/home.html:18
 msgid "Guides"
+msgstr ""
+
+#: templates/base.html:76 templates/home.html:21 templates/tools.html:4
+msgid "Tools"
 msgstr ""
 
 #: templates/guides.html:9
@@ -35,7 +43,7 @@ msgstr ""
 
 #: templates/guides.html:21 templates/guides/use-encryption.html:9
 #: templates/learn.html:21 templates/learn/encryption.html:9
-#: templates/learn/mobile-security.html:33
+#: templates/learn/mobile-security.html:42
 msgid "Encryption"
 msgstr ""
 
@@ -67,8 +75,8 @@ msgstr ""
 msgid "Identify and avoid common phishing attacks."
 msgstr ""
 
-#: templates/guides.html:45 templates/learn.html:45
-#: templates/learn/software-updates.html:9
+#: templates/guides.html:45 templates/guides/how-to-update-software.html:9
+#: templates/learn.html:45 templates/learn/software-updates.html:9
 msgid "Software Updates"
 msgstr ""
 
@@ -130,10 +138,6 @@ msgstr ""
 msgid "What You'll Find Here:"
 msgstr ""
 
-#: templates/home.html:15 templates/learn.html:4
-msgid "Learn"
-msgstr ""
-
 #: templates/home.html:15
 msgid ""
 "Explore basic concepts of online safety and cybersecurity. Understand why"
@@ -146,24 +150,10 @@ msgid ""
 "habits to mobile security best practices."
 msgstr ""
 
-#: templates/home.html:21 templates/tools.html:4
-msgid "Tools"
-msgstr ""
-
 #: templates/home.html:21
 msgid ""
 "A curated list of free, reliable antivirus and security tools for mobile "
 "devices."
-msgstr ""
-
-#: templates/home.html:25
-msgid "What is Cyber Security?"
-msgstr ""
-
-#: templates/home.html:26
-msgid ""
-"Cyber security is the state or process of protecting and recovering "
-"networks, devices and programs from any type of cyberattack."
 msgstr ""
 
 #: templates/learn.html:9
@@ -250,14 +240,50 @@ msgstr ""
 msgid "Best Antivirus for Android"
 msgstr ""
 
+#: templates/guides/how-to-update-software.html:4
+msgid "GUIDE on How To Update Softwares"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:12
+#: templates/guides/malware-protection.html:12
+#: templates/guides/prevent-theft.html:12
+#: templates/guides/secure-mobile.html:12
+#: templates/guides/secure-passwords.html:12
+#: templates/guides/spot-phishing.html:12
+#: templates/guides/use-encryption.html:12
+#: templates/guides/use-two-factor.html:12 templates/guides/use-vpn.html:12
+#: templates/learn/encryption.html:12 templates/learn/identity-theft.html:12
+#: templates/learn/malware.html:12 templates/learn/mobile-security.html:12
+#: templates/learn/password-security.html:12 templates/learn/phishing.html:12
+#: templates/learn/software-updates.html:12
+#: templates/learn/two-factor-authentication.html:12
+#: templates/learn/vpn.html:12
+msgid "Source: "
+msgstr ""
+
 #: templates/guides/how-to-update-software.html:14
+#: templates/learn/software-updates.html:14
+msgid ""
+"US Norton Blog - Why you should install software updates and operating "
+"system updates today"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:22
+msgid "Update software and apps"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:23
 msgid ""
 "How you update software depends on the devices and operating systems "
 "you’re using. You can update your software quickly by following the steps"
 " we’ve provided for the various platforms below."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:17
+#: templates/guides/how-to-update-software.html:25
+msgid "Updating software and apps on iOS devices"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:26
 msgid ""
 "If you have an iPhone, iPad, Apple Watch, or another device running iOS, "
 "your software and applications will be updated in the Apple App Store. "
@@ -265,55 +291,67 @@ msgid ""
 "Store icon if any of your apps have an important update available."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:18
+#: templates/guides/how-to-update-software.html:27
 msgid "Then, simply:"
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:20
+#: templates/guides/how-to-update-software.html:29
 msgid "Click on the App Store icon."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:21
+#: templates/guides/how-to-update-software.html:30
 msgid ""
 "Click the Update button next to individual apps to begin the process, or "
 "click the Install All Updates button to do them all at once."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:25
+#: templates/guides/how-to-update-software.html:33
+msgid "Updating software and apps on Android devices"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:34
 msgid ""
 "When using Android, you‘ll update most of your applications in the Google"
 " Play Store. You can also turn on automatic updates to make sure you’re "
 "doing everything possible to protect your Android device."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:26
+#: templates/guides/how-to-update-software.html:35
 msgid "But to implement updates manually:"
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:28
+#: templates/guides/how-to-update-software.html:37
 msgid "Open the Google Play Store app."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:29
+#: templates/guides/how-to-update-software.html:38
 msgid "Tap the profile icon in the top right."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:30
+#: templates/guides/how-to-update-software.html:39
 msgid "Tap Manage apps & devices to view apps that have updates available."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:31
+#: templates/guides/how-to-update-software.html:40
 msgid "Tap Update to start the update."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:35
+#: templates/guides/how-to-update-software.html:43
+msgid "How to update operating systems"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:44
 msgid ""
 "How you update your operating system also depends on the device you’re "
 "using. To make sure you’re running the latest version of your operating "
 "system, follow the steps for the different platforms provided below."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:38
+#: templates/guides/how-to-update-software.html:46
+msgid "Update iOS devices"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:47
 msgid ""
 "When using an iOS device, you’ll access your operating system updates "
 "through the System Settings. You’ll see a red circle with a number in the"
@@ -321,76 +359,84 @@ msgid ""
 "to be installed."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:39
+#: templates/guides/how-to-update-software.html:48
 msgid "To get the new version:"
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:41
-#: templates/guides/how-to-update-software.html:54
+#: templates/guides/how-to-update-software.html:50
+#: templates/guides/how-to-update-software.html:63
 msgid "Open Settings."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:42
+#: templates/guides/how-to-update-software.html:51
 msgid "Tap General."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:43
+#: templates/guides/how-to-update-software.html:52
 msgid "Tap Software Update."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:44
+#: templates/guides/how-to-update-software.html:53
 msgid ""
 "Tap the Update Now or Download and Install to install the newest version "
 "of Mac iOS."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:46
+#: templates/guides/how-to-update-software.html:55
 msgid "Note:"
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:46
+#: templates/guides/how-to-update-software.html:55
 msgid "Apple recommends backing up your device before installing an iOS update."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:49
+#: templates/guides/how-to-update-software.html:57
 msgid "How to Update iOS"
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:51
+#: templates/guides/how-to-update-software.html:59
+msgid "How to update operating systems on Android devices"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:60
 msgid ""
 "When using an Android phone or tablet, you’ll find operating system "
 "updates in Settings."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:52
+#: templates/guides/how-to-update-software.html:61
 msgid "To check for, and install, available updates:"
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:55
+#: templates/guides/how-to-update-software.html:64
 msgid "Tap About phone."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:56
+#: templates/guides/how-to-update-software.html:65
 msgid "Tap Software update or Check now for updates."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:57
+#: templates/guides/how-to-update-software.html:66
 msgid ""
 "Tap Download and install or choose one of the other options to install "
 "the OS update later."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:61
+#: templates/guides/how-to-update-software.html:69
 msgid "How to Update Android"
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:64
+#: templates/guides/how-to-update-software.html:71
+msgid "How to keep software and operating systems updated"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:72
 msgid ""
 "For most modern devices, it’s easy to keep your apps or OS updated. Let’s"
 " look at two of the best ways to stay as up to date as possible:"
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:66
+#: templates/guides/how-to-update-software.html:74
 msgid ""
 "Look for notifications: The Apple App Store, the Google Play Store, "
 "Android and iOS devices, and Windows and Mac OS computers will tell you "
@@ -399,7 +445,7 @@ msgid ""
 "need to go into the update menu directly."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:67
+#: templates/guides/how-to-update-software.html:75
 msgid ""
 "Turn on automatic updates: Almost every device will let you turn on "
 "automatic updates for apps and operating systems. This process can vary "
@@ -407,11 +453,19 @@ msgid ""
 "in the device settings section or store settings."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:71
+#: templates/guides/how-to-update-software.html:78
+msgid "FAQs about software updates"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:79
 msgid "Have more questions about computer updates? We have answers."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:74
+#: templates/guides/how-to-update-software.html:81
+msgid "What happens if I don’t update my software?"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:82
 msgid ""
 "If you don’t update your software, you’re at greater risk of system "
 "problems, hackers, malware, and compatibility issues. Older versions are "
@@ -420,7 +474,11 @@ msgid ""
 "editing."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:77
+#: templates/guides/how-to-update-software.html:84
+msgid "Are there any risks to updating software?"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:85
 msgid ""
 "There are some risks to updating software and operating systems. Any new "
 "version of an app or OS is almost certain to contain some security "
@@ -430,7 +488,11 @@ msgid ""
 "outweigh the downsides."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:80
+#: templates/guides/how-to-update-software.html:87
+msgid "How do I know if my software is up to date?"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:88
 msgid ""
 "The easiest way to check if your software is up to date is to see if "
 "updates are available wherever you normally update your software. This "
@@ -438,7 +500,11 @@ msgid ""
 "You can also usually find any available updates via your system settings."
 msgstr ""
 
-#: templates/guides/how-to-update-software.html:83
+#: templates/guides/how-to-update-software.html:90
+msgid "What is the risk of running outdated software?"
+msgstr ""
+
+#: templates/guides/how-to-update-software.html:91
 msgid ""
 "If you run outdated software, the known vulnerabilities in older versions"
 " of apps and operating systems mean you’re at a higher risk of being "
@@ -450,11 +516,19 @@ msgstr ""
 msgid "GUIDE on Malware Detection and Prevention Tips"
 msgstr ""
 
-#: templates/guides/malware-protection.html:12
+#: templates/guides/malware-protection.html:15
+msgid "US Norton Blog - How to get rid of iPhone viruses"
+msgstr ""
+
+#: templates/guides/malware-protection.html:18
+msgid "US Norton Blog - How to remove a virus from an Android phone"
+msgstr ""
+
+#: templates/guides/malware-protection.html:26
 msgid "How to check for viruses on your iPhone"
 msgstr ""
 
-#: templates/guides/malware-protection.html:13
+#: templates/guides/malware-protection.html:27
 msgid ""
 "If your iPhone is acting unusually, it's important to determine if these "
 "behaviors are typical signs of a virus. It's possible that other factors,"
@@ -463,17 +537,17 @@ msgid ""
 "fix the issue."
 msgstr ""
 
-#: templates/guides/malware-protection.html:14
+#: templates/guides/malware-protection.html:28
 msgid ""
 "But, if your iPhone shows common virus symptoms, that’s a signal that you"
 " could be dealing with a malware infection. Here’s what to look out for:"
 msgstr ""
 
-#: templates/guides/malware-protection.html:16
+#: templates/guides/malware-protection.html:30
 msgid "Phone performance"
 msgstr ""
 
-#: templates/guides/malware-protection.html:17
+#: templates/guides/malware-protection.html:31
 msgid ""
 "If your iPhone's apps frequently crash or the device shuts down "
 "unexpectedly, a virus might be disrupting your phone's operations. That "
@@ -481,7 +555,7 @@ msgid ""
 "functionality."
 msgstr ""
 
-#: templates/guides/malware-protection.html:18
+#: templates/guides/malware-protection.html:32
 msgid ""
 "Viruses also strain your phone’s processor and memory with additional "
 "tasks, hindering the efficient operation of other apps. That extra "
@@ -489,11 +563,11 @@ msgid ""
 "device to overheat and the battery to drain more quickly."
 msgstr ""
 
-#: templates/guides/malware-protection.html:20
+#: templates/guides/malware-protection.html:34
 msgid "Data usage"
 msgstr ""
 
-#: templates/guides/malware-protection.html:21
+#: templates/guides/malware-protection.html:35
 msgid ""
 "Malware on your iPhone can exploit your data connection for malicious "
 "activities. That may involve hijacking data-intensive apps, covertly "
@@ -501,18 +575,18 @@ msgid ""
 "sources."
 msgstr ""
 
-#: templates/guides/malware-protection.html:22
+#: templates/guides/malware-protection.html:36
 msgid ""
 "Such actions can lead to a significant increase in your mobile data "
 "usage. That excess data usage may cause you to exceed your data limit and"
 " lead to a higher phone bill."
 msgstr ""
 
-#: templates/guides/malware-protection.html:24
+#: templates/guides/malware-protection.html:38
 msgid "Third-party software"
 msgstr ""
 
-#: templates/guides/malware-protection.html:25
+#: templates/guides/malware-protection.html:39
 msgid ""
 "Discovering an unfamiliar app on your iPhone could indicate malware. Even"
 " if you installed the app, issues that emerge after installation could "
@@ -522,18 +596,18 @@ msgid ""
 "risk of virus exposure."
 msgstr ""
 
-#: templates/guides/malware-protection.html:26
+#: templates/guides/malware-protection.html:40
 msgid ""
 "But even malicious apps have snuck into Apple’s App Store. If you notice "
 "persistent pop-ups or other suspicious app behavior, that may be a sign "
 "that malicious third-party software has infiltrated your iPhone."
 msgstr ""
 
-#: templates/guides/malware-protection.html:28
+#: templates/guides/malware-protection.html:42
 msgid "Scan for viruses"
 msgstr ""
 
-#: templates/guides/malware-protection.html:29
+#: templates/guides/malware-protection.html:43
 msgid ""
 "If all the above steps fail, and you still think your iPhone may have a "
 "virus, then it’s time to use an antivirus app to help detect malware on "
@@ -543,11 +617,11 @@ msgid ""
 "network."
 msgstr ""
 
-#: templates/guides/malware-protection.html:31
+#: templates/guides/malware-protection.html:45
 msgid "How to get rid of viruses on your iPhone"
 msgstr ""
 
-#: templates/guides/malware-protection.html:32
+#: templates/guides/malware-protection.html:46
 msgid ""
 "Running an iOS antivirus scan with a security app like Norton 360 for "
 "Mobile is an effective way to remove iPhone viruses. As well as helping "
@@ -556,17 +630,17 @@ msgid ""
 "they spread to your device."
 msgstr ""
 
-#: templates/guides/malware-protection.html:33
+#: templates/guides/malware-protection.html:47
 msgid ""
 "Keep reading and follow the methods below to learn how to remove iOS "
 "viruses and malware:"
 msgstr ""
 
-#: templates/guides/malware-protection.html:35
+#: templates/guides/malware-protection.html:49
 msgid "Clean up your device"
 msgstr ""
 
-#: templates/guides/malware-protection.html:36
+#: templates/guides/malware-protection.html:50
 msgid ""
 "The first step is to wipe your iPhone clean of the most likely sources of"
 " infection. To do this, delete suspicious apps, particularly those you "
@@ -575,11 +649,11 @@ msgid ""
 "such as iMessage cookies."
 msgstr ""
 
-#: templates/guides/malware-protection.html:38
+#: templates/guides/malware-protection.html:52
 msgid "Restart your iPhone"
 msgstr ""
 
-#: templates/guides/malware-protection.html:39
+#: templates/guides/malware-protection.html:53
 msgid ""
 "To help wipe the slate clean, restart your iPhone. Simply power off your "
 "phone, wait a few seconds after it finishes shutting down, and turn it on"
@@ -587,11 +661,11 @@ msgid ""
 " spreading further through iOS."
 msgstr ""
 
-#: templates/guides/malware-protection.html:41
+#: templates/guides/malware-protection.html:55
 msgid "Install the latest iOS"
 msgstr ""
 
-#: templates/guides/malware-protection.html:42
+#: templates/guides/malware-protection.html:56
 msgid ""
 "Whether or not the previous steps have managed to purge your iPhone of "
 "malware, installing the latest version of iOS will help prevent "
@@ -599,117 +673,117 @@ msgid ""
 "your system."
 msgstr ""
 
-#: templates/guides/malware-protection.html:43
+#: templates/guides/malware-protection.html:57
 msgid "To update your iOS, go to"
 msgstr ""
 
-#: templates/guides/malware-protection.html:43
-#: templates/guides/malware-protection.html:48
-#: templates/guides/use-encryption.html:15
+#: templates/guides/malware-protection.html:57
+#: templates/guides/malware-protection.html:62
+#: templates/guides/use-encryption.html:24
 msgid "Settings"
 msgstr ""
 
-#: templates/guides/malware-protection.html:43
-#: templates/guides/malware-protection.html:48
+#: templates/guides/malware-protection.html:57
+#: templates/guides/malware-protection.html:62
 msgid "General"
 msgstr ""
 
-#: templates/guides/malware-protection.html:43
+#: templates/guides/malware-protection.html:57
 msgid "Software Update"
 msgstr ""
 
-#: templates/guides/malware-protection.html:43
+#: templates/guides/malware-protection.html:57
 msgid "and install any available software updates."
 msgstr ""
 
-#: templates/guides/malware-protection.html:45
+#: templates/guides/malware-protection.html:59
 msgid "Restore from a backup or reset to factory settings"
 msgstr ""
 
-#: templates/guides/malware-protection.html:46
+#: templates/guides/malware-protection.html:60
 msgid ""
 "To manually remove more advanced and stubborn malware, you may have to "
 "restore your iPhone to a previously backed-up version from before the "
 "malware infection hit."
 msgstr ""
 
-#: templates/guides/malware-protection.html:47
+#: templates/guides/malware-protection.html:61
 msgid "You can restore a clean backup from iCloud by following these steps:"
 msgstr ""
 
-#: templates/guides/malware-protection.html:48
+#: templates/guides/malware-protection.html:62
 msgid "Go to"
 msgstr ""
 
-#: templates/guides/malware-protection.html:48
+#: templates/guides/malware-protection.html:62
 msgid "Transfer or Reset iPhone"
 msgstr ""
 
-#: templates/guides/malware-protection.html:49
-#: templates/guides/use-encryption.html:16
+#: templates/guides/malware-protection.html:63
+#: templates/guides/use-encryption.html:25
 msgid "Select"
 msgstr ""
 
-#: templates/guides/malware-protection.html:49
+#: templates/guides/malware-protection.html:63
 msgid "Erase All Content and Settings"
 msgstr ""
 
-#: templates/guides/malware-protection.html:49
+#: templates/guides/malware-protection.html:63
 msgid "Erase Now"
 msgstr ""
 
-#: templates/guides/malware-protection.html:49
+#: templates/guides/malware-protection.html:63
 msgid "and follow the on-screen prompts to continue."
 msgstr ""
 
-#: templates/guides/malware-protection.html:50
+#: templates/guides/malware-protection.html:64
 msgid "During rebooting, your iPhone will show the"
 msgstr ""
 
-#: templates/guides/malware-protection.html:50
+#: templates/guides/malware-protection.html:64
 msgid "Apps &amp; Data"
 msgstr ""
 
-#: templates/guides/malware-protection.html:50
+#: templates/guides/malware-protection.html:64
 msgid "page, where you can select"
 msgstr ""
 
-#: templates/guides/malware-protection.html:50
+#: templates/guides/malware-protection.html:64
 msgid "Restore from iCloud Backup"
 msgstr ""
 
-#: templates/guides/malware-protection.html:51
+#: templates/guides/malware-protection.html:65
 msgid "Sign into iCloud and choose the backed-up iOS version to restore."
 msgstr ""
 
-#: templates/guides/malware-protection.html:53
+#: templates/guides/malware-protection.html:67
 msgid ""
 "If all else fails and you don’t have a backup to restore from, you should"
 " try performing a factory reset, which will"
 msgstr ""
 
-#: templates/guides/malware-protection.html:53
+#: templates/guides/malware-protection.html:67
 msgid "erase all the data from your device"
 msgstr ""
 
-#: templates/guides/malware-protection.html:53
+#: templates/guides/malware-protection.html:67
 msgid ""
 "Along with purging any viruses, a factory reset will also wipe your "
 "photos, files, apps, and settings—so proceed accordingly."
 msgstr ""
 
-#: templates/guides/malware-protection.html:54
+#: templates/guides/malware-protection.html:68
 msgid ""
 "To factory reset your iPhone, follow the same steps as above—the only "
 "difference is that you won’t be able to restore a backed-up version of "
 "your phone’s memory during the reboot."
 msgstr ""
 
-#: templates/guides/malware-protection.html:56
+#: templates/guides/malware-protection.html:70
 msgid "Preventing iPhone viruses"
 msgstr ""
 
-#: templates/guides/malware-protection.html:57
+#: templates/guides/malware-protection.html:71
 msgid ""
 "Apple’s iOS has iPhone security features that make malware infiltration "
 "relatively rare. iPhones operate in a self-contained ecosystem, using "
@@ -719,18 +793,18 @@ msgid ""
 "infiltrate."
 msgstr ""
 
-#: templates/guides/malware-protection.html:58
+#: templates/guides/malware-protection.html:72
 msgid ""
 "There’s no way to prevent all iPhone viruses, but there are basic and "
 "essential steps you can take to help shield your device from malicious "
 "software:"
 msgstr ""
 
-#: templates/guides/malware-protection.html:60
+#: templates/guides/malware-protection.html:74
 msgid "Don’t jailbreak"
 msgstr ""
 
-#: templates/guides/malware-protection.html:61
+#: templates/guides/malware-protection.html:75
 msgid ""
 "Sticking to the standard iOS configuration and not jailbreaking your "
 "phone reduces the chances that an iPhone virus infects your phone. iOS "
@@ -740,22 +814,22 @@ msgid ""
 "you’re a researcher), you shouldn’t try to jailbreak your iPhone."
 msgstr ""
 
-#: templates/guides/malware-protection.html:63
+#: templates/guides/malware-protection.html:77
 msgid "Download apps only from the App Store"
 msgstr ""
 
-#: templates/guides/malware-protection.html:64
+#: templates/guides/malware-protection.html:78
 msgid ""
 "Apple’s App Store is the safest place to download the apps you need for "
 "your iPhone. Downloading or installing apps from unverified third-party "
 "sources can increase the risk of exposing your device to iPhone malware."
 msgstr ""
 
-#: templates/guides/malware-protection.html:66
+#: templates/guides/malware-protection.html:80
 msgid "Stay alert to potential risks"
 msgstr ""
 
-#: templates/guides/malware-protection.html:67
+#: templates/guides/malware-protection.html:81
 #, python-format
 msgid ""
 "Although iOS may be safer than other operating systems, no computing "
@@ -766,11 +840,11 @@ msgid ""
 "Wi-Fi."
 msgstr ""
 
-#: templates/guides/malware-protection.html:69
+#: templates/guides/malware-protection.html:83
 msgid "Permissions and updates"
 msgstr ""
 
-#: templates/guides/malware-protection.html:70
+#: templates/guides/malware-protection.html:84
 msgid ""
 "Even if you trust all the apps on your iPhone, be careful about what "
 "permissions you give them. Being careful with the permissions you grant "
@@ -779,74 +853,74 @@ msgid ""
 "less capable of spreading viruses to other apps on your iPhone."
 msgstr ""
 
-#: templates/guides/malware-protection.html:72
+#: templates/guides/malware-protection.html:86
 msgid "Signs your Android phone may have a virus or other malware"
 msgstr ""
 
-#: templates/guides/malware-protection.html:73
+#: templates/guides/malware-protection.html:87
 msgid ""
 "Phones can be vulnerable to damage externally and internally. While the "
 "external damage is usually visible, internal damage is usually hidden "
 "from view."
 msgstr ""
 
-#: templates/guides/malware-protection.html:74
+#: templates/guides/malware-protection.html:88
 msgid ""
 "Malware like viruses is known to perform repeated tasks that can take up "
 "resources on your devices. Signs of malware may show up in these ways:"
 msgstr ""
 
-#: templates/guides/malware-protection.html:76
+#: templates/guides/malware-protection.html:90
 msgid "Your phone is too slow."
 msgstr ""
 
-#: templates/guides/malware-protection.html:77
+#: templates/guides/malware-protection.html:91
 msgid "Apps take longer to load."
 msgstr ""
 
-#: templates/guides/malware-protection.html:78
+#: templates/guides/malware-protection.html:92
 msgid "The battery drains faster than expected."
 msgstr ""
 
-#: templates/guides/malware-protection.html:79
+#: templates/guides/malware-protection.html:93
 msgid "There is an abundance of pop-up ads."
 msgstr ""
 
-#: templates/guides/malware-protection.html:80
+#: templates/guides/malware-protection.html:94
 msgid "Your phone has apps you don’t remember downloading."
 msgstr ""
 
-#: templates/guides/malware-protection.html:81
+#: templates/guides/malware-protection.html:95
 msgid "Unexplained data usage occurs."
 msgstr ""
 
-#: templates/guides/malware-protection.html:82
+#: templates/guides/malware-protection.html:96
 msgid "Higher phone bills arrive."
 msgstr ""
 
-#: templates/guides/malware-protection.html:85
+#: templates/guides/malware-protection.html:99
 msgid "How to check for viruses and other malware on your Android phone"
 msgstr ""
 
-#: templates/guides/malware-protection.html:86
+#: templates/guides/malware-protection.html:100
 msgid ""
 "A good way to check for malware on your Android phone is to run an "
 "antivirus scan."
 msgstr ""
 
-#: templates/guides/malware-protection.html:87
+#: templates/guides/malware-protection.html:101
 msgid ""
 "Before buying antivirus software for your phone, make sure you consider "
 "the most comprehensive product that’s available for your device."
 msgstr ""
 
-#: templates/guides/malware-protection.html:88
+#: templates/guides/malware-protection.html:102
 msgid ""
 "There are many antivirus software choices available on the market. Some "
 "are free, and some are sold."
 msgstr ""
 
-#: templates/guides/malware-protection.html:89
+#: templates/guides/malware-protection.html:103
 msgid ""
 "It’s a good idea to do your research to ensure the security software you "
 "invest in runs a complete scan and doesn’t overlook any vulnerabilities. "
@@ -854,18 +928,18 @@ msgid ""
 "fact, your device could be vulnerable to cyberattacks."
 msgstr ""
 
-#: templates/guides/malware-protection.html:91
+#: templates/guides/malware-protection.html:105
 msgid "How to remove viruses and other malware from your Android device"
 msgstr ""
 
-#: templates/guides/malware-protection.html:92
+#: templates/guides/malware-protection.html:106
 msgid ""
 "If you think you have malware on your phone, it’s important to stop the "
 "malware from causing any further damage. Here are a few steps you can "
 "take:"
 msgstr ""
 
-#: templates/guides/malware-protection.html:94
+#: templates/guides/malware-protection.html:108
 msgid ""
 "Power off the phone and reboot in safe mode. Press the power button to "
 "access the Power Off options. Most Android phones come with the option to"
@@ -876,7 +950,7 @@ msgid ""
 " at the bottom of your screen."
 msgstr ""
 
-#: templates/guides/malware-protection.html:95
+#: templates/guides/malware-protection.html:109
 msgid ""
 "Uninstall the suspicious app. Find the app in Settings and uninstall or "
 "force close it. This may not completely remove the malware, but it could "
@@ -884,56 +958,56 @@ msgid ""
 "malware to other devices on your network."
 msgstr ""
 
-#: templates/guides/malware-protection.html:96
+#: templates/guides/malware-protection.html:110
 msgid ""
 "Look for other apps you think may be infected. There’s a chance that some"
 " apps may have been infected by the malware. If you think you can "
 "identify those apps, delete them immediately."
 msgstr ""
 
-#: templates/guides/malware-protection.html:97
+#: templates/guides/malware-protection.html:111
 msgid "Install a robust mobile security app on your phone."
 msgstr ""
 
-#: templates/guides/malware-protection.html:100
+#: templates/guides/malware-protection.html:114
 msgid "Tips to help protect your Android device against viruses and other malware"
 msgstr ""
 
-#: templates/guides/malware-protection.html:101
+#: templates/guides/malware-protection.html:115
 msgid ""
 "Here are seven key steps you can take to help protect against future "
 "risks."
 msgstr ""
 
-#: templates/guides/malware-protection.html:103
+#: templates/guides/malware-protection.html:117
 msgid "Invest in and use robust security software to protect your Android device."
 msgstr ""
 
-#: templates/guides/malware-protection.html:104
+#: templates/guides/malware-protection.html:118
 msgid "Keep all operating systems and software updated with the latest versions."
 msgstr ""
 
-#: templates/guides/malware-protection.html:105
+#: templates/guides/malware-protection.html:119
 msgid "Don’t click on suspicious or unfamiliar links in emails and text messages."
 msgstr ""
 
-#: templates/guides/malware-protection.html:106
+#: templates/guides/malware-protection.html:120
 msgid "Use strong, complicated passwords or a password manager."
 msgstr ""
 
-#: templates/guides/malware-protection.html:107
+#: templates/guides/malware-protection.html:121
 msgid ""
 "Never use unsecure Wi-Fi connections. Always use a VPN when connecting to"
 " public Wi-Fi."
 msgstr ""
 
-#: templates/guides/malware-protection.html:108
+#: templates/guides/malware-protection.html:122
 msgid ""
 "Always use strong cyber safety protection on all devices that connect to "
 "the internet."
 msgstr ""
 
-#: templates/guides/malware-protection.html:109
+#: templates/guides/malware-protection.html:123
 msgid ""
 "Always install apps from trusted sources, such as the Google Play Store. "
 "Read the fine print and permissions on the apps to understand how much "
@@ -944,93 +1018,100 @@ msgstr ""
 msgid "GUIDE on How to Prevent Identity Theft"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:13
+#: templates/guides/prevent-theft.html:14
+#: templates/learn/identity-theft.html:14
+msgid ""
+"US Norton Blog - Identity theft: What is it, how it works, and common "
+"warning signs"
+msgstr ""
+
+#: templates/guides/prevent-theft.html:22
 msgid "Warning signs of identity theft"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:14
+#: templates/guides/prevent-theft.html:23
 msgid "ID theft warning signs can include:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:16
+#: templates/guides/prevent-theft.html:25
 msgid "Unexplained financial activity:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:16
+#: templates/guides/prevent-theft.html:25
 msgid ""
 "Charges, accounts, or withdrawals on your bank statements or credit card "
 "reports that you don't recognize."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:17
+#: templates/guides/prevent-theft.html:26
 msgid "Unexpected calls from debt collectors:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:17
+#: templates/guides/prevent-theft.html:26
 msgid "Phone calls from collection agencies about debts you aren’t aware of."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:18
+#: templates/guides/prevent-theft.html:27
 msgid "Missing mail or bills:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:18
+#: templates/guides/prevent-theft.html:27
 msgid ""
 "Important documents you were expecting never arrived, especially those "
 "containing financial information."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:19
+#: templates/guides/prevent-theft.html:28
 msgid "Errors on credit reports:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:19
+#: templates/guides/prevent-theft.html:28
 msgid ""
 "Inaccuracies on your credit report, such as accounts you haven't opened, "
 "inquiries you didn't initiate, or incorrect personal information."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:23
+#: templates/guides/prevent-theft.html:32
 msgid "Warning Signs of Identity Theft"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:24
+#: templates/guides/prevent-theft.html:33
 msgid ""
 "These are four common red flags of identity theft to look out for. And "
 "now that you know what identity theft may look like, here are the steps "
 "to take if you know or suspect you’re a victim."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:25
+#: templates/guides/prevent-theft.html:34
 msgid "What to do if you're a victim of identity theft"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:26
+#: templates/guides/prevent-theft.html:35
 msgid ""
 "If you’re a victim of ID theft, you need to mitigate damage quickly. Here"
 " are the immediate steps you should take to report identity theft."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:27
+#: templates/guides/prevent-theft.html:36
 msgid "If you are a victim of Identity Theft"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:30
+#: templates/guides/prevent-theft.html:39
 msgid "Contact financial institutions and companies where the fraud occurred:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:30
+#: templates/guides/prevent-theft.html:39
 msgid ""
 "Alert your bank, credit card companies, and other financial institutions "
 "about the identity theft. Also, contact the companies where the fraud "
 "occurred."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:31
+#: templates/guides/prevent-theft.html:40
 msgid "Freeze credit reports:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:31
+#: templates/guides/prevent-theft.html:40
 msgid ""
 "Contact the three major credit bureaus (Equifax®, Experian®, and "
 "TransUnion®) to freeze your credit report. This can help prevent "
@@ -1039,11 +1120,11 @@ msgid ""
 " who must then alert the others."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:32
+#: templates/guides/prevent-theft.html:41
 msgid "File a report with law enforcement:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:32
+#: templates/guides/prevent-theft.html:41
 msgid ""
 "Report the identity theft to the FTC at IdentityTheft.gov to get your "
 "personal recovery plan or file a police report. You will need proof of "
@@ -1051,11 +1132,11 @@ msgid ""
 " lasts seven years."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:35
+#: templates/guides/prevent-theft.html:44
 msgid "Ways to protect your identity"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:36
+#: templates/guides/prevent-theft.html:45
 msgid ""
 "There are several ways that you can help protect your identity from "
 "would-be thieves. ​​Here are the key strategies for safeguarding your "
@@ -1063,11 +1144,11 @@ msgid ""
 " in the first place:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:38
+#: templates/guides/prevent-theft.html:47
 msgid "Strengthen passwords and PINs:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:38
+#: templates/guides/prevent-theft.html:47
 msgid ""
 "Use complex and unique passwords for all your online accounts. Avoid "
 "using obvious information like birthdays or pet names. Consider a "
@@ -1076,11 +1157,11 @@ msgid ""
 "possible."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:39
+#: templates/guides/prevent-theft.html:48
 msgid "Be cautious with personal information online:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:39
+#: templates/guides/prevent-theft.html:48
 msgid ""
 "Don't share sensitive information like credit card details on unsecured "
 "websites or in response to unsolicited emails or messages. And think "
@@ -1088,11 +1169,11 @@ msgid ""
 "innocent info like your place of birth can be used by identity thieves."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:40
+#: templates/guides/prevent-theft.html:49
 msgid "Monitor financial accounts regularly:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:40
+#: templates/guides/prevent-theft.html:49
 msgid ""
 "Regularly review your bank statements and credit card reports for any "
 "unauthorized activity. Catching fraudulent charges early can minimize the"
@@ -1100,11 +1181,11 @@ msgid ""
 "Select to help monitor your credit."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:41
+#: templates/guides/prevent-theft.html:50
 msgid "Shred sensitive documents:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:41
+#: templates/guides/prevent-theft.html:50
 msgid ""
 "Before discarding documents containing personal information like bank "
 "statements or credit card offers, shred them thoroughly and dispose of "
@@ -1112,11 +1193,11 @@ msgid ""
 "your information from the trash."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:42
+#: templates/guides/prevent-theft.html:51
 msgid "Secure personal devices and networks:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:42
+#: templates/guides/prevent-theft.html:51
 msgid ""
 "Use a strong password on your home network and keep your devices' "
 "software updated so they have the latest security patches. Be cautious "
@@ -1124,11 +1205,11 @@ msgid ""
 " information on unsecured connections."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:43
+#: templates/guides/prevent-theft.html:52
 msgid "Be skeptical of unsolicited communications:"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:43
+#: templates/guides/prevent-theft.html:52
 msgid ""
 "Be wary of emails, texts, or phone calls you’re not expecting that "
 "request personal information. Don't click suspicious links or "
@@ -1136,25 +1217,25 @@ msgid ""
 "contact the sender directly through a verified channel."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:45
+#: templates/guides/prevent-theft.html:54
 msgid ""
 "By following these steps and staying vigilant, you can reduce your risk "
 "of identity theft and help protect your personal information."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:47
+#: templates/guides/prevent-theft.html:56
 msgid "FAQs about identity theft"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:48
+#: templates/guides/prevent-theft.html:57
 msgid "Still have questions about identity theft? We’ve got you covered."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:50
+#: templates/guides/prevent-theft.html:59
 msgid "What should I do if I suspect I'm a victim of identity theft?"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:51
+#: templates/guides/prevent-theft.html:60
 msgid ""
 "If you suspect that somebody stole your identity, alert your bank and "
 "credit card companies immediately. You should also place a fraud alert or"
@@ -1162,11 +1243,11 @@ msgid ""
 "think your identity has been compromised."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:53
+#: templates/guides/prevent-theft.html:62
 msgid "What do you do if someone has stolen your identity?"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:54
+#: templates/guides/prevent-theft.html:63
 msgid ""
 "Contact the company where you know the fraud took place and speak to the "
 "fraud department. Ask them to freeze your account or implement their "
@@ -1176,22 +1257,22 @@ msgid ""
 " IRS as well as your insurance and medical care providers."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:56
+#: templates/guides/prevent-theft.html:65
 msgid "Can children be victims of identity theft?"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:57
+#: templates/guides/prevent-theft.html:66
 msgid ""
 "Yes, child identity theft exists. If an ID thief knows your child’s "
 "Social Security number, they might use it to open new credit accounts or "
 "take out bank loans—and hurt your child’s credit score in the process."
 msgstr ""
 
-#: templates/guides/prevent-theft.html:59
+#: templates/guides/prevent-theft.html:68
 msgid "Is identity theft punishable by law?"
 msgstr ""
 
-#: templates/guides/prevent-theft.html:60
+#: templates/guides/prevent-theft.html:69
 msgid ""
 "Absolutely, identity theft is a serious crime with significant "
 "consequences for the perpetrators. The penalties for identity theft vary "
@@ -1202,11 +1283,16 @@ msgstr ""
 msgid "GUIDE on keeping your mobile secure"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:12
+#: templates/guides/secure-mobile.html:14
+#: templates/learn/mobile-security.html:14
+msgid "US Norton Blog - Mobile security: What it is and why you need it"
+msgstr ""
+
+#: templates/guides/secure-mobile.html:21
 msgid "How to secure mobile devices"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:13
+#: templates/guides/secure-mobile.html:22
 msgid ""
 "Just as there are many different kinds of threats, there are many ways to"
 " reduce the likelihood of your device being impacted by one of them. With"
@@ -1214,11 +1300,11 @@ msgid ""
 "keep different types of hackers and malware at bay."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:15
+#: templates/guides/secure-mobile.html:24
 msgid "Enable screen locks and biometrics for better in-person security"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:16
+#: templates/guides/secure-mobile.html:25
 msgid ""
 "Built-in security features should be your first line of defense against "
 "physical device tampering and theft. Choose as difficult a passcode as "
@@ -1227,33 +1313,33 @@ msgid ""
 "that is more difficult to hack than a password."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:18
+#: templates/guides/secure-mobile.html:27
 msgid "Keep your devices and apps up to date to limit vulnerabilities"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:19
+#: templates/guides/secure-mobile.html:28
 msgid ""
 "An updated device is more secure than one running an older operating "
 "system or application. Turn on automatic updates to minimize the time "
 "your phone is vulnerable to known threats."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:21
+#: templates/guides/secure-mobile.html:30
 msgid "Use secure networks and VPNs for safer browsing, shopping, and downloading"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:22
+#: templates/guides/secure-mobile.html:31
 msgid ""
 "A VPN creates an encrypted path for you to use the internet by "
 "anonymizing your device and masking your IP address. Always protect your "
 "browsing when on public Wi-Fi by using a VPN."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:24
+#: templates/guides/secure-mobile.html:33
 msgid "Back up and encrypt data to protect your personal information"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:25
+#: templates/guides/secure-mobile.html:34
 msgid ""
 "Backing up an encrypted copy of your data protects you in the event of "
 "malware disabling your mobile device. Encrypted cloud backups mean you "
@@ -1261,11 +1347,11 @@ msgid ""
 "physical backups."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:27
+#: templates/guides/secure-mobile.html:36
 msgid "Employ strong, unique passwords and 2FA to keep your accounts safer"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:28
+#: templates/guides/secure-mobile.html:37
 msgid ""
 "Using a password manager will make securely storing and accessing "
 "passwords simple. Follow good password security practices by choosing "
@@ -1273,11 +1359,11 @@ msgid ""
 "to put another roadblock between hackers and your personal information."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:30
+#: templates/guides/secure-mobile.html:39
 msgid "Use mobile security software for faster, more efficient mobile security"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:31
+#: templates/guides/secure-mobile.html:40
 msgid ""
 "Mobile security software like Norton Mobile Security for Android and iOS "
 "devices combines many of these security features into an easy-to-use "
@@ -1285,39 +1371,39 @@ msgid ""
 "suspicious networks are nearby, and protects your devices from malware."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:34
+#: templates/guides/secure-mobile.html:43
 msgid "6 Tips to Secure Mobile Device"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:36
+#: templates/guides/secure-mobile.html:45
 msgid "FAQs about mobile security"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:37
+#: templates/guides/secure-mobile.html:46
 msgid "Have more questions about mobile security? We have answers."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:39
+#: templates/guides/secure-mobile.html:48
 msgid "What is the best security you can put on a mobile device?"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:40
+#: templates/guides/secure-mobile.html:49
 msgid "The best mobile security depends on a variety of factors, including:"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:42
+#: templates/guides/secure-mobile.html:51
 msgid "Device type"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:43
+#: templates/guides/secure-mobile.html:52
 msgid "How frequently you use your device"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:44
+#: templates/guides/secure-mobile.html:53
 msgid "What you use your device for"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:46
+#: templates/guides/secure-mobile.html:55
 msgid ""
 "Regardless of these factors, it’s a good idea to take advantage of the "
 "security features in your devices. That means screen lock passcodes, "
@@ -1326,11 +1412,11 @@ msgid ""
 "threats."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:48
+#: templates/guides/secure-mobile.html:57
 msgid "How can I make my phone more secure?"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:49
+#: templates/guides/secure-mobile.html:58
 msgid ""
 "To make your phone more secure, you should use security software, use a "
 "VPN when you browse the internet with public Wi-Fi, keep your operating "
@@ -1338,11 +1424,11 @@ msgid ""
 "downloading files from people you don’t know."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:51
+#: templates/guides/secure-mobile.html:60
 msgid "What's the most secure way to lock your smartphone?"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:52
+#: templates/guides/secure-mobile.html:61
 msgid ""
 "The most secure way to lock your smartphone or tablet is to set a "
 "passcode and use any biometric security features (like a fingerprint scan"
@@ -1351,11 +1437,11 @@ msgid ""
 "anyone."
 msgstr ""
 
-#: templates/guides/secure-mobile.html:54
+#: templates/guides/secure-mobile.html:63
 msgid "Do I really need a password lock on my phone?"
 msgstr ""
 
-#: templates/guides/secure-mobile.html:55
+#: templates/guides/secure-mobile.html:64
 msgid ""
 "If you care about the security of your phone and the personal information"
 " on it, yes. Not only will it stop people around you from accessing your "
@@ -1367,67 +1453,72 @@ msgstr ""
 msgid "GUIDE on creating strong passwords and keeping them safe"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:12
-msgid "Password mistakes to avoid:"
-msgstr ""
-
-#: templates/guides/secure-passwords.html:13
-msgid "Make your passwords more secure by avoiding the following:"
-msgstr ""
-
-#: templates/guides/secure-passwords.html:15
-msgid "Numerical patterns like “1234”"
-msgstr ""
-
-#: templates/guides/secure-passwords.html:16
-msgid "Common words like “password” or “guest”"
-msgstr ""
-
-#: templates/guides/secure-passwords.html:17
-msgid "Repeated characters like “1111”"
-msgstr ""
-
-#: templates/guides/secure-passwords.html:18
-msgid "Keyboard patterns like “qazwsx” or “asdf”"
-msgstr ""
-
-#: templates/guides/secure-passwords.html:19
-msgid "First and last names"
-msgstr ""
-
-#: templates/guides/secure-passwords.html:20
-msgid "Pet and family member names"
+#: templates/guides/secure-passwords.html:14
+#: templates/learn/password-security.html:15
+msgid "US Norton Blog - How to create a secure password"
 msgstr ""
 
 #: templates/guides/secure-passwords.html:21
-msgid "Nicknames"
+msgid "Password mistakes to avoid:"
 msgstr ""
 
 #: templates/guides/secure-passwords.html:22
-msgid "Important dates"
-msgstr ""
-
-#: templates/guides/secure-passwords.html:23
-msgid "Cities you’ve lived in"
+msgid "Make your passwords more secure by avoiding the following:"
 msgstr ""
 
 #: templates/guides/secure-passwords.html:24
-msgid "Schools you’ve attended"
+msgid "Numerical patterns like “1234”"
 msgstr ""
 
 #: templates/guides/secure-passwords.html:25
-msgid "Reversed words like “drowssap”"
+msgid "Common words like “password” or “guest”"
 msgstr ""
 
 #: templates/guides/secure-passwords.html:26
-msgid "Character substitutions like using “@” in place of “a”"
+msgid "Repeated characters like “1111”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:27
+msgid "Keyboard patterns like “qazwsx” or “asdf”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:28
+msgid "First and last names"
 msgstr ""
 
 #: templates/guides/secure-passwords.html:29
-msgid "5 tips to create secure passwords"
+msgid "Pet and family member names"
 msgstr ""
 
 #: templates/guides/secure-passwords.html:30
+msgid "Nicknames"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:31
+msgid "Important dates"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:32
+msgid "Cities you’ve lived in"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:33
+msgid "Schools you’ve attended"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:34
+msgid "Reversed words like “drowssap”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:35
+msgid "Character substitutions like using “@” in place of “a”"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:38
+msgid "5 tips to create secure passwords"
+msgstr ""
+
+#: templates/guides/secure-passwords.html:39
 msgid ""
 "When it comes to online security, creating long, strong, and unique "
 "passwords is your first line of defense. Here are five key tips to create"
@@ -1435,11 +1526,11 @@ msgid ""
 "information safer online:"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:32
+#: templates/guides/secure-passwords.html:41
 msgid "Randomize your passwords"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:33
+#: templates/guides/secure-passwords.html:42
 msgid ""
 "Random passwords are the ultimate shield against hackers. Since they lack"
 " patterns and personal information, it’s nearly impossible for hackers to"
@@ -1449,16 +1540,16 @@ msgid ""
 "surnames, pets, cities, and schools you attended."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:35
+#: templates/guides/secure-passwords.html:44
 msgid "Randomize your password"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:37
-#: templates/guides/secure-passwords.html:40
+#: templates/guides/secure-passwords.html:46
+#: templates/guides/secure-passwords.html:49
 msgid "Make passwords long"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:38
+#: templates/guides/secure-passwords.html:47
 msgid ""
 "Longer passwords are more secure because every additional character "
 "increases the number of possible combinations. That means that it’s "
@@ -1468,12 +1559,12 @@ msgid ""
 "characters long."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:42
-#: templates/guides/secure-passwords.html:45
+#: templates/guides/secure-passwords.html:51
+#: templates/guides/secure-passwords.html:54
 msgid "Avoid password recycling"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:43
+#: templates/guides/secure-passwords.html:52
 msgid ""
 "Recycling the same password across accounts makes your passwords less "
 "secure. If an attacker compromises one password, all your accounts with "
@@ -1482,12 +1573,12 @@ msgid ""
 "password generator to create them and a password manager to store them."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:47
-#: templates/guides/secure-passwords.html:50
+#: templates/guides/secure-passwords.html:56
+#: templates/guides/secure-passwords.html:59
 msgid "Use symbols, cases, and spellings"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:48
+#: templates/guides/secure-passwords.html:57
 #, python-format
 msgid ""
 "Even if you develop a completely original password, it could still be "
@@ -1499,12 +1590,12 @@ msgid ""
 "cybercriminals are well aware of this password trick."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:52
-#: templates/guides/secure-passwords.html:56
+#: templates/guides/secure-passwords.html:61
+#: templates/guides/secure-passwords.html:65
 msgid "Opt for long passphrases"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:53
+#: templates/guides/secure-passwords.html:62
 msgid ""
 "Passphrases are strings of words that can help protect your accounts in "
 "the event of password attacks. They should use a complex and lengthy mix "
@@ -1514,7 +1605,7 @@ msgid ""
 "screen."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:54
+#: templates/guides/secure-passwords.html:63
 msgid ""
 "Just don’t use personal information or choose a passphrase directly "
 "linked to something you’ve shared publicly. For example, if you’re a loud"
@@ -1522,17 +1613,17 @@ msgid ""
 " passphrase."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:58
+#: templates/guides/secure-passwords.html:67
 msgid ""
 "If you’re not sure whether your passphrases are strong enough, consider "
 "using a random password generator to come up with hard-to-crack ideas."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:60
+#: templates/guides/secure-passwords.html:69
 msgid "How to remember strong passwords"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:61
+#: templates/guides/secure-passwords.html:70
 msgid ""
 "While strong passwords are vital, remembering them can be tough, "
 "especially when you’re supposed to have a long, strong, and unique "
@@ -1540,11 +1631,11 @@ msgid ""
 " Password Manager or mnemonics to stay on top of your passwords."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:63
+#: templates/guides/secure-passwords.html:72
 msgid "Password managers"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:64
+#: templates/guides/secure-passwords.html:73
 msgid ""
 "A password manager is a secure digital vault that stores all your "
 "passwords. You just need to remember one master password to access it. "
@@ -1552,11 +1643,11 @@ msgid ""
 "you visit a website’s login page."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:66
+#: templates/guides/secure-passwords.html:75
 msgid "Mnemonic devices"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:67
+#: templates/guides/secure-passwords.html:76
 msgid ""
 "A mnemonic device is a memory trick that helps you recall information by "
 "associating it with something more memorable, such as a phrase or rhyme. "
@@ -1564,7 +1655,7 @@ msgid ""
 "with a memorable phrase or acronym."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:68
+#: templates/guides/secure-passwords.html:77
 msgid ""
 "For example, you know you shouldn’t use your name in a password. But you "
 "can use your name as a mnemonic device for a passphrase. So, instead of "
@@ -1574,79 +1665,79 @@ msgid ""
 " the cases and add numbers and symbols."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:70
+#: templates/guides/secure-passwords.html:79
 msgid "How to keep your passwords safe"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:71
+#: templates/guides/secure-passwords.html:80
 msgid ""
 "Password security requires a comprehensive approach. To keep your "
 "passwords safe:"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:73
+#: templates/guides/secure-passwords.html:82
 msgid "Create long, complex passwords"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:74
+#: templates/guides/secure-passwords.html:83
 msgid "Use unique passwords for every account"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:75
+#: templates/guides/secure-passwords.html:84
 msgid "Use a reputable password manager"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:76
-#: templates/guides/spot-phishing.html:26
+#: templates/guides/secure-passwords.html:85
+#: templates/guides/spot-phishing.html:35
 msgid "Enable two-factor authentication (2FA)"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:77
+#: templates/guides/secure-passwords.html:86
 msgid "Change your passwords regularly"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:78
+#: templates/guides/secure-passwords.html:87
 msgid "Subscribe to data breach alerts"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:79
+#: templates/guides/secure-passwords.html:88
 msgid "Avoid clicking suspicious links"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:80
+#: templates/guides/secure-passwords.html:89
 msgid "Don’t share your passwords with anyone"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:81
+#: templates/guides/secure-passwords.html:90
 msgid "Use a reputable security app"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:84
+#: templates/guides/secure-passwords.html:93
 msgid "FAQs about password security"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:85
+#: templates/guides/secure-passwords.html:94
 msgid ""
 "Still have questions about password security? Here’s what you need to "
 "know."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:87
+#: templates/guides/secure-passwords.html:96
 msgid "How long should my password be?"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:88
+#: templates/guides/secure-passwords.html:97
 msgid ""
 "A strong password should be at least 15 characters long, with a "
 "combination of different character sets like letters, numbers, and "
 "symbols."
 msgstr ""
 
-#: templates/guides/secure-passwords.html:90
+#: templates/guides/secure-passwords.html:99
 msgid "How do I know if my password is no longer secure?"
 msgstr ""
 
-#: templates/guides/secure-passwords.html:91
+#: templates/guides/secure-passwords.html:100
 msgid ""
 "If your password is short, simple, has been shared with others, used on "
 "multiple accounts, or has been compromised in a data breach, it is not "
@@ -1662,12 +1753,16 @@ msgstr ""
 msgid "Recognizing and Preventing Phishing Attacks"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:12
-#: templates/guides/spot-phishing.html:15
+#: templates/guides/spot-phishing.html:14 templates/learn/phishing.html:14
+msgid "US Norton Blog - What is phishing? How to spot and avoid it"
+msgstr ""
+
+#: templates/guides/spot-phishing.html:21
+#: templates/guides/spot-phishing.html:24
 msgid "What to do if you clicked on a phishing link"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:13
+#: templates/guides/spot-phishing.html:22
 msgid ""
 "If a phishing scam lures you into clicking a malicious link, it’s "
 "important to act quickly to minimize the fallout. First, cease all "
@@ -1677,11 +1772,11 @@ msgid ""
 "credit and other accounts for signs of fraud."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:17
+#: templates/guides/spot-phishing.html:26
 msgid "Stop interacting"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:18
+#: templates/guides/spot-phishing.html:27
 msgid ""
 "If you realize you fell into a phishing trap, immediately stop what "
 "you’re doing. Depending on the situation, this could mean closing the "
@@ -1690,11 +1785,11 @@ msgid ""
 "preventing sensitive information from being transmitted to the attacker."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:20
+#: templates/guides/spot-phishing.html:29
 msgid "Disconnect your internet"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:21
+#: templates/guides/spot-phishing.html:30
 msgid ""
 "Disconnecting your internet connection after clicking a phishing link is "
 "another way to stop ongoing data transfers. This is a good option for "
@@ -1702,11 +1797,11 @@ msgid ""
 "other devices on your network."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:23
+#: templates/guides/spot-phishing.html:32
 msgid "Change your passwords"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:24
+#: templates/guides/spot-phishing.html:33
 msgid ""
 "Prevent ongoing unauthorized access to your accounts by changing any "
 "account login credentials that may have been compromised when you clicked"
@@ -1715,7 +1810,7 @@ msgid ""
 " security."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:27
+#: templates/guides/spot-phishing.html:36
 msgid ""
 "If you recently clicked a phishing link, consider adding a further layer "
 "of protection to your accounts with two-factor authentication. This helps"
@@ -1724,11 +1819,11 @@ msgid ""
 "code sent directly to an alternative device."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:29
+#: templates/guides/spot-phishing.html:38
 msgid "Alert the credit bureaus"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:30
+#: templates/guides/spot-phishing.html:39
 msgid ""
 "Visit the home pages of the three national credit "
 "bureaus—Experian<sup>®</sup>, Equifax<sup>®</sup>, and "
@@ -1737,11 +1832,11 @@ msgid ""
 "credit accounts or take out new loans in your name."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:32
+#: templates/guides/spot-phishing.html:41
 msgid "Contact your credit card providers and review your statements"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:33
+#: templates/guides/spot-phishing.html:42
 msgid ""
 "If you shared your credit card information with a phisher, contact your "
 "credit card issuer. They can help you freeze your credit card to stop "
@@ -1750,11 +1845,11 @@ msgid ""
 "for purchases the phisher made using your card."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:35
+#: templates/guides/spot-phishing.html:44
 msgid "Check your credit report"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:36
+#: templates/guides/spot-phishing.html:45
 msgid ""
 "Check your credit report regularly for signs of identity theft and "
 "financial fraud in the months after clicking a phishing link. This is "
@@ -1762,94 +1857,94 @@ msgid ""
 "credit in your name."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:38
+#: templates/guides/spot-phishing.html:47
 msgid "Report the phishing attack"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:39
+#: templates/guides/spot-phishing.html:48
 msgid ""
 "Mark as spam or junk any phishing messages or calls you see. Then, report"
 " the phishing attempt to help counter-cybercrime groups track threats and"
 " limit future phishing attacks."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:40
+#: templates/guides/spot-phishing.html:49
 msgid "Here’s how to report phishing messages:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:42
+#: templates/guides/spot-phishing.html:51
 msgid "Report phishing text messages"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:42
+#: templates/guides/spot-phishing.html:51
 msgid "by forwarding them to SPAM (7726)."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:43
+#: templates/guides/spot-phishing.html:52
 msgid "Report phishing emails"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:43
+#: templates/guides/spot-phishing.html:52
 msgid "by forwarding the phishing email to reportphishing@apwg.org."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:46
+#: templates/guides/spot-phishing.html:55
 msgid "Scan your device for malware"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:47
+#: templates/guides/spot-phishing.html:56
 msgid ""
 "Use antivirus software to help identify and block online attacks and help"
 " prevent phishers from continuing to spy on you or stealing your personal"
 " information."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:49
+#: templates/guides/spot-phishing.html:58
 msgid "How can I spot a phishing attack before clicking a link?"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:50
+#: templates/guides/spot-phishing.html:59
 msgid ""
 "These days, phishers are much more adept at baiting their targets and "
 "luring them in. Still, there are several ways you can spot a phishing "
 "attack before it becomes a problem, including:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:52
+#: templates/guides/spot-phishing.html:61
 msgid "Unbelievable deals:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:52
+#: templates/guides/spot-phishing.html:61
 msgid ""
 "Be wary of emails offering wildly cheap products or services. If it seems"
 " too good to be true, it probably is."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:53
+#: templates/guides/spot-phishing.html:62
 msgid "Requests for personal information:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:53
+#: templates/guides/spot-phishing.html:62
 msgid ""
 "Legitimate institutions like banks will never ask for account details via"
 " email—never share such information this way."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:54
+#: templates/guides/spot-phishing.html:63
 msgid "Spelling and grammatical mistakes:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:54
+#: templates/guides/spot-phishing.html:63
 msgid ""
 "Emails littered with typos and awkward phrasing are common in phishing "
 "emails and text messages."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:55
+#: templates/guides/spot-phishing.html:64
 msgid "Generic greetings:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:55
+#: templates/guides/spot-phishing.html:64
 msgid ""
 "Many times, phishers don’t bother to personalize emails because they just"
 " want to cast a wide net and catch as many people as they can. So you "
@@ -1857,144 +1952,144 @@ msgid ""
 "“Dear Account Holder.”"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:56
+#: templates/guides/spot-phishing.html:65
 msgid "Urgent language:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:56
+#: templates/guides/spot-phishing.html:65
 msgid ""
 "Phishers create urgency to rush you into clicking links. Don't be "
 "pressured; take your time when reading and responding to emails."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:57
+#: templates/guides/spot-phishing.html:66
 msgid "Unfamiliar senders:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:57
+#: templates/guides/spot-phishing.html:66
 msgid ""
 "Delete emails from unknown senders without clicking anything. This is "
 "especially important if you can’t verify their identity."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:58
+#: templates/guides/spot-phishing.html:67
 msgid "Familiar senders:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:58
+#: templates/guides/spot-phishing.html:67
 msgid ""
 "Even seemingly familiar email addresses can be fake. If the tone, "
 "communication channel, or content feels off, try to reach out to the "
 "person using another form of communication to confirm their identity."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:59
+#: templates/guides/spot-phishing.html:68
 msgid "Suspicious links and attachments:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:59
+#: templates/guides/spot-phishing.html:68
 msgid ""
 "Before clicking a link or downloading an attachment, hover over the link "
 "and inspect the URL for inconsistencies."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:60
+#: templates/guides/spot-phishing.html:69
 msgid "Use a scam detection tool to analyze messages:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:60
+#: templates/guides/spot-phishing.html:69
 msgid ""
 "If a message looks suspicious, use an anti-scam tool to help determine if"
 " the message is legitimate."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:63
+#: templates/guides/spot-phishing.html:72
 msgid "How do I know if I clicked a phishing link?"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:64
+#: templates/guides/spot-phishing.html:73
 msgid ""
 "You may not immediately realize that you clicked a phishing link because "
 "it can take some time for red flags to appear."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:66
+#: templates/guides/spot-phishing.html:75
 msgid "How to know if clicked on phishing link"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:68
+#: templates/guides/spot-phishing.html:77
 msgid ""
 "You’ll know you’ve likely been phished if you start noticing warning "
 "signs like:"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:70
+#: templates/guides/spot-phishing.html:79
 msgid "Suspicious redirects"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:70
+#: templates/guides/spot-phishing.html:79
 msgid ""
 "that take you to crudely made websites with misspellings and odd "
 "characters in the URL."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:71
+#: templates/guides/spot-phishing.html:80
 msgid "Invasive personal information requests"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:71
+#: templates/guides/spot-phishing.html:80
 msgid ""
 "like a form prompting you to enter sensitive details like your Social "
 "Security number or account information."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:72
+#: templates/guides/spot-phishing.html:81
 msgid "Too-good-to-be-true messages and offers"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:72
+#: templates/guides/spot-phishing.html:81
 msgid ""
 "like free vacations or job offers with sky-high salaries to try to entice"
 " you to engage with the phisher."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:73
+#: templates/guides/spot-phishing.html:82
 msgid "High-pressure language"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:73
+#: templates/guides/spot-phishing.html:82
 msgid ""
 "in messages or website copy that creates a sense of urgency to encourage "
 "you to click a link without thinking."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:76
+#: templates/guides/spot-phishing.html:85
 msgid "FAQs about phishing"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:77
+#: templates/guides/spot-phishing.html:86
 msgid ""
 "If your questions don’t just stop at “What is phishing?” we’ve got you "
 "covered. Read through this FAQ section to learn more about phishing "
 "scams."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:79
+#: templates/guides/spot-phishing.html:88
 msgid "Who are the targets of phishing attacks?"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:80
+#: templates/guides/spot-phishing.html:89
 msgid ""
 "Anyone can be targeted in a phishing attack. To increase their chance of "
 "success, phishers will often target as many email addresses or phone "
 "numbers as possible."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:82
+#: templates/guides/spot-phishing.html:91
 msgid "Can AI be used for phishing attacks?"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:83
+#: templates/guides/spot-phishing.html:92
 msgid ""
 "Yes, scammers can use AI to make their communications sound more "
 "believable. For example, phishers may use it to generate realistic "
@@ -2002,22 +2097,22 @@ msgid ""
 "messages seem more legitimate."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:85
+#: templates/guides/spot-phishing.html:94
 msgid "Can you get scammed by opening a text message?"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:86
+#: templates/guides/spot-phishing.html:95
 msgid ""
 "No, opening a scam text message itself isn't risky. However, clicking "
 "links within those text messages or replying can expose you to malware or"
 " trick you into revealing personal information."
 msgstr ""
 
-#: templates/guides/spot-phishing.html:88
+#: templates/guides/spot-phishing.html:97
 msgid "What do you do when you click a suspicious link on your phone?"
 msgstr ""
 
-#: templates/guides/spot-phishing.html:89
+#: templates/guides/spot-phishing.html:98
 msgid ""
 "If you click a suspicious link on your phone, close the website, stop any"
 " active downloads, and disconnect your internet connection. Then, use "
@@ -2029,11 +2124,15 @@ msgstr ""
 msgid "GUIDE on how to use email encryption"
 msgstr ""
 
-#: templates/guides/use-encryption.html:12
+#: templates/guides/use-encryption.html:14 templates/learn/encryption.html:18
+msgid "US Norton Blog - How to encrypt email in Gmail, Outlook, iOS, and Android"
+msgstr ""
+
+#: templates/guides/use-encryption.html:21
 msgid "How to encrypt email on iPhone + other iOS devices"
 msgstr ""
 
-#: templates/guides/use-encryption.html:13
+#: templates/guides/use-encryption.html:22
 msgid ""
 "The security measures on iOS devices allow for S/MIME encryption. But "
 "you'll have to purchase and download an S/MIME certificate before "
@@ -2041,71 +2140,71 @@ msgid ""
 " the device you’re using."
 msgstr ""
 
-#: templates/guides/use-encryption.html:15
+#: templates/guides/use-encryption.html:24
 msgid "Open"
 msgstr ""
 
-#: templates/guides/use-encryption.html:15
+#: templates/guides/use-encryption.html:24
 msgid "and select your"
 msgstr ""
 
-#: templates/guides/use-encryption.html:15
+#: templates/guides/use-encryption.html:24
 msgid "Apple ID"
 msgstr ""
 
-#: templates/guides/use-encryption.html:15
+#: templates/guides/use-encryption.html:24
 msgid "account at the top of the screen."
 msgstr ""
 
-#: templates/guides/use-encryption.html:16
+#: templates/guides/use-encryption.html:25
 msgid "iCloud"
 msgstr ""
 
-#: templates/guides/use-encryption.html:17
+#: templates/guides/use-encryption.html:26
 msgid "Tap the"
 msgstr ""
 
-#: templates/guides/use-encryption.html:17
+#: templates/guides/use-encryption.html:26
 msgid "Mail"
 msgstr ""
 
-#: templates/guides/use-encryption.html:17
+#: templates/guides/use-encryption.html:26
 msgid "button."
 msgstr ""
 
-#: templates/guides/use-encryption.html:18
+#: templates/guides/use-encryption.html:27
 msgid "Scroll to the"
 msgstr ""
 
-#: templates/guides/use-encryption.html:18
+#: templates/guides/use-encryption.html:27
 msgid "Advanced"
 msgstr ""
 
-#: templates/guides/use-encryption.html:18
+#: templates/guides/use-encryption.html:27
 msgid "button at the bottom of the screen."
 msgstr ""
 
-#: templates/guides/use-encryption.html:19
+#: templates/guides/use-encryption.html:28
 msgid "Tap"
 msgstr ""
 
-#: templates/guides/use-encryption.html:19
+#: templates/guides/use-encryption.html:28
 msgid "Encrypt by Default"
 msgstr ""
 
-#: templates/guides/use-encryption.html:19
+#: templates/guides/use-encryption.html:28
 msgid "and make sure the S/MIME details are correct."
 msgstr ""
 
-#: templates/guides/use-encryption.html:22
+#: templates/guides/use-encryption.html:31
 msgid "How to Encrypt Email on iPhone"
 msgstr ""
 
-#: templates/guides/use-encryption.html:24
+#: templates/guides/use-encryption.html:33
 msgid "Email encryption for Android"
 msgstr ""
 
-#: templates/guides/use-encryption.html:25
+#: templates/guides/use-encryption.html:34
 msgid ""
 "Android devices are similar to iOS devices in that they can support an "
 "additional encryption extension to protect emails. However, these devices"
@@ -2113,48 +2212,48 @@ msgid ""
 "emails."
 msgstr ""
 
-#: templates/guides/use-encryption.html:27
+#: templates/guides/use-encryption.html:36
 msgid "Email encryption tools/services"
 msgstr ""
 
-#: templates/guides/use-encryption.html:28
+#: templates/guides/use-encryption.html:37
 msgid ""
 "Because some email providers and device makers make it harder than others"
 " to send encrypted email messages, there are also some third-party tools "
 "you can use to help send secure emails."
 msgstr ""
 
-#: templates/guides/use-encryption.html:29
+#: templates/guides/use-encryption.html:38
 msgid ""
 "A few of the free apps available to send and receive encrypted messages, "
 "along with a few anonymous email services, include:"
 msgstr ""
 
-#: templates/guides/use-encryption.html:38
+#: templates/guides/use-encryption.html:47
 msgid "How to read encrypted emails"
 msgstr ""
 
-#: templates/guides/use-encryption.html:39
+#: templates/guides/use-encryption.html:48
 msgid "These are the main methods for reading encrypted emails:"
 msgstr ""
 
-#: templates/guides/use-encryption.html:41
+#: templates/guides/use-encryption.html:50
 msgid ""
 "If an email is encrypted and protected by a password, you must enter the "
 "password to decrypt the email and read it."
 msgstr ""
 
-#: templates/guides/use-encryption.html:42
+#: templates/guides/use-encryption.html:51
 msgid ""
 "If an email is encrypted and not protected by a password, you’ll need to "
 "have the encryption key before the message's contents are readable."
 msgstr ""
 
-#: templates/guides/use-encryption.html:45
+#: templates/guides/use-encryption.html:54
 msgid "5 email security best practices"
 msgstr ""
 
-#: templates/guides/use-encryption.html:46
+#: templates/guides/use-encryption.html:55
 msgid ""
 "Knowing how to encrypt email messages is a great start to improving your "
 "email security. With the following steps, you’ll make it more difficult "
@@ -2162,15 +2261,15 @@ msgid ""
 "management routines can help you better protect your information."
 msgstr ""
 
-#: templates/guides/use-encryption.html:49
+#: templates/guides/use-encryption.html:58
 msgid "Email Security Best Practices"
 msgstr ""
 
-#: templates/guides/use-encryption.html:51
+#: templates/guides/use-encryption.html:60
 msgid "1. Create strong email passwords"
 msgstr ""
 
-#: templates/guides/use-encryption.html:52
+#: templates/guides/use-encryption.html:61
 msgid ""
 "Cyberattacks and data breaches are not only carried out using session "
 "hijacking or brute force attacks. Today’s cybercriminals also use "
@@ -2179,17 +2278,17 @@ msgid ""
 " likelihood of you falling victim to these kinds of cyberattacks."
 msgstr ""
 
-#: templates/guides/use-encryption.html:53
+#: templates/guides/use-encryption.html:62
 msgid ""
 "Because remembering several unique and difficult passwords can be tough, "
 "you should consider using a password manager."
 msgstr ""
 
-#: templates/guides/use-encryption.html:55
+#: templates/guides/use-encryption.html:64
 msgid "2. Use two-factor authentication"
 msgstr ""
 
-#: templates/guides/use-encryption.html:56
+#: templates/guides/use-encryption.html:65
 msgid ""
 "Two-factor authentication (2FA), a type of multifactor authentication, "
 "adds another step to your login process to keep unauthorized users from "
@@ -2197,7 +2296,7 @@ msgid ""
 "are already using these tools."
 msgstr ""
 
-#: templates/guides/use-encryption.html:57
+#: templates/guides/use-encryption.html:66
 msgid ""
 "Some 2FA uses biometrics, like a fingerprint or FaceID, and a password "
 "before logging in. Others will send a text message to your device with a "
@@ -2205,11 +2304,11 @@ msgid ""
 "inaccessible to everyday hackers, meaning your email will be more secure."
 msgstr ""
 
-#: templates/guides/use-encryption.html:59
+#: templates/guides/use-encryption.html:68
 msgid "3. Beware of phishing emails"
 msgstr ""
 
-#: templates/guides/use-encryption.html:60
+#: templates/guides/use-encryption.html:69
 msgid ""
 "Hackers use phishing scams to access people's private information. One "
 "common type of phishing involves a scammer sending emails embedded with "
@@ -2218,17 +2317,17 @@ msgid ""
 "access your actual accounts."
 msgstr ""
 
-#: templates/guides/use-encryption.html:61
+#: templates/guides/use-encryption.html:70
 msgid ""
 "Always verify that you're on a site’s proper URL, and try to avoid "
 "opening emails that appear to be suspicious."
 msgstr ""
 
-#: templates/guides/use-encryption.html:63
+#: templates/guides/use-encryption.html:72
 msgid "4. Avoid accessing emails via public Wi-Fi"
 msgstr ""
 
-#: templates/guides/use-encryption.html:64
+#: templates/guides/use-encryption.html:73
 msgid ""
 "Whether you’re checking your account balances while in line for coffee or"
 " checking your email while at lunch, if you’re doing it on a public Wi-Fi"
@@ -2237,17 +2336,17 @@ msgid ""
 "because they’re often unencrypted."
 msgstr ""
 
-#: templates/guides/use-encryption.html:65
+#: templates/guides/use-encryption.html:74
 msgid ""
 "If you’re using public Wi-Fi, consider downloading a virtual private "
 "network (VPN) to put a protective shield over your device."
 msgstr ""
 
-#: templates/guides/use-encryption.html:67
+#: templates/guides/use-encryption.html:76
 msgid "5. Always log out when finished"
 msgstr ""
 
-#: templates/guides/use-encryption.html:68
+#: templates/guides/use-encryption.html:77
 msgid ""
 "You should always log out of your email account after you've finished "
 "using it. This applies to when you're on both unfamiliar and familiar "
@@ -2256,19 +2355,19 @@ msgid ""
 "leaving your accounts wide open."
 msgstr ""
 
-#: templates/guides/use-encryption.html:70
+#: templates/guides/use-encryption.html:79
 msgid "FAQs about encrypting email"
 msgstr ""
 
-#: templates/guides/use-encryption.html:71
+#: templates/guides/use-encryption.html:80
 msgid "Still have questions about encrypting email messages? We have answers."
 msgstr ""
 
-#: templates/guides/use-encryption.html:73
+#: templates/guides/use-encryption.html:82
 msgid "How do I password-protect an email attachment?"
 msgstr ""
 
-#: templates/guides/use-encryption.html:74
+#: templates/guides/use-encryption.html:83
 msgid ""
 "It depends. For some types of attachments, you can save them with a "
 "password requirement. Other types of attachments can be password-"
@@ -2276,11 +2375,11 @@ msgid ""
 "for all providers."
 msgstr ""
 
-#: templates/guides/use-encryption.html:76
+#: templates/guides/use-encryption.html:85
 msgid "Is it a good idea to encrypt your email?"
 msgstr ""
 
-#: templates/guides/use-encryption.html:77
+#: templates/guides/use-encryption.html:86
 msgid ""
 "It is usually a good idea to encrypt your email, especially if you’re "
 "sharing any information you’d like to keep private. If somebody hacks "
@@ -2288,11 +2387,11 @@ msgid ""
 "hacker from reading your messages."
 msgstr ""
 
-#: templates/guides/use-encryption.html:79
+#: templates/guides/use-encryption.html:88
 msgid "What is the difference between encrypted email and secure email?"
 msgstr ""
 
-#: templates/guides/use-encryption.html:80
+#: templates/guides/use-encryption.html:89
 msgid ""
 "Encrypted emails are messages that are themselves encrypted, meaning that"
 " they are secure whether they’re in your sent messages or the inbox of "
@@ -2310,22 +2409,31 @@ msgstr ""
 msgid "Two Factor Authentication (2FA)"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:13
+#: templates/guides/use-two-factor.html:15
+msgid "Two-factor authentication for beginners"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:18
+#: templates/learn/two-factor-authentication.html:14
+msgid "US Norton Blog - 2FA: A simplified guide to two-factor authentication"
+msgstr ""
+
+#: templates/guides/use-two-factor.html:26
 msgid "2FA Approaches"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:14
+#: templates/guides/use-two-factor.html:27
 msgid ""
 "There are a few simple, widely supported approaches for adding 2FA to "
 "your accounts. There’s not one “right” way to use it, and each has "
 "distinct considerations for security and convenience."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:16
+#: templates/guides/use-two-factor.html:29
 msgid "A pretty good option: SMS text messages"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:17
+#: templates/guides/use-two-factor.html:30
 msgid ""
 "Most services allow you to use regular old text messages as your 2FA. "
 "When logging in to a site you need a password for, you’ll receive a short"
@@ -2333,11 +2441,11 @@ msgid ""
 "during login."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:19
+#: templates/guides/use-two-factor.html:32
 msgid "SMS Authentication"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:21
+#: templates/guides/use-two-factor.html:34
 msgid ""
 "Text messages are a painless way to access 2FA codes, but are only as "
 "reliable as the phone network. For example, if you lose network access or"
@@ -2348,14 +2456,14 @@ msgid ""
 "the messages."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:22
+#: templates/guides/use-two-factor.html:35
 msgid ""
 "For most people, SMS-based 2FA is much better than using a password "
 "alone. But because telephone infrastructure itself comes with a great "
 "deal of baggage, SMS isn’t the most secure method available."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:23
+#: templates/guides/use-two-factor.html:36
 msgid ""
 "For example, Associated Press writer Fatima Hussein told the story of how"
 " someone stole her phone number so they could take over her bank account "
@@ -2364,18 +2472,18 @@ msgid ""
 "allowing the attacker to intercept her 2FA messages."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:24
+#: templates/guides/use-two-factor.html:37
 msgid ""
 "That sounds scary, but remember the real story here: The attacker was "
 "forced to work much harder than if they could simply have entered a "
 "password."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:26
+#: templates/guides/use-two-factor.html:39
 msgid "Better option: Authentication apps"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:27
+#: templates/guides/use-two-factor.html:40
 msgid ""
 "Compared to SMS messages, authenticator apps are a little more convenient"
 " and a lot more secure. Some services allow you to receive your temporary"
@@ -2383,11 +2491,11 @@ msgid ""
 "such as Google Authenticator or Authy."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:29
+#: templates/guides/use-two-factor.html:42
 msgid "Authentication Apps"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:31
+#: templates/guides/use-two-factor.html:44
 msgid ""
 "Some web services let you attach multiple authentication apps to the same"
 " account, which can be incredibly helpful for getting login codes when "
@@ -2395,31 +2503,31 @@ msgid ""
 "they work when you don’t have access to your phone network."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:32
+#: templates/guides/use-two-factor.html:45
 msgid ""
 "Unlike SMS messages, authenticator apps can’t be intercepted on the phone"
 " network, making apps a hardened option."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:33
+#: templates/guides/use-two-factor.html:46
 msgid ""
 "But, just as you can be phished into entering passwords into a fraudulent"
 " website to steal your login information, the same is true of "
 "authenticator codes. So we can do even better."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:35
+#: templates/guides/use-two-factor.html:48
 msgid "Best option: Security keys"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:36
+#: templates/guides/use-two-factor.html:49
 msgid ""
 "Right now, security keys are one of the most secure and efficient ways to"
 " use 2FA. A security key is a physical USB device you can use to "
 "authenticate into your account."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:37
+#: templates/guides/use-two-factor.html:50
 msgid ""
 "Instead of typing in a code when prompted to provide your 2FA "
 "credentials, you insert your security key into your device and physically"
@@ -2429,14 +2537,14 @@ msgid ""
 "to intercept information from security keys."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:38
+#: templates/guides/use-two-factor.html:51
 msgid ""
 "The main problem with security keys is that as soon as you try one, "
 "you’ll want to use them everywhere. And they can’t be used everywhere "
 "yet."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:39
+#: templates/guides/use-two-factor.html:52
 msgid ""
 "Security keys are not yet as well supported as authenticator apps, but "
 "the standard is getting traction on large websites. It can be used to log"
@@ -2444,21 +2552,21 @@ msgid ""
 "supported by most major browsers."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:41
+#: templates/guides/use-two-factor.html:54
 msgid "FAQs about 2FA"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:42
+#: templates/guides/use-two-factor.html:55
 msgid ""
 "Check out some frequently asked questions concerning the 2FA login "
 "process."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:44
+#: templates/guides/use-two-factor.html:57
 msgid "Is 2FA safe?"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:45
+#: templates/guides/use-two-factor.html:58
 msgid ""
 "For the most part, 2FA is safe. Still, like most online activities, there"
 " are ways that criminals can bypass 2FA security and access your account."
@@ -2466,18 +2574,18 @@ msgid ""
 "email, and it can bypass 2FA."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:46
+#: templates/guides/use-two-factor.html:59
 #, python-format
 msgid ""
 "Even though it's not 100%% secure, 2FA can bolster your online security "
 "and is recommended."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:48
+#: templates/guides/use-two-factor.html:61
 msgid "Can two-step verification be hacked?"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:49
+#: templates/guides/use-two-factor.html:62
 msgid ""
 "Yes, hackers can use certain phishing messages to work around 2FA login "
 "processes. That being said, having a second authentication factor makes "
@@ -2485,11 +2593,11 @@ msgid ""
 "gain access."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:51
+#: templates/guides/use-two-factor.html:64
 msgid "What is the strongest 2FA method?"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:52
+#: templates/guides/use-two-factor.html:65
 msgid ""
 "Hardware-based 2FA is the strongest form of 2FA verification. Because a "
 "physical item is needed, whether it’s a phone, a thumb drive, an ID card,"
@@ -2497,11 +2605,11 @@ msgid ""
 "access all parts of 2FA logins."
 msgstr ""
 
-#: templates/guides/use-two-factor.html:54
+#: templates/guides/use-two-factor.html:67
 msgid "Is MFA better than 2FA?"
 msgstr ""
 
-#: templates/guides/use-two-factor.html:55
+#: templates/guides/use-two-factor.html:68
 msgid ""
 "Multi-factor authentication that uses three or more authentication "
 "factors is more secure than 2FA. For most sites, apps, and platforms, 2FA"
@@ -2514,11 +2622,19 @@ msgstr ""
 msgid "GUIDE on VPN on Devices"
 msgstr ""
 
-#: templates/guides/use-vpn.html:13
+#: templates/guides/use-vpn.html:16
+msgid "US Norton Blog - VPN for smartphones"
+msgstr ""
+
+#: templates/guides/use-vpn.html:21
+msgid "US Norton Blog - How to use a VPN on an iPhone or iPad in 2024"
+msgstr ""
+
+#: templates/guides/use-vpn.html:30
 msgid "Are there smartphones that are equipped with VPN?"
 msgstr ""
 
-#: templates/guides/use-vpn.html:14
+#: templates/guides/use-vpn.html:31
 msgid ""
 "Some smartphones come with built-in VPN software. These devices let you "
 "cloak your activity and have minimal set-up requirements. However, the "
@@ -2529,23 +2645,22 @@ msgid ""
 "and customize your choices based on server location."
 msgstr ""
 
-#: templates/guides/use-vpn.html:16
+#: templates/guides/use-vpn.html:33
 msgid "How to choose a VPN provider for your smartphone"
 msgstr ""
 
-#: templates/guides/use-vpn.html:17
+#: templates/guides/use-vpn.html:34
 msgid ""
-"With so many iOS VPN services, knowing where to start can be challenging."
-" Select a VPN app with suitable features to keep your data secure and let"
-" you do what you want online. Here’s what to look for when choosing a VPN"
-" for iPad or iPhone:"
+"With so many VPN services, knowing where to start can be challenging. "
+"Select a VPN app with suitable features to keep your data secure and let "
+"you do what you want online. Here’s what to look for when choosing a VPN:"
 msgstr ""
 
-#: templates/guides/use-vpn.html:19
+#: templates/guides/use-vpn.html:36
 msgid "Encryption method:"
 msgstr ""
 
-#: templates/guides/use-vpn.html:19
+#: templates/guides/use-vpn.html:36
 msgid ""
 "A VPN's safety largely depends on the encryption method used to shield "
 "your internet traffic. Some of the best VPNs use bank-grade AES 256-bit "
@@ -2553,22 +2668,22 @@ msgid ""
 "billions of years to brute-force attack it."
 msgstr ""
 
-#: templates/guides/use-vpn.html:20
+#: templates/guides/use-vpn.html:37
 msgid "Privacy:"
 msgstr ""
 
-#: templates/guides/use-vpn.html:20
+#: templates/guides/use-vpn.html:37
 msgid ""
 "Some VPNs record your online activity. If maximum privacy is your "
 "priority, select a VPN like Norton Secure VPN which has a no-log policy, "
 "meaning we don't track or store your online activities."
 msgstr ""
 
-#: templates/guides/use-vpn.html:21
+#: templates/guides/use-vpn.html:38
 msgid "Cost:"
 msgstr ""
 
-#: templates/guides/use-vpn.html:21
+#: templates/guides/use-vpn.html:38
 msgid ""
 "With weak security, bandwidth restrictions, and limited server options, "
 "free VPN services can bombard you with annoying ads or even sell your "
@@ -2576,22 +2691,22 @@ msgid ""
 "trial to help you find a secure, reliable VPN that meets your needs."
 msgstr ""
 
-#: templates/guides/use-vpn.html:22
+#: templates/guides/use-vpn.html:39
 msgid "Usage limitations:"
 msgstr ""
 
-#: templates/guides/use-vpn.html:22
+#: templates/guides/use-vpn.html:39
 msgid ""
 "From monthly download limits to bandwidth restrictions, avoid any iPhone "
 "VPN settings that could limit your access. Choose a service that lets you"
 " browse freely without usage limitations."
 msgstr ""
 
-#: templates/guides/use-vpn.html:23
+#: templates/guides/use-vpn.html:40
 msgid "Additional features:"
 msgstr ""
 
-#: templates/guides/use-vpn.html:23
+#: templates/guides/use-vpn.html:40
 msgid ""
 "Additional VPN configurations and features that can further boost your "
 "privacy, security, and user experience include VPN kill switches, ad "
@@ -2599,43 +2714,43 @@ msgid ""
 "connections."
 msgstr ""
 
-#: templates/guides/use-vpn.html:24
+#: templates/guides/use-vpn.html:41
 msgid "Speed:"
 msgstr ""
 
-#: templates/guides/use-vpn.html:24
+#: templates/guides/use-vpn.html:41
 msgid ""
 "Increase your download speeds by choosing a VPN that offers a wide range "
 "of geo-optimized servers that enable fast, stable connections from around"
 " the world."
 msgstr ""
 
-#: templates/guides/use-vpn.html:27
+#: templates/guides/use-vpn.html:44
 msgid "Should you use a free VPN on your smartphone?"
 msgstr ""
 
-#: templates/guides/use-vpn.html:28
+#: templates/guides/use-vpn.html:45
 msgid ""
 "Free options work for some parts of life. But when it comes to your "
 "online presence and security, you can't be too careful. Free VPNs may "
 "come with drawbacks such as:"
 msgstr ""
 
-#: templates/guides/use-vpn.html:30
+#: templates/guides/use-vpn.html:47
 msgid "Security protocols may be limited"
 msgstr ""
 
-#: templates/guides/use-vpn.html:31
+#: templates/guides/use-vpn.html:48
 msgid ""
 "Connection can be slow, laggy or entirely unavailable at times, "
 "particularly with free VPN services that cap your bandwidth usage"
 msgstr ""
 
-#: templates/guides/use-vpn.html:32
+#: templates/guides/use-vpn.html:49
 msgid "The provider may track your data, and may use it for advertising purposes"
 msgstr ""
 
-#: templates/guides/use-vpn.html:34
+#: templates/guides/use-vpn.html:51
 msgid ""
 "You want to select a provider whose quality and security you can trust. "
 "Speed is also important, and a paid VPN service may let you enjoy higher "
@@ -2651,21 +2766,25 @@ msgstr ""
 msgid "LEARN about encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:12
+#: templates/learn/encryption.html:15
+msgid "US Norton Blog - What is encryption? How it works + types of encryption"
+msgstr ""
+
+#: templates/learn/encryption.html:26
 msgid "What is Encryption?"
 msgstr ""
 
-#: templates/learn/encryption.html:13
+#: templates/learn/encryption.html:27
 msgid ""
 "Encryption is a cybersecurity measure that scrambles plain text so it can"
 " only be read by the user who has the secret code, or decryption key."
 msgstr ""
 
-#: templates/learn/encryption.html:13
+#: templates/learn/encryption.html:27
 msgid "It provides added security for sensitive information."
 msgstr ""
 
-#: templates/learn/encryption.html:14
+#: templates/learn/encryption.html:28
 msgid ""
 "Huge amounts of data are managed online and stored in the cloud or on "
 "servers with an ongoing connection to the web. It’s nearly impossible to "
@@ -2675,132 +2794,132 @@ msgid ""
 "keep that personal information private."
 msgstr ""
 
-#: templates/learn/encryption.html:15
+#: templates/learn/encryption.html:29
 msgid "Encryption plays an essential role in this task."
 msgstr ""
 
-#: templates/learn/encryption.html:17
+#: templates/learn/encryption.html:31
 msgid "When to use encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:19
+#: templates/learn/encryption.html:33
 msgid "When to Use Encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:21
+#: templates/learn/encryption.html:35
 msgid ""
 "It’s important to encrypt messages, files, and data exchanged online "
 "whenever they contain personal, sensitive, or classified information "
 "like:"
 msgstr ""
 
-#: templates/learn/encryption.html:23
+#: templates/learn/encryption.html:37
 msgid "Sending an email to your doctor regarding an illness"
 msgstr ""
 
-#: templates/learn/encryption.html:24
+#: templates/learn/encryption.html:38
 msgid "Entering your financial information to log in to your online bank account"
 msgstr ""
 
-#: templates/learn/encryption.html:25
+#: templates/learn/encryption.html:39
 msgid "Sharing a confidential report with your employer"
 msgstr ""
 
-#: templates/learn/encryption.html:28
+#: templates/learn/encryption.html:42
 msgid ""
 "Encryption ensures only the intended recipient can access the information"
 " you shared."
 msgstr ""
 
-#: templates/learn/encryption.html:30
+#: templates/learn/encryption.html:44
 msgid "How does encryption work?"
 msgstr ""
 
-#: templates/learn/encryption.html:31
+#: templates/learn/encryption.html:45
 msgid ""
 "Encryption takes plain text, like a text message or email, and scrambles "
 "it into an unreadable format called"
 msgstr ""
 
-#: templates/learn/encryption.html:31
+#: templates/learn/encryption.html:45
 msgid "ciphertext"
 msgstr ""
 
-#: templates/learn/encryption.html:31
+#: templates/learn/encryption.html:45
 msgid ""
 "This helps protect the confidentiality of digital data either stored on "
 "computer systems or transmitted through a network like the internet."
 msgstr ""
 
-#: templates/learn/encryption.html:33
+#: templates/learn/encryption.html:47
 msgid "How Does Encryption Work"
 msgstr ""
 
-#: templates/learn/encryption.html:35
+#: templates/learn/encryption.html:49
 msgid ""
 "When the intended recipient accesses the message, the information is "
 "translated back to its original form. This is called"
 msgstr ""
 
-#: templates/learn/encryption.html:35
+#: templates/learn/encryption.html:49
 msgid "decryption"
 msgstr ""
 
-#: templates/learn/encryption.html:36
+#: templates/learn/encryption.html:50
 msgid ""
 "To unlock the message, both the sender and the recipient have to use a "
 "“secret”"
 msgstr ""
 
-#: templates/learn/encryption.html:36
+#: templates/learn/encryption.html:50
 msgid "encryption key"
 msgstr ""
 
-#: templates/learn/encryption.html:36
+#: templates/learn/encryption.html:50
 msgid ""
 "a collection of algorithms that scramble and unscramble data back to a "
 "readable format."
 msgstr ""
 
-#: templates/learn/encryption.html:38
+#: templates/learn/encryption.html:52
 msgid "Types of encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:39
+#: templates/learn/encryption.html:53
 msgid "An encryption key is a series of numbers used to encrypt and decrypt data."
 msgstr ""
 
-#: templates/learn/encryption.html:39
+#: templates/learn/encryption.html:53
 msgid ""
 "Encryption keys are created with algorithms, and each key is random and "
 "unique."
 msgstr ""
 
-#: templates/learn/encryption.html:40
+#: templates/learn/encryption.html:54
 msgid ""
 "There are two main types of encryption systems: symmetric encryption and "
 "asymmetric encryption."
 msgstr ""
 
-#: templates/learn/encryption.html:40
+#: templates/learn/encryption.html:54
 msgid "Here’s how they differ."
 msgstr ""
 
-#: templates/learn/encryption.html:43
+#: templates/learn/encryption.html:57
 msgid "Types of Encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:45
+#: templates/learn/encryption.html:59
 msgid "Symmetric encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:46
+#: templates/learn/encryption.html:60
 msgid ""
 "Symmetric encryption uses a single secret password or key to encrypt and "
 "decrypt data."
 msgstr ""
 
-#: templates/learn/encryption.html:46
+#: templates/learn/encryption.html:60
 msgid ""
 "The key could be a code or a random string of letters or numbers "
 "generated by a random number generator (RNG), which is typically required"
@@ -2808,27 +2927,27 @@ msgid ""
 "most used form of encryption."
 msgstr ""
 
-#: templates/learn/encryption.html:48
+#: templates/learn/encryption.html:62
 msgid "Symmetric encryption are available in two forms:"
 msgstr ""
 
-#: templates/learn/encryption.html:50
+#: templates/learn/encryption.html:64
 msgid "Block algorithms:"
 msgstr ""
 
-#: templates/learn/encryption.html:50
+#: templates/learn/encryption.html:64
 msgid "Encrypt a group of plain text symbols as one block."
 msgstr ""
 
-#: templates/learn/encryption.html:51
+#: templates/learn/encryption.html:65
 msgid "Stream algorithms:"
 msgstr ""
 
-#: templates/learn/encryption.html:51
+#: templates/learn/encryption.html:65
 msgid "Convert one symbol of plain text directly into ciphertext."
 msgstr ""
 
-#: templates/learn/encryption.html:54
+#: templates/learn/encryption.html:68
 msgid ""
 "Although symmetric encryption has its weak spots, it makes up for them in"
 " speed and efficiency. Since only one key is shared between parties—and "
@@ -2836,11 +2955,11 @@ msgid ""
 "encryption—symmetric cryptography is faster to run."
 msgstr ""
 
-#: templates/learn/encryption.html:56
+#: templates/learn/encryption.html:70
 msgid "Asymmetric encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:57
+#: templates/learn/encryption.html:71
 msgid ""
 "Asymmetric encryption—also known as public key cryptography—uses two keys"
 " for encryption and decryption. A public key, which is shared among "
@@ -2850,47 +2969,47 @@ msgid ""
 "trying to employ:"
 msgstr ""
 
-#: templates/learn/encryption.html:59
+#: templates/learn/encryption.html:73
 msgid "Encrypting with the public key:"
 msgstr ""
 
-#: templates/learn/encryption.html:59
+#: templates/learn/encryption.html:73
 msgid ""
 "ensures only the intended recipient can use the corresponding private key"
 " to decrypt the message, even if the information was breached during "
 "transit"
 msgstr ""
 
-#: templates/learn/encryption.html:60
+#: templates/learn/encryption.html:74
 msgid "Encrypting with the private key:"
 msgstr ""
 
-#: templates/learn/encryption.html:60
+#: templates/learn/encryption.html:74
 msgid ""
 "allows the recipient of the information to verify the sender’s identity, "
 "since they won’t be able to decrypt data that’s been tampered with by an "
 "unauthorized user"
 msgstr ""
 
-#: templates/learn/encryption.html:62
+#: templates/learn/encryption.html:76
 msgid ""
 "Because asymmetric encryption uses two longer keys, it’s much slower and "
 "less efficient to run compared to symmetric cryptography. It can even bog"
 " down networks and create issues with memory capacity and battery life."
 msgstr ""
 
-#: templates/learn/encryption.html:63
+#: templates/learn/encryption.html:77
 msgid ""
 "However, asymmetric encryption is considered more advanced in terms of "
 "security than symmetric cryptography. Both are still in use "
 "today—sometimes simultaneously to compensate for the other’s weaknesses."
 msgstr ""
 
-#: templates/learn/encryption.html:65
+#: templates/learn/encryption.html:79
 msgid "What is email encryption?"
 msgstr ""
 
-#: templates/learn/encryption.html:66
+#: templates/learn/encryption.html:80
 msgid ""
 "Email encryption is a security measure that disguises the contents of an "
 "email to protect against sensitive data exposure and ensure only the "
@@ -2899,15 +3018,15 @@ msgid ""
 "only unrecognizable nonsense."
 msgstr ""
 
-#: templates/learn/encryption.html:69
+#: templates/learn/encryption.html:83
 msgid "Email Encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:71
+#: templates/learn/encryption.html:85
 msgid "The importance of email encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:72
+#: templates/learn/encryption.html:86
 msgid ""
 "Email encryption helps protect your personal information and "
 "communications from being exposed in data breaches and other "
@@ -2915,7 +3034,7 @@ msgid ""
 "help reduce the likelihood of identity theft."
 msgstr ""
 
-#: templates/learn/encryption.html:73
+#: templates/learn/encryption.html:87
 msgid ""
 "If you send unencrypted emails, you risk hackers intercepting your "
 "messages. While a short email catching up with a friend may not have any "
@@ -2923,7 +3042,7 @@ msgid ""
 " your identity, other messages could."
 msgstr ""
 
-#: templates/learn/encryption.html:74
+#: templates/learn/encryption.html:88
 msgid ""
 "In 2022 alone, there were more than 21,000 business emails compromised. "
 "Using social engineering, scammers accessed business email accounts and "
@@ -2931,11 +3050,11 @@ msgid ""
 "disruptions."
 msgstr ""
 
-#: templates/learn/encryption.html:76
+#: templates/learn/encryption.html:90
 msgid "Types of email encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:77
+#: templates/learn/encryption.html:91
 msgid ""
 "Understanding how email encryption works is important, and learning about"
 " the different types of protocols used for sending safer emails can help "
@@ -2943,11 +3062,11 @@ msgid ""
 "protocols can protect information from unwanted online predators."
 msgstr ""
 
-#: templates/learn/encryption.html:79
+#: templates/learn/encryption.html:93
 msgid "S/MIME (Secure/Multipurpose) encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:80
+#: templates/learn/encryption.html:94
 msgid ""
 "Secure/Multipurpose Internet Mail Extension (S/MIME) is an email "
 "encryption protocol often built into macOS devices and major web-based "
@@ -2956,7 +3075,7 @@ msgid ""
 "verification."
 msgstr ""
 
-#: templates/learn/encryption.html:81
+#: templates/learn/encryption.html:95
 msgid ""
 "S/MIME encryption enables the sender to secure messages with these "
 "digital certificates. The recipient can then use the provided certificate"
@@ -2964,11 +3083,11 @@ msgid ""
 "device secure."
 msgstr ""
 
-#: templates/learn/encryption.html:83
+#: templates/learn/encryption.html:97
 msgid "PGP/MIME encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:84
+#: templates/learn/encryption.html:98
 msgid ""
 "Pretty Good Privacy/Multipurpose Internet Extensions (PGP/MIME) is "
 "another encryption protocol that can send secure emails. While it "
@@ -2978,18 +3097,18 @@ msgid ""
 "trust” model."
 msgstr ""
 
-#: templates/learn/encryption.html:85
+#: templates/learn/encryption.html:99
 msgid ""
 "PGP/MIME provides more control and flexibility concerning how well you "
 "want your emails encrypted but sometimes requires a third-party "
 "extension."
 msgstr ""
 
-#: templates/learn/encryption.html:87
+#: templates/learn/encryption.html:101
 msgid "SSL/TLS/STARTTLS encryption"
 msgstr ""
 
-#: templates/learn/encryption.html:88
+#: templates/learn/encryption.html:102
 msgid ""
 "Secure Sockets Layer/Transport Layer Security is a protocol that uses SSL"
 " and TLS (the successor to SSL) to encrypt communications between two "
@@ -2998,7 +3117,7 @@ msgid ""
 "between email servers."
 msgstr ""
 
-#: templates/learn/encryption.html:89
+#: templates/learn/encryption.html:103
 msgid ""
 "The sending server signals the receiver to secure the connection during "
 "email transmission. This helps prevent snoops from seeing the contents of"
@@ -3009,137 +3128,137 @@ msgstr ""
 msgid "LEARN about identity theft"
 msgstr ""
 
-#: templates/learn/identity-theft.html:11
+#: templates/learn/identity-theft.html:20
 msgid "What is identity theft?"
 msgstr ""
 
-#: templates/learn/identity-theft.html:12
+#: templates/learn/identity-theft.html:21
 msgid ""
 "Identity theft is a crime where someone illegally obtains and uses "
 "another person’s personal information, usually for financial gain."
 msgstr ""
 
-#: templates/learn/identity-theft.html:13
+#: templates/learn/identity-theft.html:22
 msgid ""
 "It’s a serious crime that can have devastating effects on victims, "
 "including ruined credit, financial loss, and personal distress."
 msgstr ""
 
-#: templates/learn/identity-theft.html:15
+#: templates/learn/identity-theft.html:24
 msgid "How does identity theft happen?"
 msgstr ""
 
-#: templates/learn/identity-theft.html:16
+#: templates/learn/identity-theft.html:25
 msgid "Identity thieves use various methods to steal your information, including:"
 msgstr ""
 
-#: templates/learn/identity-theft.html:18
+#: templates/learn/identity-theft.html:27
 msgid ""
 "Phishing: A scam where fraudsters impersonate a legitimate entity to "
 "trick you into revealing your personal information."
 msgstr ""
 
-#: templates/learn/identity-theft.html:19
+#: templates/learn/identity-theft.html:28
 msgid ""
 "Mail theft: Thieves may steal personal mail to get sensitive information,"
 " like credit card statements or tax returns."
 msgstr ""
 
-#: templates/learn/identity-theft.html:20
+#: templates/learn/identity-theft.html:29
 msgid ""
 "Data breaches: Hackers may gain access to online databases that contain "
 "personal information."
 msgstr ""
 
-#: templates/learn/identity-theft.html:21
+#: templates/learn/identity-theft.html:30
 msgid ""
 "Skimming: Fraudsters may use card readers to steal information from your "
 "credit or debit cards."
 msgstr ""
 
-#: templates/learn/identity-theft.html:24
+#: templates/learn/identity-theft.html:33
 msgid "Signs of identity theft"
 msgstr ""
 
-#: templates/learn/identity-theft.html:25
+#: templates/learn/identity-theft.html:34
 msgid ""
 "If you notice any of the following, it could be a sign that your identity"
 " has been stolen:"
 msgstr ""
 
-#: templates/learn/identity-theft.html:27
+#: templates/learn/identity-theft.html:36
 msgid "Unexplained charges on your bank or credit card statements."
 msgstr ""
 
-#: templates/learn/identity-theft.html:28
+#: templates/learn/identity-theft.html:37
 msgid "Receiving bills or collection notices for items you didn’t purchase."
 msgstr ""
 
-#: templates/learn/identity-theft.html:29
+#: templates/learn/identity-theft.html:38
 msgid ""
 "Missing mail or notices that your financial or credit account information"
 " has been changed without your consent."
 msgstr ""
 
-#: templates/learn/identity-theft.html:32
+#: templates/learn/identity-theft.html:41
 msgid "How to protect yourself from identity theft"
 msgstr ""
 
-#: templates/learn/identity-theft.html:33
+#: templates/learn/identity-theft.html:42
 msgid "To protect yourself from identity theft, you can:"
 msgstr ""
 
-#: templates/learn/identity-theft.html:35
+#: templates/learn/identity-theft.html:44
 msgid "Use strong, unique passwords for your online accounts."
 msgstr ""
 
-#: templates/learn/identity-theft.html:36
+#: templates/learn/identity-theft.html:45
 msgid "Enable two-factor authentication wherever possible."
 msgstr ""
 
-#: templates/learn/identity-theft.html:37
+#: templates/learn/identity-theft.html:46
 msgid ""
 "Be cautious of unsolicited requests for personal information via phone, "
 "email, or text message."
 msgstr ""
 
-#: templates/learn/identity-theft.html:38
+#: templates/learn/identity-theft.html:47
 msgid ""
 "Monitor your bank accounts and credit reports regularly for any unusual "
 "activity."
 msgstr ""
 
-#: templates/learn/identity-theft.html:39
+#: templates/learn/identity-theft.html:48
 msgid "Avoid sharing sensitive information on public Wi-Fi networks."
 msgstr ""
 
-#: templates/learn/identity-theft.html:42
+#: templates/learn/identity-theft.html:51
 msgid "What to do if you’re a victim of identity theft?"
 msgstr ""
 
-#: templates/learn/identity-theft.html:43
+#: templates/learn/identity-theft.html:52
 msgid "If you become a victim of identity theft, here are the steps to take:"
 msgstr ""
 
-#: templates/learn/identity-theft.html:45
+#: templates/learn/identity-theft.html:54
 msgid ""
 "Report the theft to your bank or credit card company to freeze accounts "
 "and protect against further charges."
 msgstr ""
 
-#: templates/learn/identity-theft.html:46
+#: templates/learn/identity-theft.html:55
 msgid ""
 "Place a fraud alert on your credit report with major credit bureaus "
 "(Equifax, Experian, TransUnion)."
 msgstr ""
 
-#: templates/learn/identity-theft.html:47
+#: templates/learn/identity-theft.html:56
 msgid ""
 "File a report with the Federal Trade Commission (FTC) and local law "
 "enforcement."
 msgstr ""
 
-#: templates/learn/identity-theft.html:48
+#: templates/learn/identity-theft.html:57
 msgid ""
 "Monitor your credit reports to ensure the thief has not opened new "
 "accounts in your name."
@@ -3149,11 +3268,15 @@ msgstr ""
 msgid "LEARN about Malware"
 msgstr ""
 
-#: templates/learn/malware.html:11
+#: templates/learn/malware.html:14
+msgid "US Norton Blog - Malware: what it is, how it works, and how to stop it"
+msgstr ""
+
+#: templates/learn/malware.html:20
 msgid "What is malware?"
 msgstr ""
 
-#: templates/learn/malware.html:12
+#: templates/learn/malware.html:21
 msgid ""
 "Malware, short for \"malicious software,\" is any kind of software "
 "designed to gain access to or damage a computer, usually without the "
@@ -3162,36 +3285,36 @@ msgid ""
 "useful for vandalism and the destruction of targeted machines."
 msgstr ""
 
-#: templates/learn/malware.html:14
+#: templates/learn/malware.html:23
 msgid "How do you get malware?"
 msgstr ""
 
-#: templates/learn/malware.html:15
+#: templates/learn/malware.html:24
 msgid ""
 "Users get malware when a hacker infects a device; this process typically "
 "follows three general steps:"
 msgstr ""
 
-#: templates/learn/malware.html:17
+#: templates/learn/malware.html:26
 msgid ""
 "A hacker strategically places a malicious link, file, or attachment in "
 "front of their victim, potentially as a phishing email or other social "
 "engineering scheme."
 msgstr ""
 
-#: templates/learn/malware.html:18
+#: templates/learn/malware.html:27
 msgid ""
 "The victim clicks on the infected asset, unknowingly triggering the "
 "malware to install onto their device."
 msgstr ""
 
-#: templates/learn/malware.html:18
+#: templates/learn/malware.html:27
 msgid ""
 "The malware proceeds to steal, compromise, and/or destroy sensitive data "
 "stored on the device."
 msgstr ""
 
-#: templates/learn/malware.html:21
+#: templates/learn/malware.html:30
 msgid ""
 "While you may download many kinds of malware from the internet, some "
 "hackers use USB sticks and flash drives to spread malware, because it’s "
@@ -3199,166 +3322,166 @@ msgid ""
 "tactic, never insert unfamiliar storage devices into your computer."
 msgstr ""
 
-#: templates/learn/malware.html:23
+#: templates/learn/malware.html:32
 msgid "Common malware types"
 msgstr ""
 
-#: templates/learn/malware.html:24
+#: templates/learn/malware.html:33
 msgid ""
 "There are many different kinds of malware lurking online. Here are 14 of "
 "the most common types of malware seen on the internet:"
 msgstr ""
 
-#: templates/learn/malware.html:26
+#: templates/learn/malware.html:35
 msgid "Malware Types Pt.1"
 msgstr ""
 
-#: templates/learn/malware.html:28
+#: templates/learn/malware.html:37
 msgid "Virus"
 msgstr ""
 
-#: templates/learn/malware.html:28
+#: templates/learn/malware.html:37
 msgid ""
 "These are dangerous pieces of code inserted into a program or application"
 " and are often triggered by your actions."
 msgstr ""
 
-#: templates/learn/malware.html:29
+#: templates/learn/malware.html:38
 msgid "Worms"
 msgstr ""
 
-#: templates/learn/malware.html:29
+#: templates/learn/malware.html:38
 msgid ""
 "A worm is a type of malware infection that replicates itself and uses "
 "system flaws to make its way onto your devices."
 msgstr ""
 
-#: templates/learn/malware.html:30
+#: templates/learn/malware.html:39
 msgid "Ransomware"
 msgstr ""
 
-#: templates/learn/malware.html:30
+#: templates/learn/malware.html:39
 msgid ""
 "This kind of malware can lock, encrypt, and hold your data hostage before"
 " destroying your personal files unless you pay a ransom."
 msgstr ""
 
-#: templates/learn/malware.html:31
+#: templates/learn/malware.html:40
 msgid "Cryptojacker"
 msgstr ""
 
-#: templates/learn/malware.html:31
+#: templates/learn/malware.html:40
 msgid ""
 "To mine cryptocurrency faster, hackers create malware designed to take "
 "part of your device’s computing power to mine crypto on its behalf."
 msgstr ""
 
-#: templates/learn/malware.html:32
+#: templates/learn/malware.html:41
 msgid "Browser hijacker"
 msgstr ""
 
-#: templates/learn/malware.html:32
+#: templates/learn/malware.html:41
 msgid ""
 "This form of malware edits your browser's settings to get you to visit "
 "certain sites or perform other actions that the hacker wants."
 msgstr ""
 
-#: templates/learn/malware.html:35
+#: templates/learn/malware.html:44
 msgid "Malware Types Pt.2"
 msgstr ""
 
-#: templates/learn/malware.html:37
+#: templates/learn/malware.html:46
 msgid "Trojan"
 msgstr ""
 
-#: templates/learn/malware.html:37
+#: templates/learn/malware.html:46
 msgid ""
 "A Trojan imitates legitimate applications or programs to get you to "
 "download and unknowingly install malware."
 msgstr ""
 
-#: templates/learn/malware.html:38
+#: templates/learn/malware.html:47
 msgid "Logic bomb"
 msgstr ""
 
-#: templates/learn/malware.html:38
+#: templates/learn/malware.html:47
 msgid ""
 "A logic bomb is a type of malware that waits inside a system until you "
 "meet certain conditions or perform specific actions."
 msgstr ""
 
-#: templates/learn/malware.html:39
+#: templates/learn/malware.html:48
 msgid "Scareware"
 msgstr ""
 
-#: templates/learn/malware.html:39
+#: templates/learn/malware.html:48
 msgid ""
 "Scareware is designed to scare you into performing a specific action, "
 "like downloading fake security software."
 msgstr ""
 
-#: templates/learn/malware.html:40
+#: templates/learn/malware.html:49
 msgid "Malvertising"
 msgstr ""
 
-#: templates/learn/malware.html:40
+#: templates/learn/malware.html:49
 msgid ""
 "Infected ads loaded with malware download and install malicious programs "
 "onto your device after you click on a displayed pop-up."
 msgstr ""
 
-#: templates/learn/malware.html:41
+#: templates/learn/malware.html:50
 msgid "Rootkit"
 msgstr ""
 
-#: templates/learn/malware.html:41
+#: templates/learn/malware.html:50
 msgid ""
 "A rootkit is the kind of difficult-to-detect malware that grants hackers "
 "complete remote access to your device."
 msgstr ""
 
-#: templates/learn/malware.html:44
+#: templates/learn/malware.html:53
 msgid "Malware Types Pt.3"
 msgstr ""
 
-#: templates/learn/malware.html:46
+#: templates/learn/malware.html:55
 msgid "Spyware"
 msgstr ""
 
-#: templates/learn/malware.html:46
+#: templates/learn/malware.html:55
 msgid ""
 "This type of malware secretly tracks and records your activity to learn "
 "more about you, and often tries to gain access to data or financial "
 "accounts."
 msgstr ""
 
-#: templates/learn/malware.html:47
+#: templates/learn/malware.html:56
 msgid "Adware"
 msgstr ""
 
-#: templates/learn/malware.html:47
+#: templates/learn/malware.html:56
 msgid ""
 "Taking the form of unwanted pop-ups, this type of malware can track your "
 "browsing activity and install other forms of malware like keyloggers or "
 "spyware."
 msgstr ""
 
-#: templates/learn/malware.html:48
+#: templates/learn/malware.html:57
 msgid "Botnet"
 msgstr ""
 
-#: templates/learn/malware.html:48
+#: templates/learn/malware.html:57
 msgid ""
 "These spider-like programs crawl the internet looking for security flaws "
 "to exploit by linking a network of infected systems together to further "
 "its reach and ability to do damage."
 msgstr ""
 
-#: templates/learn/malware.html:49
+#: templates/learn/malware.html:58
 msgid "Fileless malware"
 msgstr ""
 
-#: templates/learn/malware.html:49
+#: templates/learn/malware.html:58
 msgid ""
 "By using protocols and software already built into operating systems to "
 "infect devices, fileless malware can operate undetected for a long time "
@@ -3369,35 +3492,35 @@ msgstr ""
 msgid "LEARN about Mobile Security"
 msgstr ""
 
-#: templates/learn/mobile-security.html:11
+#: templates/learn/mobile-security.html:20
 msgid "What is mobile security?"
 msgstr ""
 
-#: templates/learn/mobile-security.html:12
+#: templates/learn/mobile-security.html:21
 msgid ""
 "Mobile security is a system of security software and habits that keeps "
 "your data out of the hands of hackers, scammers, and identity thieves."
 msgstr ""
 
-#: templates/learn/mobile-security.html:12
+#: templates/learn/mobile-security.html:21
 msgid ""
 "While it’s tempting to think that only politicians, financial "
 "institutions, and big tech companies need enhanced security, everyone "
 "needs protection."
 msgstr ""
 
-#: templates/learn/mobile-security.html:14
+#: templates/learn/mobile-security.html:23
 msgid "Why mobile security is crucial"
 msgstr ""
 
-#: templates/learn/mobile-security.html:15
+#: templates/learn/mobile-security.html:24
 msgid ""
 "While device manufacturers help you protect your Android and Apple "
 "devices and operating systems, it often isn’t enough to fully safeguard "
 "your data from attacks by hackers."
 msgstr ""
 
-#: templates/learn/mobile-security.html:17
+#: templates/learn/mobile-security.html:26
 msgid ""
 "Cybercriminals don’t discriminate when they create malware to infect the "
 "latest computers, phones, and tablets. If they can design a virus that "
@@ -3406,38 +3529,38 @@ msgid ""
 "against normal people (or they’ll sell it to someone who will)."
 msgstr ""
 
-#: templates/learn/mobile-security.html:19
+#: templates/learn/mobile-security.html:28
 msgid "Mobile security attacks can:"
 msgstr ""
 
-#: templates/learn/mobile-security.html:21
+#: templates/learn/mobile-security.html:30
 msgid "Expose your financial information."
 msgstr ""
 
-#: templates/learn/mobile-security.html:22
+#: templates/learn/mobile-security.html:31
 msgid "Increase the likelihood of identity theft."
 msgstr ""
 
-#: templates/learn/mobile-security.html:23
+#: templates/learn/mobile-security.html:32
 msgid "Corrupt your files and personal data."
 msgstr ""
 
-#: templates/learn/mobile-security.html:26
+#: templates/learn/mobile-security.html:35
 msgid ""
 "Real security means taking extra steps to improve your digital safety "
 "habits and using software that recognizes and stops threats before your "
 "devices are compromised."
 msgstr ""
 
-#: templates/learn/mobile-security.html:27
+#: templates/learn/mobile-security.html:36
 msgid "What Mobile Security Protects"
 msgstr ""
 
-#: templates/learn/mobile-security.html:29
+#: templates/learn/mobile-security.html:38
 msgid "5 examples of mobile security and how they work"
 msgstr ""
 
-#: templates/learn/mobile-security.html:30
+#: templates/learn/mobile-security.html:39
 msgid ""
 "Because the threats posed by malware and hacking are so varied, the "
 "systems needed to prevent and stop them are varied, too. When mobile "
@@ -3445,21 +3568,21 @@ msgid ""
 "against bad actors than any one system could on its own."
 msgstr ""
 
-#: templates/learn/mobile-security.html:31
+#: templates/learn/mobile-security.html:40
 msgid "Some examples of mobile security include:"
 msgstr ""
 
-#: templates/learn/mobile-security.html:33
+#: templates/learn/mobile-security.html:42
 msgid ""
 "to keep your online traffic and data secret. Encrypted information can "
 "only be read by those with the decryption key."
 msgstr ""
 
-#: templates/learn/mobile-security.html:34
+#: templates/learn/mobile-security.html:43
 msgid "Secure boot processes"
 msgstr ""
 
-#: templates/learn/mobile-security.html:34
+#: templates/learn/mobile-security.html:43
 msgid ""
 "for safer compliance between hardware and firmware. These security "
 "standards ensure that hardware can use operating systems and programs. "
@@ -3467,11 +3590,11 @@ msgid ""
 " from being able to access and run amok within a system."
 msgstr ""
 
-#: templates/learn/mobile-security.html:35
+#: templates/learn/mobile-security.html:44
 msgid "Application sandboxing"
 msgstr ""
 
-#: templates/learn/mobile-security.html:35
+#: templates/learn/mobile-security.html:44
 msgid ""
 "to observe and stop the spread of malicious software. Application "
 "sandboxing creates a limited environment for code to run. These "
@@ -3481,11 +3604,11 @@ msgid ""
 "against it."
 msgstr ""
 
-#: templates/learn/mobile-security.html:36
+#: templates/learn/mobile-security.html:45
 msgid "Mobile malware and antivirus software"
 msgstr ""
 
-#: templates/learn/mobile-security.html:36
+#: templates/learn/mobile-security.html:45
 msgid ""
 "stop known threats and watch over your devices. Using signature detection"
 " to stop known threats along with a form of application sandboxing to "
@@ -3493,26 +3616,26 @@ msgid ""
 "free from infection."
 msgstr ""
 
-#: templates/learn/mobile-security.html:37
+#: templates/learn/mobile-security.html:46
 msgid "Network security protocols"
 msgstr ""
 
-#: templates/learn/mobile-security.html:37
+#: templates/learn/mobile-security.html:46
 msgid ""
 "like HTTPS, let your devices know a connection is safe. These protocols, "
 "including SSL certificates, create an encrypted channel for traffic to "
 "move safely between trusted devices."
 msgstr ""
 
-#: templates/learn/mobile-security.html:40
+#: templates/learn/mobile-security.html:49
 msgid "The main threats to mobile security"
 msgstr ""
 
-#: templates/learn/mobile-security.html:41
+#: templates/learn/mobile-security.html:50
 msgid "What are Mobile Security Threats"
 msgstr ""
 
-#: templates/learn/mobile-security.html:42
+#: templates/learn/mobile-security.html:51
 msgid ""
 "These threats present themselves in many different formats, and the "
 "people behind them always try to improve their effectiveness. Knowing "
@@ -3528,11 +3651,15 @@ msgstr ""
 msgid "Strong Passwords"
 msgstr ""
 
-#: templates/learn/password-security.html:12
+#: templates/learn/password-security.html:18
+msgid "Why Is Password Security Important?"
+msgstr ""
+
+#: templates/learn/password-security.html:25
 msgid "Why is password security important?"
 msgstr ""
 
-#: templates/learn/password-security.html:13
+#: templates/learn/password-security.html:26
 msgid ""
 "If passwords aren’t strong and kept secure, cybercriminals could gain "
 "access to your accounts. That can lead to scams, financial repercussions,"
@@ -3540,33 +3667,33 @@ msgid ""
 "hacked accounts or a stolen identity."
 msgstr ""
 
-#: templates/learn/password-security.html:15
+#: templates/learn/password-security.html:28
 msgid "Scams:"
 msgstr ""
 
-#: templates/learn/password-security.html:15
+#: templates/learn/password-security.html:28
 msgid ""
 "If a cybercriminal can access your social media accounts or email with "
 "your password, they could scam your contacts or use your own information "
 "against you in a social engineering attack."
 msgstr ""
 
-#: templates/learn/password-security.html:16
+#: templates/learn/password-security.html:29
 msgid "Financial loss:"
 msgstr ""
 
-#: templates/learn/password-security.html:16
+#: templates/learn/password-security.html:29
 msgid ""
 "Whether it’s your bank account drained, blackmail, or transferring money "
 "from your payment app, the end goal for password thieves is typically "
 "financial."
 msgstr ""
 
-#: templates/learn/password-security.html:17
+#: templates/learn/password-security.html:30
 msgid "Identity theft:"
 msgstr ""
 
-#: templates/learn/password-security.html:17
+#: templates/learn/password-security.html:30
 msgid ""
 "If an identity thief has enough information about you, a password could "
 "be the final piece of the puzzle they need to achieve their objective. "
@@ -3574,7 +3701,7 @@ msgid ""
 "new credit card and intercepting it."
 msgstr ""
 
-#: templates/learn/password-security.html:20
+#: templates/learn/password-security.html:33
 msgid ""
 "Creating a strong password can reduce the risk of cybercriminals guessing"
 " it and accessing your sensitive data. Keeper’s 2024 Future of Defense "
@@ -3583,7 +3710,7 @@ msgid ""
 "passwords for each of your online accounts."
 msgstr ""
 
-#: templates/learn/password-security.html:21
+#: templates/learn/password-security.html:34
 msgid ""
 "When you use weak, short passwords to secure your online accounts it "
 "makes it a lot easier and faster for a cybercriminal to crack it. On the "
@@ -3592,55 +3719,55 @@ msgid ""
 "it would take a cybercriminal three sextillion years to crack it."
 msgstr ""
 
-#: templates/learn/password-security.html:22
+#: templates/learn/password-security.html:35
 msgid "Time taken to crack password"
 msgstr ""
 
-#: templates/learn/password-security.html:24
+#: templates/learn/password-security.html:37
 msgid "How are passwords stolen?"
 msgstr ""
 
-#: templates/learn/password-security.html:25
+#: templates/learn/password-security.html:38
 msgid ""
 "Cybercriminals steal passwords through a variety of methods using scams "
 "or hacking techniques."
 msgstr ""
 
-#: templates/learn/password-security.html:27
+#: templates/learn/password-security.html:40
 msgid "Data breaches:"
 msgstr ""
 
-#: templates/learn/password-security.html:27
+#: templates/learn/password-security.html:40
 msgid ""
 "If your password is exposed in a data breach, hackers can use it to "
 "access the associated account."
 msgstr ""
 
-#: templates/learn/password-security.html:28
+#: templates/learn/password-security.html:41
 msgid "Password-guessing attacks:"
 msgstr ""
 
-#: templates/learn/password-security.html:28
+#: templates/learn/password-security.html:41
 msgid ""
 "Dictionary attacks involve hackers trying common words and phrases at "
 "scale to guess passwords."
 msgstr ""
 
-#: templates/learn/password-security.html:29
+#: templates/learn/password-security.html:42
 msgid "Malware:"
 msgstr ""
 
-#: templates/learn/password-security.html:29
+#: templates/learn/password-security.html:42
 msgid ""
 "Some types of malware can steal your passwords or record your keystrokes "
 "as you type."
 msgstr ""
 
-#: templates/learn/password-security.html:30
+#: templates/learn/password-security.html:43
 msgid "Phishing:"
 msgstr ""
 
-#: templates/learn/password-security.html:30
+#: templates/learn/password-security.html:43
 msgid ""
 "A phishing attack can be designed to trick you into revealing your "
 "password. An attack via email or text could also urge you to click a link"
@@ -3648,11 +3775,11 @@ msgid ""
 "unknowingly expose it."
 msgstr ""
 
-#: templates/learn/password-security.html:31 templates/learn/phishing.html:55
+#: templates/learn/password-security.html:44 templates/learn/phishing.html:64
 msgid "Social engineering:"
 msgstr ""
 
-#: templates/learn/password-security.html:31
+#: templates/learn/password-security.html:44
 msgid ""
 "Phishing is a common type of social engineering attack but there are "
 "other examples, like a scareware attack that could lead to a hacker "
@@ -3667,18 +3794,18 @@ msgstr ""
 msgid "Phishing"
 msgstr ""
 
-#: templates/learn/phishing.html:12
+#: templates/learn/phishing.html:21
 msgid "What is phishing?"
 msgstr ""
 
-#: templates/learn/phishing.html:13
+#: templates/learn/phishing.html:22
 msgid ""
 "Phishing is a social engineering cyberthreat where scammers impersonate a"
 " trustworthy source and trick you into revealing sensitive data like "
 "passwords, credit card numbers, or personally identifiable information."
 msgstr ""
 
-#: templates/learn/phishing.html:14
+#: templates/learn/phishing.html:23
 msgid ""
 "Phishing attacks often begin with scammers sending a malicious link or "
 "attachment via email, social media, or text—possibly triggering a malware"
@@ -3686,47 +3813,47 @@ msgid ""
 " a phisher pretending to offer customer service or tech support."
 msgstr ""
 
-#: templates/learn/phishing.html:16
+#: templates/learn/phishing.html:25
 msgid "What is Phishing"
 msgstr ""
 
-#: templates/learn/phishing.html:18
+#: templates/learn/phishing.html:27
 msgid "How does phishing work"
 msgstr ""
 
-#: templates/learn/phishing.html:19
+#: templates/learn/phishing.html:28
 msgid ""
 "While phishing can vary based on the specific type of scam the scammer is"
 " carrying out, phishing attacks often follow these steps:"
 msgstr ""
 
-#: templates/learn/phishing.html:21
+#: templates/learn/phishing.html:30
 msgid ""
 "The phisher selects a target (this can be an organization, group, or "
 "individual) and comes up with a ruse."
 msgstr ""
 
-#: templates/learn/phishing.html:22
+#: templates/learn/phishing.html:31
 msgid "Next, the phisher chooses a communication method and makes contact."
 msgstr ""
 
-#: templates/learn/phishing.html:23
+#: templates/learn/phishing.html:32
 msgid ""
 "If effective, the target will engage by replying, opening the phishing "
 "link, or downloading a malicious attachment."
 msgstr ""
 
-#: templates/learn/phishing.html:24
+#: templates/learn/phishing.html:33
 msgid ""
 "Finally, phishers will collect data and use it to make illegal purchases "
 "or commit fraudulent acts such as identity theft."
 msgstr ""
 
-#: templates/learn/phishing.html:27
+#: templates/learn/phishing.html:36
 msgid "What is a phishing link?"
 msgstr ""
 
-#: templates/learn/phishing.html:28
+#: templates/learn/phishing.html:37
 msgid ""
 "A phishing link is a fake link used by cybercriminals to trick you into "
 "compromising your own privacy and security. Clicking a phishing link may "
@@ -3734,30 +3861,30 @@ msgid ""
 "you’re prompted to enter sensitive information."
 msgstr ""
 
-#: templates/learn/phishing.html:30
+#: templates/learn/phishing.html:39
 msgid "What is a Phishing Link"
 msgstr ""
 
-#: templates/learn/phishing.html:32
+#: templates/learn/phishing.html:41
 msgid "Types of phishing attacks"
 msgstr ""
 
-#: templates/learn/phishing.html:33
+#: templates/learn/phishing.html:42
 msgid ""
 "Phishing scams can take many forms—the type of individual attack "
 "ultimately depends on the phisher, who they target, the communication "
 "platform they use, and their end goal."
 msgstr ""
 
-#: templates/learn/phishing.html:34
+#: templates/learn/phishing.html:43
 msgid "Here’s a rundown of a few predominantly link-based phishing attacks."
 msgstr ""
 
-#: templates/learn/phishing.html:36
+#: templates/learn/phishing.html:45
 msgid "Email phishing"
 msgstr ""
 
-#: templates/learn/phishing.html:37
+#: templates/learn/phishing.html:46
 msgid ""
 "The basic phishing email is sent by fraudsters impersonating legitimate "
 "companies, often banks or credit card providers. These email phishing "
@@ -3766,11 +3893,11 @@ msgid ""
 "where you’re asked to voluntarily enter private information."
 msgstr ""
 
-#: templates/learn/phishing.html:39
+#: templates/learn/phishing.html:48
 msgid "Spear phishing"
 msgstr ""
 
-#: templates/learn/phishing.html:40
+#: templates/learn/phishing.html:49
 msgid ""
 "Spear phishing emails target a specific individual, business, or "
 "organization rather than just casting a wide net. Typically, spear "
@@ -3780,11 +3907,11 @@ msgid ""
 "information in what you believe to be an internal conversation."
 msgstr ""
 
-#: templates/learn/phishing.html:42
+#: templates/learn/phishing.html:51
 msgid "Clone phishing"
 msgstr ""
 
-#: templates/learn/phishing.html:43
+#: templates/learn/phishing.html:52
 msgid ""
 "In clone phishing attacks, scammers create a nearly identical version of "
 "an email that victims have already received. The cloned email is sent "
@@ -3793,18 +3920,18 @@ msgid ""
 "looks the same, too."
 msgstr ""
 
-#: templates/learn/phishing.html:44
+#: templates/learn/phishing.html:53
 msgid ""
 "What’s different about a clone phishing attack is that the attachment or "
 "link in the message has been changed. If victims click those links now, "
 "it will take them to a malicious website or open an infected attachment."
 msgstr ""
 
-#: templates/learn/phishing.html:46
+#: templates/learn/phishing.html:55
 msgid "Whaling"
 msgstr ""
 
-#: templates/learn/phishing.html:47
+#: templates/learn/phishing.html:56
 msgid ""
 "Whaling attacks target chief executive officers, chief operating "
 "officers, or other high-ranking executives. The goal of a whaling attack "
@@ -3815,11 +3942,11 @@ msgid ""
 " legitimate outside agencies."
 msgstr ""
 
-#: templates/learn/phishing.html:49
+#: templates/learn/phishing.html:58
 msgid "Pop-up phishing"
 msgstr ""
 
-#: templates/learn/phishing.html:50
+#: templates/learn/phishing.html:59
 msgid ""
 "Pop-up ad phishing scams trick people into installing various types of "
 "malware on their devices by leveraging scare tactics. A common pop-up "
@@ -3830,18 +3957,18 @@ msgid ""
 "work or, worse, actually does infect the computer with malware."
 msgstr ""
 
-#: templates/learn/phishing.html:52
+#: templates/learn/phishing.html:61
 msgid "What techniques do phishers use to manipulate their targets?"
 msgstr ""
 
-#: templates/learn/phishing.html:53
+#: templates/learn/phishing.html:62
 msgid ""
 "To help increase their chances of getting the information they want, "
 "scammers may employ a combination of different phishing techniques, "
 "including:"
 msgstr ""
 
-#: templates/learn/phishing.html:55
+#: templates/learn/phishing.html:64
 msgid ""
 "This is the act of tricking someone into divulging sensitive information "
 "using manipulative persuasion tactics. For example, a scammer may pretend"
@@ -3849,11 +3976,11 @@ msgid ""
 "quickly send them money."
 msgstr ""
 
-#: templates/learn/phishing.html:56
+#: templates/learn/phishing.html:65
 msgid "Hyperlink manipulation:"
 msgstr ""
 
-#: templates/learn/phishing.html:56
+#: templates/learn/phishing.html:65
 msgid ""
 "Phishers may use the text of a legitimate URL to disguise a link to a "
 "phishing website. For example, you may think you’re navigating to your "
@@ -3861,21 +3988,21 @@ msgid ""
 "discover it is actually going somewhere else."
 msgstr ""
 
-#: templates/learn/phishing.html:57
+#: templates/learn/phishing.html:66
 msgid "Graphical rendering:"
 msgstr ""
 
-#: templates/learn/phishing.html:57
+#: templates/learn/phishing.html:66
 msgid ""
 "This happens when a phisher uploads their email as an image rather than "
 "text to prevent certain text from being scanned by phishing filters."
 msgstr ""
 
-#: templates/learn/phishing.html:58
+#: templates/learn/phishing.html:67
 msgid "Site redirects:"
 msgstr ""
 
-#: templates/learn/phishing.html:58
+#: templates/learn/phishing.html:67
 msgid ""
 "Phishers may also use a malicious webpage as a middle ground between "
 "their phishing email and a legitimate site. For example, following their "
@@ -3884,21 +4011,21 @@ msgid ""
 "to minimize your suspicion of a phishing attack."
 msgstr ""
 
-#: templates/learn/phishing.html:59
+#: templates/learn/phishing.html:68
 msgid "Link shortening:"
 msgstr ""
 
-#: templates/learn/phishing.html:59
+#: templates/learn/phishing.html:68
 msgid ""
 "Another popular phishing tactic is using link shortening tools to "
 "disguise links to dangerous websites."
 msgstr ""
 
-#: templates/learn/phishing.html:60
+#: templates/learn/phishing.html:69
 msgid "Typosquatting:"
 msgstr ""
 
-#: templates/learn/phishing.html:60
+#: templates/learn/phishing.html:69
 msgid ""
 "By using typosquatting, a phisher registers domains that are very close "
 "to a legitimate domain, hoping their targets won’t notice. For example, a"
@@ -3906,32 +4033,36 @@ msgid ""
 " phishing site under the URL “Amazpn.com.”"
 msgstr ""
 
-#: templates/learn/phishing.html:61
+#: templates/learn/phishing.html:70
 msgid "AI voice generators:"
 msgstr ""
 
-#: templates/learn/phishing.html:61
+#: templates/learn/phishing.html:70
 msgid ""
 "Phishers may use AI voice generators to impersonate public figures or "
 "acquaintances of yours to get you to divulge sensitive information."
 msgstr ""
 
-#: templates/learn/phishing.html:62
+#: templates/learn/phishing.html:71
 msgid "Chatbots:"
 msgstr ""
 
-#: templates/learn/phishing.html:62
+#: templates/learn/phishing.html:71
 msgid ""
 "Scammers may also use AI-enabled chatbots to create highly personalized "
 "phishing messages free of the kind of spelling and grammatical errors "
 "often associated with phishing attacks."
 msgstr ""
 
-#: templates/learn/software-updates.html:13
+#: templates/learn/software-updates.html:4
+msgid "LEARN about Software Updates"
+msgstr ""
+
+#: templates/learn/software-updates.html:22
 msgid "What is a software update?"
 msgstr ""
 
-#: templates/learn/software-updates.html:14
+#: templates/learn/software-updates.html:23
 msgid ""
 "A software update is a new version of an application, game, or other "
 "program on a computer or mobile device. New versions of software usually "
@@ -3939,11 +4070,11 @@ msgid ""
 "and cosmetic changes."
 msgstr ""
 
-#: templates/learn/software-updates.html:16
+#: templates/learn/software-updates.html:25
 msgid "The importance of software updates"
 msgstr ""
 
-#: templates/learn/software-updates.html:17
+#: templates/learn/software-updates.html:26
 msgid ""
 "Keeping your software and operating system up to date is an important "
 "step towards ensuring your information is safe, your device is secured "
@@ -3951,17 +4082,17 @@ msgid ""
 " each other."
 msgstr ""
 
-#: templates/learn/software-updates.html:18
+#: templates/learn/software-updates.html:27
 msgid ""
 "Here’s a closer look at the benefits of software updates and why you "
 "should always keep them fully updated."
 msgstr ""
 
-#: templates/learn/software-updates.html:20
+#: templates/learn/software-updates.html:29
 msgid "Software updates reduce security flaws"
 msgstr ""
 
-#: templates/learn/software-updates.html:21
+#: templates/learn/software-updates.html:30
 msgid ""
 "Old software is full of security flaws. Over time, hackers find new ways "
 "to break through what was, at one time, the best available protection. "
@@ -3970,7 +4101,7 @@ msgid ""
 "system to commit identity theft."
 msgstr ""
 
-#: templates/learn/software-updates.html:22
+#: templates/learn/software-updates.html:31
 msgid ""
 "Software updates are there to patch zero-day exploits and update older, "
 "less effective protocols to the newer, tougher-to-crack standards. This "
@@ -3978,11 +4109,11 @@ msgid ""
 " your computer and mobile security."
 msgstr ""
 
-#: templates/learn/software-updates.html:24
+#: templates/learn/software-updates.html:33
 msgid "Software updates help protect your data"
 msgstr ""
 
-#: templates/learn/software-updates.html:25
+#: templates/learn/software-updates.html:34
 msgid ""
 "Your data is at risk of being stolen, sold, and used against you by "
 "criminals. But the risk of being hit by a data breach is much higher if "
@@ -3990,7 +4121,7 @@ msgid ""
 " or corrupting your files."
 msgstr ""
 
-#: templates/learn/software-updates.html:26
+#: templates/learn/software-updates.html:35
 msgid ""
 "Updating your software to the latest versions can close off any "
 "vulnerabilities that let hackers in. Updates can also correct problems "
@@ -3998,11 +4129,11 @@ msgid ""
 "the newest versions of the programs you use."
 msgstr ""
 
-#: templates/learn/software-updates.html:28
+#: templates/learn/software-updates.html:37
 msgid "Software updates improve performance"
 msgstr ""
 
-#: templates/learn/software-updates.html:29
+#: templates/learn/software-updates.html:38
 msgid ""
 "If you want to make your computer faster, one of the easiest ways is to "
 "update your software. Older software versions operate using legacy code "
@@ -4011,7 +4142,7 @@ msgid ""
 "devices can do more—and do it quicker."
 msgstr ""
 
-#: templates/learn/software-updates.html:30
+#: templates/learn/software-updates.html:39
 msgid ""
 "Reliably high performance is vital for running multiple programs "
 "simultaneously, watching high-definition videos, playing the newest "
@@ -4019,11 +4150,11 @@ msgid ""
 "internet."
 msgstr ""
 
-#: templates/learn/software-updates.html:32
+#: templates/learn/software-updates.html:41
 msgid "Software updates help protect others"
 msgstr ""
 
-#: templates/learn/software-updates.html:33
+#: templates/learn/software-updates.html:42
 msgid ""
 "The internet is a giant, interconnected network of devices. Because of "
 "the links between systems all over the globe, keeping your devices "
@@ -4031,7 +4162,7 @@ msgid ""
 "like covering your mouth when you cough in public."
 msgstr ""
 
-#: templates/learn/software-updates.html:34
+#: templates/learn/software-updates.html:43
 msgid ""
 "Doing your part can reduce the headaches and economic impacts of "
 "cybercrime and malicious software in your neighborhood as well as the "
@@ -4039,11 +4170,11 @@ msgid ""
 "when using a Mac - Macs can get viruses, too."
 msgstr ""
 
-#: templates/learn/software-updates.html:36
+#: templates/learn/software-updates.html:45
 msgid "What is an operating system update?"
 msgstr ""
 
-#: templates/learn/software-updates.html:37
+#: templates/learn/software-updates.html:46
 msgid ""
 "An operating system update is a new version of an operating system that, "
 "along with drivers and other first-party software, tells your computer or"
@@ -4057,58 +4188,58 @@ msgstr ""
 msgid "LEARN about Two Factor Authentication"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:12
+#: templates/learn/two-factor-authentication.html:21
 msgid "What is 2FA?"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:13
+#: templates/learn/two-factor-authentication.html:22
 msgid ""
 "2FA, or two-factor authentication, is when a site or app requires you to "
 "enter an extra form of identification to verify your identity and log "
 "into your account."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:13
+#: templates/learn/two-factor-authentication.html:22
 msgid ""
 "2FA requires people to verify their identity based on two of the three "
 "factors that can confirm identity:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:15
+#: templates/learn/two-factor-authentication.html:24
 msgid "Something you know (e.g., a password)"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:16
+#: templates/learn/two-factor-authentication.html:25
 msgid "Something you have (e.g., a phone)"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:17
+#: templates/learn/two-factor-authentication.html:26
 msgid "Something you are (e.g., a fingerprint or facial scan)"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:20
+#: templates/learn/two-factor-authentication.html:29
 msgid ""
 "That extra ID can be a code generated and sent directly through a text "
 "message or authenticator app. It can also be in the form of a piece of "
 "hardware like a USB drive or a biometric ID like a fingerprint."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:21
+#: templates/learn/two-factor-authentication.html:30
 msgid ""
 "Let’s break this down even further, including how two-factor "
 "authentication works, types of two-factor authentication, and why two-"
 "factor authentication is so important."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:24
+#: templates/learn/two-factor-authentication.html:33
 msgid "What is 2FA"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:26
+#: templates/learn/two-factor-authentication.html:35
 msgid "2FA vs. multi-factor authentication (MFA)"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:27
+#: templates/learn/two-factor-authentication.html:36
 msgid ""
 "MFA refers to any type of authentication that requires two or more "
 "factors. That means that while 2FA is a form of MFA, not all forms of MFA"
@@ -4117,32 +4248,32 @@ msgid ""
 "a system."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:29
+#: templates/learn/two-factor-authentication.html:38
 msgid "How does 2FA work?"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:30
+#: templates/learn/two-factor-authentication.html:39
 msgid ""
 "As the name suggests, two-factor authentication requires one extra step—a"
 " second factor—to log into an account. The process works as follows:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:32
+#: templates/learn/two-factor-authentication.html:41
 msgid "The user enters their username and password."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:33
+#: templates/learn/two-factor-authentication.html:42
 msgid ""
 "The account, platform, or site prompts users to input another "
 "verification form, such as a one-time password or code sent to their "
 "mobile phone."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:34
+#: templates/learn/two-factor-authentication.html:43
 msgid "The user enters the verification code to access their account."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:37
+#: templates/learn/two-factor-authentication.html:46
 msgid ""
 "An ATM card is a good example of two-factor authentication in the real "
 "world. In addition to physically presenting the card (something you "
@@ -4150,15 +4281,15 @@ msgid ""
 " identity and access your account."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:39
+#: templates/learn/two-factor-authentication.html:48
 msgid "What is 2FA Explained"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:41
+#: templates/learn/two-factor-authentication.html:50
 msgid "Why is two-factor authentication important?"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:42
+#: templates/learn/two-factor-authentication.html:51
 msgid ""
 "Two-factor authentication is important because adding an extra layer of "
 "verification before you can access your account means thieves will "
@@ -4169,19 +4300,19 @@ msgid ""
 "could be leaving yourself vulnerable to:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:44
+#: templates/learn/two-factor-authentication.html:53
 msgid "Cybercriminals who want to steal your personal information"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:45
+#: templates/learn/two-factor-authentication.html:54
 msgid "Hackers trying to access your bank accounts"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:46
+#: templates/learn/two-factor-authentication.html:55
 msgid "Thieves breaking into your online credit card portals"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:49
+#: templates/learn/two-factor-authentication.html:58
 msgid ""
 "If you add a knowledge factor to your bank account, a cybercriminal who "
 "knows your password due to a data breach or phishing operation won’t be "
@@ -4189,40 +4320,40 @@ msgid ""
 "verification code."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:50
+#: templates/learn/two-factor-authentication.html:59
 msgid ""
 "That way, those still relying on simple passwords have a better shot at "
 "keeping their bank accounts secure."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:52
+#: templates/learn/two-factor-authentication.html:61
 msgid "Statistics of accounts using simple password"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:54
+#: templates/learn/two-factor-authentication.html:63
 msgid "Types of 2FA security"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:55
+#: templates/learn/two-factor-authentication.html:64
 msgid "There are several types of two-factor authentication security, including:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:57
+#: templates/learn/two-factor-authentication.html:66
 msgid "Something you know:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:57
+#: templates/learn/two-factor-authentication.html:66
 msgid ""
 "These kinds of 2FA use a code, question, or password that are unique to "
 "you. Using your PIN at an ATM is a form of 2FA that requires something "
 "you know."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:58
+#: templates/learn/two-factor-authentication.html:67
 msgid "Something you have:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:58
+#: templates/learn/two-factor-authentication.html:67
 msgid ""
 "This type of 2FA requires users to possess a type of physical token or "
 "device, such as a phone or USB token, that they need to use to log in. "
@@ -4231,37 +4362,37 @@ msgid ""
 "method of 2FA."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:59
+#: templates/learn/two-factor-authentication.html:68
 msgid "Something you are:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:59
+#: templates/learn/two-factor-authentication.html:68
 msgid ""
 "This type of 2FA requires biometrics like fingerprint or facial "
 "recognition or a physical location (confirmed by GPS) to confirm your "
 "identity."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:62
+#: templates/learn/two-factor-authentication.html:71
 msgid "Types of Factors for 2FA"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:64
+#: templates/learn/two-factor-authentication.html:73
 msgid "3 benefits of 2FA"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:65
+#: templates/learn/two-factor-authentication.html:74
 msgid ""
 "The added security and protection that two-factor authentication gives "
 "you is a net positive. But there are a few extra benefits that you might "
 "not know about, including:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:67
+#: templates/learn/two-factor-authentication.html:76
 msgid "Account monitoring:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:67
+#: templates/learn/two-factor-authentication.html:76
 msgid ""
 "You’ll know if someone is trying to access your accounts because you’ll "
 "receive a message or prompt on your device. That allows you to report it "
@@ -4269,22 +4400,22 @@ msgid ""
 "something stronger."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:68
+#: templates/learn/two-factor-authentication.html:77
 msgid "Dynamic process:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:68
+#: templates/learn/two-factor-authentication.html:77
 msgid ""
 "2FA authenticator apps, push notifications, and texts are generated and "
 "sent when you log in, meaning you don’t have to worry about securely "
 "storing another factor."
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:69
+#: templates/learn/two-factor-authentication.html:78
 msgid "Account recovery assistance:"
 msgstr ""
 
-#: templates/learn/two-factor-authentication.html:69
+#: templates/learn/two-factor-authentication.html:78
 msgid ""
 "2FA means that you don’t have to put in a help desk ticket or try to get "
 "on the phone with a support team member to reset your logins or secure "
@@ -4295,11 +4426,21 @@ msgstr ""
 msgid "LEARN about VPN"
 msgstr ""
 
-#: templates/learn/vpn.html:12
+#: templates/learn/vpn.html:15
+msgid ""
+"US Norton Blog - What is a VPN? And why you should use a VPN on public "
+"Wi-Fi"
+msgstr ""
+
+#: templates/learn/vpn.html:18
+msgid "US Norton Blog - How does a VPN work? + Tips to use one effectively"
+msgstr ""
+
+#: templates/learn/vpn.html:26
 msgid "What is a VPN?"
 msgstr ""
 
-#: templates/learn/vpn.html:13
+#: templates/learn/vpn.html:27
 msgid ""
 "A virtual private network gives you online privacy and anonymity by "
 "creating a private network from a public Internet connection. VPNs mask "
@@ -4309,11 +4450,11 @@ msgid ""
 "Wi-Fi hotspot."
 msgstr ""
 
-#: templates/learn/vpn.html:15
+#: templates/learn/vpn.html:29
 msgid "Why you need a VPN"
 msgstr ""
 
-#: templates/learn/vpn.html:16
+#: templates/learn/vpn.html:30
 msgid ""
 "Think about all the times you’ve been on the go, reading emails while in "
 "line at the coffee shop, or checking your bank account while waiting at "
@@ -4323,18 +4464,18 @@ msgid ""
 "network."
 msgstr ""
 
-#: templates/learn/vpn.html:17
+#: templates/learn/vpn.html:31
 msgid ""
 "The encryption and anonymity that a VPN provides protects all of your "
 "online activities: sending emails, shopping online, or paying bills. VPNs"
 " also help keep your Web browsing anonymous."
 msgstr ""
 
-#: templates/learn/vpn.html:19
+#: templates/learn/vpn.html:33
 msgid "How does a VPN work?"
 msgstr ""
 
-#: templates/learn/vpn.html:20
+#: templates/learn/vpn.html:34
 msgid ""
 "A VPN (virtual private network) encrypts the traffic between your device "
 "and the internet. To do this, it creates a secure VPN tunnel for your "
@@ -4342,83 +4483,83 @@ msgid ""
 "That helps to hide your IP address and keep your online activity private."
 msgstr ""
 
-#: templates/learn/vpn.html:21
+#: templates/learn/vpn.html:35
 msgid ""
 "With a VPN, you can browse without worrying that a cybercriminal or "
 "hacker is watching you, send messages safely, and access your favorite "
 "content from around the world."
 msgstr ""
 
-#: templates/learn/vpn.html:22
+#: templates/learn/vpn.html:36
 msgid "Here’s a step-by-step breakdown of how VPNs work."
 msgstr ""
 
-#: templates/learn/vpn.html:24
+#: templates/learn/vpn.html:38
 msgid "Turn on the VPN"
 msgstr ""
 
-#: templates/learn/vpn.html:25
+#: templates/learn/vpn.html:39
 msgid ""
 "Turn on your VPN. Some VPNs, like Norton Secure VPN, allow you to choose "
 "the server location at this point, which can make you appear to be from "
 "other places when you visit websites."
 msgstr ""
 
-#: templates/learn/vpn.html:27
+#: templates/learn/vpn.html:41
 msgid "The device and the VPN establish a connection"
 msgstr ""
 
-#: templates/learn/vpn.html:28
+#: templates/learn/vpn.html:42
 msgid ""
 "Your device will connect securely to the VPN server. Once it connects, "
 "the VPN begins encrypting traffic flowing between your device and the "
 "internet."
 msgstr ""
 
-#: templates/learn/vpn.html:30
+#: templates/learn/vpn.html:44
 msgid "Traffic is encrypted to securely surf the web"
 msgstr ""
 
-#: templates/learn/vpn.html:31
+#: templates/learn/vpn.html:45
 msgid ""
 "After you connect, all of your browsing becomes encrypted, meaning that "
 "no one else can see your online activity."
 msgstr ""
 
-#: templates/learn/vpn.html:33
+#: templates/learn/vpn.html:47
 msgid "How Does a VPN Work"
 msgstr ""
 
-#: templates/learn/vpn.html:35
+#: templates/learn/vpn.html:49
 msgid "Advantages of using a VPN"
 msgstr ""
 
-#: templates/learn/vpn.html:36
+#: templates/learn/vpn.html:50
 msgid ""
 "While it used to seem like VPNs were tools primarily for hackers and "
 "journalists, everyone can benefit from one. Privacy or security and "
 "accessing content are some of the greatest benefits of using a VPN."
 msgstr ""
 
-#: templates/learn/vpn.html:37
+#: templates/learn/vpn.html:51
 msgid "The advantages of a VPN include:"
 msgstr ""
 
-#: templates/learn/vpn.html:39
+#: templates/learn/vpn.html:53
 msgid "Masking your browsing history:"
 msgstr ""
 
-#: templates/learn/vpn.html:39
+#: templates/learn/vpn.html:53
 msgid ""
 "VPNs help you block snoopers, companies, and advertisers from following "
 "your browsing activity and profiling you."
 msgstr ""
 
-#: templates/learn/vpn.html:40
+#: templates/learn/vpn.html:54
 msgid "Hiding your IP address and physical location:"
 msgstr ""
 
-#: templates/learn/vpn.html:40
+#: templates/learn/vpn.html:54
 msgid ""
 "Your internet browsing is your business. A VPN hides your IP address and "
 "physical location by directing the traffic from your devices to a network"
@@ -4426,11 +4567,11 @@ msgid ""
 "the content you want."
 msgstr ""
 
-#: templates/learn/vpn.html:41
+#: templates/learn/vpn.html:55
 msgid "Stopping cybercriminals from watching your activity:"
 msgstr ""
 
-#: templates/learn/vpn.html:41
+#: templates/learn/vpn.html:55
 msgid ""
 "If you’re using public Wi-Fi or an unsecured home network, cybercriminals"
 " could monitor your activity. They may be able to steal your login "
@@ -4438,11 +4579,11 @@ msgid ""
 "into online."
 msgstr ""
 
-#: templates/learn/vpn.html:42
+#: templates/learn/vpn.html:56
 msgid "Protecting sensitive information:"
 msgstr ""
 
-#: templates/learn/vpn.html:42
+#: templates/learn/vpn.html:56
 msgid ""
 "Even if you don’t realize it, you expose sensitive information every time"
 " you log onto a website through an unsecured network. A VPN keeps your "
@@ -4450,178 +4591,178 @@ msgid ""
 " traffic."
 msgstr ""
 
-#: templates/learn/vpn.html:43
+#: templates/learn/vpn.html:57
 msgid "Sharing files securely:"
 msgstr ""
 
-#: templates/learn/vpn.html:43
+#: templates/learn/vpn.html:57
 msgid ""
 "Whether working from home or sending files to family members, a VPN lets "
 "you send and receive files without worrying about a hacker holding your "
 "files for ransom or inserting malware."
 msgstr ""
 
-#: templates/learn/vpn.html:44
+#: templates/learn/vpn.html:58
 msgid "Making online payments safely:"
 msgstr ""
 
-#: templates/learn/vpn.html:44
+#: templates/learn/vpn.html:58
 msgid ""
 "A VPN helps keep your shopping activity private, making it safer to buy "
 "online."
 msgstr ""
 
-#: templates/learn/vpn.html:47
+#: templates/learn/vpn.html:61
 msgid "Advantages of VPN"
 msgstr ""
 
-#: templates/learn/vpn.html:49
+#: templates/learn/vpn.html:63
 msgid "What can I do with a VPN?"
 msgstr ""
 
-#: templates/learn/vpn.html:50
+#: templates/learn/vpn.html:64
 msgid ""
 "VPNs have many practical applications. Here are some common reasons to "
 "use a VPN:"
 msgstr ""
 
-#: templates/learn/vpn.html:52
+#: templates/learn/vpn.html:66
 msgid "Avoid location-based price discrimination:"
 msgstr ""
 
-#: templates/learn/vpn.html:52
+#: templates/learn/vpn.html:66
 msgid ""
 "Many online retailers charge more in the United States than other "
 "countries. You can save money on goods, travel, and accommodation by "
 "setting your location to different countries."
 msgstr ""
 
-#: templates/learn/vpn.html:53
+#: templates/learn/vpn.html:67
 msgid "Avoid bandwidth throttling:"
 msgstr ""
 
-#: templates/learn/vpn.html:53
+#: templates/learn/vpn.html:67
 msgid ""
 "If you are streaming, gaming, or downloading many files, your ISP may "
 "decide to slow down your internet. With a VPN, they won’t be able to do "
 "that."
 msgstr ""
 
-#: templates/learn/vpn.html:54
+#: templates/learn/vpn.html:68
 msgid "Secure your VoIP conversations:"
 msgstr ""
 
-#: templates/learn/vpn.html:54
+#: templates/learn/vpn.html:68
 msgid ""
 "Internet phone calls aren’t always secure, but a VPN means your "
 "conversations stay private."
 msgstr ""
 
-#: templates/learn/vpn.html:55
+#: templates/learn/vpn.html:69
 msgid "Access the internet safely when traveling:"
 msgstr ""
 
-#: templates/learn/vpn.html:55
+#: templates/learn/vpn.html:69
 msgid ""
 "Depending on where you’re at, the internet may not be safe to use, "
 "especially if your only internet connection is public. A VPN lets you "
 "browse with less worry."
 msgstr ""
 
-#: templates/learn/vpn.html:56
+#: templates/learn/vpn.html:70
 msgid "Avoid censorship:"
 msgstr ""
 
-#: templates/learn/vpn.html:56
+#: templates/learn/vpn.html:70
 msgid ""
 "Some countries censor the internet. If you’re traveling and need help "
 "avoiding censorship, a VPN may help."
 msgstr ""
 
-#: templates/learn/vpn.html:57
+#: templates/learn/vpn.html:71
 msgid "Improve your gaming experience:"
 msgstr ""
 
-#: templates/learn/vpn.html:57
+#: templates/learn/vpn.html:71
 msgid ""
 "While VPNs can slow your connection a little, they can also create a more"
 " stable, secure connection that can improve your gaming experience."
 msgstr ""
 
-#: templates/learn/vpn.html:58
+#: templates/learn/vpn.html:72
 msgid "Access content:"
 msgstr ""
 
-#: templates/learn/vpn.html:58
+#: templates/learn/vpn.html:72
 msgid ""
 "VPNs let you choose which country your traffic is routed through, which "
 "can help you access your favorite content and sites. Make sure VPNs are "
 "legal to use wherever you are."
 msgstr ""
 
-#: templates/learn/vpn.html:61
+#: templates/learn/vpn.html:75
 msgid "What Can You Do with a VPN"
 msgstr ""
 
-#: templates/learn/vpn.html:63
+#: templates/learn/vpn.html:77
 msgid "Are there any drawbacks to using a VPN?"
 msgstr ""
 
-#: templates/learn/vpn.html:64
+#: templates/learn/vpn.html:78
 msgid ""
 "While most VPNs provide you with a much higher level of cybersecurity "
 "than browsing without one, there are a few potential downsides to using a"
 " VPN:"
 msgstr ""
 
-#: templates/learn/vpn.html:66
+#: templates/learn/vpn.html:80
 msgid "Not all VPNs protect you from cookies on the websites you visit:"
 msgstr ""
 
-#: templates/learn/vpn.html:66
+#: templates/learn/vpn.html:80
 msgid ""
 "While most cookies are safe, they can introduce vulnerabilities and are "
 "used to track your habits."
 msgstr ""
 
-#: templates/learn/vpn.html:67
+#: templates/learn/vpn.html:81
 msgid "Cybercriminals have hacked VPNs:"
 msgstr ""
 
-#: templates/learn/vpn.html:67
+#: templates/learn/vpn.html:81
 msgid ""
 "Cybercriminals can use zero-day exploits that haven’t been discovered or "
 "patched by some VPNs. That’s one reason why it’s essential to download "
 "the latest software updates as soon as they’re available."
 msgstr ""
 
-#: templates/learn/vpn.html:68
+#: templates/learn/vpn.html:82
 msgid "VPNs are not created equally:"
 msgstr ""
 
-#: templates/learn/vpn.html:68
+#: templates/learn/vpn.html:82
 msgid ""
 "VPNs come in many varieties. Some are free, and others have monthly fees."
 " Free VPN services often collect information about you and target you "
 "with ads based on your online profile."
 msgstr ""
 
-#: templates/learn/vpn.html:69
+#: templates/learn/vpn.html:83
 msgid "Some free VPNs sell your data to third parties:"
 msgstr ""
 
-#: templates/learn/vpn.html:69
+#: templates/learn/vpn.html:83
 msgid ""
 "Free VPN users may have no control over whether or not their data gets "
 "sold. Cybercriminals have even set up free VPNs to harvest personal "
 "information."
 msgstr ""
 
-#: templates/learn/vpn.html:70
+#: templates/learn/vpn.html:84
 msgid "Using a VPN can slow down your internet connection:"
 msgstr ""
 
-#: templates/learn/vpn.html:70
+#: templates/learn/vpn.html:84
 msgid ""
 "While it might not be that noticeable most of the time, you may "
 "experience slower download and upload speeds, which can impact your "
