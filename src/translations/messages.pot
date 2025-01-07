@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-05 23:20+0000\n"
+"POT-Creation-Date: 2025-01-07 23:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: templates/base.html:74 templates/home.html:15 templates/learn.html:4
+#: templates/base.html:73 templates/home.html:15 templates/learn.html:4
 msgid "Learn"
 msgstr ""
 
-#: templates/base.html:75 templates/guides.html:4 templates/home.html:18
+#: templates/base.html:74 templates/guides.html:4 templates/home.html:18
 msgid "Guides"
 msgstr ""
 
-#: templates/base.html:76 templates/home.html:21 templates/tools.html:4
+#: templates/base.html:75 templates/home.html:21 templates/tools.html:4
 msgid "Tools"
 msgstr ""
 
@@ -174,70 +174,104 @@ msgstr ""
 msgid "Malware"
 msgstr ""
 
-#: templates/tools.html:10
-msgid "Free Antivirus Software"
-msgstr ""
-
-#: templates/tools.html:17
+#: templates/tools.html:11
 msgid "Best Antivirus Software for iPhones"
 msgstr ""
 
-#: templates/tools.html:19
-msgid "TotalAV Mobile Security – Best antivirus app for iPhone"
-msgstr ""
-
-#: templates/tools.html:20
-msgid "Norton Mobile Security for iOS – User-friendly iPhone antivirus"
-msgstr ""
-
-#: templates/tools.html:21
-msgid "Avira – Lightweight antivirus for iPhone with a free plan"
-msgstr ""
-
-#: templates/tools.html:22
-msgid "Bitdefender – All-around antivirus for iOS"
-msgstr ""
-
-#: templates/tools.html:23
-msgid "AVG – Antivirus for iPhone with exceptional malware detection power"
-msgstr ""
-
-#: templates/tools.html:26 templates/tools.html:43
+#: templates/tools.html:13 templates/tools.html:68
 msgid "For more details, visit"
 msgstr ""
 
-#: templates/tools.html:27
+#: templates/tools.html:14
 msgid "Best Antivirus for iPhones"
 msgstr ""
 
-#: templates/tools.html:34
-msgid "Best Antivirus Software for Android"
+#: templates/tools.html:24
+msgid "TotalAV Mobile Security"
 msgstr ""
 
-#: templates/tools.html:36
-msgid "Bitdefender Mobile Security – Best antivirus app for Android"
+#: templates/tools.html:25
+msgid "Best antivirus app for iPhone"
 msgstr ""
 
-#: templates/tools.html:37
-msgid ""
-"Avast Mobile Security – Great free Android antivirus app with low system "
-"overhead"
+#: templates/tools.html:32
+msgid "Norton Mobile Security for iOS"
 msgstr ""
 
-#: templates/tools.html:38
-msgid "Norton 360 for Mobile – Comprehensive protection"
-msgstr ""
-
-#: templates/tools.html:39
-msgid "McAfee Mobile Security – Mini security suite with a clean interface"
+#: templates/tools.html:33
+msgid "User-friendly iPhone antivirus"
 msgstr ""
 
 #: templates/tools.html:40
-msgid "ESET Mobile Security – Quick and easy scans with slight performance hit"
+msgid "Avira"
 msgstr ""
 
-#: templates/tools.html:44
+#: templates/tools.html:41
+msgid "Lightweight antivirus for iPhone with a free plan"
+msgstr ""
+
+#: templates/tools.html:48
+msgid "Bitdefender"
+msgstr ""
+
+#: templates/tools.html:49
+msgid "All-around antivirus for iOS"
+msgstr ""
+
+#: templates/tools.html:56
+msgid "AVG"
+msgstr ""
+
+#: templates/tools.html:57
+msgid "Antivirus for iPhone with exceptional malware detection power"
+msgstr ""
+
+#: templates/tools.html:66
+msgid "Best Antivirus Software for Android"
+msgstr ""
+
+#: templates/tools.html:69
 msgid "Best Antivirus for Android"
+msgstr ""
+
+#: templates/tools.html:79
+msgid "Bitdefender Mobile Security"
+msgstr ""
+
+#: templates/tools.html:80
+msgid "Best antivirus app for Android"
+msgstr ""
+
+#: templates/tools.html:87
+msgid "Avast Mobile Security"
+msgstr ""
+
+#: templates/tools.html:88
+msgid "Great free Android antivirus app with low system overhead"
+msgstr ""
+
+#: templates/tools.html:95
+msgid "Norton 360 for Mobile"
+msgstr ""
+
+#: templates/tools.html:96
+msgid "Comprehensive protection"
+msgstr ""
+
+#: templates/tools.html:103
+msgid "McAfee Mobile Security"
+msgstr ""
+
+#: templates/tools.html:104
+msgid "Mini security suite with a clean interface"
+msgstr ""
+
+#: templates/tools.html:111
+msgid "ESET Mobile Security"
+msgstr ""
+
+#: templates/tools.html:112
+msgid "Quick and easy scans with slight performance hit"
 msgstr ""
 
 #: templates/guides/how-to-update-software.html:4
