@@ -54,6 +54,10 @@ header {
     padding: 20px;
 }
 
+.content li {
+    padding: 5px;
+}
+
 .content img {
     display: block; /* Ensures the image is treated as a block element */
     margin: 0 auto; /* Center horizontally */
@@ -165,6 +169,11 @@ a.language-switcher {
     margin-top: 20px;
 }
 
+.card-container ol {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /* Individual Card */
 .card {
     text-decoration: none; /* Remove underline */
@@ -194,13 +203,11 @@ a.language-switcher {
 }
 
 .card-content h2 {
-    font-size: 20px;
     margin: 0 0 10px;
     color: #333;
 }
 
 .card-content p {
-    font-size: 16px;
     color: #666;
     margin: 0;
 }
@@ -234,6 +241,8 @@ a.language-switcher {
 
 /* Responsive Design for Mobile Devices */
 @media (max-width: 767px) {
+
+    /* for base */
     .home-icon img,
     .language-switcher img,
     .menu-icon img {
@@ -246,18 +255,39 @@ a.language-switcher {
         height: 24px;
     }
     
-    .content img {
-        max-width: 80%;
-    }
-
     .menu-page ul li a {
         font-size: 32px;
+    }
+
+    /* for headings at the top of each page */
+    .content h1 {
+        font-size: 34px;
+    }
+
+    /* for cards, content (like actual paragraphs, etc) */
+    .content h2 {
+        font-size: 26px;
+    }
+
+    .card-content h2, .content h3 {
+        font-size: 22px;
+    }
+
+    .card-content p, .content p, li{
+        font-size: 18px;
+    }
+
+    /* for images in content */
+    .content img {
+        max-width: 80%;
     }
 }
 
 
 /* Responsive Design for Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    /* for base */
     .home-icon img,
     .language-switcher img,
     .menu-icon img {
@@ -270,13 +300,33 @@ a.language-switcher {
         height: 26px;
     }
 
+    .menu-page ul li a {
+        font-size: 30px;
+    }
+    
+    /* for headings at the top of each page */
+    .content h1 {
+        font-size: 36px;
+    }
+
+    /* for images in content */
     .content img {
         max-width: 60%;
     }
 
-    .menu-page ul li a {
-        font-size: 30px;
+    /* for cards, content (like actual paragraphs, etc) */
+    .content h2 {
+        font-size: 28px;
     }
+
+    .card-content h2, .content h3 {
+        font-size: 24px;
+    }
+
+    .card-content p, .content p, li{
+        font-size: 20px;
+    }
+
 }
 
 /* Responsive Design for Desktops */
@@ -293,11 +343,31 @@ a.language-switcher {
         height: 28px;
     }
 
+    .menu-page ul li a {
+        font-size: 28px;
+    }
+
+    /* for headings at the top of each page */
+    .content h1 {
+        font-size: 38px;
+    }
+
+    /* for images in content */
     .content img {
         max-width: 40%;
     }
 
-    .menu-page ul li a {
-        font-size: 28px;
+    /* for cards, content (like actual paragraphs, etc) */
+    .content h2 {
+        font-size: 30px;
     }
+
+    .card-content h2, .content h3 {
+        font-size: 26px;
+    }
+
+    .card-content p, .content p, li{
+        font-size: 22px;
+    }
+
 }
