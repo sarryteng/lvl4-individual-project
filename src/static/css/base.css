@@ -164,7 +164,7 @@ a.language-switcher {
 /* Card Container */
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Flexible columns */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Flexible columns */
     gap: 20px; /* Space between cards */
     margin-top: 20px;
 }
