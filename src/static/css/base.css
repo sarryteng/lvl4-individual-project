@@ -370,4 +370,8 @@ a.language-switcher {
         font-size: 22px;
     }
 
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible columns */
+
+    }
 }
