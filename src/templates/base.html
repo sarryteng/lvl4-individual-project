@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Cybersecurity Resource Hub{% endblock %}</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 </head>
 <body>
 
+<!-- navigation menu at top of page -->
 <header>
     <div class="top-bar">
         <div class="icon-container">
@@ -50,16 +50,11 @@
     </div>
 </header>    
 
-<!-- Main Content Area -->
-<div class="content">
-    {% block content %}{% endblock %}
-</div>
-
-<!-- Full-Screen Menu Section -->
+<!-- overlay menu -->
 <div id="overlayMenu" class="menu-page">
     <div class="icon-container">
         <!-- Home Icon (Left, inside the menu) -->
-        <a href="/{{ g.lang }}/" class="home-icon">
+        <a href="{{ url_for('home', lang=g.lang) }}" class="home-icon">
             <img src="{{ url_for('static', filename='images/nav-bar/home.png') }}" alt="Home">
         </a>
 
@@ -68,7 +63,7 @@
             <img src="{{ url_for('static', filename='images/nav-bar/close.png') }}" alt="Close">
         </a>
     </div>
-    
+    <br>
     <!-- Menu Links -->
     <ul>
         <li><a href="{{ url_for('learn', lang=g.lang) }}">{{ _("Learn") }}</a></li>
@@ -76,6 +71,12 @@
         <li><a href="{{ url_for('tools', lang=g.lang) }}">{{ _("Tools") }}</a></li>
     </ul>
 </div>    
+
+<!-- Main Content Area -->
+<div class="content">
+    {% block content %}{% endblock %}
+</div>
+
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 <script src="{{ url_for('static', filename='js/script.js') }}"></script>

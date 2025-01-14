@@ -8,7 +8,6 @@ body {
 
 header {
     border-bottom: 1px solid #ddd;
-    padding: 10px 15px;
 }
 
 /* Flexbox container for the icons */
@@ -16,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 20px;
     box-sizing: border-box; /* Consistent spacing */
 }
 
@@ -32,8 +31,6 @@ header {
 .language-switcher img,
 .menu-icon img,
 .close-icon img {
-    width: 24px;
-    height: 24px;
     cursor: pointer;
     display: block; /* Prevents unwanted whitespace around icons */
     margin: 0; /* Removes potential margin inconsistencies */
@@ -48,17 +45,23 @@ header {
     margin-right: 10px;
 }
 
-.menu-icon {
+.menu-icon, .close-icon {
     margin-left: 10px;
-}
-
-.close-icon {
-    margin-left: auto;
 }
 
 /* Ensure content has some padding */
 .content {
     padding: 20px;
+}
+
+.content li {
+    padding: 5px;
+}
+
+.content img {
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Center horizontally */
+    padding: 10px;
 }
 
 /* Full-Screen Overlay Menu Styles */
@@ -81,26 +84,6 @@ header {
     display: flex; /* Show the menu when this class is added */
 }
 
-/* Menu Header (close icon and home link) */
-.menu-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px; /* Match .top-bar padding */
-    box-sizing: border-box; /* Ensure consistent width */
-}
-
-.menu-header .home-icon,
-.menu-header .close-icon {
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.menu-header .home-icon img,
-.menu-header .close-icon img {
-    margin: 0;
-    padding: 0;
-}
 
 /* Menu List */
 .menu-page ul {
@@ -133,21 +116,18 @@ header {
 }
 
 .language-switcher img {
-    width: 24px;
-    height: 24px;
     margin-right: 5px;  /* Space between icon and language abbreviation */
 }
 
 /* Current Language Display */
 .language-switcher span {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     color: #333;
 }
 
-/* Add some space between language switcher and menu icon */
-.icon-container > .language-switcher {
-    margin-right: 20px; /* Adjust spacing here */
+a.language-switcher {
+    text-decoration: none;
 }
 
 .language-dropdown {
@@ -169,7 +149,6 @@ header {
 
 /* Dropdown Item Styles */
 .language-dropdown a {
-    display: block;
     padding: 10px 15px;
     text-decoration: none;
     font-size: 14px;
@@ -185,9 +164,14 @@ header {
 /* Card Container */
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Flexible columns */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Flexible columns */
     gap: 20px; /* Space between cards */
     margin-top: 20px;
+}
+
+.card-container ol {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* Individual Card */
@@ -219,13 +203,11 @@ header {
 }
 
 .card-content h2 {
-    font-size: 20px;
     margin: 0 0 10px;
     color: #333;
 }
 
 .card-content p {
-    font-size: 16px;
     color: #666;
     margin: 0;
 }
@@ -257,55 +239,139 @@ header {
     color: white;
 }
 
-/* Responsive Design for Smaller Screens */
-@media (max-width: 768px) {
-    .top-bar,
-    .menu-header {
-        padding: 8px 10px; /* Match paddings */
-    }
+/* Responsive Design for Mobile Devices */
+@media (max-width: 767px) {
 
+    /* for base */
     .home-icon img,
     .language-switcher img,
-    .menu-icon img,
+    .menu-icon img {
+        width: 26px;
+        height: 26px;
+    }
+
     .close-icon img {
         width: 24px;
         height: 24px;
     }
-
-    .content {
-        padding: 15px;
-    }
-
+    
     .menu-page ul li a {
-        font-size: 16px;
+        font-size: 32px;
     }
 
-    .card-container {
-        gap: 15px; /* Slightly tighter spacing on smaller screens */
+    /* for headings at the top of each page */
+    .content h1 {
+        font-size: 34px;
     }
 
-    .card-content h2 {
+    /* for cards, content (like actual paragraphs, etc) */
+    .content h2 {
+        font-size: 26px;
+    }
+
+    .card-content h2, .content h3 {
+        font-size: 22px;
+    }
+
+    .card-content p, .content p, li{
         font-size: 18px;
     }
 
-    .card-content p {
-        font-size: 14px;
+    /* for images in content */
+    .content img {
+        max-width: 80%;
     }
 }
 
-/* Extra Responsive Design for Mobile Devices */
-@media (max-width: 480px) {
-    img {
-        max-width: 100%;
-        height: auto;
+
+/* Responsive Design for Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* for base */
+    .home-icon img,
+    .language-switcher img,
+    .menu-icon img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .close-icon img {
+        width: 26px;
+        height: 26px;
     }
 
     .menu-page ul li a {
-        font-size: 16px;
+        font-size: 30px;
+    }
+    
+    /* for headings at the top of each page */
+    .content h1 {
+        font-size: 36px;
     }
 
-    .menu-page .close-btn img {
-        width: 24px;
-        height: 24px;
+    /* for images in content */
+    .content img {
+        max-width: 60%;
+    }
+
+    /* for cards, content (like actual paragraphs, etc) */
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .card-content h2, .content h3 {
+        font-size: 24px;
+    }
+
+    .card-content p, .content p, li{
+        font-size: 20px;
+    }
+
+}
+
+/* Responsive Design for Desktops */
+@media (min-width: 1025px) {
+    .home-icon img,
+    .language-switcher img,
+    .menu-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .close-icon img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .menu-page ul li a {
+        font-size: 28px;
+    }
+
+    /* for headings at the top of each page */
+    .content h1 {
+        font-size: 38px;
+    }
+
+    /* for images in content */
+    .content img {
+        max-width: 40%;
+    }
+
+    /* for cards, content (like actual paragraphs, etc) */
+    .content h2 {
+        font-size: 30px;
+    }
+
+    .card-content h2, .content h3 {
+        font-size: 26px;
+    }
+
+    .card-content p, .content p, li{
+        font-size: 22px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible columns */
+
     }
 }

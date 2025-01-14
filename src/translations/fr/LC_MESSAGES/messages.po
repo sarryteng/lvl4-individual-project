@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-05 23:20+0000\n"
-"PO-Revision-Date: 2025-01-05 23:20+0000\n"
+"POT-Creation-Date: 2025-01-07 23:00+0000\n"
+"PO-Revision-Date: 2025-01-07 23:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: templates/base.html:74 templates/home.html:15 templates/learn.html:4
+#: templates/base.html:73 templates/home.html:15 templates/learn.html:4
 msgid "Learn"
 msgstr "Apprendre"
 
-#: templates/base.html:75 templates/guides.html:4 templates/home.html:18
+#: templates/base.html:74 templates/guides.html:4 templates/home.html:18
 msgid "Guides"
 msgstr "Guides"
 
-#: templates/base.html:76 templates/home.html:21 templates/tools.html:4
+#: templates/base.html:75 templates/home.html:21 templates/tools.html:4
 msgid "Tools"
 msgstr "Outils"
 
@@ -193,80 +193,110 @@ msgstr "Sécurité des mots de passe"
 msgid "Malware"
 msgstr "Logiciels malveillants"
 
-#: templates/tools.html:10
-msgid "Free Antivirus Software"
-msgstr "Logiciel antivirus gratuit"
-
-#: templates/tools.html:17
+#: templates/tools.html:11
 msgid "Best Antivirus Software for iPhones"
 msgstr "Meilleur logiciel antivirus pour iPhone"
 
-#: templates/tools.html:19
-msgid "TotalAV Mobile Security – Best antivirus app for iPhone"
-msgstr "TotalAV Mobile Security – Meilleure application antivirus pour iPhone"
-
-#: templates/tools.html:20
-msgid "Norton Mobile Security for iOS – User-friendly iPhone antivirus"
-msgstr "Norton Mobile Security pour iOS – Antivirus convivial pour iPhone"
-
-#: templates/tools.html:21
-msgid "Avira – Lightweight antivirus for iPhone with a free plan"
-msgstr "Avira – Antivirus léger pour iPhone avec un forfait gratuit"
-
-#: templates/tools.html:22
-msgid "Bitdefender – All-around antivirus for iOS"
-msgstr "Bitdefender – Antivirus complet pour iOS"
-
-#: templates/tools.html:23
-msgid "AVG – Antivirus for iPhone with exceptional malware detection power"
-msgstr ""
-"AVG – Antivirus pour iPhone avec une puissance de détection de malware "
-"exceptionnelle"
-
-#: templates/tools.html:26 templates/tools.html:43
+#: templates/tools.html:13 templates/tools.html:68
 msgid "For more details, visit"
 msgstr "Pour plus de détails, visitez"
 
-#: templates/tools.html:27
+#: templates/tools.html:14
 msgid "Best Antivirus for iPhones"
 msgstr "Meilleur antivirus pour iPhone"
 
-#: templates/tools.html:34
+#: templates/tools.html:24
+msgid "TotalAV Mobile Security"
+msgstr "TotalAV Mobile Security"
+
+#: templates/tools.html:25
+msgid "Best antivirus app for iPhone"
+msgstr "Meilleure application antivirus pour iPhone"
+
+#: templates/tools.html:32
+msgid "Norton Mobile Security for iOS"
+msgstr "Norton Mobile Security pour iOS"
+
+#: templates/tools.html:33
+msgid "User-friendly iPhone antivirus"
+msgstr "Antivirus iPhone convivial"
+
+#: templates/tools.html:40
+msgid "Avira"
+msgstr "Avira"
+
+#: templates/tools.html:41
+msgid "Lightweight antivirus for iPhone with a free plan"
+msgstr "Antivirus léger pour iPhone avec un forfait gratuit"
+
+#: templates/tools.html:48
+msgid "Bitdefender"
+msgstr "Bitdefender"
+
+#: templates/tools.html:49
+msgid "All-around antivirus for iOS"
+msgstr "Antivirus complet pour iOS"
+
+#: templates/tools.html:56
+msgid "AVG"
+msgstr "AVG"
+
+#: templates/tools.html:57
+msgid "Antivirus for iPhone with exceptional malware detection power"
+msgstr ""
+"Antivirus pour iPhone avec une puissance de détection de malware "
+"exceptionnelle"
+
+#: templates/tools.html:66
 msgid "Best Antivirus Software for Android"
 msgstr "Meilleur logiciel antivirus pour Android"
 
-#: templates/tools.html:36
-msgid "Bitdefender Mobile Security – Best antivirus app for Android"
-msgstr ""
-"Bitdefender Mobile Security – Meilleure application antivirus pour Android"
-
-#: templates/tools.html:37
-msgid ""
-"Avast Mobile Security – Great free Android antivirus app with low system "
-"overhead"
-msgstr ""
-"Avast Mobile Security – Excellente application antivirus Android gratuite "
-"avec une faible charge système"
-
-#: templates/tools.html:38
-msgid "Norton 360 for Mobile – Comprehensive protection"
-msgstr "Norton 360 pour mobile – Protection complète"
-
-#: templates/tools.html:39
-msgid "McAfee Mobile Security – Mini security suite with a clean interface"
-msgstr ""
-"McAfee Mobile Security – Mini suite de sécurité avec une interface épurée"
-
-#: templates/tools.html:40
-msgid ""
-"ESET Mobile Security – Quick and easy scans with slight performance hit"
-msgstr ""
-"ESET Mobile Security – Des analyses rapides et faciles avec une légère "
-"baisse des performances"
-
-#: templates/tools.html:44
+#: templates/tools.html:69
 msgid "Best Antivirus for Android"
 msgstr "Meilleur antivirus pour Android"
+
+#: templates/tools.html:79
+msgid "Bitdefender Mobile Security"
+msgstr "Bitdefender Mobile Security"
+
+#: templates/tools.html:80
+msgid "Best antivirus app for Android"
+msgstr "Meilleure application antivirus pour Android"
+
+#: templates/tools.html:87
+msgid "Avast Mobile Security"
+msgstr "Avast Mobile Security"
+
+#: templates/tools.html:88
+msgid "Great free Android antivirus app with low system overhead"
+msgstr ""
+"Excellente application antivirus Android gratuite avec une faible charge "
+"système"
+
+#: templates/tools.html:95
+msgid "Norton 360 for Mobile"
+msgstr "Norton 360 pour appareils mobiles"
+
+#: templates/tools.html:96
+msgid "Comprehensive protection"
+msgstr "Protection complète"
+
+#: templates/tools.html:103
+msgid "McAfee Mobile Security"
+msgstr "McAfee Mobile Security"
+
+#: templates/tools.html:104
+msgid "Mini security suite with a clean interface"
+msgstr "Mini suite de sécurité avec une interface épurée"
+
+#: templates/tools.html:111
+msgid "ESET Mobile Security"
+msgstr "ESET Mobile Security"
+
+#: templates/tools.html:112
+msgid "Quick and easy scans with slight performance hit"
+msgstr ""
+"Des analyses rapides et faciles avec une légère baisse des performances"
 
 #: templates/guides/how-to-update-software.html:4
 msgid "GUIDE on How To Update Softwares"
@@ -1022,9 +1052,9 @@ msgid ""
 msgstr ""
 "En vous en tenant à la configuration standard d’iOS et en ne jailbreakant "
 "pas votre téléphone, vous réduisez les risques d’infection par un virus sur "
-"votre iPhone. iOS est doté de fonctions de sécurité intégrées et l’approche "
-"« jardin clos » de l’entreprise en matière de logiciels signifie que les "
-"applications de l’App Store sont examinées avant d’être disponibles au "
+"votre iPhone. iOS est doté de fonctionnalités de sécurité intégrées et "
+"l’approche de l’entreprise en matière de logiciels signifie que les "
+"applications de l’App Store sont vérifiées avant d’être disponibles au "
 "téléchargement. À moins que vous n’ayez une bonne raison (par exemple, vous "
 "êtes chercheur), vous ne devriez pas essayer de jailbreaker votre iPhone."
 
@@ -1058,7 +1088,7 @@ msgid ""
 "networks and understand the risks of using public Wi-Fi."
 msgstr ""
 "Bien qu'iOS soit plus sûr que d'autres systèmes d'exploitation, aucun "
-"système informatique n'est sûr à 100%%. Vous avez également un rôle à jouer."
+"système informatique n'est sûr à 100 %. Vous avez également un rôle à jouer."
 " Veillez à ne pas ouvrir les liens inconnus, inattendus ou suspects que vous"
 " recevez dans les e-mails ou les messages, même s'ils proviennent d'amis "
 "proches ou de membres de votre famille. Assurez-vous également d'utiliser "
@@ -1713,8 +1743,8 @@ msgid ""
 msgstr ""
 "Les fonctions de sécurité intégrées doivent constituer votre première ligne "
 "de défense contre les altérations et les vols physiques des appareils. "
-"Choisissez un code d’accès aussi difficile que possible et dont vous pouvez "
-"vous souvenir facilement, et ne réutilisez aucun de vos codes. Les "
+"Choisissez un code d’accès aussi complexe que possible et dont vous pouvez "
+"facilement vous souvenir, et ne réutilisez aucun de vos codes. Les "
 "dispositifs biométriques, comme FaceID ou les scanners d’empreintes "
 "digitales, créent une couche de sécurité supplémentaire plus difficile à "
 "pirater qu’un mot de passe."
@@ -2738,8 +2768,8 @@ msgid ""
 " as possible."
 msgstr ""
 "N'importe qui peut être la cible d'une attaque de phishing. Pour augmenter "
-"leurs chances de réussite, les auteurs de phishing ciblent souvent autant "
-"d'adresses e-mail ou de numéros de téléphone que possible."
+"leurs chances de réussite, les pirates ciblent souvent autant d'adresses "
+"e-mail ou de numéros de téléphone que possible."
 
 #: templates/guides/spot-phishing.html:91
 msgid "Can AI be used for phishing attacks?"
@@ -3016,11 +3046,11 @@ msgid ""
 "inaccessible to everyday hackers, meaning your email will be more secure."
 msgstr ""
 "Certaines authentifications à deux facteurs utilisent la biométrie, comme "
-"une empreinte digitale ou FaceID, et un mot de passe avant de se connecter. "
-"D'autres enverront un SMS sur votre appareil avec un code dont vous aurez "
-"besoin pour vous connecter. Ces exigences de connexion sont généralement "
-"inaccessibles aux pirates informatiques ordinaires, ce qui signifie que "
-"votre courrier électronique sera plus sécurisé."
+"une empreinte digitale ou un FaceID, et un mot de passe avant de se "
+"connecter. D'autres enverront un SMS sur votre appareil avec un code dont "
+"vous aurez besoin pour vous connecter. Ces exigences de connexion sont "
+"généralement inaccessibles aux pirates informatiques ordinaires, ce qui "
+"signifie que votre courrier électronique sera plus sécurisé."
 
 #: templates/guides/use-encryption.html:68
 msgid "3. Beware of phishing emails"
@@ -3410,7 +3440,7 @@ msgid ""
 "Even though it's not 100%% secure, 2FA can bolster your online security and "
 "is recommended."
 msgstr ""
-"Même si elle n'est pas sécurisée à 100%%, la 2FA peut renforcer votre "
+"Même si elle n'est pas sécurisée à 100 %, la 2FA peut renforcer votre "
 "sécurité en ligne et est recommandée."
 
 #: templates/guides/use-two-factor.html:61
@@ -4369,8 +4399,7 @@ msgid ""
 "follows three general steps:"
 msgstr ""
 "Les utilisateurs sont infectés par un logiciel malveillant lorsqu'un pirate "
-"informatique infecte un appareil. Ce processus suit généralement trois "
-"étapes générales :"
+"infecte un appareil. Ce processus suit généralement trois étapes générales :"
 
 #: templates/learn/malware.html:26
 msgid ""
