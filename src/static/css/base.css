@@ -189,6 +189,10 @@ a.language-switcher {
     padding: 15px;
 }
 
+.card a {
+    text-decoration: none;
+}
+
 .card:hover {
     transform: translateY(-5px); /* Slight lift on hover */
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
@@ -210,6 +214,20 @@ a.language-switcher {
 .card-content p {
     color: #666;
     margin: 0;
+}
+
+.test-btn {
+    margin-top: 20px;
+    color: #fff;
+    background-color: #008080;  /* Customize the button style */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+}
+
+.test-btn:hover {
+    background-color: #1fb3b3; /* Change color when card is hovered */
 }
 
 .pagination {
@@ -262,6 +280,7 @@ a.language-switcher {
     /* for headings at the top of each page */
     .content h1 {
         font-size: 34px;
+        margin-bottom: 50px;
     }
 
     /* for cards, content (like actual paragraphs, etc) */
@@ -280,6 +299,10 @@ a.language-switcher {
     /* for images in content */
     .content img {
         max-width: 80%;
+    }
+
+    .test-btn {
+        font-size: 16px;
     }
 }
 
@@ -327,6 +350,9 @@ a.language-switcher {
         font-size: 20px;
     }
 
+    .test-btn {
+        font-size: 18px;
+    }
 }
 
 /* Responsive Design for Desktops */
@@ -371,7 +397,11 @@ a.language-switcher {
     }
 
     .card-container {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible columns */
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); /* Flexible columns */
 
+    }
+
+    .test-btn {
+        font-size: 20px;
     }
 }
