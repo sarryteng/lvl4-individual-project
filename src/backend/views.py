@@ -45,6 +45,42 @@ def vpn(lang):
     g.lang = lang
     return render_template('learn/vpn.html')
 
+# ------------------- LEARN/QUIZZES SECTION: -------------------
+def mobile_security_quiz(lang):
+    g.lang = lang
+    return render_template('quiz/mobile-security-quiz.html')
+
+def encryption_quiz(lang):
+    g.lang = lang
+    return render_template('quiz/encryption-quiz.html')
+
+def password_security_quiz(lang):
+    g.lang = lang
+    return render_template('quiz/password-security-quiz.html')
+
+def two_factor_authentication_quiz(lang):
+    g.lang = lang
+    return render_template('quiz/two-factor-authentication-quiz.html')
+
+def phishing_quiz(lang):
+    g.lang = lang
+    return render_template('quiz/phishing-quiz.html')
+
+def software_updates_quiz(lang):
+    g.lang = lang
+    return render_template('quiz/software-updates-quiz.html')
+
+def identity_theft_quiz(lang):
+    g.lang = lang
+    return render_template('quiz/identity-theft-quiz.html')
+
+def malware_quiz(lang):
+    g.lang = lang
+    return render_template('quiz/malware-quiz.html')
+
+def vpn_quiz(lang):
+    g.lang = lang
+    return render_template('quiz/vpn-quiz.html')
 
 # ------------------- GUIDES SECTION: ------------------- 
 def guides(lang):
@@ -86,7 +122,6 @@ def malware_protection(lang):
 def use_vpn(lang):
     g.lang = lang
     return render_template('guides/use-vpn.html')
-
 
 # ------------------- TOOLS SECTION: ------------------- 
 def tools(lang):
