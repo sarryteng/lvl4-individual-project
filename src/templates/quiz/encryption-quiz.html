@@ -7,6 +7,77 @@
 {% block content %}
     <main>
         <h1>{{ _('Encryption Quiz') }}</h1> 
+
+        <div id="quiz-container">
+            <!-- Question 1 -->
+            <section class="quiz-question" data-correct="b">
+                <h3>{{ _('1. What is the primary purpose of encryption?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('To speed up data transmission') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('To protect sensitive information') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('To reduce storage space') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('To organize files') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 2 -->
+            <section class="quiz-question" data-correct="c" style="display: none;">
+                <h3>{{ _('2. What is the term for the unreadable format created by encryption?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Plaintext') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('Code text') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('Ciphertext') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('Encrypted text') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 3 -->
+            <section class="quiz-question" data-correct="a" style="display: none;">
+                <h3>{{ _('3. What is a key difference between symmetric and asymmetric encryption?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Symmetric uses one key; asymmetric uses two keys') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('Asymmetric is faster than symmetric') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('Symmetric encryption is obsolete') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('Both use public keys') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 4 -->
+            <section class="quiz-question" data-correct="c" style="display: none;">
+                <h3>{{ _('4. Which type of email encryption relies on Certificate Authorities?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('PGP/MIME') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('SSL/TLS') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('S/MIME') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('None of the above') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 5 -->
+            <section class="quiz-question" data-correct="c" style="display: none;">
+                <h3>{{ _('5. What is the main drawback of asymmetric encryption?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('It is less secure than symmetric encryption') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('It requires a trusted third party') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('It is slower and less efficient') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('It cannot be used for email encryption') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+        </div>
+
+        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div id="quiz-summary" style="display: none;"></div>
     </main>
 
 {% endblock %}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-07 23:00+0000\n"
+"POT-Creation-Date: 2025-01-21 00:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: templates/base.html:73 templates/home.html:15 templates/learn.html:4
+#: templates/base.html:69 templates/home.html:16 templates/learn.html:4
 msgid "Learn"
 msgstr ""
 
-#: templates/base.html:74 templates/guides.html:4 templates/home.html:18
+#: templates/base.html:70 templates/guides.html:4 templates/home.html:19
 msgid "Guides"
 msgstr ""
 
-#: templates/base.html:75 templates/home.html:21 templates/tools.html:4
+#: templates/base.html:71 templates/home.html:22 templates/tools.html:4
 msgid "Tools"
 msgstr ""
 
@@ -33,80 +33,80 @@ msgstr ""
 msgid "Here are the Guides"
 msgstr ""
 
-#: templates/guides.html:15
+#: templates/guides.html:14
 msgid "Secure Mobile Devices"
 msgstr ""
 
-#: templates/guides.html:16 templates/learn.html:16
+#: templates/guides.html:15 templates/learn.html:16
 msgid "Learn how to protect your mobile devices from threats."
 msgstr ""
 
-#: templates/guides.html:21 templates/guides/use-encryption.html:9
-#: templates/learn.html:21 templates/learn/encryption.html:9
+#: templates/guides.html:20 templates/guides/use-encryption.html:9
+#: templates/learn.html:25 templates/learn/encryption.html:9
 #: templates/learn/mobile-security.html:42
 msgid "Encryption"
 msgstr ""
 
-#: templates/guides.html:22 templates/learn.html:22
+#: templates/guides.html:21 templates/learn.html:26
 msgid "Understand how encryption safeguards sensitive information."
 msgstr ""
 
-#: templates/guides.html:27 templates/guides/secure-passwords.html:9
+#: templates/guides.html:26 templates/guides/secure-passwords.html:9
 msgid "Secure Passwords"
 msgstr ""
 
-#: templates/guides.html:28 templates/learn.html:28
+#: templates/guides.html:27 templates/learn.html:36
 msgid "Discover techniques for creating strong, secure passwords."
 msgstr ""
 
-#: templates/guides.html:33 templates/learn.html:33
+#: templates/guides.html:32 templates/learn.html:45
 msgid "2FA Authentication"
 msgstr ""
 
-#: templates/guides.html:34 templates/learn.html:34
+#: templates/guides.html:33 templates/learn.html:46
 msgid "Learn about two-factor authentication and its benefits."
 msgstr ""
 
-#: templates/guides.html:39 templates/learn.html:39
+#: templates/guides.html:38 templates/learn.html:55
 msgid "Phishing Attacks"
 msgstr ""
 
-#: templates/guides.html:40 templates/learn.html:40
+#: templates/guides.html:39 templates/learn.html:56
 msgid "Identify and avoid common phishing attacks."
 msgstr ""
 
-#: templates/guides.html:45 templates/guides/how-to-update-software.html:9
-#: templates/learn.html:45 templates/learn/software-updates.html:9
+#: templates/guides.html:44 templates/guides/how-to-update-software.html:9
+#: templates/learn.html:65 templates/learn/software-updates.html:9
 msgid "Software Updates"
 msgstr ""
 
-#: templates/guides.html:46 templates/learn.html:46
+#: templates/guides.html:45 templates/learn.html:66
 msgid "Why keeping your software updated is critical."
 msgstr ""
 
-#: templates/guides.html:51 templates/guides/prevent-theft.html:9
-#: templates/learn.html:51 templates/learn/identity-theft.html:9
+#: templates/guides.html:50 templates/guides/prevent-theft.html:9
+#: templates/learn.html:75 templates/learn/identity-theft.html:9
 msgid "Identity Theft"
 msgstr ""
 
-#: templates/guides.html:52 templates/learn.html:52
+#: templates/guides.html:51 templates/learn.html:76
 msgid "Understand how to protect yourself from identity theft."
 msgstr ""
 
-#: templates/guides.html:57
+#: templates/guides.html:56
 msgid "Malware Protection"
 msgstr ""
 
-#: templates/guides.html:58 templates/learn.html:58
+#: templates/guides.html:57 templates/learn.html:86
 msgid "Learn about malware and how to prevent infections."
 msgstr ""
 
-#: templates/guides.html:63 templates/guides/use-vpn.html:9
-#: templates/learn.html:63 templates/learn/vpn.html:9
+#: templates/guides.html:62 templates/guides/use-vpn.html:9
+#: templates/learn.html:95 templates/learn/vpn.html:9
 msgid "VPN"
 msgstr ""
 
-#: templates/guides.html:64 templates/learn.html:64
+#: templates/guides.html:63 templates/learn.html:96
 msgid "Discover the benefits of using a virtual private network."
 msgstr ""
 
@@ -134,23 +134,23 @@ msgid ""
 "practices."
 msgstr ""
 
-#: templates/home.html:12
+#: templates/home.html:13
 msgid "What You'll Find Here:"
 msgstr ""
 
-#: templates/home.html:15
+#: templates/home.html:16
 msgid ""
 "Explore basic concepts of online safety and cybersecurity. Understand why"
 " securing your online activities is crucial."
 msgstr ""
 
-#: templates/home.html:18
+#: templates/home.html:19
 msgid ""
 "Step-by-step instructions on how to protect yourself, from safe browsing "
 "habits to mobile security best practices."
 msgstr ""
 
-#: templates/home.html:21
+#: templates/home.html:22
 msgid ""
 "A curated list of free, reliable antivirus and security tools for mobile "
 "devices."
@@ -165,11 +165,17 @@ msgstr ""
 msgid "Mobile Security"
 msgstr ""
 
-#: templates/learn.html:27
+#: templates/learn.html:19 templates/learn.html:29 templates/learn.html:39
+#: templates/learn.html:49 templates/learn.html:59 templates/learn.html:69
+#: templates/learn.html:79 templates/learn.html:89 templates/learn.html:99
+msgid "Test Yourself!"
+msgstr ""
+
+#: templates/learn.html:35
 msgid "Password Security"
 msgstr ""
 
-#: templates/guides/malware-protection.html:9 templates/learn.html:57
+#: templates/guides/malware-protection.html:9 templates/learn.html:85
 #: templates/learn/malware.html:9
 msgid "Malware"
 msgstr ""
@@ -4801,5 +4807,225 @@ msgid ""
 "While it might not be that noticeable most of the time, you may "
 "experience slower download and upload speeds, which can impact your "
 "streaming or gaming."
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:4
+msgid "QUIZ about Encryption"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:9
+msgid "Encryption Quiz"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:14
+msgid "1. What is the primary purpose of encryption?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:16
+msgid "To speed up data transmission"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:17
+msgid "To protect sensitive information"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:18
+msgid "To reduce storage space"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:19
+msgid "To organize files"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:21
+#: templates/quiz/encryption-quiz.html:34
+#: templates/quiz/encryption-quiz.html:47
+#: templates/quiz/encryption-quiz.html:60
+#: templates/quiz/encryption-quiz.html:73
+msgid "Check"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:27
+msgid "2. What is the term for the unreadable format created by encryption?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:29
+msgid "Plaintext"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:30
+msgid "Code text"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:31
+msgid "Ciphertext"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:32
+msgid "Encrypted text"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:40
+msgid "3. What is a key difference between symmetric and asymmetric encryption?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:42
+msgid "Symmetric uses one key; asymmetric uses two keys"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:43
+msgid "Asymmetric is faster than symmetric"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:44
+msgid "Symmetric encryption is obsolete"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:45
+msgid "Both use public keys"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:53
+msgid "4. Which type of email encryption relies on Certificate Authorities?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:55
+msgid "PGP/MIME"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:56
+msgid "SSL/TLS"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:57
+msgid "S/MIME"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:58
+msgid "None of the above"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:66
+msgid "5. What is the main drawback of asymmetric encryption?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:68
+msgid "It is less secure than symmetric encryption"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:69
+msgid "It requires a trusted third party"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:70
+msgid "It is slower and less efficient"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:71
+msgid "It cannot be used for email encryption"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:79
+msgid "Next Question"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:192
+msgid "Please select an answer."
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:209
+msgid "Correct!"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:213
+msgid "Incorrect. The correct answer is"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:241
+msgid "Quiz Completed!"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:242
+msgid "Your score:"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:247
+msgid "Correct"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:247
+msgid "Incorrect"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:248
+msgid "Question"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:251
+msgid "Restart Quiz"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:4
+msgid "QUIZ about Identity Theft"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:9
+msgid "Identity Theft Quiz"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:4
+msgid "QUIZ about Malware"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:9
+msgid "Malware Quiz"
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:4
+msgid "QUIZ about Mobile Security"
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:9
+msgid "Mobile Security Quiz"
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:4
+msgid "QUIZ about Password Security"
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:9
+msgid "Password Security Quiz"
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:4
+msgid "QUIZ about Phishing"
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:9
+msgid "Phishing Quiz"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:4
+msgid "QUIZ about Software Updates"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:9
+msgid "Software Updates Quiz"
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:4
+msgid "QUIZ about Two Factor Authentication"
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:9
+msgid "Two Factor Authentication Quiz"
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:4
+msgid "QUIZ about VPN"
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:9
+msgid "VPN Quiz"
 msgstr ""
 

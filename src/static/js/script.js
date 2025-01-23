@@ -53,5 +53,120 @@ function updateDropdown() {
     });
 }
 
-// Initially exclude the current language from the dropdown
-updateDropdown();
+document.addEventListener('DOMContentLoaded', () => {
+    const quizContainer = document.getElementById('quiz-container');
+    const questions = document.querySelectorAll('.quiz-question');
+    const nextButton = document.getElementById('next-question');
+    const quizSummary = document.getElementById('quiz-summary');
+    let currentQuestionIndex = 0;
+    let score = 0;
+
+    quizContainer.addEventListener('click', (e) => {
+        if (e.target.classList.contains('quiz-card')) {
+            const selectedCard = e.target;
+            const options = selectedCard.parentNode.querySelectorAll('.quiz-card');
+
+            // Remove 'selected' class from all options in the current question
+            options.forEach(card => card.classList.remove('selected'));
+
+            // Add 'selected' class to the clicked option
+            selectedCard.classList.add('selected');
+        }
+    });
+
+    quizContainer.addEventListener('click', (e) => {
+        if (e.target.classList.contains('check-answer')) {
+            const currentQuestion = questions[currentQuestionIndex];
+            const selectedCard = currentQuestion.querySelector('.quiz-card.selected');
+            const resultDiv = currentQuestion.querySelector('.result');
+
+            if (!selectedCard) {
+                resultDiv.textContent = 'Please select an answer.';
+                return;
+            }
+
+            const correctAnswer = currentQuestion.dataset.correct;
+            const allCards = currentQuestion.querySelectorAll('.quiz-card');
+
+            // Highlight the correct answer in green
+            allCards.forEach(card => {
+                card.classList.add('disabled');
+                if (card.dataset.answer === correctAnswer) {
+                    card.classList.add('correct');
+                }
+            });
+
+            if (selectedCard.dataset.answer === correctAnswer) {
+                selectedCard.classList.add('selected');
+                resultDiv.textContent = 'Correct!';
+                score++;
+            } else {
+                selectedCard.classList.add('incorrect');
+                resultDiv.textContent = `Incorrect. The correct answer is ${correctAnswer}.`;
+            }
+
+            e.target.style.display = 'none'; // Hide the check button
+            nextButton.style.display = currentQuestionIndex < questions.length - 1 ? 'block' : 'none';
+
+            if (currentQuestionIndex === questions.length - 1) {
+                displaySummary();
+            }
+        }
+    });
+
+    nextButton.addEventListener('click', () => {
+        questions[currentQuestionIndex].style.display = 'none';
+        currentQuestionIndex++;
+        questions[currentQuestionIndex].style.display = 'block';
+
+        // Update the URL with the current question index
+        const baseURL = window.location.href.split('#')[0].split('?')[0];
+        window.history.pushState(null, '', `${baseURL}#${currentQuestionIndex + 1}`);
+
+        nextButton.style.display = 'none';
+    });
+
+    function displaySummary() {
+        quizContainer.style.display = 'none';
+        quizSummary.style.display = 'block';
+        quizSummary.innerHTML = `
+            <h3>Quiz Completed!</h3>
+            <p>Your score: ${score}/${questions.length}</p>
+            <ul>
+                ${[...questions].map((q, i) => {
+                    const correct = q.dataset.correct;
+                    const selected = q.querySelector('.quiz-card.selected')?.dataset.answer;
+                    const result = correct === selected ? 'Correct' : 'Incorrect';
+                    return `<li>Question ${i + 1}: ${result}</li>`;
+                }).join('')}
+            </ul>
+            <button id="restart-quiz" class="check-answer">Restart Quiz</button>
+        `;
+
+        // Add an event listener for the restart button
+        document.getElementById('restart-quiz').addEventListener('click', restartQuiz);
+    }
+
+    function restartQuiz() {
+        currentQuestionIndex = 0;
+        score = 0;
+        questions.forEach((question, index) => {
+            question.style.display = index === 0 ? 'block' : 'none';
+            const allCards = question.querySelectorAll('.quiz-card');
+            allCards.forEach(card => {
+                card.classList.remove('selected', 'correct', 'incorrect', 'disabled');
+            });
+            const resultDiv = question.querySelector('.result');
+            resultDiv.textContent = '';
+            question.querySelector('.check-answer').style.display = 'block';
+        });
+
+        quizContainer.style.display = 'block';
+        quizSummary.style.display = 'none';
+        nextButton.style.display = 'none';
+
+        // Reset the URL to the first question
+        const baseURL = window.location.href.split('#')[0].split('?')[0];
+        window.history.pushState(null, '', `${baseURL}#1`);
+    }
+});
