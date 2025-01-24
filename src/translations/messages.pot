@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-24 01:41+0000\n"
+"POT-Creation-Date: 2025-01-24 17:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,38 @@ msgstr ""
 
 #: templates/base.html:71 templates/home.html:22 templates/tools.html:4
 msgid "Tools"
+msgstr ""
+
+#: templates/base.html:81
+msgid "Please select an answer."
+msgstr ""
+
+#: templates/base.html:82
+msgid "Incorrect. The correct answer is {correctAnswer}."
+msgstr ""
+
+#: templates/base.html:83
+msgid "Correct!"
+msgstr ""
+
+#: templates/base.html:84 templates/quiz/encryption-quiz.html:79
+#: templates/quiz/identity-theft-quiz.html:78
+#: templates/quiz/malware-quiz.html:78
+#: templates/quiz/mobile-security-quiz.html:78
+#: templates/quiz/password-security-quiz.html:78
+#: templates/quiz/phishing-quiz.html:78
+#: templates/quiz/software-updates-quiz.html:78
+#: templates/quiz/two-factor-authentication-quiz.html:78
+#: templates/quiz/vpn-quiz.html:78
+msgid "Next Question"
+msgstr ""
+
+#: templates/base.html:85
+msgid "Quiz Completed!"
+msgstr ""
+
+#: templates/base.html:86
+msgid "Your score: {score}/{total}."
 msgstr ""
 
 #: templates/guides.html:9
@@ -4957,18 +4989,6 @@ msgstr ""
 
 #: templates/quiz/encryption-quiz.html:71
 msgid "It cannot be used for email encryption"
-msgstr ""
-
-#: templates/quiz/encryption-quiz.html:79
-#: templates/quiz/identity-theft-quiz.html:78
-#: templates/quiz/malware-quiz.html:78
-#: templates/quiz/mobile-security-quiz.html:78
-#: templates/quiz/password-security-quiz.html:78
-#: templates/quiz/phishing-quiz.html:78
-#: templates/quiz/software-updates-quiz.html:78
-#: templates/quiz/two-factor-authentication-quiz.html:78
-#: templates/quiz/vpn-quiz.html:78
-msgid "Next Question"
 msgstr ""
 
 #: templates/quiz/identity-theft-quiz.html:4

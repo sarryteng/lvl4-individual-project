@@ -77,6 +77,13 @@
     {% block content %}{% endblock %}
 </div>
 
+<!-- Hidden translatable strings for quizzes and other dynamic content -->
+<div id="please-select-message" style="display:none">{{ _('Please select an answer.') }}</div>
+<div id="incorrect-message" style="display:none">{{ _('Incorrect. The correct answer is {correctAnswer}.') }}</div>
+<div id="correct-message" style="display:none">{{ _('Correct!') }}</div>
+<div id="next-question-text" style="display:none">{{ _('Next Question') }}</div>
+<div id="quiz-completed-message" style="display:none">{{ _('Quiz Completed!') }}</div>
+<div id="score-message" style="display:none">{{ _('Your score: {score}/{total}.') }}</div>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 <script src="{{ url_for('static', filename='js/script.js') }}"></script>

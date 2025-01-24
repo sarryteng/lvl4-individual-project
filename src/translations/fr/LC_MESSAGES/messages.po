@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-24 01:41+0000\n"
-"PO-Revision-Date: 2025-01-24 01:41+0000\n"
+"POT-Creation-Date: 2025-01-24 17:16+0000\n"
+"PO-Revision-Date: 2025-01-24 17:16+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -29,6 +29,38 @@ msgstr "Guides"
 #: templates/base.html:71 templates/home.html:22 templates/tools.html:4
 msgid "Tools"
 msgstr "Outils"
+
+#: templates/base.html:81
+msgid "Please select an answer."
+msgstr "Veuillez sélectionner une réponse."
+
+#: templates/base.html:82
+msgid "Incorrect. The correct answer is {correctAnswer}."
+msgstr "Incorrect. La bonne réponse est {correctAnswer}."
+
+#: templates/base.html:83
+msgid "Correct!"
+msgstr "Correct!"
+
+#: templates/base.html:84 templates/quiz/encryption-quiz.html:79
+#: templates/quiz/identity-theft-quiz.html:78
+#: templates/quiz/malware-quiz.html:78
+#: templates/quiz/mobile-security-quiz.html:78
+#: templates/quiz/password-security-quiz.html:78
+#: templates/quiz/phishing-quiz.html:78
+#: templates/quiz/software-updates-quiz.html:78
+#: templates/quiz/two-factor-authentication-quiz.html:78
+#: templates/quiz/vpn-quiz.html:78
+msgid "Next Question"
+msgstr "Question suivante"
+
+#: templates/base.html:85
+msgid "Quiz Completed!"
+msgstr "Quiz terminé !"
+
+#: templates/base.html:86
+msgid "Your score: {score}/{total}."
+msgstr "Votre score : {score}/{total}."
 
 #: templates/guides.html:9
 msgid "Here are the Guides"
@@ -6529,18 +6561,6 @@ msgstr "C'est plus lent et moins efficace"
 #: templates/quiz/encryption-quiz.html:71
 msgid "It cannot be used for email encryption"
 msgstr "Il ne peut pas être utilisé pour le cryptage des e-mails"
-
-#: templates/quiz/encryption-quiz.html:79
-#: templates/quiz/identity-theft-quiz.html:78
-#: templates/quiz/malware-quiz.html:78
-#: templates/quiz/mobile-security-quiz.html:78
-#: templates/quiz/password-security-quiz.html:78
-#: templates/quiz/phishing-quiz.html:78
-#: templates/quiz/software-updates-quiz.html:78
-#: templates/quiz/two-factor-authentication-quiz.html:78
-#: templates/quiz/vpn-quiz.html:78
-msgid "Next Question"
-msgstr "Question suivante"
 
 #: templates/quiz/identity-theft-quiz.html:4
 msgid "QUIZ about Identity Theft"

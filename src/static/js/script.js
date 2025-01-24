@@ -54,6 +54,15 @@ function updateDropdown() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Retrieve translatable strings from hidden divs in base.html
+    const pleaseSelectMessage = document.getElementById('please-select-message').textContent.trim();
+    const incorrectMessage = document.getElementById('incorrect-message').textContent.trim();
+    const correctMessage = document.getElementById('correct-message').textContent.trim();
+    const nextQuestionText = document.getElementById('next-question-text').textContent.trim();
+    const quizCompletedMessage = document.getElementById('quiz-completed-message').textContent.trim();
+    const scoreMessage = document.getElementById('score-message').textContent.trim();
+
+    // Quiz functionality
     const quizContainer = document.getElementById('quiz-container');
     const questions = document.querySelectorAll('.quiz-question');
     const nextButton = document.getElementById('next-question');
@@ -81,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const resultDiv = currentQuestion.querySelector('.result');
 
             if (!selectedCard) {
-                resultDiv.textContent = 'Please select an answer.';
+                resultDiv.textContent = pleaseSelectMessage; // Use "Please select an answer." message
                 return;
             }
 
@@ -98,11 +107,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (selectedCard.dataset.answer === correctAnswer) {
                 selectedCard.classList.add('selected');
-                resultDiv.textContent = 'Correct!';
+                resultDiv.textContent = correctMessage; // Use "Correct!" message
                 score++;
             } else {
                 selectedCard.classList.add('incorrect');
-                resultDiv.textContent = `Incorrect. The correct answer is ${correctAnswer}.`;
+                resultDiv.textContent = incorrectMessage.replace('{correctAnswer}', correctAnswer); // Replace placeholder with the correct answer
             }
 
             e.target.style.display = 'none'; // Hide the check button
@@ -130,17 +139,17 @@ document.addEventListener('DOMContentLoaded', () => {
         quizContainer.style.display = 'none';
         quizSummary.style.display = 'block';
         quizSummary.innerHTML = `
-            <h3>Quiz Completed!</h3>
-            <p>Your score: ${score}/${questions.length}</p>
+            <h3>${quizCompletedMessage}</h3>
+            <p>${scoreMessage.replace('{score}', score).replace('{total}', questions.length)}</p>
             <ul>
                 ${[...questions].map((q, i) => {
                     const correct = q.dataset.correct;
                     const selected = q.querySelector('.quiz-card.selected')?.dataset.answer;
-                    const result = correct === selected ? 'Correct' : 'Incorrect';
+                    const result = correct === selected ? correctMessage : incorrectMessage.replace('{correctAnswer}', correct);
                     return `<li>Question ${i + 1}: ${result}</li>`;
                 }).join('')}
             </ul>
-            <button id="restart-quiz" class="check-answer">Restart Quiz</button>
+            <button id="restart-quiz" class="check-answer">${nextQuestionText}</button>
         `;
 
         // Add an event listener for the restart button
@@ -170,3 +179,4 @@ document.addEventListener('DOMContentLoaded', () => {
         window.history.pushState(null, '', `${baseURL}#1`);
     }
 });
+
