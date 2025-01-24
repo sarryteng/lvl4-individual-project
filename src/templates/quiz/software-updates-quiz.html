@@ -7,6 +7,75 @@
 {% block content %}
     <main>
         <h1>{{ _('Software Updates Quiz') }}</h1> 
-    </main>
 
+        <div id="quiz-container">
+            <!-- Question 1 -->
+            <section class="quiz-question" data-correct="a">
+                <h3>{{ _('1. What is a software update?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A new version of a program that includes security patches, performance upgrades, and other improvements.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A process to delete unused files.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('A tool for creating new software applications.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('A method to increase screen brightness.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 2 -->
+            <section class="quiz-question" data-correct="b" style="display: none;">
+                <h3>{{ _('2. Why are software updates important?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('To change the appearance of your device.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('To fix security vulnerabilities, improve performance, and ensure compatibility.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('To delete old files automatically.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('To reduce internet usage.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 3 -->
+            <section class="quiz-question" data-correct="c" style="display: none;">
+                <h3>{{ _('3. How do software updates improve performance?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('By reducing screen resolution.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('By disabling unused programs.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('By optimizing code and reducing resource usage.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('By increasing battery consumption.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 4 -->
+            <section class="quiz-question" data-correct="a" style="display: none;">
+                <h3>{{ _('4. What is an operating system update?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A new version of an operating system that improves security, performance, and functionality.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A method to install new applications.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('A process to delete old operating systems.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('A tool for managing files on a device.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 5 -->
+            <section class="quiz-question" data-correct="d" style="display: none;">
+                <h3>{{ _('5. How do software updates help protect your data?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('By making files easier to share.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('By deleting unnecessary files.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('By increasing internet speed.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('By closing vulnerabilities that hackers could exploit.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+        </div>
+
+        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div id="quiz-summary" style="display: none;"></div>
+    </main>
 {% endblock %}

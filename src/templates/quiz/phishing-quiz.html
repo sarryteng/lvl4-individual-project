@@ -7,6 +7,75 @@
 {% block content %}
     <main>
         <h1>{{ _('Phishing Quiz') }}</h1> 
-    </main>
 
+        <div id="quiz-container">
+            <!-- Question 1 -->
+            <section class="quiz-question" data-correct="a">
+                <h3>{{ _('1. What is phishing?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A cyber threat where scammers impersonate a trustworthy source to steal sensitive data.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A method for encrypting data online.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('A legitimate way to verify identity.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('A tool used to block spam emails.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 2 -->
+            <section class="quiz-question" data-correct="b" style="display: none;">
+                <h3>{{ _('2. What is a phishing link?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A secure link to reset passwords.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A fake link used to trick users into revealing sensitive information.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('A method for encrypting online communication.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('A legitimate way to verify email addresses.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 3 -->
+            <section class="quiz-question" data-correct="d" style="display: none;">
+                <h3>{{ _('3. What is an example of a phishing attack?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Sending legitimate promotional emails.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('Installing antivirus software.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('Encrypting sensitive files.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('Sending fake emails to steal sensitive data.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 4 -->
+            <section class="quiz-question" data-correct="c" style="display: none;">
+                <h3>{{ _('4. What is whaling in phishing?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A method to stop spam emails.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A phishing attack targeting small businesses.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('A phishing attack targeting high-ranking executives.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('A phishing technique to encrypt data.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 5 -->
+            <section class="quiz-question" data-correct="a" style="display: none;">
+                <h3>{{ _('5. How can you protect yourself from phishing attacks?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Avoid clicking on suspicious links and verify sender authenticity.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('Share your passwords with trusted friends.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('Use the same password for all accounts.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('Ignore all emails and messages.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+        </div>
+
+        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div id="quiz-summary" style="display: none;"></div>
+    </main>
 {% endblock %}

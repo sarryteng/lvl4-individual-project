@@ -7,6 +7,75 @@
 {% block content %}
     <main>
         <h1>{{ _('Mobile Security Quiz') }}</h1> 
-    </main>
 
+        <div id="quiz-container">
+            <!-- Question 1 -->
+            <section class="quiz-question" data-correct="a">
+                <h3>{{ _('1. What is mobile security?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A system of security software and habits to protect your data from hackers.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A method to speed up internet connections on mobile devices.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('A tool to organize apps on your phone.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('An operating system for mobile phones.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 2 -->
+            <section class="quiz-question" data-correct="b" style="display: none;">
+                <h3>{{ _('2. Why is mobile security important?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('To increase the speed of your mobile phone.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('To protect financial information, prevent identity theft, and safeguard personal data.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('To allow all apps to run on your phone.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('To remove advertisements from apps.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 3 -->
+            <section class="quiz-question" data-correct="d" style="display: none;">
+                <h3>{{ _('3. What is an example of mobile security?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Downloading apps from unverified sources.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('Disabling security protocols on your device.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('Avoiding software updates.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('Using encryption and antivirus software.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 4 -->
+            <section class="quiz-question" data-correct="c" style="display: none;">
+                <h3>{{ _('4. What is a secure boot process?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A method to speed up device startup times.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A way to connect multiple devices to the internet.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('A process ensuring hardware can safely use operating systems and programs.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('A tool to delete unused apps from your phone.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 5 -->
+            <section class="quiz-question" data-correct="a" style="display: none;">
+                <h3>{{ _('5. How can you protect yourself from mobile security threats?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Use strong passwords, enable two-factor authentication, and avoid clicking on suspicious links.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('Disable antivirus software to save battery life.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('Ignore updates for your mobile device.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('Download apps only from third-party sources.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+        </div>
+
+        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div id="quiz-summary" style="display: none;"></div>
+    </main>
 {% endblock %}

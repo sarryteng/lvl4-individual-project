@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-21 00:02+0000\n"
-"PO-Revision-Date: 2025-01-21 00:03+0000\n"
+"POT-Creation-Date: 2025-01-24 01:41+0000\n"
+"PO-Revision-Date: 2025-01-24 01:41+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -6408,6 +6408,40 @@ msgstr "Pour organiser les fichiers"
 #: templates/quiz/encryption-quiz.html:47
 #: templates/quiz/encryption-quiz.html:60
 #: templates/quiz/encryption-quiz.html:73
+#: templates/quiz/identity-theft-quiz.html:21
+#: templates/quiz/identity-theft-quiz.html:34
+#: templates/quiz/identity-theft-quiz.html:47
+#: templates/quiz/identity-theft-quiz.html:60
+#: templates/quiz/identity-theft-quiz.html:73
+#: templates/quiz/malware-quiz.html:21 templates/quiz/malware-quiz.html:34
+#: templates/quiz/malware-quiz.html:47 templates/quiz/malware-quiz.html:60
+#: templates/quiz/malware-quiz.html:73
+#: templates/quiz/mobile-security-quiz.html:21
+#: templates/quiz/mobile-security-quiz.html:34
+#: templates/quiz/mobile-security-quiz.html:47
+#: templates/quiz/mobile-security-quiz.html:60
+#: templates/quiz/mobile-security-quiz.html:73
+#: templates/quiz/password-security-quiz.html:21
+#: templates/quiz/password-security-quiz.html:34
+#: templates/quiz/password-security-quiz.html:47
+#: templates/quiz/password-security-quiz.html:60
+#: templates/quiz/password-security-quiz.html:73
+#: templates/quiz/phishing-quiz.html:21 templates/quiz/phishing-quiz.html:34
+#: templates/quiz/phishing-quiz.html:47 templates/quiz/phishing-quiz.html:60
+#: templates/quiz/phishing-quiz.html:73
+#: templates/quiz/software-updates-quiz.html:21
+#: templates/quiz/software-updates-quiz.html:34
+#: templates/quiz/software-updates-quiz.html:47
+#: templates/quiz/software-updates-quiz.html:60
+#: templates/quiz/software-updates-quiz.html:73
+#: templates/quiz/two-factor-authentication-quiz.html:21
+#: templates/quiz/two-factor-authentication-quiz.html:34
+#: templates/quiz/two-factor-authentication-quiz.html:47
+#: templates/quiz/two-factor-authentication-quiz.html:60
+#: templates/quiz/two-factor-authentication-quiz.html:73
+#: templates/quiz/vpn-quiz.html:21 templates/quiz/vpn-quiz.html:34
+#: templates/quiz/vpn-quiz.html:47 templates/quiz/vpn-quiz.html:60
+#: templates/quiz/vpn-quiz.html:73
 msgid "Check"
 msgstr "Vérifier"
 
@@ -6440,7 +6474,7 @@ msgstr ""
 
 #: templates/quiz/encryption-quiz.html:42
 msgid "Symmetric uses one key; asymmetric uses two keys"
-msgstr "Symmetric utilise une clé;"
+msgstr "Symétrique utilise une clé ; asymétrique utilise deux clés"
 
 #: templates/quiz/encryption-quiz.html:43
 msgid "Asymmetric is faster than symmetric"
@@ -6497,44 +6531,16 @@ msgid "It cannot be used for email encryption"
 msgstr "Il ne peut pas être utilisé pour le cryptage des e-mails"
 
 #: templates/quiz/encryption-quiz.html:79
+#: templates/quiz/identity-theft-quiz.html:78
+#: templates/quiz/malware-quiz.html:78
+#: templates/quiz/mobile-security-quiz.html:78
+#: templates/quiz/password-security-quiz.html:78
+#: templates/quiz/phishing-quiz.html:78
+#: templates/quiz/software-updates-quiz.html:78
+#: templates/quiz/two-factor-authentication-quiz.html:78
+#: templates/quiz/vpn-quiz.html:78
 msgid "Next Question"
 msgstr "Question suivante"
-
-#: templates/quiz/encryption-quiz.html:192
-msgid "Please select an answer."
-msgstr "Veuillez sélectionner une réponse."
-
-#: templates/quiz/encryption-quiz.html:209
-msgid "Correct!"
-msgstr "Correct!"
-
-#: templates/quiz/encryption-quiz.html:213
-msgid "Incorrect. The correct answer is"
-msgstr "Incorrect. La bonne réponse est"
-
-#: templates/quiz/encryption-quiz.html:241
-msgid "Quiz Completed!"
-msgstr "Quiz terminé !"
-
-#: templates/quiz/encryption-quiz.html:242
-msgid "Your score:"
-msgstr "Votre score:"
-
-#: templates/quiz/encryption-quiz.html:247
-msgid "Correct"
-msgstr "Correct"
-
-#: templates/quiz/encryption-quiz.html:247
-msgid "Incorrect"
-msgstr "Incorrect"
-
-#: templates/quiz/encryption-quiz.html:248
-msgid "Question"
-msgstr "Question"
-
-#: templates/quiz/encryption-quiz.html:251
-msgid "Restart Quiz"
-msgstr "Quiz de redémarrage"
 
 #: templates/quiz/identity-theft-quiz.html:4
 msgid "QUIZ about Identity Theft"
@@ -6544,6 +6550,118 @@ msgstr "QUIZ sur le vol d'identité"
 msgid "Identity Theft Quiz"
 msgstr "Quiz sur le vol d'identité"
 
+#: templates/quiz/identity-theft-quiz.html:14
+msgid "1. What is identity theft?"
+msgstr "1. Qu’est-ce que le vol d’identité ?"
+
+#: templates/quiz/identity-theft-quiz.html:16
+msgid ""
+"A crime where someone illegally obtains and uses another person’s personal "
+"information."
+msgstr ""
+"Un crime où quelqu’un obtient et utilise illégalement les renseignements "
+"personnels d’une autre personne."
+
+#: templates/quiz/identity-theft-quiz.html:17
+msgid "A technique for encrypting sensitive data."
+msgstr "Une technique de cryptage des données sensibles."
+
+#: templates/quiz/identity-theft-quiz.html:18
+msgid "A process of authenticating someone’s identity."
+msgstr "Un processus d’authentification de l’identité d’une personne."
+
+#: templates/quiz/identity-theft-quiz.html:19
+msgid "A method to improve credit scores."
+msgstr "Une méthode pour améliorer les cotes de crédit."
+
+#: templates/quiz/identity-theft-quiz.html:27
+msgid "2. Which of the following is a common method used by identity thieves?"
+msgstr ""
+"2. Laquelle des méthodes suivantes est couramment utilisée par les voleurs "
+"d’identité ?"
+
+#: templates/quiz/identity-theft-quiz.html:29
+msgid "Using public Wi-Fi to browse securely."
+msgstr "Utiliser le Wi-Fi public pour naviguer en toute sécurité."
+
+#: templates/quiz/identity-theft-quiz.html:30
+msgid "Shredding personal documents."
+msgstr "Déchiquetage de documents personnels."
+
+#: templates/quiz/identity-theft-quiz.html:31
+msgid "Phishing scams to steal sensitive information."
+msgstr "Escroqueries par phishing visant à voler des informations sensibles."
+
+#: templates/quiz/identity-theft-quiz.html:32
+msgid "Encrypting sensitive data."
+msgstr "Cryptage des données sensibles."
+
+#: templates/quiz/identity-theft-quiz.html:40
+msgid "3. What is a sign that your identity may have been stolen?"
+msgstr "3. Quel est le signe que votre identité a peut-être été volée ?"
+
+#: templates/quiz/identity-theft-quiz.html:42
+msgid "Receiving promotional emails."
+msgstr "Réception d'e-mails promotionnels."
+
+#: templates/quiz/identity-theft-quiz.html:43
+msgid "Unexplained charges on your bank statements."
+msgstr "Des frais inexpliqués sur vos relevés bancaires."
+
+#: templates/quiz/identity-theft-quiz.html:44
+msgid "A slow internet connection."
+msgstr "Une connexion Internet lente."
+
+#: templates/quiz/identity-theft-quiz.html:45
+msgid "Spam messages in your inbox."
+msgstr "Des messages de spam dans votre boîte de réception."
+
+#: templates/quiz/identity-theft-quiz.html:53
+msgid "4. How can you protect yourself from identity theft?"
+msgstr "4. Comment pouvez-vous vous protéger contre le vol d’identité ?"
+
+#: templates/quiz/identity-theft-quiz.html:55
+msgid "Sharing sensitive information over public Wi-Fi."
+msgstr "Partage d’informations sensibles via un réseau Wi-Fi public."
+
+#: templates/quiz/identity-theft-quiz.html:56
+msgid "Using weak passwords for your accounts."
+msgstr "Utiliser des mots de passe faibles pour vos comptes."
+
+#: templates/quiz/identity-theft-quiz.html:57
+msgid "Ignoring suspicious emails."
+msgstr "Ignorer les e-mails suspects."
+
+#: templates/quiz/identity-theft-quiz.html:58
+msgid "Using strong passwords and enabling two-factor authentication."
+msgstr ""
+"Utiliser des mots de passe forts et activer l’authentification à deux "
+"facteurs."
+
+#: templates/quiz/identity-theft-quiz.html:66
+msgid "5. What should you do if you become a victim of identity theft?"
+msgstr "5. Que devez-vous faire si vous êtes victime d’un vol d’identité ?"
+
+#: templates/quiz/identity-theft-quiz.html:68
+msgid ""
+"Report the theft to your bank and place a fraud alert on your credit report."
+msgstr ""
+"Signalez le vol à votre banque et placez une alerte de fraude sur votre "
+"rapport de crédit."
+
+#: templates/quiz/identity-theft-quiz.html:69
+msgid "Share your personal information publicly to alert others."
+msgstr ""
+"Partagez vos informations personnelles publiquement pour alerter les autres."
+
+#: templates/quiz/identity-theft-quiz.html:70
+msgid "Ignore the issue to avoid further stress."
+msgstr "Ignorez le problème pour éviter davantage de stress."
+
+#: templates/quiz/identity-theft-quiz.html:71
+msgid "Create new online accounts immediately."
+msgstr "Créez immédiatement de nouveaux comptes en ligne."
+
 #: templates/quiz/malware-quiz.html:4
 msgid "QUIZ about Malware"
 msgstr "QUIZ sur les logiciels malveillants"
@@ -6551,6 +6669,108 @@ msgstr "QUIZ sur les logiciels malveillants"
 #: templates/quiz/malware-quiz.html:9
 msgid "Malware Quiz"
 msgstr "Quiz sur les logiciels malveillants"
+
+#: templates/quiz/malware-quiz.html:14
+msgid "1. What is malware?"
+msgstr "1. Qu'est-ce qu'un malware ?"
+
+#: templates/quiz/malware-quiz.html:16
+msgid "Malicious software designed to damage or gain access to a computer."
+msgstr ""
+"Logiciel malveillant conçu pour endommager un ordinateur ou y accéder."
+
+#: templates/quiz/malware-quiz.html:17
+msgid "Software used to encrypt sensitive data."
+msgstr "Logiciel utilisé pour crypter les données sensibles."
+
+#: templates/quiz/malware-quiz.html:18
+msgid "A security tool for protecting systems from viruses."
+msgstr "Un outil de sécurité pour protéger les systèmes contre les virus."
+
+#: templates/quiz/malware-quiz.html:19
+msgid "A harmless prank program created by software engineers."
+msgstr "Un programme de farce inoffensif créé par des ingénieurs en logiciel."
+
+#: templates/quiz/malware-quiz.html:27
+msgid "2. How can malware typically spread to a user’s device?"
+msgstr ""
+"2. Comment les logiciels malveillants peuvent-ils généralement se propager "
+"sur l’appareil d’un utilisateur ?"
+
+#: templates/quiz/malware-quiz.html:29
+msgid "By installing trusted software."
+msgstr "En installant un logiciel de confiance."
+
+#: templates/quiz/malware-quiz.html:30
+#: templates/quiz/password-security-quiz.html:43
+msgid "By using antivirus software."
+msgstr "En utilisant un logiciel antivirus."
+
+#: templates/quiz/malware-quiz.html:31
+msgid "By clicking on malicious links or attachments."
+msgstr "En cliquant sur des liens ou des pièces jointes malveillants."
+
+#: templates/quiz/malware-quiz.html:32
+msgid "By avoiding unknown USB devices."
+msgstr "En évitant les périphériques USB inconnus."
+
+#: templates/quiz/malware-quiz.html:40
+msgid "3. What is ransomware?"
+msgstr "3. Qu'est-ce qu'un ransomware ?"
+
+#: templates/quiz/malware-quiz.html:42
+msgid "Malware designed to track your activity secretly."
+msgstr "Logiciel malveillant conçu pour suivre secrètement votre activité."
+
+#: templates/quiz/malware-quiz.html:43
+msgid "Malware that encrypts your data and demands payment for its release."
+msgstr ""
+"Un logiciel malveillant qui crypte vos données et exige un paiement pour "
+"leur divulgation."
+
+#: templates/quiz/malware-quiz.html:44
+msgid "Software that prevents spam emails."
+msgstr "Logiciel qui empêche les courriers indésirables."
+
+#: templates/quiz/malware-quiz.html:45
+msgid "A tool for detecting viruses on your computer."
+msgstr "Un outil pour détecter les virus sur votre ordinateur."
+
+#: templates/quiz/malware-quiz.html:53
+msgid "4. What is a common type of malware?"
+msgstr "4. Quel est le type de malware le plus courant ?"
+
+#: templates/quiz/malware-quiz.html:55
+msgid "Firewall"
+msgstr "Pare-feu"
+
+#: templates/quiz/malware-quiz.html:56
+msgid "VPN software"
+msgstr "Logiciel VPN"
+
+#: templates/quiz/malware-quiz.html:57
+msgid "Cloud storage tools"
+msgstr "Outils de stockage dans le cloud"
+
+#: templates/quiz/malware-quiz.html:66
+msgid "5. How can you protect yourself from malware?"
+msgstr "5. Comment pouvez-vous vous protéger des logiciels malveillants ?"
+
+#: templates/quiz/malware-quiz.html:68
+msgid "Avoid clicking on unknown links or attachments."
+msgstr "Évitez de cliquer sur des liens ou des pièces jointes inconnus."
+
+#: templates/quiz/malware-quiz.html:69
+msgid "Disable antivirus software to improve performance."
+msgstr "Désactivez le logiciel antivirus pour améliorer les performances."
+
+#: templates/quiz/malware-quiz.html:70
+msgid "Share your passwords on public forums."
+msgstr "Partagez vos mots de passe sur des forums publics."
+
+#: templates/quiz/malware-quiz.html:71
+msgid "Ignore software updates to save time."
+msgstr "Ignorez les mises à jour logicielles pour gagner du temps."
 
 #: templates/quiz/mobile-security-quiz.html:4
 msgid "QUIZ about Mobile Security"
@@ -6560,6 +6780,124 @@ msgstr "QUIZ sur la sécurité mobile"
 msgid "Mobile Security Quiz"
 msgstr "Quiz sur la sécurité mobile"
 
+#: templates/quiz/mobile-security-quiz.html:14
+msgid "1. What is mobile security?"
+msgstr "1. Qu’est-ce que la sécurité mobile ?"
+
+#: templates/quiz/mobile-security-quiz.html:16
+msgid ""
+"A system of security software and habits to protect your data from hackers."
+msgstr ""
+"Un système de logiciels et d'habitudes de sécurité pour protéger vos données"
+" contre les pirates."
+
+#: templates/quiz/mobile-security-quiz.html:17
+msgid "A method to speed up internet connections on mobile devices."
+msgstr ""
+"Une méthode pour accélérer les connexions Internet sur les appareils "
+"mobiles."
+
+#: templates/quiz/mobile-security-quiz.html:18
+msgid "A tool to organize apps on your phone."
+msgstr "Un outil pour organiser les applications sur votre téléphone."
+
+#: templates/quiz/mobile-security-quiz.html:19
+msgid "An operating system for mobile phones."
+msgstr "Un système d'exploitation pour téléphones mobiles."
+
+#: templates/quiz/mobile-security-quiz.html:27
+msgid "2. Why is mobile security important?"
+msgstr "2. Pourquoi la sécurité mobile est-elle importante ?"
+
+#: templates/quiz/mobile-security-quiz.html:29
+msgid "To increase the speed of your mobile phone."
+msgstr "Pour augmenter la vitesse de votre téléphone mobile."
+
+#: templates/quiz/mobile-security-quiz.html:30
+msgid ""
+"To protect financial information, prevent identity theft, and safeguard "
+"personal data."
+msgstr ""
+"Pour protéger les informations financières, prévenir le vol d’identité et "
+"protéger les données personnelles."
+
+#: templates/quiz/mobile-security-quiz.html:31
+msgid "To allow all apps to run on your phone."
+msgstr ""
+"Pour permettre à toutes les applications de s'exécuter sur votre téléphone."
+
+#: templates/quiz/mobile-security-quiz.html:32
+msgid "To remove advertisements from apps."
+msgstr "Pour supprimer les publicités des applications."
+
+#: templates/quiz/mobile-security-quiz.html:40
+msgid "3. What is an example of mobile security?"
+msgstr "3. Quel est un exemple de sécurité mobile ?"
+
+#: templates/quiz/mobile-security-quiz.html:42
+msgid "Downloading apps from unverified sources."
+msgstr "Téléchargement d'applications à partir de sources non vérifiées."
+
+#: templates/quiz/mobile-security-quiz.html:43
+msgid "Disabling security protocols on your device."
+msgstr "Désactiver les protocoles de sécurité sur votre appareil."
+
+#: templates/quiz/mobile-security-quiz.html:44
+msgid "Avoiding software updates."
+msgstr "Éviter les mises à jour logicielles."
+
+#: templates/quiz/mobile-security-quiz.html:45
+msgid "Using encryption and antivirus software."
+msgstr "Utilisation d'un logiciel de cryptage et d'antivirus."
+
+#: templates/quiz/mobile-security-quiz.html:53
+msgid "4. What is a secure boot process?"
+msgstr "4. Qu'est-ce qu'un processus de démarrage sécurisé ?"
+
+#: templates/quiz/mobile-security-quiz.html:55
+msgid "A method to speed up device startup times."
+msgstr "Une méthode pour accélérer les temps de démarrage des appareils."
+
+#: templates/quiz/mobile-security-quiz.html:56
+msgid "A way to connect multiple devices to the internet."
+msgstr "Un moyen de connecter plusieurs appareils à Internet."
+
+#: templates/quiz/mobile-security-quiz.html:57
+msgid ""
+"A process ensuring hardware can safely use operating systems and programs."
+msgstr ""
+"Un processus garantissant que le matériel peut utiliser en toute sécurité "
+"les systèmes d'exploitation et les programmes."
+
+#: templates/quiz/mobile-security-quiz.html:58
+msgid "A tool to delete unused apps from your phone."
+msgstr ""
+"Un outil pour supprimer les applications inutilisées de votre téléphone."
+
+#: templates/quiz/mobile-security-quiz.html:66
+msgid "5. How can you protect yourself from mobile security threats?"
+msgstr "5. Comment pouvez-vous vous protéger des menaces de sécurité mobile ?"
+
+#: templates/quiz/mobile-security-quiz.html:68
+msgid ""
+"Use strong passwords, enable two-factor authentication, and avoid clicking "
+"on suspicious links."
+msgstr ""
+"Utilisez des mots de passe forts, activez l’authentification à deux facteurs"
+" et évitez de cliquer sur des liens suspects."
+
+#: templates/quiz/mobile-security-quiz.html:69
+msgid "Disable antivirus software to save battery life."
+msgstr "Désactivez le logiciel antivirus pour économiser la batterie."
+
+#: templates/quiz/mobile-security-quiz.html:70
+msgid "Ignore updates for your mobile device."
+msgstr "Ignorez les mises à jour de votre appareil mobile."
+
+#: templates/quiz/mobile-security-quiz.html:71
+msgid "Download apps only from third-party sources."
+msgstr "Téléchargez des applications uniquement à partir de sources tierces."
+
 #: templates/quiz/password-security-quiz.html:4
 msgid "QUIZ about Password Security"
 msgstr "QUIZ sur la sécurité des mots de passe"
@@ -6567,6 +6905,118 @@ msgstr "QUIZ sur la sécurité des mots de passe"
 #: templates/quiz/password-security-quiz.html:9
 msgid "Password Security Quiz"
 msgstr "Quiz sur la sécurité des mots de passe"
+
+#: templates/quiz/password-security-quiz.html:14
+msgid "1. Why is password security important?"
+msgstr "1. Pourquoi la sécurité des mots de passe est-elle importante ?"
+
+#: templates/quiz/password-security-quiz.html:16
+msgid "To prevent cybercriminals from gaining access to your accounts."
+msgstr "Pour empêcher les cybercriminels d’accéder à vos comptes."
+
+#: templates/quiz/password-security-quiz.html:17
+msgid "To make logging in faster."
+msgstr "Pour rendre la connexion plus rapide."
+
+#: templates/quiz/password-security-quiz.html:18
+msgid "To allow sharing passwords easily with friends."
+msgstr ""
+"Pour permettre de partager facilement des mots de passe avec des amis."
+
+#: templates/quiz/password-security-quiz.html:19
+msgid "To avoid updating passwords regularly."
+msgstr "Pour éviter de mettre à jour régulièrement les mots de passe."
+
+#: templates/quiz/password-security-quiz.html:27
+msgid "2. What is a characteristic of a strong password?"
+msgstr "2. Quelle est la caractéristique d’un mot de passe fort ?"
+
+#: templates/quiz/password-security-quiz.html:29
+msgid "A short, easy-to-remember phrase."
+msgstr "Une phrase courte et facile à retenir."
+
+#: templates/quiz/password-security-quiz.html:30
+msgid ""
+"A long password with a mix of uppercase, lowercase, numbers, and symbols."
+msgstr ""
+"Un long mot de passe avec un mélange de majuscules, de minuscules, de "
+"chiffres et de symboles."
+
+#: templates/quiz/password-security-quiz.html:31
+msgid "Your pet’s name and birth year."
+msgstr "Le nom et l’année de naissance de votre animal."
+
+#: templates/quiz/password-security-quiz.html:32
+msgid "Your favorite movie title."
+msgstr "Votre titre de film préféré."
+
+#: templates/quiz/password-security-quiz.html:40
+msgid "3. How do cybercriminals steal passwords?"
+msgstr "3. Comment les cybercriminels volent-ils les mots de passe ?"
+
+#: templates/quiz/password-security-quiz.html:42
+msgid "By guessing passwords randomly."
+msgstr "En devinant les mots de passe au hasard."
+
+#: templates/quiz/password-security-quiz.html:44
+msgid "Through phishing, data breaches, and malware."
+msgstr ""
+"Par le biais du phishing, des violations de données et des logiciels "
+"malveillants."
+
+#: templates/quiz/password-security-quiz.html:45
+msgid "By sharing passwords on social media."
+msgstr "En partageant des mots de passe sur les réseaux sociaux."
+
+#: templates/quiz/password-security-quiz.html:53
+msgid "4. What should you do if your password is exposed in a data breach?"
+msgstr ""
+"4. Que devez-vous faire si votre mot de passe est exposé lors d’une "
+"violation de données ?"
+
+#: templates/quiz/password-security-quiz.html:55
+msgid ""
+"Change the exposed password immediately and enable two-factor "
+"authentication."
+msgstr ""
+"Modifiez immédiatement le mot de passe exposé et activez l’authentification "
+"à deux facteurs."
+
+#: templates/quiz/password-security-quiz.html:56
+msgid "Ignore the breach and continue using the same password."
+msgstr "Ignorez la violation et continuez à utiliser le même mot de passe."
+
+#: templates/quiz/password-security-quiz.html:57
+msgid "Share the breach information with your friends."
+msgstr "Partagez les informations sur la violation avec vos amis."
+
+#: templates/quiz/password-security-quiz.html:58
+msgid "Delete your account immediately."
+msgstr "Supprimez votre compte immédiatement."
+
+#: templates/quiz/password-security-quiz.html:66
+msgid "5. How can you create a secure password?"
+msgstr "5. Comment pouvez-vous créer un mot de passe sécurisé ?"
+
+#: templates/quiz/password-security-quiz.html:68
+msgid "Use your birthdate as a password."
+msgstr "Utilisez votre date de naissance comme mot de passe."
+
+#: templates/quiz/password-security-quiz.html:69
+msgid "Use the same password for all your accounts."
+msgstr "Utilisez le même mot de passe pour tous vos comptes."
+
+#: templates/quiz/password-security-quiz.html:70
+msgid "Use a common phrase or word."
+msgstr "Utilisez une phrase ou un mot courant."
+
+#: templates/quiz/password-security-quiz.html:71
+msgid ""
+"Use a password that is long, unique, and includes numbers, symbols, and "
+"letters."
+msgstr ""
+"Utilisez un mot de passe long, unique et comprenant des chiffres, des "
+"symboles et des lettres."
 
 #: templates/quiz/phishing-quiz.html:4
 msgid "QUIZ about Phishing"
@@ -6576,6 +7026,114 @@ msgstr "QUIZ sur le phishing"
 msgid "Phishing Quiz"
 msgstr "Quiz sur le phishing"
 
+#: templates/quiz/phishing-quiz.html:14
+msgid "1. What is phishing?"
+msgstr "1. Qu'est-ce que le phishing ?"
+
+#: templates/quiz/phishing-quiz.html:16
+msgid ""
+"A cyber threat where scammers impersonate a trustworthy source to steal "
+"sensitive data."
+msgstr ""
+"Une cybermenace où des escrocs se font passer pour une source fiable pour "
+"voler des données sensibles."
+
+#: templates/quiz/phishing-quiz.html:17
+msgid "A method for encrypting data online."
+msgstr "Une méthode de cryptage des données en ligne."
+
+#: templates/quiz/phishing-quiz.html:18
+msgid "A legitimate way to verify identity."
+msgstr "Un moyen légitime de vérifier l’identité."
+
+#: templates/quiz/phishing-quiz.html:19
+msgid "A tool used to block spam emails."
+msgstr "Un outil utilisé pour bloquer les courriers indésirables."
+
+#: templates/quiz/phishing-quiz.html:27
+msgid "2. What is a phishing link?"
+msgstr "2. Qu'est-ce qu'un lien de phishing ?"
+
+#: templates/quiz/phishing-quiz.html:29
+msgid "A secure link to reset passwords."
+msgstr "Un lien sécurisé pour réinitialiser les mots de passe."
+
+#: templates/quiz/phishing-quiz.html:30
+msgid "A fake link used to trick users into revealing sensitive information."
+msgstr ""
+"Un faux lien utilisé pour inciter les utilisateurs à révéler des "
+"informations sensibles."
+
+#: templates/quiz/phishing-quiz.html:31
+msgid "A method for encrypting online communication."
+msgstr "Une méthode de cryptage des communications en ligne."
+
+#: templates/quiz/phishing-quiz.html:32
+msgid "A legitimate way to verify email addresses."
+msgstr "Un moyen légitime de vérifier les adresses e-mail."
+
+#: templates/quiz/phishing-quiz.html:40
+msgid "3. What is an example of a phishing attack?"
+msgstr "3. Quel est un exemple d’attaque de phishing ?"
+
+#: templates/quiz/phishing-quiz.html:42
+msgid "Sending legitimate promotional emails."
+msgstr "Envoi d'e-mails promotionnels légitimes."
+
+#: templates/quiz/phishing-quiz.html:43
+msgid "Installing antivirus software."
+msgstr "Installation d'un logiciel antivirus."
+
+#: templates/quiz/phishing-quiz.html:44
+msgid "Encrypting sensitive files."
+msgstr "Cryptage des fichiers sensibles."
+
+#: templates/quiz/phishing-quiz.html:45
+msgid "Sending fake emails to steal sensitive data."
+msgstr "Envoi de faux e-mails pour voler des données sensibles."
+
+#: templates/quiz/phishing-quiz.html:53
+msgid "4. What is whaling in phishing?"
+msgstr "4. Qu'est-ce que le whaling dans le phishing ?"
+
+#: templates/quiz/phishing-quiz.html:55
+msgid "A method to stop spam emails."
+msgstr "Une méthode pour arrêter les courriers indésirables."
+
+#: templates/quiz/phishing-quiz.html:56
+msgid "A phishing attack targeting small businesses."
+msgstr "Une attaque de phishing ciblant les petites entreprises."
+
+#: templates/quiz/phishing-quiz.html:57
+msgid "A phishing attack targeting high-ranking executives."
+msgstr "Une attaque de phishing ciblant des cadres supérieurs."
+
+#: templates/quiz/phishing-quiz.html:58
+msgid "A phishing technique to encrypt data."
+msgstr "Une technique de phishing pour crypter les données."
+
+#: templates/quiz/phishing-quiz.html:66
+msgid "5. How can you protect yourself from phishing attacks?"
+msgstr "5. Comment pouvez-vous vous protéger des attaques de phishing ?"
+
+#: templates/quiz/phishing-quiz.html:68
+msgid "Avoid clicking on suspicious links and verify sender authenticity."
+msgstr ""
+"Évitez de cliquer sur des liens suspects et vérifiez l’authenticité de "
+"l’expéditeur."
+
+#: templates/quiz/phishing-quiz.html:69
+msgid "Share your passwords with trusted friends."
+msgstr "Partagez vos mots de passe avec des amis de confiance."
+
+#: templates/quiz/phishing-quiz.html:70
+msgid "Use the same password for all accounts."
+msgstr "Utilisez le même mot de passe pour tous les comptes."
+
+#: templates/quiz/phishing-quiz.html:71
+msgid "Ignore all emails and messages."
+msgstr "Ignorez tous les e-mails et messages."
+
 #: templates/quiz/software-updates-quiz.html:4
 msgid "QUIZ about Software Updates"
 msgstr "QUIZ sur les mises à jour logicielles"
@@ -6583,6 +7141,121 @@ msgstr "QUIZ sur les mises à jour logicielles"
 #: templates/quiz/software-updates-quiz.html:9
 msgid "Software Updates Quiz"
 msgstr "Quiz sur les mises à jour logicielles"
+
+#: templates/quiz/software-updates-quiz.html:14
+msgid "1. What is a software update?"
+msgstr "1. Qu’est-ce qu’une mise à jour logicielle ?"
+
+#: templates/quiz/software-updates-quiz.html:16
+msgid ""
+"A new version of a program that includes security patches, performance "
+"upgrades, and other improvements."
+msgstr ""
+"Une nouvelle version d'un programme qui inclut des correctifs de sécurité, "
+"des mises à niveau des performances et d'autres améliorations."
+
+#: templates/quiz/software-updates-quiz.html:17
+msgid "A process to delete unused files."
+msgstr "Un processus pour supprimer les fichiers inutilisés."
+
+#: templates/quiz/software-updates-quiz.html:18
+msgid "A tool for creating new software applications."
+msgstr "Un outil pour créer de nouvelles applications logicielles."
+
+#: templates/quiz/software-updates-quiz.html:19
+msgid "A method to increase screen brightness."
+msgstr "Une méthode pour augmenter la luminosité de l'écran."
+
+#: templates/quiz/software-updates-quiz.html:27
+msgid "2. Why are software updates important?"
+msgstr "2. Pourquoi les mises à jour logicielles sont-elles importantes ?"
+
+#: templates/quiz/software-updates-quiz.html:29
+msgid "To change the appearance of your device."
+msgstr "Pour modifier l'apparence de votre appareil."
+
+#: templates/quiz/software-updates-quiz.html:30
+msgid ""
+"To fix security vulnerabilities, improve performance, and ensure "
+"compatibility."
+msgstr ""
+"Pour corriger les vulnérabilités de sécurité, améliorer les performances et "
+"garantir la compatibilité."
+
+#: templates/quiz/software-updates-quiz.html:31
+msgid "To delete old files automatically."
+msgstr "Pour supprimer automatiquement les anciens fichiers."
+
+#: templates/quiz/software-updates-quiz.html:32
+msgid "To reduce internet usage."
+msgstr "Pour réduire l’utilisation d’Internet."
+
+#: templates/quiz/software-updates-quiz.html:40
+msgid "3. How do software updates improve performance?"
+msgstr ""
+"3. Comment les mises à jour logicielles améliorent-elles les performances ?"
+
+#: templates/quiz/software-updates-quiz.html:42
+msgid "By reducing screen resolution."
+msgstr "En réduisant la résolution de l'écran."
+
+#: templates/quiz/software-updates-quiz.html:43
+msgid "By disabling unused programs."
+msgstr "En désactivant les programmes inutilisés."
+
+#: templates/quiz/software-updates-quiz.html:44
+msgid "By optimizing code and reducing resource usage."
+msgstr "En optimisant le code et en réduisant l'utilisation des ressources."
+
+#: templates/quiz/software-updates-quiz.html:45
+msgid "By increasing battery consumption."
+msgstr "En augmentant la consommation de la batterie."
+
+#: templates/quiz/software-updates-quiz.html:53
+msgid "4. What is an operating system update?"
+msgstr "4. Qu’est-ce qu’une mise à jour du système d’exploitation ?"
+
+#: templates/quiz/software-updates-quiz.html:55
+msgid ""
+"A new version of an operating system that improves security, performance, "
+"and functionality."
+msgstr ""
+"Une nouvelle version d'un système d'exploitation qui améliore la sécurité, "
+"les performances et les fonctionnalités."
+
+#: templates/quiz/software-updates-quiz.html:56
+msgid "A method to install new applications."
+msgstr "Une méthode pour installer de nouvelles applications."
+
+#: templates/quiz/software-updates-quiz.html:57
+msgid "A process to delete old operating systems."
+msgstr "Un processus pour supprimer les anciens systèmes d'exploitation."
+
+#: templates/quiz/software-updates-quiz.html:58
+msgid "A tool for managing files on a device."
+msgstr "Un outil pour gérer les fichiers sur un appareil."
+
+#: templates/quiz/software-updates-quiz.html:66
+msgid "5. How do software updates help protect your data?"
+msgstr ""
+"5. Comment les mises à jour logicielles contribuent-elles à protéger vos "
+"données ?"
+
+#: templates/quiz/software-updates-quiz.html:68
+msgid "By making files easier to share."
+msgstr "En facilitant le partage des fichiers."
+
+#: templates/quiz/software-updates-quiz.html:69
+msgid "By deleting unnecessary files."
+msgstr "En supprimant les fichiers inutiles."
+
+#: templates/quiz/software-updates-quiz.html:70
+msgid "By increasing internet speed."
+msgstr "En augmentant la vitesse d’Internet."
+
+#: templates/quiz/software-updates-quiz.html:71
+msgid "By closing vulnerabilities that hackers could exploit."
+msgstr "En fermant les vulnérabilités que les pirates pourraient exploiter."
 
 #: templates/quiz/two-factor-authentication-quiz.html:4
 msgid "QUIZ about Two Factor Authentication"
@@ -6592,6 +7265,108 @@ msgstr "QUIZ sur l'authentification à deux facteurs"
 msgid "Two Factor Authentication Quiz"
 msgstr "Quiz sur l'authentification à deux facteurs"
 
+#: templates/quiz/two-factor-authentication-quiz.html:14
+msgid "1. What is two-factor authentication (2FA)?"
+msgstr "1. Qu’est-ce que l’authentification à deux facteurs (2FA) ?"
+
+#: templates/quiz/two-factor-authentication-quiz.html:16
+msgid ""
+"A security method requiring two forms of verification to access an account."
+msgstr ""
+"Une méthode de sécurité nécessitant deux formes de vérification pour accéder"
+" à un compte."
+
+#: templates/quiz/two-factor-authentication-quiz.html:17
+msgid "A tool for generating passwords."
+msgstr "Un outil pour générer des mots de passe."
+
+#: templates/quiz/two-factor-authentication-quiz.html:18
+msgid "An app for managing accounts."
+msgstr "Une application pour gérer les comptes."
+
+#: templates/quiz/two-factor-authentication-quiz.html:19
+#: templates/quiz/vpn-quiz.html:19
+msgid "A method for storing passwords securely."
+msgstr "Une méthode pour stocker les mots de passe de manière sécurisée."
+
+#: templates/quiz/two-factor-authentication-quiz.html:27
+msgid "2. Which is an example of something you have in 2FA?"
+msgstr "2. Quel est un exemple de quelque chose que vous avez dans 2FA ?"
+
+#: templates/quiz/two-factor-authentication-quiz.html:29
+#: templates/quiz/two-factor-authentication-quiz.html:55
+msgid "A password."
+msgstr "Un mot de passe."
+
+#: templates/quiz/two-factor-authentication-quiz.html:30
+msgid "A mobile phone."
+msgstr "Un téléphone portable."
+
+#: templates/quiz/two-factor-authentication-quiz.html:31
+msgid "A username."
+msgstr "Un nom d'utilisateur."
+
+#: templates/quiz/two-factor-authentication-quiz.html:32
+msgid "A fingerprint."
+msgstr "Une empreinte digitale."
+
+#: templates/quiz/two-factor-authentication-quiz.html:40
+msgid "3. How does 2FA improve security?"
+msgstr "3. Comment la 2FA améliore-t-elle la sécurité ?"
+
+#: templates/quiz/two-factor-authentication-quiz.html:42
+msgid "By encrypting passwords."
+msgstr "En cryptant les mots de passe."
+
+#: templates/quiz/two-factor-authentication-quiz.html:43
+msgid "By generating stronger passwords."
+msgstr "En générant des mots de passe plus forts."
+
+#: templates/quiz/two-factor-authentication-quiz.html:44
+msgid "By monitoring account activity."
+msgstr "En surveillant l’activité du compte."
+
+#: templates/quiz/two-factor-authentication-quiz.html:45
+msgid "By adding an extra layer of verification."
+msgstr "En ajoutant une couche supplémentaire de vérification."
+
+#: templates/quiz/two-factor-authentication-quiz.html:53
+msgid "4. What is an example of a biometric factor in 2FA?"
+msgstr "4. Quel est un exemple de facteur biométrique dans 2FA ?"
+
+#: templates/quiz/two-factor-authentication-quiz.html:56
+msgid "A security question."
+msgstr "Une question de sécurité."
+
+#: templates/quiz/two-factor-authentication-quiz.html:57
+msgid "A fingerprint scan."
+msgstr "Une empreinte digitale."
+
+#: templates/quiz/two-factor-authentication-quiz.html:58
+msgid "An email verification code."
+msgstr "Un code de vérification par e-mail."
+
+#: templates/quiz/two-factor-authentication-quiz.html:66
+msgid "5. Why is 2FA important?"
+msgstr "5. Pourquoi la 2FA est-elle importante ?"
+
+#: templates/quiz/two-factor-authentication-quiz.html:68
+msgid "It reduces the need for passwords."
+msgstr "Cela réduit le besoin de mots de passe."
+
+#: templates/quiz/two-factor-authentication-quiz.html:69
+msgid "It provides additional protection against unauthorized access."
+msgstr ""
+"Il offre une protection supplémentaire contre les accès non autorisés."
+
+#: templates/quiz/two-factor-authentication-quiz.html:70
+msgid "It speeds up the login process."
+msgstr "Cela accélère le processus de connexion."
+
+#: templates/quiz/two-factor-authentication-quiz.html:71
+msgid "It eliminates account recovery steps."
+msgstr "Il élimine les étapes de récupération de compte."
+
 #: templates/quiz/vpn-quiz.html:4
 msgid "QUIZ about VPN"
 msgstr "QUIZ sur le VPN"
@@ -6599,3 +7374,102 @@ msgstr "QUIZ sur le VPN"
 #: templates/quiz/vpn-quiz.html:9
 msgid "VPN Quiz"
 msgstr "Quiz sur les VPN"
+
+#: templates/quiz/vpn-quiz.html:14
+msgid "1. What is a VPN?"
+msgstr "1. Qu'est-ce qu'un VPN ?"
+
+#: templates/quiz/vpn-quiz.html:16
+msgid ""
+"A tool that provides privacy and anonymity by creating a private network."
+msgstr ""
+"Un outil qui offre confidentialité et anonymat en créant un réseau privé."
+
+#: templates/quiz/vpn-quiz.html:17
+msgid "A device used for internet connection."
+msgstr "Un appareil utilisé pour la connexion Internet."
+
+#: templates/quiz/vpn-quiz.html:18
+msgid "An app for managing files."
+msgstr "Une application pour gérer les fichiers."
+
+#: templates/quiz/vpn-quiz.html:27
+msgid "2. What does a VPN hide?"
+msgstr "2. Que cache un VPN ?"
+
+#: templates/quiz/vpn-quiz.html:29
+msgid "Your device password."
+msgstr "Le mot de passe de votre appareil."
+
+#: templates/quiz/vpn-quiz.html:30
+msgid "Your social media profiles."
+msgstr "Vos profils sur les réseaux sociaux."
+
+#: templates/quiz/vpn-quiz.html:31
+msgid "Your IP address and browsing activity."
+msgstr "Votre adresse IP et votre activité de navigation."
+
+#: templates/quiz/vpn-quiz.html:32
+msgid "Your email contacts."
+msgstr "Vos contacts email."
+
+#: templates/quiz/vpn-quiz.html:40
+msgid "3. Why is it important to use a VPN on public Wi-Fi?"
+msgstr ""
+"3. Pourquoi est-il important d’utiliser un VPN sur un réseau Wi-Fi public ?"
+
+#: templates/quiz/vpn-quiz.html:42
+msgid "To improve internet speed."
+msgstr "Pour améliorer la vitesse d'Internet."
+
+#: templates/quiz/vpn-quiz.html:43
+msgid "To protect your data from hackers."
+msgstr "Pour protéger vos données des pirates."
+
+#: templates/quiz/vpn-quiz.html:44
+msgid "To access blocked websites."
+msgstr "Pour accéder aux sites Web bloqués."
+
+#: templates/quiz/vpn-quiz.html:45
+msgid "To avoid spam emails."
+msgstr "Pour éviter les spams."
+
+#: templates/quiz/vpn-quiz.html:53
+msgid "4. What does VPN encryption do?"
+msgstr "4. À quoi sert le cryptage VPN ?"
+
+#: templates/quiz/vpn-quiz.html:55
+msgid "Saves your browsing history."
+msgstr "Enregistre votre historique de navigation."
+
+#: templates/quiz/vpn-quiz.html:56
+msgid "Shares your data securely."
+msgstr "Partage vos données en toute sécurité."
+
+#: templates/quiz/vpn-quiz.html:57
+msgid "Deletes unwanted files."
+msgstr "Supprime les fichiers indésirables."
+
+#: templates/quiz/vpn-quiz.html:58
+msgid "Secures the data you send and receive."
+msgstr "Sécurise les données que vous envoyez et recevez."
+
+#: templates/quiz/vpn-quiz.html:66
+msgid "5. Which is NOT a benefit of using a VPN?"
+msgstr "5. Quel n’est PAS un avantage de l’utilisation d’un VPN ?"
+
+#: templates/quiz/vpn-quiz.html:68
+msgid "Boosting your device storage."
+msgstr "Augmentez la capacité de stockage de votre appareil."
+
+#: templates/quiz/vpn-quiz.html:69
+msgid "Protecting your privacy."
+msgstr "Protéger votre vie privée."
+
+#: templates/quiz/vpn-quiz.html:70
+msgid "Accessing geo-restricted content."
+msgstr "Accéder au contenu géo-restreint."
+
+#: templates/quiz/vpn-quiz.html:71
+msgid "Securing your online transactions."
+msgstr "Sécuriser vos transactions en ligne."
