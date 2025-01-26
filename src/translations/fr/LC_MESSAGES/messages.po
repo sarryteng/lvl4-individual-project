@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-24 17:16+0000\n"
-"PO-Revision-Date: 2025-01-24 17:16+0000\n"
+"POT-Creation-Date: 2025-01-26 01:46+0000\n"
+"PO-Revision-Date: 2025-01-26 01:46+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -42,25 +42,17 @@ msgstr "Incorrect. La bonne réponse est {correctAnswer}."
 msgid "Correct!"
 msgstr "Correct!"
 
-#: templates/base.html:84 templates/quiz/encryption-quiz.html:79
-#: templates/quiz/identity-theft-quiz.html:78
-#: templates/quiz/malware-quiz.html:78
-#: templates/quiz/mobile-security-quiz.html:78
-#: templates/quiz/password-security-quiz.html:78
-#: templates/quiz/phishing-quiz.html:78
-#: templates/quiz/software-updates-quiz.html:78
-#: templates/quiz/two-factor-authentication-quiz.html:78
-#: templates/quiz/vpn-quiz.html:78
-msgid "Next Question"
-msgstr "Question suivante"
-
-#: templates/base.html:85
+#: templates/base.html:84
 msgid "Quiz Completed!"
 msgstr "Quiz terminé !"
 
-#: templates/base.html:86
+#: templates/base.html:85
 msgid "Your score: {score}/{total}."
 msgstr "Votre score : {score}/{total}."
+
+#: templates/base.html:86
+msgid "Restart Quiz"
+msgstr "Quiz de redémarrage"
 
 #: templates/guides.html:9
 msgid "Here are the Guides"
@@ -1126,7 +1118,7 @@ msgid ""
 "networks and understand the risks of using public Wi-Fi."
 msgstr ""
 "Bien qu'iOS soit plus sûr que d'autres systèmes d'exploitation, aucun "
-"système informatique n'est sûr à 100 %. Vous avez également un rôle à jouer."
+"système informatique n'est sûr à 100%%. Vous avez également un rôle à jouer."
 " Veillez à ne pas ouvrir les liens inconnus, inattendus ou suspects que vous"
 " recevez dans les e-mails ou les messages, même s'ils proviennent d'amis "
 "proches ou de membres de votre famille. Assurez-vous également d'utiliser "
@@ -3478,7 +3470,7 @@ msgid ""
 "Even though it's not 100%% secure, 2FA can bolster your online security and "
 "is recommended."
 msgstr ""
-"Même si elle n'est pas sécurisée à 100 %, la 2FA peut renforcer votre "
+"Même si elle n'est pas sécurisée à 100%%, la 2FA peut renforcer votre "
 "sécurité en ligne et est recommandée."
 
 #: templates/guides/use-two-factor.html:61
@@ -6561,6 +6553,18 @@ msgstr "C'est plus lent et moins efficace"
 #: templates/quiz/encryption-quiz.html:71
 msgid "It cannot be used for email encryption"
 msgstr "Il ne peut pas être utilisé pour le cryptage des e-mails"
+
+#: templates/quiz/encryption-quiz.html:79
+#: templates/quiz/identity-theft-quiz.html:78
+#: templates/quiz/malware-quiz.html:78
+#: templates/quiz/mobile-security-quiz.html:78
+#: templates/quiz/password-security-quiz.html:78
+#: templates/quiz/phishing-quiz.html:78
+#: templates/quiz/software-updates-quiz.html:78
+#: templates/quiz/two-factor-authentication-quiz.html:78
+#: templates/quiz/vpn-quiz.html:78
+msgid "Next Question"
+msgstr "Question suivante"
 
 #: templates/quiz/identity-theft-quiz.html:4
 msgid "QUIZ about Identity Theft"

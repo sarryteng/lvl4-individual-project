@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const pleaseSelectMessage = document.getElementById('please-select-message').textContent.trim();
     const incorrectMessage = document.getElementById('incorrect-message').textContent.trim();
     const correctMessage = document.getElementById('correct-message').textContent.trim();
-    const nextQuestionText = document.getElementById('next-question-text').textContent.trim();
     const quizCompletedMessage = document.getElementById('quiz-completed-message').textContent.trim();
     const scoreMessage = document.getElementById('score-message').textContent.trim();
+    const restartQuizText = document.getElementById('restart-quiz-text').textContent.trim(); 
 
     // Quiz functionality
     const quizContainer = document.getElementById('quiz-container');
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const resultDiv = currentQuestion.querySelector('.result');
 
             if (!selectedCard) {
-                resultDiv.textContent = pleaseSelectMessage; // Use "Please select an answer." message
+                resultDiv.textContent = pleaseSelectMessage; // Show "Please select an answer." message
                 return;
             }
 
@@ -107,35 +107,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (selectedCard.dataset.answer === correctAnswer) {
                 selectedCard.classList.add('selected');
-                resultDiv.textContent = correctMessage; // Use "Correct!" message
+                resultDiv.textContent = correctMessage; // Show "Correct!" message
                 score++;
             } else {
                 selectedCard.classList.add('incorrect');
-                resultDiv.textContent = incorrectMessage.replace('{correctAnswer}', correctAnswer); // Replace placeholder with the correct answer
+                resultDiv.textContent = incorrectMessage.replace('{correctAnswer}', correctAnswer); // Show correct answer
             }
 
-            e.target.style.display = 'none'; // Hide the check button
-            nextButton.style.display = currentQuestionIndex < questions.length - 1 ? 'block' : 'none';
-
-            if (currentQuestionIndex === questions.length - 1) {
-                displaySummary();
-            }
+            e.target.style.display = 'none'; // Hide the "Check" button
+            nextButton.style.display = 'block'; // Show the "Next" button
         }
     });
 
     nextButton.addEventListener('click', () => {
+        // Hide the current question
         questions[currentQuestionIndex].style.display = 'none';
-        currentQuestionIndex++;
-        questions[currentQuestionIndex].style.display = 'block';
 
-        // Update the URL with the current question index
-        const baseURL = window.location.href.split('#')[0].split('?')[0];
-        window.history.pushState(null, '', `${baseURL}#${currentQuestionIndex + 1}`);
+        // Check if it's the last question
+        if (currentQuestionIndex < questions.length - 1) {
+            // Move to the next question
+            currentQuestionIndex++;
+            questions[currentQuestionIndex].style.display = 'block';
 
-        nextButton.style.display = 'none';
+            // Update the URL with the current question index
+            const baseURL = window.location.href.split('#')[0].split('?')[0];
+            window.history.pushState(null, '', `${baseURL}#${currentQuestionIndex + 1}`);
+
+            // Hide the "Next" button until the next answer is checked
+            nextButton.style.display = 'none';
+        } else {
+            // If it's the last question, show the summary
+            displaySummary();
+        }
     });
 
     function displaySummary() {
+        // Hide the "Next Question" button
+        nextButton.style.display = 'none';
+
         quizContainer.style.display = 'none';
         quizSummary.style.display = 'block';
         quizSummary.innerHTML = `
@@ -149,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     return `<li>Question ${i + 1}: ${result}</li>`;
                 }).join('')}
             </ul>
-            <button id="restart-quiz" class="check-answer">${nextQuestionText}</button>
+            <button id="restart-quiz" class="check-answer">${restartQuizText}</button>
         `;
 
         // Add an event listener for the restart button
@@ -179,4 +188,3 @@ document.addEventListener('DOMContentLoaded', () => {
         window.history.pushState(null, '', `${baseURL}#1`);
     }
 });
-
