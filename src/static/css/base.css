@@ -272,6 +272,10 @@ a.language-switcher {
     transform: scale(1.02);
 }
 
+.quiz-question {
+    display: none;
+}
+
 .result {
     margin-top: 30px;
     font-weight: bold;
