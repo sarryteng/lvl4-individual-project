@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ _('QUIZ about Two Factor Authentication') }}
+{% endblock %}
+
+{% block content %}
+    <main>
+        <h1>{{ _('Two Factor Authentication Quiz') }}</h1> 
+
+        <div id="quiz-container">
+            <!-- Question 1 -->
+            <section class="quiz-question" data-correct="a">
+                <h3>{{ _('1. What is two-factor authentication (2FA)?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A security method requiring two forms of verification to access an account.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A tool for generating passwords.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('An app for managing accounts.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('A method for storing passwords securely.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 2 -->
+            <section class="quiz-question" data-correct="b" style="display: none;">
+                <h3>{{ _('2. Which is an example of something you have in 2FA?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A password.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A mobile phone.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('A username.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('A fingerprint.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 3 -->
+            <section class="quiz-question" data-correct="d" style="display: none;">
+                <h3>{{ _('3. How does 2FA improve security?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('By encrypting passwords.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('By generating stronger passwords.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('By monitoring account activity.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('By adding an extra layer of verification.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 4 -->
+            <section class="quiz-question" data-correct="c" style="display: none;">
+                <h3>{{ _('4. What is an example of a biometric factor in 2FA?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A password.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A security question.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('A fingerprint scan.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('An email verification code.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 5 -->
+            <section class="quiz-question" data-correct="b" style="display: none;">
+                <h3>{{ _('5. Why is 2FA important?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('It reduces the need for passwords.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('It provides additional protection against unauthorized access.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('It speeds up the login process.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('It eliminates account recovery steps.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+        </div>
+
+        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div id="quiz-summary" style="display: none;"></div>
+    </main>
+{% endblock %}

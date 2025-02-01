@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-07 23:00+0000\n"
+"POT-Creation-Date: 2025-01-26 01:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,96 +17,120 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: templates/base.html:73 templates/home.html:15 templates/learn.html:4
+#: templates/base.html:69 templates/home.html:16 templates/learn.html:4
 msgid "Learn"
 msgstr ""
 
-#: templates/base.html:74 templates/guides.html:4 templates/home.html:18
+#: templates/base.html:70 templates/guides.html:4 templates/home.html:19
 msgid "Guides"
 msgstr ""
 
-#: templates/base.html:75 templates/home.html:21 templates/tools.html:4
+#: templates/base.html:71 templates/home.html:22 templates/tools.html:4
 msgid "Tools"
+msgstr ""
+
+#: templates/base.html:81
+msgid "Please select an answer."
+msgstr ""
+
+#: templates/base.html:82
+msgid "Incorrect. The correct answer is {correctAnswer}."
+msgstr ""
+
+#: templates/base.html:83
+msgid "Correct!"
+msgstr ""
+
+#: templates/base.html:84
+msgid "Quiz Completed!"
+msgstr ""
+
+#: templates/base.html:85
+msgid "Your score: {score}/{total}."
+msgstr ""
+
+#: templates/base.html:86
+msgid "Restart Quiz"
 msgstr ""
 
 #: templates/guides.html:9
 msgid "Here are the Guides"
 msgstr ""
 
-#: templates/guides.html:15
+#: templates/guides.html:14
 msgid "Secure Mobile Devices"
 msgstr ""
 
-#: templates/guides.html:16 templates/learn.html:16
+#: templates/guides.html:15 templates/learn.html:16
 msgid "Learn how to protect your mobile devices from threats."
 msgstr ""
 
-#: templates/guides.html:21 templates/guides/use-encryption.html:9
-#: templates/learn.html:21 templates/learn/encryption.html:9
+#: templates/guides.html:20 templates/guides/use-encryption.html:9
+#: templates/learn.html:25 templates/learn/encryption.html:9
 #: templates/learn/mobile-security.html:42
 msgid "Encryption"
 msgstr ""
 
-#: templates/guides.html:22 templates/learn.html:22
+#: templates/guides.html:21 templates/learn.html:26
 msgid "Understand how encryption safeguards sensitive information."
 msgstr ""
 
-#: templates/guides.html:27 templates/guides/secure-passwords.html:9
+#: templates/guides.html:26 templates/guides/secure-passwords.html:9
 msgid "Secure Passwords"
 msgstr ""
 
-#: templates/guides.html:28 templates/learn.html:28
+#: templates/guides.html:27 templates/learn.html:36
 msgid "Discover techniques for creating strong, secure passwords."
 msgstr ""
 
-#: templates/guides.html:33 templates/learn.html:33
+#: templates/guides.html:32 templates/learn.html:45
 msgid "2FA Authentication"
 msgstr ""
 
-#: templates/guides.html:34 templates/learn.html:34
+#: templates/guides.html:33 templates/learn.html:46
 msgid "Learn about two-factor authentication and its benefits."
 msgstr ""
 
-#: templates/guides.html:39 templates/learn.html:39
+#: templates/guides.html:38 templates/learn.html:55
 msgid "Phishing Attacks"
 msgstr ""
 
-#: templates/guides.html:40 templates/learn.html:40
+#: templates/guides.html:39 templates/learn.html:56
 msgid "Identify and avoid common phishing attacks."
 msgstr ""
 
-#: templates/guides.html:45 templates/guides/how-to-update-software.html:9
-#: templates/learn.html:45 templates/learn/software-updates.html:9
+#: templates/guides.html:44 templates/guides/how-to-update-software.html:9
+#: templates/learn.html:65 templates/learn/software-updates.html:9
 msgid "Software Updates"
 msgstr ""
 
-#: templates/guides.html:46 templates/learn.html:46
+#: templates/guides.html:45 templates/learn.html:66
 msgid "Why keeping your software updated is critical."
 msgstr ""
 
-#: templates/guides.html:51 templates/guides/prevent-theft.html:9
-#: templates/learn.html:51 templates/learn/identity-theft.html:9
+#: templates/guides.html:50 templates/guides/prevent-theft.html:9
+#: templates/learn.html:75 templates/learn/identity-theft.html:9
 msgid "Identity Theft"
 msgstr ""
 
-#: templates/guides.html:52 templates/learn.html:52
+#: templates/guides.html:51 templates/learn.html:76
 msgid "Understand how to protect yourself from identity theft."
 msgstr ""
 
-#: templates/guides.html:57
+#: templates/guides.html:56
 msgid "Malware Protection"
 msgstr ""
 
-#: templates/guides.html:58 templates/learn.html:58
+#: templates/guides.html:57 templates/learn.html:86
 msgid "Learn about malware and how to prevent infections."
 msgstr ""
 
-#: templates/guides.html:63 templates/guides/use-vpn.html:9
-#: templates/learn.html:63 templates/learn/vpn.html:9
+#: templates/guides.html:62 templates/guides/use-vpn.html:9
+#: templates/learn.html:95 templates/learn/vpn.html:9
 msgid "VPN"
 msgstr ""
 
-#: templates/guides.html:64 templates/learn.html:64
+#: templates/guides.html:63 templates/learn.html:96
 msgid "Discover the benefits of using a virtual private network."
 msgstr ""
 
@@ -134,23 +158,23 @@ msgid ""
 "practices."
 msgstr ""
 
-#: templates/home.html:12
+#: templates/home.html:13
 msgid "What You'll Find Here:"
 msgstr ""
 
-#: templates/home.html:15
+#: templates/home.html:16
 msgid ""
 "Explore basic concepts of online safety and cybersecurity. Understand why"
 " securing your online activities is crucial."
 msgstr ""
 
-#: templates/home.html:18
+#: templates/home.html:19
 msgid ""
 "Step-by-step instructions on how to protect yourself, from safe browsing "
 "habits to mobile security best practices."
 msgstr ""
 
-#: templates/home.html:21
+#: templates/home.html:22
 msgid ""
 "A curated list of free, reliable antivirus and security tools for mobile "
 "devices."
@@ -165,11 +189,17 @@ msgstr ""
 msgid "Mobile Security"
 msgstr ""
 
-#: templates/learn.html:27
+#: templates/learn.html:19 templates/learn.html:29 templates/learn.html:39
+#: templates/learn.html:49 templates/learn.html:59 templates/learn.html:69
+#: templates/learn.html:79 templates/learn.html:89 templates/learn.html:99
+msgid "Test Yourself!"
+msgstr ""
+
+#: templates/learn.html:35
 msgid "Password Security"
 msgstr ""
 
-#: templates/guides/malware-protection.html:9 templates/learn.html:57
+#: templates/guides/malware-protection.html:9 templates/learn.html:85
 #: templates/learn/malware.html:9
 msgid "Malware"
 msgstr ""
@@ -3478,7 +3508,7 @@ msgstr ""
 msgid "Malware Types Pt.3"
 msgstr ""
 
-#: templates/learn/malware.html:55
+#: templates/learn/malware.html:55 templates/quiz/malware-quiz.html:58
 msgid "Spyware"
 msgstr ""
 
@@ -4801,5 +4831,1042 @@ msgid ""
 "While it might not be that noticeable most of the time, you may "
 "experience slower download and upload speeds, which can impact your "
 "streaming or gaming."
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:4
+msgid "QUIZ about Encryption"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:9
+msgid "Encryption Quiz"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:14
+msgid "1. What is the primary purpose of encryption?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:16
+msgid "To speed up data transmission"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:17
+msgid "To protect sensitive information"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:18
+msgid "To reduce storage space"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:19
+msgid "To organize files"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:21
+#: templates/quiz/encryption-quiz.html:34
+#: templates/quiz/encryption-quiz.html:47
+#: templates/quiz/encryption-quiz.html:60
+#: templates/quiz/encryption-quiz.html:73
+#: templates/quiz/identity-theft-quiz.html:21
+#: templates/quiz/identity-theft-quiz.html:34
+#: templates/quiz/identity-theft-quiz.html:47
+#: templates/quiz/identity-theft-quiz.html:60
+#: templates/quiz/identity-theft-quiz.html:73
+#: templates/quiz/malware-quiz.html:21 templates/quiz/malware-quiz.html:34
+#: templates/quiz/malware-quiz.html:47 templates/quiz/malware-quiz.html:60
+#: templates/quiz/malware-quiz.html:73
+#: templates/quiz/mobile-security-quiz.html:21
+#: templates/quiz/mobile-security-quiz.html:34
+#: templates/quiz/mobile-security-quiz.html:47
+#: templates/quiz/mobile-security-quiz.html:60
+#: templates/quiz/mobile-security-quiz.html:73
+#: templates/quiz/password-security-quiz.html:21
+#: templates/quiz/password-security-quiz.html:34
+#: templates/quiz/password-security-quiz.html:47
+#: templates/quiz/password-security-quiz.html:60
+#: templates/quiz/password-security-quiz.html:73
+#: templates/quiz/phishing-quiz.html:21 templates/quiz/phishing-quiz.html:34
+#: templates/quiz/phishing-quiz.html:47 templates/quiz/phishing-quiz.html:60
+#: templates/quiz/phishing-quiz.html:73
+#: templates/quiz/software-updates-quiz.html:21
+#: templates/quiz/software-updates-quiz.html:34
+#: templates/quiz/software-updates-quiz.html:47
+#: templates/quiz/software-updates-quiz.html:60
+#: templates/quiz/software-updates-quiz.html:73
+#: templates/quiz/two-factor-authentication-quiz.html:21
+#: templates/quiz/two-factor-authentication-quiz.html:34
+#: templates/quiz/two-factor-authentication-quiz.html:47
+#: templates/quiz/two-factor-authentication-quiz.html:60
+#: templates/quiz/two-factor-authentication-quiz.html:73
+#: templates/quiz/vpn-quiz.html:21 templates/quiz/vpn-quiz.html:34
+#: templates/quiz/vpn-quiz.html:47 templates/quiz/vpn-quiz.html:60
+#: templates/quiz/vpn-quiz.html:73
+msgid "Check"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:27
+msgid "2. What is the term for the unreadable format created by encryption?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:29
+msgid "Plaintext"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:30
+msgid "Code text"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:31
+msgid "Ciphertext"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:32
+msgid "Encrypted text"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:40
+msgid "3. What is a key difference between symmetric and asymmetric encryption?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:42
+msgid "Symmetric uses one key; asymmetric uses two keys"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:43
+msgid "Asymmetric is faster than symmetric"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:44
+msgid "Symmetric encryption is obsolete"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:45
+msgid "Both use public keys"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:53
+msgid "4. Which type of email encryption relies on Certificate Authorities?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:55
+msgid "PGP/MIME"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:56
+msgid "SSL/TLS"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:57
+msgid "S/MIME"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:58
+msgid "None of the above"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:66
+msgid "5. What is the main drawback of asymmetric encryption?"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:68
+msgid "It is less secure than symmetric encryption"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:69
+msgid "It requires a trusted third party"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:70
+msgid "It is slower and less efficient"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:71
+msgid "It cannot be used for email encryption"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:79
+#: templates/quiz/identity-theft-quiz.html:78
+#: templates/quiz/malware-quiz.html:78
+#: templates/quiz/mobile-security-quiz.html:78
+#: templates/quiz/password-security-quiz.html:78
+#: templates/quiz/phishing-quiz.html:78
+#: templates/quiz/software-updates-quiz.html:78
+#: templates/quiz/two-factor-authentication-quiz.html:78
+#: templates/quiz/vpn-quiz.html:78
+msgid "Next Question"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:4
+msgid "QUIZ about Identity Theft"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:9
+msgid "Identity Theft Quiz"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:14
+msgid "1. What is identity theft?"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:16
+msgid ""
+"A crime where someone illegally obtains and uses another person’s "
+"personal information."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:17
+msgid "A technique for encrypting sensitive data."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:18
+msgid "A process of authenticating someone’s identity."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:19
+msgid "A method to improve credit scores."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:27
+msgid "2. Which of the following is a common method used by identity thieves?"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:29
+msgid "Using public Wi-Fi to browse securely."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:30
+msgid "Shredding personal documents."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:31
+msgid "Phishing scams to steal sensitive information."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:32
+msgid "Encrypting sensitive data."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:40
+msgid "3. What is a sign that your identity may have been stolen?"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:42
+msgid "Receiving promotional emails."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:43
+msgid "Unexplained charges on your bank statements."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:44
+msgid "A slow internet connection."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:45
+msgid "Spam messages in your inbox."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:53
+msgid "4. How can you protect yourself from identity theft?"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:55
+msgid "Sharing sensitive information over public Wi-Fi."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:56
+msgid "Using weak passwords for your accounts."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:57
+msgid "Ignoring suspicious emails."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:58
+msgid "Using strong passwords and enabling two-factor authentication."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:66
+msgid "5. What should you do if you become a victim of identity theft?"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:68
+msgid ""
+"Report the theft to your bank and place a fraud alert on your credit "
+"report."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:69
+msgid "Share your personal information publicly to alert others."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:70
+msgid "Ignore the issue to avoid further stress."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:71
+msgid "Create new online accounts immediately."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:4
+msgid "QUIZ about Malware"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:9
+msgid "Malware Quiz"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:14
+msgid "1. What is malware?"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:16
+msgid "Malicious software designed to damage or gain access to a computer."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:17
+msgid "Software used to encrypt sensitive data."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:18
+msgid "A security tool for protecting systems from viruses."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:19
+msgid "A harmless prank program created by software engineers."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:27
+msgid "2. How can malware typically spread to a user’s device?"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:29
+msgid "By installing trusted software."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:30
+#: templates/quiz/password-security-quiz.html:43
+msgid "By using antivirus software."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:31
+msgid "By clicking on malicious links or attachments."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:32
+msgid "By avoiding unknown USB devices."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:40
+msgid "3. What is ransomware?"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:42
+msgid "Malware designed to track your activity secretly."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:43
+msgid "Malware that encrypts your data and demands payment for its release."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:44
+msgid "Software that prevents spam emails."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:45
+msgid "A tool for detecting viruses on your computer."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:53
+msgid "4. What is a common type of malware?"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:55
+msgid "Firewall"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:56
+msgid "VPN software"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:57
+msgid "Cloud storage tools"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:66
+msgid "5. How can you protect yourself from malware?"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:68
+msgid "Avoid clicking on unknown links or attachments."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:69
+msgid "Disable antivirus software to improve performance."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:70
+msgid "Share your passwords on public forums."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:71
+msgid "Ignore software updates to save time."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:4
+msgid "QUIZ about Mobile Security"
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:9
+msgid "Mobile Security Quiz"
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:14
+msgid "1. What is mobile security?"
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:16
+msgid ""
+"A system of security software and habits to protect your data from "
+"hackers."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:17
+msgid "A method to speed up internet connections on mobile devices."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:18
+msgid "A tool to organize apps on your phone."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:19
+msgid "An operating system for mobile phones."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:27
+msgid "2. Why is mobile security important?"
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:29
+msgid "To increase the speed of your mobile phone."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:30
+msgid ""
+"To protect financial information, prevent identity theft, and safeguard "
+"personal data."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:31
+msgid "To allow all apps to run on your phone."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:32
+msgid "To remove advertisements from apps."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:40
+msgid "3. What is an example of mobile security?"
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:42
+msgid "Downloading apps from unverified sources."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:43
+msgid "Disabling security protocols on your device."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:44
+msgid "Avoiding software updates."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:45
+msgid "Using encryption and antivirus software."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:53
+msgid "4. What is a secure boot process?"
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:55
+msgid "A method to speed up device startup times."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:56
+msgid "A way to connect multiple devices to the internet."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:57
+msgid "A process ensuring hardware can safely use operating systems and programs."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:58
+msgid "A tool to delete unused apps from your phone."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:66
+msgid "5. How can you protect yourself from mobile security threats?"
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:68
+msgid ""
+"Use strong passwords, enable two-factor authentication, and avoid "
+"clicking on suspicious links."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:69
+msgid "Disable antivirus software to save battery life."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:70
+msgid "Ignore updates for your mobile device."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:71
+msgid "Download apps only from third-party sources."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:4
+msgid "QUIZ about Password Security"
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:9
+msgid "Password Security Quiz"
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:14
+msgid "1. Why is password security important?"
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:16
+msgid "To prevent cybercriminals from gaining access to your accounts."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:17
+msgid "To make logging in faster."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:18
+msgid "To allow sharing passwords easily with friends."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:19
+msgid "To avoid updating passwords regularly."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:27
+msgid "2. What is a characteristic of a strong password?"
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:29
+msgid "A short, easy-to-remember phrase."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:30
+msgid "A long password with a mix of uppercase, lowercase, numbers, and symbols."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:31
+msgid "Your pet’s name and birth year."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:32
+msgid "Your favorite movie title."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:40
+msgid "3. How do cybercriminals steal passwords?"
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:42
+msgid "By guessing passwords randomly."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:44
+msgid "Through phishing, data breaches, and malware."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:45
+msgid "By sharing passwords on social media."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:53
+msgid "4. What should you do if your password is exposed in a data breach?"
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:55
+msgid ""
+"Change the exposed password immediately and enable two-factor "
+"authentication."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:56
+msgid "Ignore the breach and continue using the same password."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:57
+msgid "Share the breach information with your friends."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:58
+msgid "Delete your account immediately."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:66
+msgid "5. How can you create a secure password?"
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:68
+msgid "Use your birthdate as a password."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:69
+msgid "Use the same password for all your accounts."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:70
+msgid "Use a common phrase or word."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:71
+msgid ""
+"Use a password that is long, unique, and includes numbers, symbols, and "
+"letters."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:4
+msgid "QUIZ about Phishing"
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:9
+msgid "Phishing Quiz"
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:14
+msgid "1. What is phishing?"
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:16
+msgid ""
+"A cyber threat where scammers impersonate a trustworthy source to steal "
+"sensitive data."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:17
+msgid "A method for encrypting data online."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:18
+msgid "A legitimate way to verify identity."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:19
+msgid "A tool used to block spam emails."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:27
+msgid "2. What is a phishing link?"
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:29
+msgid "A secure link to reset passwords."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:30
+msgid "A fake link used to trick users into revealing sensitive information."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:31
+msgid "A method for encrypting online communication."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:32
+msgid "A legitimate way to verify email addresses."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:40
+msgid "3. What is an example of a phishing attack?"
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:42
+msgid "Sending legitimate promotional emails."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:43
+msgid "Installing antivirus software."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:44
+msgid "Encrypting sensitive files."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:45
+msgid "Sending fake emails to steal sensitive data."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:53
+msgid "4. What is whaling in phishing?"
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:55
+msgid "A method to stop spam emails."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:56
+msgid "A phishing attack targeting small businesses."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:57
+msgid "A phishing attack targeting high-ranking executives."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:58
+msgid "A phishing technique to encrypt data."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:66
+msgid "5. How can you protect yourself from phishing attacks?"
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:68
+msgid "Avoid clicking on suspicious links and verify sender authenticity."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:69
+msgid "Share your passwords with trusted friends."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:70
+msgid "Use the same password for all accounts."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:71
+msgid "Ignore all emails and messages."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:4
+msgid "QUIZ about Software Updates"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:9
+msgid "Software Updates Quiz"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:14
+msgid "1. What is a software update?"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:16
+msgid ""
+"A new version of a program that includes security patches, performance "
+"upgrades, and other improvements."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:17
+msgid "A process to delete unused files."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:18
+msgid "A tool for creating new software applications."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:19
+msgid "A method to increase screen brightness."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:27
+msgid "2. Why are software updates important?"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:29
+msgid "To change the appearance of your device."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:30
+msgid ""
+"To fix security vulnerabilities, improve performance, and ensure "
+"compatibility."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:31
+msgid "To delete old files automatically."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:32
+msgid "To reduce internet usage."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:40
+msgid "3. How do software updates improve performance?"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:42
+msgid "By reducing screen resolution."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:43
+msgid "By disabling unused programs."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:44
+msgid "By optimizing code and reducing resource usage."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:45
+msgid "By increasing battery consumption."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:53
+msgid "4. What is an operating system update?"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:55
+msgid ""
+"A new version of an operating system that improves security, performance,"
+" and functionality."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:56
+msgid "A method to install new applications."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:57
+msgid "A process to delete old operating systems."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:58
+msgid "A tool for managing files on a device."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:66
+msgid "5. How do software updates help protect your data?"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:68
+msgid "By making files easier to share."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:69
+msgid "By deleting unnecessary files."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:70
+msgid "By increasing internet speed."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:71
+msgid "By closing vulnerabilities that hackers could exploit."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:4
+msgid "QUIZ about Two Factor Authentication"
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:9
+msgid "Two Factor Authentication Quiz"
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:14
+msgid "1. What is two-factor authentication (2FA)?"
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:16
+msgid ""
+"A security method requiring two forms of verification to access an "
+"account."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:17
+msgid "A tool for generating passwords."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:18
+msgid "An app for managing accounts."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:19
+#: templates/quiz/vpn-quiz.html:19
+msgid "A method for storing passwords securely."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:27
+msgid "2. Which is an example of something you have in 2FA?"
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:29
+#: templates/quiz/two-factor-authentication-quiz.html:55
+msgid "A password."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:30
+msgid "A mobile phone."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:31
+msgid "A username."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:32
+msgid "A fingerprint."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:40
+msgid "3. How does 2FA improve security?"
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:42
+msgid "By encrypting passwords."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:43
+msgid "By generating stronger passwords."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:44
+msgid "By monitoring account activity."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:45
+msgid "By adding an extra layer of verification."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:53
+msgid "4. What is an example of a biometric factor in 2FA?"
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:56
+msgid "A security question."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:57
+msgid "A fingerprint scan."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:58
+msgid "An email verification code."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:66
+msgid "5. Why is 2FA important?"
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:68
+msgid "It reduces the need for passwords."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:69
+msgid "It provides additional protection against unauthorized access."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:70
+msgid "It speeds up the login process."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:71
+msgid "It eliminates account recovery steps."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:4
+msgid "QUIZ about VPN"
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:9
+msgid "VPN Quiz"
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:14
+msgid "1. What is a VPN?"
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:16
+msgid "A tool that provides privacy and anonymity by creating a private network."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:17
+msgid "A device used for internet connection."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:18
+msgid "An app for managing files."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:27
+msgid "2. What does a VPN hide?"
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:29
+msgid "Your device password."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:30
+msgid "Your social media profiles."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:31
+msgid "Your IP address and browsing activity."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:32
+msgid "Your email contacts."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:40
+msgid "3. Why is it important to use a VPN on public Wi-Fi?"
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:42
+msgid "To improve internet speed."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:43
+msgid "To protect your data from hackers."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:44
+msgid "To access blocked websites."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:45
+msgid "To avoid spam emails."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:53
+msgid "4. What does VPN encryption do?"
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:55
+msgid "Saves your browsing history."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:56
+msgid "Shares your data securely."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:57
+msgid "Deletes unwanted files."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:58
+msgid "Secures the data you send and receive."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:66
+msgid "5. Which is NOT a benefit of using a VPN?"
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:68
+msgid "Boosting your device storage."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:69
+msgid "Protecting your privacy."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:70
+msgid "Accessing geo-restricted content."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:71
+msgid "Securing your online transactions."
 msgstr ""
 

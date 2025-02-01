@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ _('QUIZ about VPN') }}
+{% endblock %}
+
+{% block content %}
+    <main>
+        <h1>{{ _('VPN Quiz') }}</h1> 
+
+        <div id="quiz-container">
+            <!-- Question 1 -->
+            <section class="quiz-question" data-correct="a">
+                <h3>{{ _('1. What is a VPN?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A tool that provides privacy and anonymity by creating a private network.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('A device used for internet connection.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('An app for managing files.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('A method for storing passwords securely.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 2 -->
+            <section class="quiz-question" data-correct="c" style="display: none;">
+                <h3>{{ _('2. What does a VPN hide?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Your device password.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('Your social media profiles.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('Your IP address and browsing activity.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('Your email contacts.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 3 -->
+            <section class="quiz-question" data-correct="b" style="display: none;">
+                <h3>{{ _('3. Why is it important to use a VPN on public Wi-Fi?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('To improve internet speed.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('To protect your data from hackers.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('To access blocked websites.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('To avoid spam emails.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 4 -->
+            <section class="quiz-question" data-correct="d" style="display: none;">
+                <h3>{{ _('4. What does VPN encryption do?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Saves your browsing history.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('Shares your data securely.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('Deletes unwanted files.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('Secures the data you send and receive.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+
+            <!-- Question 5 -->
+            <section class="quiz-question" data-correct="a" style="display: none;">
+                <h3>{{ _('5. Which is NOT a benefit of using a VPN?') }}</h3>
+                <div class="quiz-options">
+                    <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Boosting your device storage.') }}</div>
+                    <div class="quiz-card" data-answer="b"><b>b)</b> {{ _('Protecting your privacy.') }}</div>
+                    <div class="quiz-card" data-answer="c"><b>c)</b> {{ _('Accessing geo-restricted content.') }}</div>
+                    <div class="quiz-card" data-answer="d"><b>d)</b> {{ _('Securing your online transactions.') }}</div>
+                </div>
+                <button class="check-answer">{{ _('Check') }}</button>
+                <div class="result"></div>
+            </section>
+        </div>
+
+        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div id="quiz-summary" style="display: none;"></div>
+    </main>
+{% endblock %}
