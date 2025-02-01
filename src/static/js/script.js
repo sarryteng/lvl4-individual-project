@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const correctMessage = document.getElementById('correct-message').textContent.trim();
     const quizCompletedMessage = document.getElementById('quiz-completed-message').textContent.trim();
     const scoreMessage = document.getElementById('score-message').textContent.trim();
+    const finishQuizText = document.getElementById('finish-quiz').textContent.trim(); 
     const restartQuizText = document.getElementById('restart-quiz-text').textContent.trim(); 
     
     // Regex to match quiz URLs: /<lang>/learn/<concept>/quiz
@@ -88,6 +89,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 question.style.display = index === (currentQuestionIndex - 1) ? 'block' : 'none';
             });
             nextButton.style.display = 'none'; // Always hide the Next button initially
+            
+            // Change button text if it's the last question
+            if (currentQuestionIndex === questions.length) {
+                nextButton.textContent = finishQuizText; // Change to "Finish Quiz"
+            } 
         }
 
         // Display the current question based on the `question` parameter
