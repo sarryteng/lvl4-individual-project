@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const restartQuizText = document.getElementById('restart-quiz-text').textContent.trim(); 
     
     // Regex to match quiz URLs: /<lang>/learn/<concept>/quiz
-    const quizURLPattern = /^\/(en|fr|es)\/learn\/[a-z_]+\/quiz$/;
+    const quizURLPattern = /^\/(en|fr)\/learn\/[a-z_]+\/quiz$/;
     const currentPath = window.location.pathname;
 
     if (quizURLPattern.test(currentPath)) {
