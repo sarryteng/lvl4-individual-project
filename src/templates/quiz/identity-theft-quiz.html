@@ -10,7 +10,7 @@
 
         <div id="quiz-container">
             <!-- Question 1 -->
-            <section class="quiz-question" data-correct="a">
+            <section class="quiz-question" data-correct="a" data-explanation="{{ _('Identity theft is a crime where someone illegally obtains and uses another person’s personal information. It is not a technique for encrypting sensitive data, a process of authenticating someone’s identity, or a method to improve credit scores.') }}">
                 <h3>{{ _('1. What is identity theft?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A crime where someone illegally obtains and uses another person’s personal information.') }}</div>
@@ -23,7 +23,7 @@
             </section>
 
             <!-- Question 2 -->
-            <section class="quiz-question" data-correct="c" style="display: none;">
+            <section class="quiz-question" data-correct="c" data-explanation="{{ _('Phishing scams are fraudulent attempts to obtain sensitive information, such as usernames, passwords, and credit card details, by disguising as a trustworthy entity in electronic communication. Using public Wi-Fi, shredding personal documents, and encrypting sensitive data are not common methods used by identity thieves.') }}">
                 <h3>{{ _('2. Which of the following is a common method used by identity thieves?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Using public Wi-Fi to browse securely.') }}</div>
@@ -36,7 +36,7 @@
             </section>
 
             <!-- Question 3 -->
-            <section class="quiz-question" data-correct="b" style="display: none;">
+            <section class="quiz-question" data-correct="b" data-explanation="{{ _('Unexplained charges on your bank statements can be a sign that your identity has been stolen. Receiving promotional emails, a slow internet connection, and spam messages in your inbox are not direct indicators of identity theft.') }}">
                 <h3>{{ _('3. What is a sign that your identity may have been stolen?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Receiving promotional emails.') }}</div>
@@ -49,7 +49,7 @@
             </section>
 
             <!-- Question 4 -->
-            <section class="quiz-question" data-correct="d" style="display: none;">
+            <section class="quiz-question" data-correct="d" data-explanation="{{ _('To protect yourself from identity theft, use strong passwords for your accounts and enable two-factor authentication. Sharing sensitive information over public Wi-Fi, using weak passwords, and ignoring suspicious emails can increase.') }}">
                 <h3>{{ _('4. How can you protect yourself from identity theft?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Sharing sensitive information over public Wi-Fi.') }}</div>
@@ -62,7 +62,7 @@
             </section>
 
             <!-- Question 5 -->
-            <section class="quiz-question" data-correct="a" style="display: none;">
+            <section class="quiz-question" data-correct="a" data-explanation= "{{ _('If you become a victim of identity theft, report the theft to your bank and place a fraud alert on your credit report. Sharing your personal information publicly, ignoring the issue, and creating new online accounts immediately are not recommended responses to identity theft.') }}">
                 <h3>{{ _('5. What should you do if you become a victim of identity theft?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Report the theft to your bank and place a fraud alert on your credit report.') }}</div>
