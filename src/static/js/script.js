@@ -82,6 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const nextButton = document.getElementById('next-question');
         const quizSummary = document.getElementById('quiz-summary');
         let score = 0;
+        let answersLog = [];
 
         // Ensure the current question is displayed correctly based on the `question` parameter
         function showCurrentQuestion() {
@@ -126,6 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 const correctAnswer = currentQuestion.dataset.correct;
+                const explanation = currentQuestion.dataset.explanation || ''; // Fetch explanation from dataset
                 const allCards = currentQuestion.querySelectorAll('.quiz-card');
 
                 // Highlight the correct answer in green and disable all answer options
@@ -136,14 +138,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
 
+                let isCorrect = false;
                 if (selectedCard.dataset.answer === correctAnswer) {
                     selectedCard.classList.add('selected');
-                    resultDiv.textContent = correctMessage; // Show "Correct!" message
+                    resultDiv.innerHTML = `<p class='correct-text'>${correctMessage}</p><p class='explanation'>${explanation}</p>`;
                     score++;
+                    isCorrect = true;
                 } else {
                     selectedCard.classList.add('incorrect');
-                    resultDiv.textContent = incorrectMessage.replace('{correctAnswer}', correctAnswer); // Show correct answer
+                    resultDiv.innerHTML = `<p class='incorrect-text'>${incorrectMessage.replace('{correctAnswer}', correctAnswer)}</p><p class='explanation'>${explanation}</p>`;
                 }
+
+                answersLog.push({
+                    question: currentQuestion.innerHTML,
+                    correct: isCorrect
+                });
 
                 e.target.style.display = 'none'; // Hide the "Check" button
                 nextButton.style.display = 'block'; // Show the "Next" button
@@ -159,8 +168,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Update the URL with the current question index
                 const newURL = `${window.location.pathname}?question=${currentQuestionIndex}`;
                 window.history.pushState({ question: currentQuestionIndex }, "", newURL);
-
                 showCurrentQuestion();
+                
             } else {
                 // If it's the last question, show the summary
                 displaySummary();
@@ -173,18 +182,17 @@ document.addEventListener('DOMContentLoaded', () => {
             quizContainer.style.display = 'none';
             quizSummary.style.display = 'block';
             quizSummary.innerHTML = `
-                <h3>${quizCompletedMessage}</h3>
-                <p>${scoreMessage.replace('{score}', score).replace('{total}', questions.length)}</p>
-                <ul>
-                    ${[...questions].map((q, i) => {
-                        const correct = q.dataset.correct;
-                        const selected = q.querySelector('.quiz-card.selected')?.dataset.answer;
-                        const result = correct === selected ? correctMessage : incorrectMessage.replace('{correctAnswer}', correct);
-                        return `<li>Question ${i + 1}: ${result}</li>`;
-                    }).join('')}
-                </ul>
-                <button id="restart-quiz" class="check-answer">${restartQuizText}</button>
-            `;
+            <h3>${quizCompletedMessage}</h3>
+            <p>${scoreMessage.replace('{score}', score).replace('{total}', questions.length)}</p>
+            <div>
+                ${answersLog.map(q => `
+                    <div class='quiz-summary-item'>
+                        ${q.question.replace(/<button.*?check-answer.*?>.*?<\/button>/g, '')} <!-- Remove check buttons -->
+                    </div>
+                `).join('')}
+            </div>
+            <button id='restart-quiz' class='check-answer'>${restartQuizText}</button>
+        `;
 
             // Restart quiz button functionality
             document.getElementById('restart-quiz').addEventListener('click', restartQuiz);

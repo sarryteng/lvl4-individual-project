@@ -276,9 +276,18 @@ a.language-switcher {
     display: none;
 }
 
+.quiz-summary-item {
+    padding: 20px 0; /* Adds padding above and below each question */
+    border-bottom: 1px solid #ddd; /* Optional: adds a separator line */
+}
+
 .result {
     margin-top: 30px;
     font-weight: bold;
+}
+
+.explanation {
+    font-weight: normal;
 }
 
 .check-answer, .next-button{
@@ -292,7 +301,7 @@ a.language-switcher {
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
-    margin-top: 20px; /* Add space between button and result */
+    margin-top: 30px; /* Add space between button and result */
 }
 
 .check-answer:hover {
