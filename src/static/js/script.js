@@ -69,20 +69,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const scoreMessage = document.getElementById('score-message').textContent.trim();
     const finishQuizText = document.getElementById('finish-quiz').textContent.trim(); 
     const restartQuizText = document.getElementById('restart-quiz-text').textContent.trim(); 
+    const nextQuestionText = document.getElementById('next-question').textContent.trim(); // Add this line
     
     // Regex to match quiz URLs: /<lang>/learn/<concept>/quiz
     const quizURLPattern = /^\/(en|fr)\/learn\/[a-z_]+\/quiz$/;
     const currentPath = window.location.pathname;
+        
+    // If the URL does NOT contain '?summary', ensure fresh start on first question
+    const urlParams = new URLSearchParams(window.location.search);
+    if (!urlParams.has('summary') && (!urlParams.has('question') || urlParams.get('question') === '1')) {
+        localStorage.removeItem('answersLog');
+        localStorage.removeItem('score');
+    }
 
     if (quizURLPattern.test(currentPath)) {
-        const urlParams = new URLSearchParams(window.location.search);
         let currentQuestionIndex = parseInt(urlParams.get('question')) || 1; // Default to question=1 if not present
         const quizContainer = document.getElementById('quiz-container');
         const questions = document.querySelectorAll('.quiz-question');
         const nextButton = document.getElementById('next-question');
         const quizSummary = document.getElementById('quiz-summary');
-        let score = 0;
-        let answersLog = [];
+        let score = parseInt(localStorage.getItem('score')) || 0;
+        let answersLog = JSON.parse(localStorage.getItem('answersLog')) || [];
 
         // Ensure the current question is displayed correctly based on the `question` parameter
         function showCurrentQuestion() {
@@ -94,7 +101,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Change button text if it's the last question
             if (currentQuestionIndex === questions.length) {
                 nextButton.textContent = finishQuizText; // Change to "Finish Quiz"
-            } 
+            } else {
+                nextButton.textContent = nextQuestionText; // Change to "Next Question"
+            }
         }
 
         // Display the current question based on the `question` parameter
@@ -143,6 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     selectedCard.classList.add('selected');
                     resultDiv.innerHTML = `<p class='correct-text'>${correctMessage}</p><p class='explanation'>${explanation}</p>`;
                     score++;
+                    localStorage.setItem('score', score); // Store the updated score in localStorage
                     isCorrect = true;
                 } else {
                     selectedCard.classList.add('incorrect');
@@ -153,6 +163,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     question: currentQuestion.innerHTML,
                     correct: isCorrect
                 });
+
+                localStorage.setItem('answersLog', JSON.stringify(answersLog)); // Store answers log in localStorage
 
                 e.target.style.display = 'none'; // Hide the "Check" button
                 nextButton.style.display = 'block'; // Show the "Next" button
@@ -192,16 +204,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 `).join('')}
             </div>
             <button id='restart-quiz' class='check-answer'>${restartQuizText}</button>
-        `;
+            `;
+
+            // Change the URL to reflect the summary state
+            const baseURL = window.location.pathname;
+            const summaryURL = `${baseURL}?summary`; // Add `?summary` to the URL
+            window.history.pushState({ summary: true }, "", summaryURL);
 
             // Restart quiz button functionality
             document.getElementById('restart-quiz').addEventListener('click', restartQuiz);
+            localStorage.removeItem('answersLog'); // Clear the answers log from localStorage
+            localStorage.removeItem('score'); // Clear the score from localStorage
         }
         
         // Restart quiz functionality
         function restartQuiz() {
             currentQuestionIndex = 1; // Reset to the first question
-            score = 0;
+            score = 0; // Reset the score
+            answersLog = []; // Clear the answers log
+            localStorage.removeItem('answersLog'); // Clear the answers log from localStorage
+            localStorage.removeItem('score'); // Clear the score from localStorage
 
             questions.forEach((question, index) => {
                 question.style.display = index === 0 ? 'block' : 'none';
@@ -227,6 +249,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (event.state && event.state.question) {
                 currentQuestionIndex = event.state.question;
                 showCurrentQuestion();
+            } else if (event.state && event.state.summary) {
+                displaySummary();
+            } else {
+                // If the user tries to navigate back from the summary, reload the page
+                window.location.reload();
             }
         });
     }    
