@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-26 01:46+0000\n"
+"POT-Creation-Date: 2025-02-09 20:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,6 +50,10 @@ msgid "Your score: {score}/{total}."
 msgstr ""
 
 #: templates/base.html:86
+msgid "Finish Quiz"
+msgstr ""
+
+#: templates/base.html:87
 msgid "Restart Quiz"
 msgstr ""
 
@@ -4841,6 +4845,13 @@ msgstr ""
 msgid "Encryption Quiz"
 msgstr ""
 
+#: templates/quiz/encryption-quiz.html:13
+msgid ""
+"Encryption is used to protect sensitive information from unauthorized "
+"access. It does not speed up data transmission, reduce storage space, or "
+"organize files."
+msgstr ""
+
 #: templates/quiz/encryption-quiz.html:14
 msgid "1. What is the primary purpose of encryption?"
 msgstr ""
@@ -4862,10 +4873,10 @@ msgid "To organize files"
 msgstr ""
 
 #: templates/quiz/encryption-quiz.html:21
-#: templates/quiz/encryption-quiz.html:34
-#: templates/quiz/encryption-quiz.html:47
-#: templates/quiz/encryption-quiz.html:60
-#: templates/quiz/encryption-quiz.html:73
+#: templates/quiz/encryption-quiz.html:35
+#: templates/quiz/encryption-quiz.html:48
+#: templates/quiz/encryption-quiz.html:61
+#: templates/quiz/encryption-quiz.html:74
 #: templates/quiz/identity-theft-quiz.html:21
 #: templates/quiz/identity-theft-quiz.html:34
 #: templates/quiz/identity-theft-quiz.html:47
@@ -4903,87 +4914,114 @@ msgstr ""
 msgid "Check"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:27
+#: templates/quiz/encryption-quiz.html:26
+msgid ""
+"Ciphertext is the unreadable format created by encryption. Plaintext is "
+"the original readable format."
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:28
 msgid "2. What is the term for the unreadable format created by encryption?"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:29
+#: templates/quiz/encryption-quiz.html:30
 msgid "Plaintext"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:30
+#: templates/quiz/encryption-quiz.html:31
 msgid "Code text"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:31
+#: templates/quiz/encryption-quiz.html:32
 msgid "Ciphertext"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:32
+#: templates/quiz/encryption-quiz.html:33
 msgid "Encrypted text"
 msgstr ""
 
 #: templates/quiz/encryption-quiz.html:40
+msgid ""
+"Symmetric encryption uses one key for both encryption and decryption. "
+"Asymmetric encryption uses two keys: a public key for encryption and a "
+"private key for decryption."
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:41
 msgid "3. What is a key difference between symmetric and asymmetric encryption?"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:42
+#: templates/quiz/encryption-quiz.html:43
 msgid "Symmetric uses one key; asymmetric uses two keys"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:43
+#: templates/quiz/encryption-quiz.html:44
 msgid "Asymmetric is faster than symmetric"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:44
+#: templates/quiz/encryption-quiz.html:45
 msgid "Symmetric encryption is obsolete"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:45
+#: templates/quiz/encryption-quiz.html:46
 msgid "Both use public keys"
 msgstr ""
 
 #: templates/quiz/encryption-quiz.html:53
+msgid ""
+"S/MIME relies on Certificate Authorities to verify the identity of email "
+"senders and recipients. PGP/MIME and SSL/TLS do not use Certificate "
+"Authorities."
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:54
 msgid "4. Which type of email encryption relies on Certificate Authorities?"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:55
+#: templates/quiz/encryption-quiz.html:56
 msgid "PGP/MIME"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:56
+#: templates/quiz/encryption-quiz.html:57
 msgid "SSL/TLS"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:57
+#: templates/quiz/encryption-quiz.html:58
 msgid "S/MIME"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:58
+#: templates/quiz/encryption-quiz.html:59
 msgid "None of the above"
 msgstr ""
 
 #: templates/quiz/encryption-quiz.html:66
+msgid ""
+"Asymmetric encryption is slower and less efficient than symmetric "
+"encryption. It does not require a trusted third party, and it can be used"
+" for email encryption."
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:67
 msgid "5. What is the main drawback of asymmetric encryption?"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:68
+#: templates/quiz/encryption-quiz.html:69
 msgid "It is less secure than symmetric encryption"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:69
+#: templates/quiz/encryption-quiz.html:70
 msgid "It requires a trusted third party"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:70
+#: templates/quiz/encryption-quiz.html:71
 msgid "It is slower and less efficient"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:71
+#: templates/quiz/encryption-quiz.html:72
 msgid "It cannot be used for email encryption"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:79
+#: templates/quiz/encryption-quiz.html:80
 #: templates/quiz/identity-theft-quiz.html:78
 #: templates/quiz/malware-quiz.html:78
 #: templates/quiz/mobile-security-quiz.html:78
@@ -5001,6 +5039,14 @@ msgstr ""
 
 #: templates/quiz/identity-theft-quiz.html:9
 msgid "Identity Theft Quiz"
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:13
+msgid ""
+"Identity theft is a crime where someone illegally obtains and uses "
+"another person’s personal information. It is not a technique for "
+"encrypting sensitive data, a process of authenticating someone’s "
+"identity, or a method to improve credit scores."
 msgstr ""
 
 #: templates/quiz/identity-theft-quiz.html:14
@@ -5025,6 +5071,15 @@ msgstr ""
 msgid "A method to improve credit scores."
 msgstr ""
 
+#: templates/quiz/identity-theft-quiz.html:26
+msgid ""
+"Phishing scams are fraudulent attempts to obtain sensitive information, "
+"such as usernames, passwords, and credit card details, by disguising as a"
+" trustworthy entity in electronic communication. Using public Wi-Fi, "
+"shredding personal documents, and encrypting sensitive data are not "
+"common methods used by identity thieves."
+msgstr ""
+
 #: templates/quiz/identity-theft-quiz.html:27
 msgid "2. Which of the following is a common method used by identity thieves?"
 msgstr ""
@@ -5043,6 +5098,14 @@ msgstr ""
 
 #: templates/quiz/identity-theft-quiz.html:32
 msgid "Encrypting sensitive data."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:39
+msgid ""
+"Unexplained charges on your bank statements can be a sign that your "
+"identity has been stolen. Receiving promotional emails, a slow internet "
+"connection, and spam messages in your inbox are not direct indicators of "
+"identity theft."
 msgstr ""
 
 #: templates/quiz/identity-theft-quiz.html:40
@@ -5065,6 +5128,14 @@ msgstr ""
 msgid "Spam messages in your inbox."
 msgstr ""
 
+#: templates/quiz/identity-theft-quiz.html:52
+msgid ""
+"To protect yourself from identity theft, use strong passwords for your "
+"accounts and enable two-factor authentication. Sharing sensitive "
+"information over public Wi-Fi, using weak passwords, and ignoring "
+"suspicious emails can increase."
+msgstr ""
+
 #: templates/quiz/identity-theft-quiz.html:53
 msgid "4. How can you protect yourself from identity theft?"
 msgstr ""
@@ -5083,6 +5154,14 @@ msgstr ""
 
 #: templates/quiz/identity-theft-quiz.html:58
 msgid "Using strong passwords and enabling two-factor authentication."
+msgstr ""
+
+#: templates/quiz/identity-theft-quiz.html:65
+msgid ""
+"If you become a victim of identity theft, report the theft to your bank "
+"and place a fraud alert on your credit report. Sharing your personal "
+"information publicly, ignoring the issue, and creating new online "
+"accounts immediately are not recommended responses to identity theft."
 msgstr ""
 
 #: templates/quiz/identity-theft-quiz.html:66
@@ -5115,6 +5194,13 @@ msgstr ""
 msgid "Malware Quiz"
 msgstr ""
 
+#: templates/quiz/malware-quiz.html:13
+msgid ""
+"Malware is a type of software designed to damage or gain unauthorized "
+"access to a computer system. It can include viruses, worms, trojans, "
+"ransomware, and spyware."
+msgstr ""
+
 #: templates/quiz/malware-quiz.html:14
 msgid "1. What is malware?"
 msgstr ""
@@ -5133,6 +5219,13 @@ msgstr ""
 
 #: templates/quiz/malware-quiz.html:19
 msgid "A harmless prank program created by software engineers."
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:26
+msgid ""
+"Malware can spread through malicious links, attachments, or websites. It "
+"is important to be cautious and avoid clicking on unknown or suspicious "
+"links."
 msgstr ""
 
 #: templates/quiz/malware-quiz.html:27
@@ -5156,6 +5249,13 @@ msgstr ""
 msgid "By avoiding unknown USB devices."
 msgstr ""
 
+#: templates/quiz/malware-quiz.html:39
+msgid ""
+"Ransomware is a type of malware that encrypts a user’s data and demands "
+"payment for its release. It is important to regularly back up data to "
+"prevent data loss in case of a ransomware attack."
+msgstr ""
+
 #: templates/quiz/malware-quiz.html:40
 msgid "3. What is ransomware?"
 msgstr ""
@@ -5176,6 +5276,14 @@ msgstr ""
 msgid "A tool for detecting viruses on your computer."
 msgstr ""
 
+#: templates/quiz/malware-quiz.html:52
+msgid ""
+"Spyware is a type of malware that secretly collects information about a "
+"user’s activities and sends it to a third party. It is important to use "
+"antivirus software and avoid clicking on suspicious links to protect "
+"against spyware."
+msgstr ""
+
 #: templates/quiz/malware-quiz.html:53
 msgid "4. What is a common type of malware?"
 msgstr ""
@@ -5190,6 +5298,12 @@ msgstr ""
 
 #: templates/quiz/malware-quiz.html:57
 msgid "Cloud storage tools"
+msgstr ""
+
+#: templates/quiz/malware-quiz.html:65
+msgid ""
+"To protect yourself from malware, avoid clicking on unknown links or "
+"attachments, use antivirus software, and keep your software up to date."
 msgstr ""
 
 #: templates/quiz/malware-quiz.html:66
@@ -5220,6 +5334,13 @@ msgstr ""
 msgid "Mobile Security Quiz"
 msgstr ""
 
+#: templates/quiz/mobile-security-quiz.html:13
+msgid ""
+"Mobile security refers to the protection of data on mobile devices such "
+"as smartphones and tablets. It includes measures to prevent unauthorized "
+"access, data breaches, and malware infections on mobile devices."
+msgstr ""
+
 #: templates/quiz/mobile-security-quiz.html:14
 msgid "1. What is mobile security?"
 msgstr ""
@@ -5240,6 +5361,13 @@ msgstr ""
 
 #: templates/quiz/mobile-security-quiz.html:19
 msgid "An operating system for mobile phones."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:26
+msgid ""
+"Mobile security is important to protect financial information, prevent "
+"identity theft, and safeguard personal data. It helps prevent "
+"unauthorized access to sensitive information stored on mobile devices."
 msgstr ""
 
 #: templates/quiz/mobile-security-quiz.html:27
@@ -5264,6 +5392,14 @@ msgstr ""
 msgid "To remove advertisements from apps."
 msgstr ""
 
+#: templates/quiz/mobile-security-quiz.html:39
+msgid ""
+"Mobile security practices include using strong passwords, enabling two-"
+"factor authentication, and avoiding downloading apps from unverified "
+"sources. Encryption and antivirus software can help protect your data "
+"from unauthorized access and malware infections."
+msgstr ""
+
 #: templates/quiz/mobile-security-quiz.html:40
 msgid "3. What is an example of mobile security?"
 msgstr ""
@@ -5284,6 +5420,14 @@ msgstr ""
 msgid "Using encryption and antivirus software."
 msgstr ""
 
+#: templates/quiz/mobile-security-quiz.html:52
+msgid ""
+"A secure boot process ensures that the hardware components of a device "
+"can safely use the operating system and programs. It helps prevent "
+"unauthorized modifications to the boot process and protects against "
+"malware infections."
+msgstr ""
+
 #: templates/quiz/mobile-security-quiz.html:53
 msgid "4. What is a secure boot process?"
 msgstr ""
@@ -5302,6 +5446,14 @@ msgstr ""
 
 #: templates/quiz/mobile-security-quiz.html:58
 msgid "A tool to delete unused apps from your phone."
+msgstr ""
+
+#: templates/quiz/mobile-security-quiz.html:65
+msgid ""
+"Use strong passwords, enable two-factor authentication, and avoid "
+"clicking on suspicious links to protect yourself from mobile security "
+"threats. Regularly update your mobile device and apps to patch security "
+"vulnerabilities and prevent malware infections."
 msgstr ""
 
 #: templates/quiz/mobile-security-quiz.html:66
@@ -5334,6 +5486,13 @@ msgstr ""
 msgid "Password Security Quiz"
 msgstr ""
 
+#: templates/quiz/password-security-quiz.html:13
+msgid ""
+"Password security is important to prevent cybercriminals from gaining "
+"unauthorized access to your accounts. Strong passwords help protect your "
+"personal information and sensitive data from being compromised."
+msgstr ""
+
 #: templates/quiz/password-security-quiz.html:14
 msgid "1. Why is password security important?"
 msgstr ""
@@ -5352,6 +5511,13 @@ msgstr ""
 
 #: templates/quiz/password-security-quiz.html:19
 msgid "To avoid updating passwords regularly."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:26
+msgid ""
+"A strong password is long, unique, and includes a mix of uppercase "
+"letters, lowercase letters, numbers, and symbols. Avoid using common "
+"phrases, words, or personal information as passwords."
 msgstr ""
 
 #: templates/quiz/password-security-quiz.html:27
@@ -5374,6 +5540,13 @@ msgstr ""
 msgid "Your favorite movie title."
 msgstr ""
 
+#: templates/quiz/password-security-quiz.html:39
+msgid ""
+"Cybercriminals can steal passwords through phishing attacks, data "
+"breaches, and malware infections. It is important to be cautious and "
+"avoid sharing passwords or clicking on suspicious links."
+msgstr ""
+
 #: templates/quiz/password-security-quiz.html:40
 msgid "3. How do cybercriminals steal passwords?"
 msgstr ""
@@ -5388,6 +5561,14 @@ msgstr ""
 
 #: templates/quiz/password-security-quiz.html:45
 msgid "By sharing passwords on social media."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:52
+msgid ""
+"If your password is exposed in a data breach, you should change the "
+"password immediately to prevent unauthorized access to your accounts. "
+"Enabling two-factor authentication can add an extra layer of security to "
+"your accounts."
 msgstr ""
 
 #: templates/quiz/password-security-quiz.html:53
@@ -5410,6 +5591,13 @@ msgstr ""
 
 #: templates/quiz/password-security-quiz.html:58
 msgid "Delete your account immediately."
+msgstr ""
+
+#: templates/quiz/password-security-quiz.html:65
+msgid ""
+"To create a secure password, use a combination of numbers, symbols, "
+"uppercase letters, lowercase letters, and make it long and unique. Avoid "
+"using common phrases, words, or personal information as passwords."
 msgstr ""
 
 #: templates/quiz/password-security-quiz.html:66
@@ -5442,6 +5630,13 @@ msgstr ""
 msgid "Phishing Quiz"
 msgstr ""
 
+#: templates/quiz/phishing-quiz.html:13
+msgid ""
+"Phishing is a cyber threat where scammers impersonate a trustworthy "
+"source to steal sensitive data. It often involves sending fake emails or "
+"messages that appear to be from legitimate organizations."
+msgstr ""
+
 #: templates/quiz/phishing-quiz.html:14
 msgid "1. What is phishing?"
 msgstr ""
@@ -5464,6 +5659,14 @@ msgstr ""
 msgid "A tool used to block spam emails."
 msgstr ""
 
+#: templates/quiz/phishing-quiz.html:26
+msgid ""
+"A phishing link is a fake link used to trick users into revealing "
+"sensitive information. It often leads to fake websites that mimic "
+"legitimate ones to steal login credentials, financial information, or "
+"personal data."
+msgstr ""
+
 #: templates/quiz/phishing-quiz.html:27
 msgid "2. What is a phishing link?"
 msgstr ""
@@ -5482,6 +5685,14 @@ msgstr ""
 
 #: templates/quiz/phishing-quiz.html:32
 msgid "A legitimate way to verify email addresses."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:39
+msgid ""
+"Phishing attacks often involve sending fake emails to steal sensitive "
+"data such as login credentials, financial information, or personal "
+"details. These emails may appear to be from trusted sources, but they are"
+" designed to deceive users into revealing their information."
 msgstr ""
 
 #: templates/quiz/phishing-quiz.html:40
@@ -5504,6 +5715,14 @@ msgstr ""
 msgid "Sending fake emails to steal sensitive data."
 msgstr ""
 
+#: templates/quiz/phishing-quiz.html:52
+msgid ""
+"Whaling is a type of phishing attack that targets high-ranking executives"
+" or individuals with access to sensitive information. It aims to deceive "
+"these individuals into revealing confidential data or transferring funds "
+"to cybercriminals."
+msgstr ""
+
 #: templates/quiz/phishing-quiz.html:53
 msgid "4. What is whaling in phishing?"
 msgstr ""
@@ -5522,6 +5741,14 @@ msgstr ""
 
 #: templates/quiz/phishing-quiz.html:58
 msgid "A phishing technique to encrypt data."
+msgstr ""
+
+#: templates/quiz/phishing-quiz.html:65
+msgid ""
+"To protect yourself from phishing attacks, avoid clicking on suspicious "
+"links, verify the authenticity of senders, and be cautious when sharing "
+"personal information online. It is important to stay informed about "
+"common phishing tactics and be vigilant when handling emails or messages."
 msgstr ""
 
 #: templates/quiz/phishing-quiz.html:66
@@ -5550,6 +5777,14 @@ msgstr ""
 
 #: templates/quiz/software-updates-quiz.html:9
 msgid "Software Updates Quiz"
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:13
+#: templates/quiz/software-updates-quiz.html:26
+msgid ""
+"Software updates are important because they include security patches that"
+" fix vulnerabilities, performance upgrades that optimize code, and other "
+"improvements that enhance functionality and compatibility."
 msgstr ""
 
 #: templates/quiz/software-updates-quiz.html:14
@@ -5596,6 +5831,13 @@ msgstr ""
 msgid "To reduce internet usage."
 msgstr ""
 
+#: templates/quiz/software-updates-quiz.html:39
+msgid ""
+"Software updates improve performance by optimizing code, reducing "
+"resource usage, and enhancing compatibility with other programs and "
+"devices."
+msgstr ""
+
 #: templates/quiz/software-updates-quiz.html:40
 msgid "3. How do software updates improve performance?"
 msgstr ""
@@ -5614,6 +5856,13 @@ msgstr ""
 
 #: templates/quiz/software-updates-quiz.html:45
 msgid "By increasing battery consumption."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:52
+msgid ""
+"An operating system update is a new version of the software that includes"
+" security patches, performance upgrades, and other improvements to "
+"enhance functionality and compatibility."
 msgstr ""
 
 #: templates/quiz/software-updates-quiz.html:53
@@ -5636,6 +5885,13 @@ msgstr ""
 
 #: templates/quiz/software-updates-quiz.html:58
 msgid "A tool for managing files on a device."
+msgstr ""
+
+#: templates/quiz/software-updates-quiz.html:65
+msgid ""
+"Software updates help protect your data by closing vulnerabilities that "
+"hackers could exploit to gain unauthorized access to your files and "
+"information."
 msgstr ""
 
 #: templates/quiz/software-updates-quiz.html:66
@@ -5666,6 +5922,15 @@ msgstr ""
 msgid "Two Factor Authentication Quiz"
 msgstr ""
 
+#: templates/quiz/two-factor-authentication-quiz.html:13
+msgid ""
+"Two-factor authentication (2FA) is a security method that requires two "
+"forms of verification to access an account. This typically includes "
+"something you know (like a password) and something you have (like a "
+"mobile phone). By adding an extra layer of verification, 2FA provides "
+"additional protection against unauthorized access."
+msgstr ""
+
 #: templates/quiz/two-factor-authentication-quiz.html:14
 msgid "1. What is two-factor authentication (2FA)?"
 msgstr ""
@@ -5689,6 +5954,13 @@ msgstr ""
 msgid "A method for storing passwords securely."
 msgstr ""
 
+#: templates/quiz/two-factor-authentication-quiz.html:26
+msgid ""
+"An example of something you have in 2FA is a mobile phone. By using a "
+"mobile phone to receive a verification code, you can add an extra layer "
+"of security to your account."
+msgstr ""
+
 #: templates/quiz/two-factor-authentication-quiz.html:27
 msgid "2. Which is an example of something you have in 2FA?"
 msgstr ""
@@ -5708,6 +5980,13 @@ msgstr ""
 
 #: templates/quiz/two-factor-authentication-quiz.html:32
 msgid "A fingerprint."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:39
+msgid ""
+"2FA improves security by adding an extra layer of verification. By "
+"requiring two forms of verification, 2FA makes it more difficult for "
+"unauthorized users to access an account, even if they have the password."
 msgstr ""
 
 #: templates/quiz/two-factor-authentication-quiz.html:40
@@ -5730,6 +6009,13 @@ msgstr ""
 msgid "By adding an extra layer of verification."
 msgstr ""
 
+#: templates/quiz/two-factor-authentication-quiz.html:52
+msgid ""
+"An example of a biometric factor in 2FA is a fingerprint scan. By using a"
+" fingerprint scan as a form of verification, you can add an extra layer "
+"of security to your account."
+msgstr ""
+
 #: templates/quiz/two-factor-authentication-quiz.html:53
 msgid "4. What is an example of a biometric factor in 2FA?"
 msgstr ""
@@ -5744,6 +6030,14 @@ msgstr ""
 
 #: templates/quiz/two-factor-authentication-quiz.html:58
 msgid "An email verification code."
+msgstr ""
+
+#: templates/quiz/two-factor-authentication-quiz.html:65
+msgid ""
+"2FA is important because it provides additional protection against "
+"unauthorized access. By requiring two forms of verification, 2FA makes it"
+" more difficult for unauthorized users to access an account, even if they"
+" have the password."
 msgstr ""
 
 #: templates/quiz/two-factor-authentication-quiz.html:66
@@ -5774,6 +6068,13 @@ msgstr ""
 msgid "VPN Quiz"
 msgstr ""
 
+#: templates/quiz/vpn-quiz.html:13
+msgid ""
+"A VPN creates a secure connection between your device and the internet. "
+"It encrypts your data and hides your IP address, making it difficult for "
+"hackers to access your information."
+msgstr ""
+
 #: templates/quiz/vpn-quiz.html:14
 msgid "1. What is a VPN?"
 msgstr ""
@@ -5788,6 +6089,12 @@ msgstr ""
 
 #: templates/quiz/vpn-quiz.html:18
 msgid "An app for managing files."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:26
+msgid ""
+"A VPN hides your IP address and browsing activity, making it difficult "
+"for websites and advertisers to track you online."
 msgstr ""
 
 #: templates/quiz/vpn-quiz.html:27
@@ -5810,6 +6117,12 @@ msgstr ""
 msgid "Your email contacts."
 msgstr ""
 
+#: templates/quiz/vpn-quiz.html:39
+msgid ""
+"Using a VPN on public Wi-Fi encrypts your data, preventing hackers from "
+"intercepting it and stealing your personal information."
+msgstr ""
+
 #: templates/quiz/vpn-quiz.html:40
 msgid "3. Why is it important to use a VPN on public Wi-Fi?"
 msgstr ""
@@ -5830,6 +6143,12 @@ msgstr ""
 msgid "To avoid spam emails."
 msgstr ""
 
+#: templates/quiz/vpn-quiz.html:52
+msgid ""
+"VPN encryption secures the data you send and receive, making it "
+"unreadable to anyone who intercepts it."
+msgstr ""
+
 #: templates/quiz/vpn-quiz.html:53
 msgid "4. What does VPN encryption do?"
 msgstr ""
@@ -5848,6 +6167,12 @@ msgstr ""
 
 #: templates/quiz/vpn-quiz.html:58
 msgid "Secures the data you send and receive."
+msgstr ""
+
+#: templates/quiz/vpn-quiz.html:65
+msgid ""
+"A VPN does not boost your device storage. It provides privacy, security, "
+"and access to geo-restricted content."
 msgstr ""
 
 #: templates/quiz/vpn-quiz.html:66
