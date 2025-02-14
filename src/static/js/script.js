@@ -87,9 +87,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const quizContainer = document.getElementById('quiz-container');
         const questions = document.querySelectorAll('.quiz-question');
         const nextButton = document.getElementById('next-question');
+        const prevButton = document.getElementById('prev-question'); // Add this line
         const quizSummary = document.getElementById('quiz-summary');
         let score = parseInt(localStorage.getItem('score')) || 0;
         let answersLog = JSON.parse(localStorage.getItem('answersLog')) || [];
+        let answeredQuestions = new Set(); // Track answered questions
 
         // Ensure the current question is displayed correctly based on the `question` parameter
         function showCurrentQuestion() {
@@ -97,12 +99,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 question.style.display = index === (currentQuestionIndex - 1) ? 'block' : 'none';
             });
             nextButton.style.display = 'none'; // Always hide the Next button initially
+            prevButton.style.display = 'none'; // Always hide the Previous button initially
             
             // Change button text if it's the last question
             if (currentQuestionIndex === questions.length) {
                 nextButton.textContent = finishQuizText; // Change to "Finish Quiz"
             } else {
                 nextButton.textContent = nextQuestionText; // Change to "Next Question"
+            }
+
+            // Show the Previous button if not on the first question and the question has been answered
+            if (currentQuestionIndex > 1 && answeredQuestions.has(currentQuestionIndex)) {
+                prevButton.style.display = 'block';
+            }
+
+            // Show the Next button if the question has been answered
+            if (answeredQuestions.has(currentQuestionIndex)) {
+                nextButton.style.display = 'block';
             }
         }
 
@@ -168,6 +181,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 e.target.style.display = 'none'; // Hide the "Check" button
                 nextButton.style.display = 'block'; // Show the "Next" button
+                prevButton.style.display = currentQuestionIndex > 1 ? 'block' : 'none'; // Show the Previous button if not on the first question
+                answeredQuestions.add(currentQuestionIndex); // Mark the question as answered
             }
         });
 
@@ -188,9 +203,22 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
+        // Handle previous question button
+        prevButton.addEventListener('click', () => {
+            if (currentQuestionIndex > 1) {
+                currentQuestionIndex--;
+
+                // Update the URL with the current question index
+                const newURL = `${window.location.pathname}?question=${currentQuestionIndex}`;
+                window.history.pushState({ question: currentQuestionIndex }, "", newURL);
+                showCurrentQuestion();
+            }
+        });
+
         // Display the quiz summary at the end
         function displaySummary() {
             nextButton.style.display = 'none';
+            prevButton.style.display = 'none'; // Hide the Previous button
             quizContainer.style.display = 'none';
             quizSummary.style.display = 'block';
             quizSummary.innerHTML = `
@@ -222,6 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentQuestionIndex = 1; // Reset to the first question
             score = 0; // Reset the score
             answersLog = []; // Clear the answers log
+            answeredQuestions.clear(); // Clear the set of answered questions
             localStorage.removeItem('answersLog'); // Clear the answers log from localStorage
             localStorage.removeItem('score'); // Clear the score from localStorage
 
@@ -236,8 +265,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             quizContainer.style.display = 'block';
             quizSummary.style.display = 'none';
-            nextButton.style.display = 'none';
-
+            nextButton.style.display = 'none'; // Hide the Next button
+            prevButton.style.display = 'none'; // Hide the Previous button
+            
             // Reset the URL to the first question
             const baseURL = window.location.pathname;
             window.history.pushState({ question: 1 }, "", `${baseURL}?question=1`);
