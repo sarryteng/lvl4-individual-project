@@ -10,7 +10,7 @@
 
         <div id="quiz-container">
             <!-- Question 1 -->
-            <section class="quiz-question" data-correct="a">
+            <section class="quiz-question" data-correct="a" data-explanation="{{ _('Two-factor authentication (2FA) is a security method that requires two forms of verification to access an account. This typically includes something you know (like a password) and something you have (like a mobile phone). By adding an extra layer of verification, 2FA provides additional protection against unauthorized access.') }}">
                 <h3>{{ _('1. What is two-factor authentication (2FA)?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A security method requiring two forms of verification to access an account.') }}</div>
@@ -23,7 +23,7 @@
             </section>
 
             <!-- Question 2 -->
-            <section class="quiz-question" data-correct="b" style="display: none;">
+            <section class="quiz-question" data-correct="b" data-explanation="{{ _('An example of something you have in 2FA is a mobile phone. By using a mobile phone to receive a verification code, you can add an extra layer of security to your account.') }}">
                 <h3>{{ _('2. Which is an example of something you have in 2FA?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A password.') }}</div>
@@ -36,7 +36,7 @@
             </section>
 
             <!-- Question 3 -->
-            <section class="quiz-question" data-correct="d" style="display: none;">
+            <section class="quiz-question" data-correct="d" data-explanation="{{ _('2FA improves security by adding an extra layer of verification. By requiring two forms of verification, 2FA makes it more difficult for unauthorized users to access an account, even if they have the password.') }}">
                 <h3>{{ _('3. How does 2FA improve security?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('By encrypting passwords.') }}</div>
@@ -49,7 +49,7 @@
             </section>
 
             <!-- Question 4 -->
-            <section class="quiz-question" data-correct="c" style="display: none;">
+            <section class="quiz-question" data-correct="c" data-explanation="{{ _('An example of a biometric factor in 2FA is a fingerprint scan. By using a fingerprint scan as a form of verification, you can add an extra layer of security to your account.') }}">
                 <h3>{{ _('4. What is an example of a biometric factor in 2FA?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A password.') }}</div>
@@ -62,7 +62,7 @@
             </section>
 
             <!-- Question 5 -->
-            <section class="quiz-question" data-correct="b" style="display: none;">
+            <section class="quiz-question" data-correct="b" data-explanation="{{ _('2FA is important because it provides additional protection against unauthorized access. By requiring two forms of verification, 2FA makes it more difficult for unauthorized users to access an account, even if they have the password.') }}">
                 <h3>{{ _('5. Why is 2FA important?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('It reduces the need for passwords.') }}</div>
@@ -75,7 +75,11 @@
             </section>
         </div>
 
-        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div class="quiz-navigation">
+            <button class="prev-button" id="prev-question" style="display: none;">{{ _('Previous') }}</button>
+            <button class="next-button" id="next-question" style="display: none;">{{ _('Next') }}</button>
+        </div>
+        
         <div id="quiz-summary" style="display: none;"></div>
     </main>
 {% endblock %}

@@ -274,6 +274,34 @@ a.language-switcher {
 
 .quiz-question {
     display: none;
+    text-align: center; /* Center content inside the quiz question */
+    padding: 10px;
+}
+
+/* Add styles for the quiz navigation buttons */
+.quiz-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-navigation .prev-button {
+    align-self: flex-start;
+}
+
+.check-answer {
+    display: inline-block;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+.quiz-navigation .next-button {
+    align-self: flex-end;
+    margin-left: auto; /* Ensure the button is pushed to the right */
+}
+
+.quiz-summary-item {
+    padding: 20px 0; /* Adds padding above and below each question */
+    border-bottom: 1px solid #ddd; /* Optional: adds a separator line */
 }
 
 .result {
@@ -281,7 +309,11 @@ a.language-switcher {
     font-weight: bold;
 }
 
-.check-answer, .next-button{
+.explanation {
+    font-weight: normal;
+}
+
+.check-answer, .next-button, .prev-button{
     font-family: 'Lato', sans-serif;
     background-color: #008080; /* Button background color */
     color: #fff; /* Text color */
@@ -298,17 +330,6 @@ a.language-switcher {
 .check-answer:hover {
     background-color: #0d9292; /* Darker shade on hover */
     transform: scale(1.05); /* Slightly enlarge button on hover */
-}
-
-.check-answer:active {
-    background-color: #004494; /* Even darker shade on click */
-    transform: scale(0.95); /* Shrink slightly on click */
-}
-
-.check-answer:disabled {
-    background-color: #ccc; /* Gray background for disabled state */
-    color: #666; /* Lighter text color for disabled state */
-    cursor: not-allowed; /* Change cursor for disabled button */
 }
 
 .pagination {
