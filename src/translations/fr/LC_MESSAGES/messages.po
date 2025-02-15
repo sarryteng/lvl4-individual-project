@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-09 20:38+0000\n"
-"PO-Revision-Date: 2025-02-09 20:38+0000\n"
+"POT-Creation-Date: 2025-02-15 15:35+0000\n"
+"PO-Revision-Date: 2025-02-15 15:35+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -36,7 +36,7 @@ msgstr "Veuillez sélectionner une réponse."
 
 #: templates/base.html:82
 msgid "Incorrect. The correct answer is {correctAnswer}."
-msgstr "Incorrect. La bonne réponse est {correctAnswer}."
+msgstr "Incorrect. La bonne réponse est {correctSwer}."
 
 #: templates/base.html:83
 msgid "Correct!"
@@ -48,7 +48,7 @@ msgstr "Quiz terminé!"
 
 #: templates/base.html:85
 msgid "Your score: {score}/{total}."
-msgstr "Votre score: {score}/{total}."
+msgstr "Votre score: {score} / {total}."
 
 #: templates/base.html:86
 msgid "Finish Quiz"
@@ -5997,7 +5997,7 @@ msgstr "Voici une ventilation étape par étape du fonctionnement des VPN."
 
 #: templates/learn/vpn.html:38
 msgid "Turn on the VPN"
-msgstr "Activez le VPN"
+msgstr "Activer le VPN"
 
 #: templates/learn/vpn.html:39
 msgid ""
@@ -6543,17 +6543,29 @@ msgstr "Il est plus lent et moins efficace"
 msgid "It cannot be used for email encryption"
 msgstr "Il ne peut pas être utilisé pour le cryptage des e-mails"
 
-#: templates/quiz/encryption-quiz.html:80
-#: templates/quiz/identity-theft-quiz.html:78
-#: templates/quiz/malware-quiz.html:78
-#: templates/quiz/mobile-security-quiz.html:78
-#: templates/quiz/password-security-quiz.html:78
-#: templates/quiz/phishing-quiz.html:78
-#: templates/quiz/software-updates-quiz.html:78
-#: templates/quiz/two-factor-authentication-quiz.html:78
-#: templates/quiz/vpn-quiz.html:78
-msgid "Next Question"
-msgstr "Question suivante"
+#: templates/quiz/encryption-quiz.html:81
+#: templates/quiz/identity-theft-quiz.html:79
+#: templates/quiz/malware-quiz.html:79
+#: templates/quiz/mobile-security-quiz.html:79
+#: templates/quiz/password-security-quiz.html:79
+#: templates/quiz/phishing-quiz.html:79
+#: templates/quiz/software-updates-quiz.html:79
+#: templates/quiz/two-factor-authentication-quiz.html:79
+#: templates/quiz/vpn-quiz.html:79
+msgid "Previous"
+msgstr "Précédent"
+
+#: templates/quiz/encryption-quiz.html:82
+#: templates/quiz/identity-theft-quiz.html:80
+#: templates/quiz/malware-quiz.html:80
+#: templates/quiz/mobile-security-quiz.html:80
+#: templates/quiz/password-security-quiz.html:80
+#: templates/quiz/phishing-quiz.html:80
+#: templates/quiz/software-updates-quiz.html:80
+#: templates/quiz/two-factor-authentication-quiz.html:80
+#: templates/quiz/vpn-quiz.html:80
+msgid "Next"
+msgstr "Suivant"
 
 #: templates/quiz/identity-theft-quiz.html:4
 msgid "QUIZ about Identity Theft"

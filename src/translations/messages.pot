@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-09 20:38+0000\n"
+"POT-Creation-Date: 2025-02-15 15:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5021,16 +5021,28 @@ msgstr ""
 msgid "It cannot be used for email encryption"
 msgstr ""
 
-#: templates/quiz/encryption-quiz.html:80
-#: templates/quiz/identity-theft-quiz.html:78
-#: templates/quiz/malware-quiz.html:78
-#: templates/quiz/mobile-security-quiz.html:78
-#: templates/quiz/password-security-quiz.html:78
-#: templates/quiz/phishing-quiz.html:78
-#: templates/quiz/software-updates-quiz.html:78
-#: templates/quiz/two-factor-authentication-quiz.html:78
-#: templates/quiz/vpn-quiz.html:78
-msgid "Next Question"
+#: templates/quiz/encryption-quiz.html:81
+#: templates/quiz/identity-theft-quiz.html:79
+#: templates/quiz/malware-quiz.html:79
+#: templates/quiz/mobile-security-quiz.html:79
+#: templates/quiz/password-security-quiz.html:79
+#: templates/quiz/phishing-quiz.html:79
+#: templates/quiz/software-updates-quiz.html:79
+#: templates/quiz/two-factor-authentication-quiz.html:79
+#: templates/quiz/vpn-quiz.html:79
+msgid "Previous"
+msgstr ""
+
+#: templates/quiz/encryption-quiz.html:82
+#: templates/quiz/identity-theft-quiz.html:80
+#: templates/quiz/malware-quiz.html:80
+#: templates/quiz/mobile-security-quiz.html:80
+#: templates/quiz/password-security-quiz.html:80
+#: templates/quiz/phishing-quiz.html:80
+#: templates/quiz/software-updates-quiz.html:80
+#: templates/quiz/two-factor-authentication-quiz.html:80
+#: templates/quiz/vpn-quiz.html:80
+msgid "Next"
 msgstr ""
 
 #: templates/quiz/identity-theft-quiz.html:4
