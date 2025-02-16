@@ -10,7 +10,7 @@
 
         <div id="quiz-container">
             <!-- Question 1 -->
-            <section class="quiz-question" data-correct="a">
+            <section class="quiz-question" data-correct="a" data-explanation="{{ _('Phishing is a cyber threat where scammers impersonate a trustworthy source to steal sensitive data. It often involves sending fake emails or messages that appear to be from legitimate organizations.') }}">
                 <h3>{{ _('1. What is phishing?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A cyber threat where scammers impersonate a trustworthy source to steal sensitive data.') }}</div>
@@ -23,7 +23,7 @@
             </section>
 
             <!-- Question 2 -->
-            <section class="quiz-question" data-correct="b" style="display: none;">
+            <section class="quiz-question" data-correct="b" data-explanation="{{ _('A phishing link is a fake link used to trick users into revealing sensitive information. It often leads to fake websites that mimic legitimate ones to steal login credentials, financial information, or personal data.') }}">
                 <h3>{{ _('2. What is a phishing link?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A secure link to reset passwords.') }}</div>
@@ -36,7 +36,7 @@
             </section>
 
             <!-- Question 3 -->
-            <section class="quiz-question" data-correct="d" style="display: none;">
+            <section class="quiz-question" data-correct="d" data-explanation="{{ _('Phishing attacks often involve sending fake emails to steal sensitive data such as login credentials, financial information, or personal details. These emails may appear to be from trusted sources, but they are designed to deceive users into revealing their information.') }}">
                 <h3>{{ _('3. What is an example of a phishing attack?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Sending legitimate promotional emails.') }}</div>
@@ -49,7 +49,7 @@
             </section>
 
             <!-- Question 4 -->
-            <section class="quiz-question" data-correct="c" style="display: none;">
+            <section class="quiz-question" data-correct="c" data-explanation="{{ _('Whaling is a type of phishing attack that targets high-ranking executives or individuals with access to sensitive information. It aims to deceive these individuals into revealing confidential data or transferring funds to cybercriminals.') }}">
                 <h3>{{ _('4. What is whaling in phishing?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A method to stop spam emails.') }}</div>
@@ -62,7 +62,7 @@
             </section>
 
             <!-- Question 5 -->
-            <section class="quiz-question" data-correct="a" style="display: none;">
+            <section class="quiz-question" data-correct="a" data-explanation="{{ _('To protect yourself from phishing attacks, avoid clicking on suspicious links, verify the authenticity of senders, and be cautious when sharing personal information online. It is important to stay informed about common phishing tactics and be vigilant when handling emails or messages.') }}">
                 <h3>{{ _('5. How can you protect yourself from phishing attacks?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Avoid clicking on suspicious links and verify sender authenticity.') }}</div>
@@ -75,7 +75,11 @@
             </section>
         </div>
 
-        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div class="quiz-navigation">
+            <button class="prev-button" id="prev-question" style="display: none;">{{ _('Previous') }}</button>
+            <button class="next-button" id="next-question" style="display: none;">{{ _('Next') }}</button>
+        </div>
+        
         <div id="quiz-summary" style="display: none;"></div>
     </main>
 {% endblock %}

@@ -10,7 +10,7 @@
 
         <div id="quiz-container">
             <!-- Question 1 -->
-            <section class="quiz-question" data-correct="b">
+            <section class="quiz-question" data-correct="b" data-explanation="{{ _('Encryption is used to protect sensitive information from unauthorized access. It does not speed up data transmission, reduce storage space, or organize files.') }}">
                 <h3>{{ _('1. What is the primary purpose of encryption?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('To speed up data transmission') }}</div>
@@ -23,7 +23,8 @@
             </section>
 
             <!-- Question 2 -->
-            <section class="quiz-question" data-correct="c" style="display: none;">
+            <section class="quiz-question" data-correct="c" data-explanation="{{ _('Ciphertext is the unreadable format created by encryption. Plaintext is the original readable format.') }}"
+>
                 <h3>{{ _('2. What is the term for the unreadable format created by encryption?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Plaintext') }}</div>
@@ -36,7 +37,7 @@
             </section>
 
             <!-- Question 3 -->
-            <section class="quiz-question" data-correct="a" style="display: none;">
+            <section class="quiz-question" data-correct="a" data-explanation="{{ _('Symmetric encryption uses one key for both encryption and decryption. Asymmetric encryption uses two keys: a public key for encryption and a private key for decryption.') }}">
                 <h3>{{ _('3. What is a key difference between symmetric and asymmetric encryption?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('Symmetric uses one key; asymmetric uses two keys') }}</div>
@@ -49,7 +50,7 @@
             </section>
 
             <!-- Question 4 -->
-            <section class="quiz-question" data-correct="c" style="display: none;">
+            <section class="quiz-question" data-correct="c" data-explanation="{{ _('S/MIME relies on Certificate Authorities to verify the identity of email senders and recipients. PGP/MIME and SSL/TLS do not use Certificate Authorities.') }}">
                 <h3>{{ _('4. Which type of email encryption relies on Certificate Authorities?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('PGP/MIME') }}</div>
@@ -62,7 +63,7 @@
             </section>
 
             <!-- Question 5 -->
-            <section class="quiz-question" data-correct="c" style="display: none;">
+            <section class="quiz-question" data-correct="c" data-explanation="{{ _('Asymmetric encryption is slower and less efficient than symmetric encryption. It does not require a trusted third party, and it can be used for email encryption.') }}">
                 <h3>{{ _('5. What is the main drawback of asymmetric encryption?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('It is less secure than symmetric encryption') }}</div>
@@ -76,7 +77,11 @@
 
         </div>
 
-        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div class="quiz-navigation">
+            <button class="prev-button" id="prev-question" style="display: none;">{{ _('Previous') }}</button>
+            <button class="next-button" id="next-question" style="display: none;">{{ _('Next') }}</button>
+        </div>
+        
         <div id="quiz-summary" style="display: none;"></div>
     </main>
 

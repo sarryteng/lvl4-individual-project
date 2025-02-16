@@ -10,7 +10,7 @@
 
         <div id="quiz-container">
             <!-- Question 1 -->
-            <section class="quiz-question" data-correct="a">
+            <section class="quiz-question" data-correct="a" data-explanation="{{ _('Software updates are important because they include security patches that fix vulnerabilities, performance upgrades that optimize code, and other improvements that enhance functionality and compatibility.') }}">
                 <h3>{{ _('1. What is a software update?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A new version of a program that includes security patches, performance upgrades, and other improvements.') }}</div>
@@ -23,7 +23,7 @@
             </section>
 
             <!-- Question 2 -->
-            <section class="quiz-question" data-correct="b" style="display: none;">
+            <section class="quiz-question" data-correct="b" data-explanation="{{ _('Software updates are important because they include security patches that fix vulnerabilities, performance upgrades that optimize code, and other improvements that enhance functionality and compatibility.') }}">
                 <h3>{{ _('2. Why are software updates important?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('To change the appearance of your device.') }}</div>
@@ -36,7 +36,7 @@
             </section>
 
             <!-- Question 3 -->
-            <section class="quiz-question" data-correct="c" style="display: none;">
+            <section class="quiz-question" data-correct="c" data-explanation="{{ _('Software updates improve performance by optimizing code, reducing resource usage, and enhancing compatibility with other programs and devices.') }}">
                 <h3>{{ _('3. How do software updates improve performance?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('By reducing screen resolution.') }}</div>
@@ -49,7 +49,7 @@
             </section>
 
             <!-- Question 4 -->
-            <section class="quiz-question" data-correct="a" style="display: none;">
+            <section class="quiz-question" data-correct="a" data-explanation="{{ _('An operating system update is a new version of the software that includes security patches, performance upgrades, and other improvements to enhance functionality and compatibility.') }}">
                 <h3>{{ _('4. What is an operating system update?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('A new version of an operating system that improves security, performance, and functionality.') }}</div>
@@ -62,7 +62,7 @@
             </section>
 
             <!-- Question 5 -->
-            <section class="quiz-question" data-correct="d" style="display: none;">
+            <section class="quiz-question" data-correct="d" data-explanation="{{ _('Software updates help protect your data by closing vulnerabilities that hackers could exploit to gain unauthorized access to your files and information.') }}">
                 <h3>{{ _('5. How do software updates help protect your data?') }}</h3>
                 <div class="quiz-options">
                     <div class="quiz-card" data-answer="a"><b>a)</b> {{ _('By making files easier to share.') }}</div>
@@ -75,7 +75,11 @@
             </section>
         </div>
 
-        <button class="next-button" id="next-question" style="display: none;">{{ _('Next Question') }}</button>
+        <div class="quiz-navigation">
+            <button class="prev-button" id="prev-question" style="display: none;">{{ _('Previous') }}</button>
+            <button class="next-button" id="next-question" style="display: none;">{{ _('Next') }}</button>
+        </div>
+        
         <div id="quiz-summary" style="display: none;"></div>
     </main>
 {% endblock %}
