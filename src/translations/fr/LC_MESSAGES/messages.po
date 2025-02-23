@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-15 15:35+0000\n"
-"PO-Revision-Date: 2025-02-15 15:35+0000\n"
+"POT-Creation-Date: 2025-02-23 22:40+0000\n"
+"PO-Revision-Date: 2025-02-23 22:40+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -36,7 +36,7 @@ msgstr "Veuillez sélectionner une réponse."
 
 #: templates/base.html:82
 msgid "Incorrect. The correct answer is {correctAnswer}."
-msgstr "Incorrect. La bonne réponse est {correctAnswer}."
+msgstr "Incorrect. La bonne réponse est {correctSwer}."
 
 #: templates/base.html:83
 msgid "Correct!"
@@ -48,7 +48,7 @@ msgstr "Quiz terminé!"
 
 #: templates/base.html:85
 msgid "Your score: {score}/{total}."
-msgstr "Votre score: {score}/{total}."
+msgstr "Votre score: {score} / {total}."
 
 #: templates/base.html:86
 msgid "Finish Quiz"
@@ -3228,7 +3228,7 @@ msgstr ""
 
 #: templates/guides/use-two-factor.html:29
 msgid "A pretty good option: SMS text messages"
-msgstr "Une assez bonne option: SMS SMS"
+msgstr "Une assez bonne option: le SMS"
 
 #: templates/guides/use-two-factor.html:30
 msgid ""
@@ -3251,17 +3251,12 @@ msgstr "Authentification SMS"
 msgid ""
 "Text messages are a painless way to access 2FA codes, but are only as "
 "reliable as the phone network. For example, if you lose network access or "
-"travel outside the country, you might not be able to receive the "
-"messages.Text messages are a painless way to access 2FA codes, but are only "
-"as reliable as the phone network. For example, if you lose network access or"
-" travel outside the country, you might not be able to receive the messages."
+"travel outside the country, you might not be able to receive the messages."
 msgstr ""
 "Les messages texte sont un moyen indolore d'accéder aux codes 2FA, mais ne "
 "sont aussi fiables que le réseau téléphonique. Par exemple, si vous perdez "
-"l'accès au réseau ou que vous voyagez en dehors du pays, vous ne pourrez "
-"peut-être pas recevoir les messages. Par exemple, si vous perdez un accès au"
-" réseau ou que vous voyagez en dehors du pays, vous ne pourrez peut-être pas"
-" recevoir les messages."
+"un accès au réseau ou que vous voyagez en dehors du pays, vous ne pourrez "
+"peut-être pas recevoir les messages."
 
 #: templates/guides/use-two-factor.html:35
 msgid ""
