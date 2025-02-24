@@ -110,5 +110,11 @@ class TestApp(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'VPN', response.data)
 
+    # test - language switching
+    def test_language_switching(self):
+        response = self.client.get('/fr/learn')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b'D\xc3\xa9couvrez les concepts de cybers\xc3\xa9curit\xc3\xa9', response.data) 
+        
 if __name__ == '__main__':
     unittest.main()
