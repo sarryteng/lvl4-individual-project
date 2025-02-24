@@ -6,7 +6,7 @@ def create_app():
     app = Flask(__name__)
 
     # Set the default language and supported languages
-    app.config['LANGUAGES'] = ['en', 'fr', 'es']
+    app.config['LANGUAGES'] = ['en', 'fr']
     app.config['BABEL_DEFAULT_LOCALE'] = 'en'
     app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'translations'
 
