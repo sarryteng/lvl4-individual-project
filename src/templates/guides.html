@@ -6,61 +6,61 @@
 
 {% block content %}
     <main>
-        <h1>{{ _("Here are the Guides") }}</h1>
+        <h1>{{ _("Practical Cybersecurity Guides") }}</h1>
 
         <div class="card-container">
             <a href="{{ url_for('secure_mobile', lang=g.lang) }}" class="card">
                 <div class="card-content">
                     <h2>{{ _("Secure Mobile Devices") }}</h2>
-                    <p>{{ _("Learn how to protect your mobile devices from threats.") }}</p>
+                    <p>{{ _("Follow step-by-step instructions to secure your mobile devices using strong passwords, app permissions, and encryption.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('use_encryption', lang=g.lang) }}" class="card">
                 <div class="card-content">
                     <h2>{{ _("Encryption") }}</h2>
-                    <p>{{ _("Understand how encryption safeguards sensitive information.") }}</p>
+                    <p>{{ _("Learn how to enable encryption on your devices and protect sensitive files and communications.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('secure_passwords', lang=g.lang) }}" class="card">
                 <div class="card-content">
                     <h2>{{ _("Secure Passwords") }}</h2>
-                    <p>{{ _("Discover techniques for creating strong, secure passwords.") }}</p>
+                    <p>{{ _("Get practical tips for creating strong passwords and managing them with password managers.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('use_two_factor', lang=g.lang) }}" class="card">
                 <div class="card-content">
                     <h2>{{ _("2FA Authentication") }}</h2>
-                    <p>{{ _("Learn about two-factor authentication and its benefits.") }}</p>
+                    <p>{{ _("Set up two-factor authentication on your accounts to add an extra layer of security.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('spot_phishing', lang=g.lang) }}" class="card">
                 <div class="card-content">
                     <h2>{{ _("Phishing Attacks") }}</h2>
-                    <p>{{ _("Identify and avoid common phishing attacks.") }}</p>
+                    <p>{{ _("Learn how to recognize phishing emails and avoid falling victim to scams.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('how_to_update_software', lang=g.lang) }}" class="card">
                 <div class="card-content">
                     <h2>{{ _("Software Updates") }}</h2>
-                    <p>{{ _("Why keeping your software updated is critical.") }}</p>
+                    <p>{{ _("Follow best practices for keeping your software and operating systems up to date.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('prevent_theft', lang=g.lang) }}" class="card">
                 <div class="card-content">
                     <h2>{{ _("Identity Theft") }}</h2>
-                    <p>{{ _("Understand how to protect yourself from identity theft.") }}</p>
+                    <p>{{ _("Take actionable steps to protect your personal information and prevent identity theft.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('malware_protection', lang=g.lang) }}" class="card">
                 <div class="card-content">
                     <h2>{{ _("Malware Protection") }}</h2>
-                    <p>{{ _("Learn about malware and how to prevent infections.") }}</p>
+                    <p>{{ _("Learn how to install and use antivirus software to protect your devices from malware.") }}</p>
                 </div>
             </a>
             <a href="{{ url_for('use_vpn', lang=g.lang) }}" class="card">
                 <div class="card-content">
                     <h2>{{ _("VPN") }}</h2>
-                    <p>{{ _("Discover the benefits of using a virtual private network.") }}</p>
+                    <p>{{ _("Set up and use a VPN to secure your internet connection and protect your privacy.") }}</p>
                 </div>
             </a>
         </div>
