@@ -20,15 +20,6 @@ def create_app():
             return lang
         return app.config['BABEL_DEFAULT_LOCALE']  # Default to 'en'
 
-    # Before each request, set the language in the global context
-    @app.before_request
-    def before_request():
-        lang = request.args.get('lang')
-        if lang and lang in app.config['LANGUAGES']:
-            g.lang = lang
-        else:
-            g.lang = request.accept_languages.best_match(app.config['LANGUAGES']) or app.config['BABEL_DEFAULT_LOCALE']
-
     # Redirect from root to the default language
     @app.route('/')
     def home_redirect():
@@ -44,4 +35,4 @@ def create_app():
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=True)

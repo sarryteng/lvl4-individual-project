@@ -36,7 +36,7 @@ msgstr "Veuillez sélectionner une réponse."
 
 #: templates/base.html:82
 msgid "Incorrect. The correct answer is {correctAnswer}."
-msgstr "Incorrect. La bonne réponse est {correctSwer}."
+msgstr "Incorrect. La bonne réponse est {correctAnswer}."
 
 #: templates/base.html:83
 msgid "Correct!"
@@ -48,7 +48,7 @@ msgstr "Quiz terminé!"
 
 #: templates/base.html:85
 msgid "Your score: {score}/{total}."
-msgstr "Votre score: {score} / {total}."
+msgstr "Votre score: {score}/{total}."
 
 #: templates/base.html:86
 msgid "Finish Quiz"
