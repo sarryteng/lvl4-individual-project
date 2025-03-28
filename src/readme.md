@@ -1,6 +1,6 @@
 # Cybersecurity Resource Hub
 
-This project is a multilingual web application designed to educate users about cybersecurity, with a focus on mobile phone safety. It includes interactive quizzes, guides, and tools to help users understand and apply cybersecurity best practices.
+This project is a multilingual web application designed to educate users about cybersecurity, with a focus on mobile phone safety. It includes informative concepts, interactive quizzes, guides, and tools to help users better understand and apply cybersecurity best practices.
 
 ## File Structure
 
@@ -29,48 +29,100 @@ This project is a multilingual web application designed to educate users about c
 ## Build Instructions
 
 ### Requirements
-
-List the all of the pre-requisites software required to set up your project (e.g. compilers, packages, libraries, OS, hardware)
-
-For example:
-
-* Python 3.7
-* Packages: listed in `requirements.txt` 
-* Tested on Windows 10
-
-or another example:
-
-* Requires Raspberry Pi 3 
-* a Linux host machine with the `arm-none-eabi` toolchain (at least version `x.xx`) installed
-* a working LuaJIT installation > 2.1.0
-
-### Build steps
-
-List the steps required to build software. 
-
-Hopefully something simple like `pip install -e .` or `make` or `cd build; cmake ..`. In
-some cases you may have much more involved setup required.
-
-### Test steps
-
-List steps needed to show your software works. This might be running a test suite, or just starting the program; but something that could be used to verify your code is working correctly.
-
-Examples:
-
-* Run automated tests by running `pytest`
-* Start the software by running `bin/editor.exe` and opening the file `examples/example_01.bin`
-
-
 To set up and run this project, you need the following:
 
-- Python 3.7 or higher
-- Packages listed in `requirements.txt`
-- A web browser for accessing the application
-- (Optional) A platform like Heroku for deployment
+- **Python 3.7 or higher**: The application is built using Python, so ensure you have the correct version installed.
+- **Packages**: All required Python packages are listed in `requirements.txt`. These include:
+  - Flask (3.0.3): For building the web application.
+  - Flask-Babel (4.0.0): For multilingual support.
+  - Babel (2.16.0): For managing translations.
+  - Gunicorn (23.0.0): For deploying the application in production.
+  - Deep-Translator (1.11.4): For handling translations.
+  - And other dependencies listed in `requirements.txt`.
+
+To install these dependencies, use the following command:
+```bash
+pip install -r [requirements.txt](http://_vscodecontentref_/0)
+```
+
+- **Operating System:** The project has been tested on macOS.   
+- **Web Browser:** A web browser such as Google Chrome or Safari to access the application.  
+
 
 ### Build Steps
+No building is required for this application. You can directly run the application using one of the following methods:
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd lvl4-individual-project/src
+#### Option 1: Using `flask run`
+1. Open a terminal and navigate to the `src` folder:
+```bash
+cd /path/to/lvl4-individual-project/src
+```
+2. Run the application using Flask:
+```bash
+flask run
+```
+3. Open your web browser and go to the URL provided in the terminal (usually http://127.0.0.1:5000).
+
+
+#### Option 2: Using `python app.py`
+1. Open a terminal and navigate to the `src` folder:
+```bash
+cd /path/to/lvl4-individual-project/src
+```
+2. Before running the application, ensure the port in `app.py` matches the desired port. By default, it is set to `5000`. Update the following line in `app.py` if needed:
+```python
+app.run(host="0.0.0.0", port=<desired_port>, debug=True)
+```
+3. Run the application:
+```bash
+python app.py
+```
+4. Open your web browser and go to: http://127.0.0.1:<desired_port>
+
+Both methods will start the application, and you can access it in your browser.
+
+
+## Test Steps
+This section outlines the steps required to verify that the software functions correctly through both automated and manual testing.
+
+### Automated Testing
+
+Automated tests ensure core functionalities such as routing, language switching, and page accessibility work as expected.
+
+#### Running Unit Tests
+
+The unit tests are located in the `src/tests` directory. To execute all test cases, run the following command to execute the test suite:
+
+```bash
+python -m unittest discover -s src/tests
+```
+A successful run will output a summary indicating that all tests passed without errors.
+
+### Manual Testing
+
+Conduct manual testing to ensure the website is responsive across different devices, and to test other functionalities.
+
+#### Steps for Manual Testing
+
+1. **Responsiveness Testing**
+- Open Google Chrome Developer Tools (`F12` or `Ctrl + Shift + I`).
+- Use the responsive mode to simulate various screen sizes (e.g., smartphone, tablet, and desktop views).
+- Verify that all elements adjust properly and remain accessible down to a width of **280px**.
+
+2. **Quiz Functionality Testing**
+- Start a quiz and verify that only one question is displayed at a time.
+- Click the **Check** button after selecting an answer to confirm correct/incorrect responses are highlighted.
+- Ensure the **Previous**, **Next**, and **Finish Quiz** buttons function correctly based on the question progression.
+- Complete a quiz and verify that the summary reflects user answers and the correct score.
+- Restart the quiz and ensure functionality resets properly.
+
+3. **Language Switching Testing**
+- Switch between English and French using the language selector.
+- Verify that content is correctly translated.
+- Check that special characters (%, $, etc.) render correctly in both languages.
+
+#### Expected Outcome
+- All pages should be accessible and display correct content.
+- The website should be fully responsive across various screen sizes.
+- The quiz should function correctly, with appropriate navigation and validation.
+- The language switch should work seamlessly without breaking the UI or content.
